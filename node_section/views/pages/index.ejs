@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<% include ../partials/head %>
+</head>
+<body class="container">
+<header>
+<% include ../partials/header %>
+</header>
+
+
+<main>
+<div class="row">
+<h1>Find photos taken with lens</h1>
+<h3></h3>
+<form class="js-form-search form-search" action="/search" method="get" role="search">
+   <label for="query">Search: </label>
+   <input type="search" name="query" id="query" placeholder="ex: 'Fuji xf 23mm'" required />
+   <input type="submit" value="Search" />
+</form>
+</div>
+</main>
+
+
+
+
+<footer>
+<% include ../partials/footer %>
+</footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<html>
+<head>
+  <meta charse="UTF-8" />
+  <title>Flicker search app</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+<header>
+  <h1>Flickr photo search</h1>
+</header>
+<main>
+
+  <div class="search-block">
+    <form class="search-form" id="search-form" action="/search" method="get" role="search">
+      <label for="query">Search:</label>
+      <input type="search" name="query" id="query" placeholder="eg. Fuji xf 23mm" required  />
+      <input type="submit" value="Search" />
+    </form>
+  </div>
+
+
+<div class="present">
+  <div class="gallery" id="gallery">
+    <img src="" id="gallery-image" />
+  </div>
+</div>
+
+  <div class="thumbnails">
+    <ul class="thumbnail_list" id="thumbnail_list"></ul>
+    <ol class="thumbnail_pager" id="thumbnail_pager"></ol>
+  </div>
+
+
+</main>
+<script src="js/utility.js"></script>
+<script src="js/gallery.js"></script>
+<script src="js/flickr.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
