@@ -1,0 +1,16 @@
+<html>
+<body>
+  <script>
+  var exif = "https://api.flickr.com/services/rest/?method=flickr.photos.getExif&api_key=553290f690cf2f6bba54bcb5f169d405&photo_id=15950428049&format=json"
+
+
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', exif, true);
+  xhr.send();
+  console.log(xhr);
+  var data=xhr.responseText;
+  var jsonResponse = JSON.parse(data);
+  console.log(jsonResponse["Data"]);
+  </script>
+</body>
+</html>

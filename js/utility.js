@@ -25,6 +25,14 @@
         }
       }
     }
+
+    // plug in lens to search
+    if (object.hasOwnProperty('text')){
+    console.log("heere")
+      object.text = 'XF23mmF1.4 R';
+}
+
+
     return object;
   }
 
