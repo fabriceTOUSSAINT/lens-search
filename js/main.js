@@ -2,7 +2,7 @@
   'use strict';
 
   var gallery;
-  var lastSearch = 'Point reyes';
+  var lastSearch = 'London';
 
   function searchPhotos(text, page){
     if(text.length === 0){
