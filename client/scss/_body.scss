@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    padding: 100px;
+    background-color: #fd6860;
+    font-family: 'Open Sans', sans-serif;
+    color: snow;
+
+}
+header h1 {
+    font-size: 4em;
+    text-shadow: 2px 2px #000;
+}
+ul.thumbnail_list {
+    display: flex;
+    list-style-type: none;
+    li{
+        padding: 10px;
+    }
+}
