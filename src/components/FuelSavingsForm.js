@@ -5,18 +5,18 @@ import FuelSavingsTextInput from './FuelSavingsTextInput';
 class FuelSavingsForm extends React.Component {
   constructor(props, context) {
     super(props, context);
-
+    console.log({props});
     this.save = this.save.bind(this);
     this.onTimeframeChange = this.onTimeframeChange.bind(this);
     this.fuelSavingsKeypress = this.fuelSavingsKeypress.bind(this);
   }
 
   onTimeframeChange(e) {
-    this.props.calculateFuelSavings(this.props.fuelSavings, 'milesDrivenTimeframe', e.target.value);
+    this.props.calculateFuelSavingsz(this.props.fuelSavings, 'milesDrivenTimeframe', e.target.value);
   }
 
   fuelSavingsKeypress(name, value) {
-    this.props.calculateFuelSavings(this.props.fuelSavings, name, value);
+    this.props.calculateFuelSavingszz(this.props.fuelSavings, name, value);
   }
 
   save() {

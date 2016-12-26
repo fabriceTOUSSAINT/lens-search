@@ -24,7 +24,7 @@ describe('Actions', () => {
     newPpg: 1.50,
     tradePpg: 1.50,
     milesDriven: 100,
-    milesDrivenTimeframe: 'week',
+    milesDrivenTimeframe: 'weelkjldkj',
     displayResults: false,
     dateModified: null,
     necessaryDataIsProvidedToCalculateSavings: false,

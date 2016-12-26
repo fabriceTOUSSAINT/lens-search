@@ -24,3 +24,9 @@ export function calculateFuelSavings(settings, fieldName, value) {
     value
   };
 }
+
+export function searchTerm(){
+  return {
+    type: types.SEARCH_LENS,
+  };
+}

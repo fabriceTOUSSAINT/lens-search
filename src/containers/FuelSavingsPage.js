@@ -10,6 +10,7 @@ export const FuelSavingsPage = (props) => {
       saveFuelSavings={props.actions.saveFuelSavings}
       calculateFuelSavings={props.actions.calculateFuelSavings}
       fuelSavings={props.fuelSavings}
+      searchLens ={props.actions.searchTerm}
     />
   );
 };
