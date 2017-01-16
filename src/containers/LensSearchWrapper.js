@@ -1,8 +1,8 @@
-import React, {PropTypes} from 'react';
-import {connect} from 'react-redux';
-import {bindActionCreators} from 'redux';
+import React from 'react';
+// import {connect} from 'react-redux';
+// import {bindActionCreators} from 'redux';
 
-export const LensSearchWrapper = (props) => {
+export const LensSearchWrapper = () => {
   return (
     <form>
       <input
@@ -16,23 +16,26 @@ export const LensSearchWrapper = (props) => {
   );
 };
 
-LensSearchWrapper.propsTypes={
-  actions: PropTypes.object.isRequried
-};
+export default LensSearchWrapper;
 
-function mapStateToProps(state) {
-  return {
-    fuelSavings: state.fuelSavings
-  };
-}
 
-function mapDispatchToProps(dispatch) {
-  return {
-    actions: bindActionCreators(actions, dispatch)
-  };
-}
+// LensSearchWrapper.propsTypes={
+//   actions: PropTypes.object.isRequried
+// };
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(LensSearchWrapper);
+// function mapStateToProps(state) {
+//   return {
+//     fuelSavings: state.fuelSavings
+//   };
+// }
+//
+// function mapDispatchToProps(dispatch) {
+//   return {
+//     actions: bindActionCreators(actions, dispatch)
+//   };
+// }
+
+// export default connect(
+//   mapStateToProps,
+//   mapDispatchToProps
+// )(LensSearchWrapper);

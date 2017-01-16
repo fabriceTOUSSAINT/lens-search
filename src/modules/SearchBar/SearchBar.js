@@ -1,14 +1,19 @@
-import React, {PropTypes} from 'react';
-import {connect} from 'react-redux';
-import {bindActionCreators} from 'redux';
-import * as actions from '../../actions/fuelSavingsActions';
+import React from 'react';
+// import React, {PropTypes} from 'react';
+// import {connect} from 'react-redux';
+// import {bindActionCreators} from 'redux';
+// import * as actions from '../../actions/fuelSavingsActions';
 
+import Flickr from '../../utils/flickr';
 import ImageCarousel from '../ImageCarousel/ImageCarousel';
 
 class SearchBar extends React.Component{
   constructor(props){
     super(props);
+    this.Flickr = Flickr;
 
+    // this.jsonFlickrApi = this.jsonFlickrApi.bind(this);
+    this.showPhotos = this.showPhotos.bind(this);
     this.searchPhotos = this.searchPhotos.bind(this);
     this.handleChange = this.handleChange.bind(this);
     this.state = {
@@ -33,20 +38,31 @@ class SearchBar extends React.Component{
       alert('Error: this field is required');
     }
     page = page > 0 ? page : 1;
-    // Flickr.searchText({
-    //   text: lastSearch,
-    //   per_page: 6,
-    //   jsoncallback: 'Website.Homepage.showPhotos',
-    //   page: page
-    // });
+    this.Flickr.searchText({
+      text: lastSearch,
+      per_page: 6,
+      jsoncallback: 'this.showPhotos()',
+      page: page
+    });
+    debugger;//eslint-disable-line
+   console.log('kljhlkh;');
+  }
 
+ // jsonFlickrApi(response) {
+ //   console.warn({response});
+ // }
+  showPhotos(data){
+    console.log('uh hi?');
+    console.log({data});
+    // gallery = new Gallery(data.photos.photo, document.getElementById('gallery-image'));
+    // gallery.createThumbnailsGallery(document.getElementById('thumbnail_list'));
   }
 
   render(){
     return (
       <div className="main-page">
         <div className="search-block">
-          <form className="search-form" id="search-form" onSubmit={this.searchPhotos} >
+                        <form className="search-form" id="search-form" onSubmit={this.searchPhotos} >
             <label htmlFor="query">Search:</label>
             <input
               type="search"
@@ -64,6 +80,7 @@ class SearchBar extends React.Component{
         <ImageCarousel
           lens={this.state.searchTerm}
         />
+
       </div>
     );
   }
