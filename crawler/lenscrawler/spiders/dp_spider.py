@@ -1,8 +1,8 @@
 import scrapy
+import pdb
 
 class dpSpider(scrapy.Spider):
     name = "lens"
-
     start_urls = [
             'https://www.dpreview.com/products/lenses/all?sort=alphabetical&view=grid',
         ]
@@ -24,5 +24,3 @@ class dpSpider(scrapy.Spider):
                 'msrp': lens.css('.prices a::text').re(r'[0-9\,]+\.[0-9][0-9](?:[^0-9]|$)'),
                 'dp_lens_detail_link': lens.css('.name a::attr(href)').extract(),
             }
-
-            print "still runs"
