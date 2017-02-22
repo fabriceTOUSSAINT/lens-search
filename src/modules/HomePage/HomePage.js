@@ -2,19 +2,30 @@ import React from 'react';
 import {Link} from 'react-router';
 import SearchBar from '../SearchBar/SearchBar';
 
-const HomePage = () => {
-  return (
-    <div>
-      <h1>Lens Search</h1>
+class HomePage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      results: null
+    };
+  }
 
-      <h2>Get Started</h2>
-      <ol>
-        <li>Review the <Link to="lens-search">my Jawn</Link></li>
-      </ol>
+  updatePhotoState(results) {
+    console.warn(results);
+    // this.setState({results});
+  }
 
-      <SearchBar />
-    </div>
-  );
-};
+  render() {
+    return (
+      <div>
+        <h1>Lens Search</h1>
+        <h2>Get Started</h2>
+        <ol><li>Review the <Link to="lens-search">my Jawn</Link></li></ol>
+
+        <SearchBar callback={this.updatePhotoState}/>
+      </div>
+    );
+}
+}
 
 export default HomePage;
