@@ -1,26 +1,35 @@
+import React from 'react';
 import Utility from './utility';
+import axios from 'axios';
 
-class Flickr {
+class Flickr extends React.Component {
 
-  searchText(parameters){
+  searchText(searchString){
     const apiKey ='553290f690cf2f6bba54bcb5f169d405';
     const apiURL = 'https://api.flickr.com/services/rest/';
 
-    const requestParameters = Utility.extend(parameters, {
+    const requestParameters = Utility.extend({
+      text: searchString,
+      per_page: 20,
       method: 'flickr.photos.search',
       api_key: apiKey,
       format: 'json'
     });
-debugger;
 
-    let script = document.createElement('script');
-    script.src = Utility.buildUrl(apiURL, requestParameters);
-    document.head.appendChild(script);
-    document.head.removeChild(script);
+    // FIXME: Build Url within Axios call instead of complete sepereate utility
+    const fullApiUrl = `${Utility.buildUrl(apiURL, requestParameters)}&nojsoncallback=?`;
 
-    console.warn(script.src);
-    debugger;
-
+    axios.get(fullApiUrl)
+      .then((response) => {
+        return response;
+      })
+      .catch(function (error) {
+        return error;
+      });
+    // let script = document.createElement('script');
+    // // script.src = Utility.buildUrl(apiURL, requestParameters);
+    // document.head.appendChild(script);
+    // document.head.removeChild(script);
   }
 
   buildThumbnailUrl(photo){
@@ -46,4 +55,4 @@ debugger;
 
 }
 
-export default new Flickr();
+export default Flickr;

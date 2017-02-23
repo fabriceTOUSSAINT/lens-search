@@ -11,6 +11,7 @@ class HomePage extends React.Component {
   }
 
   updatePhotoState(results) {
+    // debugger;
     console.warn(results);
     // this.setState({results});
   }
