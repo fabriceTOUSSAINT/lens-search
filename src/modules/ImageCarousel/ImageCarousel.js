@@ -4,23 +4,32 @@ import * as Flickr from '../../utils/flickr';
 class ImageCarousel extends React.Component {
 
   static propTypes = {
-    photoIds: React.PropTypes.func
+    photos: React.PropTypes.array
   };
 
   constructor(props){
     super(props);
-
   }
+
 
   render(){
     return (
-      <div>{this.props.lens}</div>
+      <div className="container">
+        <div className="row">
+          {this.props.photos.map((photo, index) => {
+            return (
+              <img
+                className='photoGallery'
+                key={index}
+                src={Flickr.buildPhotoUrl(photo)}
+              />
+            );
+          })}
+        </div>
+      </div>
     );
   }
 }
 
-ImageCarousel.propTypes = {
-  lens: React.PropTypes.string.isRequired
-};
 
 export default ImageCarousel;

@@ -59,7 +59,7 @@ class SearchBar extends React.Component{
           res.data.photo.exif.map((tag) => {
             if (tag.tag === 'LensModel') {
               if (searchString === tag.raw._content){
-                cb(res.data.photo.id);
+                cb(res.data.photo);
               }
             }
           });

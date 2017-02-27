@@ -7,22 +7,22 @@ class HomePage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      photoIds: []
+      photos: []
     };
 
     this.updatePhotoState = this.updatePhotoState.bind(this);
   }
 
 
-  updatePhotoState(photoIds) {
+  updatePhotoState(photos) {
 
-    let temp =[photoIds];
-    if(!this.state.photoIds) {
-      return this.setState({photoIds});
+    let temp =[photos];
+    if(!this.state.photos) {
+      return this.setState({photos});
     }
     else {
-      let flickrImages = this.state.photoIds.concat(temp);
-      this.setState({photoIds: flickrImages});
+      let flickrImages = this.state.photos.concat(temp);
+      this.setState({photos: flickrImages});
     }
     // console.warn(photoIds);
   }
@@ -35,7 +35,7 @@ class HomePage extends React.Component {
         <ol><li>Review the <Link to="lens-search">my Jawn</Link></li></ol>
 
         <SearchBar callback={this.updatePhotoState}/>
-        <ImageCarousel photoIds={this.state.photoIds} />
+        <ImageCarousel photos={this.state.photos} />
       </div>
     );
 }
