@@ -33,6 +33,7 @@
     "axios": "0.15.3",
     "flickrapi": "0.6.0",
     "install": "0.8.7",
+    "lory.js": "2.2.1",
     "lost": "7.1.1",
     "npm": "4.2.0",
     "object-assign": "4.1.0",

@@ -47,8 +47,60 @@ export const searchPhotoApi = (searchString, method, photoId) => {
   };
 
   const fullApiUrl = `${buildUrl(apiURL, requestParameters)}&nojsoncallback=?`;
+
+  axios.get(fullApiUrl)
+    .then((response) => {
+      // this.props.callback(response.data.photos.photo);
+      const searchResults = response.data.photos.photo;
+      this.checkExifForLensModel(searchString, searchResults, this.props.callback);
+    })
+    .catch(function (error) {
+      return error;
+    });
+
   return fullApiUrl;
 };
+
+export const checkExifForLensModel = (searchString, searchResults, cb) => {
+  const searchMethod = 'flickr.photos.getExif';
+  // let photosShotWithLens = [];
+// debugger;
+  //FIXME: Hard code autocomplete of search string until i write those functions
+  searchString = 'XF23mmF1.4 R';
+  let requestParameters = {
+    text: searchString,
+    per_page: 20,
+    method: searchMethod,
+    api_key: apiKey,
+    format: 'json'
+  };
+  // Create an array of Flickr api Urls to later use to fetch data
+  // on individual photos
+  const exifApiUrl = searchResults.map((photo) => {
+    requestParameters.photo_id = photo.id;
+    const fullApiUrl = buildUrl(apiURL, requestParameters);
+    console.log(fullApiUrl, 'exif fullapiurl');
+    // return searchPhotoApi(searchString, searchMethod, photo.id);
+  });
+
+  exifApiUrl.map((exifUrl) => {
+    return axios.get(exifUrl)
+    .then((res) => {
+      if (res.data.stat !== 'fail') {
+        res.data.photo.exif.map((tag) => {
+          if (tag.tag === 'LensModel') {
+            if (searchString === tag.raw._content){
+              cb(res.data.photo);
+            }
+          }
+        });
+      }
+    })
+    .catch((err) => {
+      return err;
+    });
+  });
+}
 
 export default searchPhotoApi;
 
