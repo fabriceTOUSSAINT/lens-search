@@ -1,5 +1,4 @@
 import React from 'react';
-import axios from 'axios';
 import * as Flickr from '../../utils/flickr';
 
 class SearchBar extends React.Component{
@@ -26,27 +25,18 @@ class SearchBar extends React.Component{
   }
 
   searchPhotos(e) {
+    e.preventDefault();
+
     // FIXME Dynamically pull search string from user input 
     const searchPhotoMethod = 'flickr.photos.search';
-    // let photoIdArray = null;
-
-    e.preventDefault();
     const searchString = this.state.searchString;
-
-
+    
     if(searchString.length === 0){
       alert('Error: this field is required');
     }
     Flickr.searchPhotoApi(searchString, searchPhotoMethod, null, this.props.callback);
 
   }
-
-  // showPhotos(data){
-  //   console.log('uh hi?');
-  //   console.log({data});
-  //   // gallery = new Gallery(data.photos.photo, document.getElementById('gallery-image'));
-  //   // gallery.createThumbnailsGallery(document.getElementById('thumbnail_list'));
-  // }
 
   render(){
     return (
@@ -64,7 +54,6 @@ class SearchBar extends React.Component{
               required  />
             <input type="submit" value="Search" />
           </form>
-          {/* <h3>{this.state.searchString}</h3> */}
         </div>
       </div>
     );

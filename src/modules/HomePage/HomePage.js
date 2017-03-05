@@ -15,7 +15,7 @@ class HomePage extends React.Component {
 
 
   updatePhotoState(photos) {
-    // I want to add to state because i will include 500px
+    // I want to concate to state because i will include 500px
     // For every new search wipe clean with new search results. 
     this.setState({
       photos: [...photos]
@@ -25,9 +25,11 @@ class HomePage extends React.Component {
   render() {
     return (
       <div>
-        <h1>Lens Search</h1>
-        <h2>Get Started</h2>
-        <ol><li>Review the <Link to="lens-search">my Jawn</Link></li></ol>
+        <header>
+          <h1>Lens Search</h1>
+          <h2>Get Started</h2>
+          <ol><li>Review the <Link to="lens-search">my Jawn</Link></li></ol>
+        </header>
 
         <SearchBar callback={this.updatePhotoState}/>
         <ImageCarousel photos={this.state.photos} />
