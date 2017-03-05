@@ -10,7 +10,6 @@ class ImageCarousel extends React.Component {
 
   constructor(props){
     super(props);
-
     this.buildCarousel = this.buildCarousel.bind(this);
     // document.addEventListener('DOMContentLoaded', () => {
     //   this.variableWidth = document.querySelector('.js_variablewlidth');

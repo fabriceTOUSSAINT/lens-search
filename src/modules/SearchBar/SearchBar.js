@@ -2,10 +2,6 @@ import React from 'react';
 import axios from 'axios';
 import * as Flickr from '../../utils/flickr';
 
-
-
-// import ImageCarousel from '../ImageCarousel/ImageCarousel';
-
 class SearchBar extends React.Component{
 
   static propTypes = {
@@ -29,38 +25,8 @@ class SearchBar extends React.Component{
     this.setState({searchString: e.target.value});
   }
 
-  // checkExifForLensModel(searchString, resPhotoIds, cb) {
-  //   const searchMethod = 'flickr.photos.getExif';
-  //   // let photosShotWithLens = [];
-  //   //FIXME: Hard code autocomplete of search string until i write those functions
-  //   searchString = 'XF23mmF1.4 R';
-  //
-  //   // Create an array of Flickr api Urls to later use to fetch data
-  //   // on individual photos
-  //   const exifApiUrl = resPhotoIds.map((photo) => {
-  //     return Flickr.searchPhotoApi(searchString, searchMethod, photo.id);
-  //   });
-  //
-  //   exifApiUrl.map((exifUrl) => {
-  //     return axios.get(exifUrl)
-  //     .then((res) => {
-  //       if (res.data.stat !== 'fail') {
-  //         res.data.photo.exif.map((tag) => {
-  //           if (tag.tag === 'LensModel') {
-  //             if (searchString === tag.raw._content){
-  //               cb(res.data.photo);
-  //             }
-  //           }
-  //         });
-  //       }
-  //     })
-  //     .catch((err) => {
-  //       return err;
-  //     });
-  //   });
-  // }
-
   searchPhotos(e) {
+    // FIXME Dynamically pull search string from user input 
     const searchPhotoMethod = 'flickr.photos.search';
     // let photoIdArray = null;
 
@@ -71,20 +37,8 @@ class SearchBar extends React.Component{
     if(searchString.length === 0){
       alert('Error: this field is required');
     }
-debugger;
-    // const searchPhotoApi = Flickr.searchPhotoApi(searchString, searchPhotoMethod);
-    Flickr.searchPhotoApi(searchString, searchPhotoMethod);
+    Flickr.searchPhotoApi(searchString, searchPhotoMethod, null, this.props.callback);
 
-    //Search Flickr Api
-    // const _self = this;
-    // axios.get(searchPhotoApi)
-    //   .then((response) => {
-    //     // this.props.callback(response.data.photos.photo);
-    //     this.checkExifForLensModel(searchString, response.data.photos.photo, _self.props.callback);
-    //   })
-    //   .catch(function (error) {
-    //     return error;
-    //   });
   }
 
   // showPhotos(data){
@@ -112,11 +66,6 @@ debugger;
           </form>
           {/* <h3>{this.state.searchString}</h3> */}
         </div>
-
-        {/* <ImageCarousel
-          lens={this.state.searchTerm}
-        /> */}
-
       </div>
     );
   }

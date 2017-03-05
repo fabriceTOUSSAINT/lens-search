@@ -15,16 +15,11 @@ class HomePage extends React.Component {
 
 
   updatePhotoState(photos) {
-
-    let temp =[photos];
-    if(!this.state.photos) {
-      return this.setState({photos});
-    }
-    else {
-      let flickrImages = this.state.photos.concat(temp);
-      this.setState({photos: flickrImages});
-    }
-    // console.warn(photoIds);
+    // I want to add to state because i will include 500px
+    // For every new search wipe clean with new search results. 
+    this.setState({
+      photos: [...photos]
+    });
   }
 
   render() {
