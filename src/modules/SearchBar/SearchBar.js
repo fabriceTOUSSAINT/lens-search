@@ -15,7 +15,7 @@ class SearchBar extends React.Component{
     this.handleChange = this.handleChange.bind(this);
 
     this.state = {
-      searchString: 'fuji xf 23mm',
+      searchString: 'XF23mmF1.4 R',
       page: 1
     };
   }
@@ -48,7 +48,7 @@ class SearchBar extends React.Component{
               type="search"
               name="query"
               id="query"
-              placeholder="eg. Fuji xf 23mm"
+              placeholder="eg. XF23mmF1.4 R"
               value={this.state.searchString}
               onChange={this.handleChange}//use this for auto complete
               required  />

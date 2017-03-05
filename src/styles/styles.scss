@@ -35,6 +35,7 @@ body {
     text-align: center;
     padding-top: 100px;
     background-color: #fd6860;
+    height: 100vh;
     font-family: 'Open Sans', sans-serif;
     color: snow;
 
@@ -79,7 +80,7 @@ ul.thumbnail_list li {
 li {
     position: relative;
     display: inline-block;
-    margin: 10px 7px;
+    margin: 10px 7px;   
 
     img {
         height: 325px;
