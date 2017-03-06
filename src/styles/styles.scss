@@ -33,15 +33,19 @@ td.fuel-savings-label { width: 175px; }
 
 body {
     text-align: center;
-    padding: 100px;
+    padding-top: 100px;
     background-color: #fd6860;
+    height: 100vh;
     font-family: 'Open Sans', sans-serif;
     color: snow;
 
 }
-header h1 {
-    font-size: 4em;
-    text-shadow: 2px 2px #000;
+header {
+    padding: 20px 100px;
+    h1 {
+        font-size: 4em;
+        text-shadow: 2px 2px #000;
+    }
 }
 ul.thumbnail_list {
     display: flex;
@@ -49,4 +53,57 @@ ul.thumbnail_list {
 }
 ul.thumbnail_list li {
     padding: 10px;
+}
+
+
+
+
+
+/**
+    * (optional) define here the style definitions which should be applied on the slider container
+    * e.g. width including further controls like arrows etc.
+    */
+.slider {}
+
+.frame {
+    position: relative;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.slides {
+    display: inline-block;
+}
+
+li {
+    position: relative;
+    display: inline-block;
+    margin: 10px 7px;   
+
+    img {
+        height: 325px;
+        width: auto;
+    }
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    display: block;
+    cursor: pointer;
+}
+
+.next {
+    right: 0;
+}
+
+.prev {
+    left: 0;
+}
+
+.next svg, .prev svg {
+    width: 25px;
 }

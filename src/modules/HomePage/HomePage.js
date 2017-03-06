@@ -15,24 +15,21 @@ class HomePage extends React.Component {
 
 
   updatePhotoState(photos) {
-
-    let temp =[photos];
-    if(!this.state.photos) {
-      return this.setState({photos});
-    }
-    else {
-      let flickrImages = this.state.photos.concat(temp);
-      this.setState({photos: flickrImages});
-    }
-    // console.warn(photoIds);
+    // I want to concate to state because i will include 500px
+    // For every new search wipe clean with new search results. 
+    this.setState({
+      photos: [...photos]
+    });
   }
 
   render() {
     return (
       <div>
-        <h1>Lens Search</h1>
-        <h2>Get Started</h2>
-        <ol><li>Review the <Link to="lens-search">my Jawn</Link></li></ol>
+        <header>
+          <h1>Lens Search</h1>
+          <h2>Get Started</h2>
+          <ol><li>Review the <Link to="lens-search">my Jawn</Link></li></ol>
+        </header>
 
         <SearchBar callback={this.updatePhotoState}/>
         <ImageCarousel photos={this.state.photos} />
