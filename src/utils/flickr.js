@@ -40,7 +40,7 @@ export const checkExifForLensModel = (searchString, searchResults, cb) => {
   const callback = cb.bind(this);
 
   //FIXME: Hard code autocomplete of search string until i write those functions
-  // searchString = 'XF23mmF1.4 R';
+  searchString = 'XF23mmF1.4 R';
   let requestParameters = {
     text: searchString,
     per_page: 30,
@@ -58,7 +58,6 @@ export const checkExifForLensModel = (searchString, searchResults, cb) => {
   let flickrPhotosLens = [];
   const promiseArray = exifApiUrl.map(exifUrl => axios.get(exifUrl));
 
-  searchString = 'XF23mmF1.4 R';
   axios.all(promiseArray)
   .then((res) => {
     res.map((lensRes) => {
