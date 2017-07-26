@@ -1,0 +1,16 @@
+{
+  "name": "lens-search",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:fabriceTOUSSAINT/lens-search.git",
+  "author": "Fabrice Toussaint <fabtoussaint@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-plugin-react": "^7.1.0",
+    "express": "^4.15.3",
+    "react": "^15.6.1"
+  },
+  "scripts": {
+    "start": "nodemon src/server/index.js"
+  }
+}
