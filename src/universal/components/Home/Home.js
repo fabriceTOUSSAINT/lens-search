@@ -1,0 +1,16 @@
+import React, {Component, PropTypes} from 'react';
+import {Link} from 'react-router-dom';
+
+import './style.scss';
+
+class Home extends Component {
+  render () {
+    return (
+      <div className='home'>
+        <h1 className='title'>⚡ Lens search ⚡</h1>
+      </div>
+    );
+  }
+}
+
+export default Home;
