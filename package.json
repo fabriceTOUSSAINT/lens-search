@@ -1,7 +1,7 @@
 {
-  "name": "univeral-hmr-ssr-react-redux-dokku",
+  "name": "lens-search",
   "version": "1.0.0",
-  "description": "Univeral JS application utilizing Hot Module Reloading, Server Side Rendering, Code Splitting with React, Redux, React Router 4 and a heroku like deploy setup with Dokku.",
+  "description": "Application to learn, descover and help you gain information about different camera lenses",
   "main": "index.js",
   "scripts": {
     "start": "yarn development",
@@ -21,7 +21,7 @@
     "code-splitting",
     "webpack"
   ],
-  "author": "Alexander J Ray <alexjamesray@gmail.com>",
+  "author": "Fabrice Toussaint <developer@fabricebt.com>",
   "license": "MIT",
   "devDependencies": {
     "assets-webpack-plugin": "^3.5.1",
