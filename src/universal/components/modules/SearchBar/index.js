@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 import { updateSearchTerm, populatePhotosData } from '../../../redux/actions';
 import { bindActionCreators } from 'redux';
 
+import './style.scss';
+
 // add lens search term to state
 // Create actions to update Redux store based on results
 // onSubmit, fetch data from flickr, 500px, amazon, dpReview
