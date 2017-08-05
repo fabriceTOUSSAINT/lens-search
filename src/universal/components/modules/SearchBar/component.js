@@ -1,5 +1,6 @@
 // @flow
 import React from 'react';
+import SearchFlickr from '../../utils/flickr';
 
 type State = {
     searchValue: ?string
@@ -7,6 +8,7 @@ type State = {
 
 type Props = {
     updateSearchTerm: () => any,
+    populatePhotosData: () => any,
     lens: String
 }
 
@@ -25,6 +27,9 @@ class SearchBar extends React.Component {
     setSearch = (e: Object) => {
         e.preventDefault();
         this.props.updateSearchTerm(this.state.searchValue);
+        const searchPhotoMethod = 'flickr.photos.search';
+        const searchString = this.state.searchValue;
+        SearchFlickr(searchString, searchPhotoMethod, null, this.props.populatePhotosData);
     }
 
     render() {

@@ -9,9 +9,9 @@ export const updateSearchTerm = lensSearchTerm => {
 }
 
 //update store with exif data retrieved from api calls to flickr, 500px, etc.
-export const populateSearchTerm = lensData => {
+export const populatePhotosData = PhotosData => {
     return {
-        type: sharedActions.POPULATE_LENS_DATA,
-        payload: lensData
+        type: sharedActions.POPULATE_PHOTOS_DATA,
+        payload: PhotosData
     }
 }

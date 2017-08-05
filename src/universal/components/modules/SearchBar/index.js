@@ -1,6 +1,6 @@
 import SearchBar from './component';
 import { connect } from 'react-redux';
-import { updateSearchTerm } from '../../../redux/actions';
+import { updateSearchTerm, populatePhotosData } from '../../../redux/actions';
 import { bindActionCreators } from 'redux';
 
 // add lens search term to state
@@ -13,7 +13,8 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => bindActionCreators({
-  updateSearchTerm
+  updateSearchTerm,
+  populatePhotosData
 }, dispatch);
 
 

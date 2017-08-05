@@ -13,7 +13,7 @@ import {
 import logger from 'redux-logger';
 
 import * as Reducers from './reducers/index.js';
-import lens_info_reducer from './reducers/lens_info_reducer';
+import photos_info_reducer from './reducers/photos_info_reducer';
 import search_term_reducer from './reducers/search_term_reducer';
 
 export default (history) => {
@@ -21,7 +21,7 @@ export default (history) => {
 
   const store = createStore(combineReducers({
     searchTerm: search_term_reducer,
-    lens_info: lens_info_reducer,
+    photoSetData: photos_info_reducer,
     router: routerReducer
   }), applyMiddleware(...middleware));
 
