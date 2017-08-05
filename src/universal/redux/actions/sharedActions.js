@@ -1,0 +1,4 @@
+export const sharedActions = {
+    SEARCH_TERM_UPDATE: 'SEARCH_TERM_UPDATE',
+    POPULATE_LENS_DATA: 'POPULATE_LENS_DATA'
+};

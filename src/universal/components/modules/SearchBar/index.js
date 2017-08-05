@@ -1,49 +1,20 @@
-// @flow
-import React from 'react';
-import PhotoCarousel from '../PhotoCarousel';
+import SearchBar from './component';
+import { connect } from 'react-redux';
+import { updateSearchTerm } from '../../../redux/actions';
+import { bindActionCreators } from 'redux';
 
-type State = {
-  searchString: string,
-  currSearchValue: ?any
-}
+// add lens search term to state
+// Create actions to update Redux store based on results
+// onSubmit, fetch data from flickr, 500px, amazon, dpReview
+// update store from new data
 
-class SearchBar extends React.Component{
-  state: State = {
-    searchString: 'XF23mmF1.4 R',
-    currSearchValue: ''
-  };
+const mapStateToProps = state => ({
+  lens: state.searchTerm
+});
 
-  handleChange = (e: Object) => {
-    e.preventDefault();
-    this.setState({currSearchValue: e.target.value});
-  }
+const mapDispatchToProps = dispatch => bindActionCreators({
+  updateSearchTerm
+}, dispatch);
 
-  setSearch = (e: any) => {
-    e.preventDefault();
-    this.setState({ searchString: this.state.currSearchValue});
-  }
 
-  render(){
-    return (
-      <div className="main-page">
-        <div className="search-block">
-          <form className="search-form" id="search-form" onSubmit={this.setSearch} >
-            <input
-              type="search"
-              name="query"
-              id="query"
-              placeholder="eg. XF23mmF1.4 R"
-              value={this.state.currSearchValue}
-              onChange={this.handleChange}//use this for auto complete
-              required  />
-            <input type="submit" value="Search" />
-          </form>
-        </div>
-
-        <PhotoCarousel searchString={this.state.searchString} />
-      </div>
-    );
-  }
-}
-
-export default SearchBar;
+export default connect(mapStateToProps, mapDispatchToProps)(SearchBar);

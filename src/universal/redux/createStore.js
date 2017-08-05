@@ -10,15 +10,20 @@ import {
   routerMiddleware
 } from 'react-router-redux';
 
+import logger from 'redux-logger';
+
 import * as Reducers from './reducers/index.js';
+import lens_info_reducer from './reducers/lens_info_reducer';
+import search_term_reducer from './reducers/search_term_reducer';
 
 export default (history) => {
-  const middleware = routerMiddleware(history);
+  const middleware = [routerMiddleware(history), logger];
 
   const store = createStore(combineReducers({
-    ...Reducers,
+    searchTerm: search_term_reducer,
+    lens_info: lens_info_reducer,
     router: routerReducer
-  }), applyMiddleware(middleware));
+  }), applyMiddleware(...middleware));
 
 
   if (module.hot) {
