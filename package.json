@@ -46,6 +46,7 @@
     "webpack-hot-middleware": "^2.18.0"
   },
   "dependencies": {
+    "axios": "^0.16.2",
     "classnames": "^2.2.5",
     "colors": "^1.1.2",
     "eslint-plugin-react": "^7.1.0",
