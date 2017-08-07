@@ -48,7 +48,7 @@ const buildFlickrData = (searchString, searchResults, cb) => {
     const searchMethod = 'flickr.photos.getExif';
 
     //FIXME: Hard code autocomplete of search string until i write those functions
-    searchString = 'XF23mmF1.4 R';
+    // searchString = 'XF23mmF1.4 R';
     const requestParameters = {
         text: searchString,
         per_page: 30,
@@ -71,12 +71,17 @@ const buildFlickrData = (searchString, searchResults, cb) => {
             res.map((lensRes) => {
                 if (lensRes.data.stat !== 'fail') {
                     lensRes.data.photo.exif.map((tag) => {
+                        if (tag.tag === 'LensModel') {
+                            console.warn(tag.raw._content, '<===== Lens result for searched: ', searchString)
+                        }
                         if (tag.tag === 'LensModel' && searchString === tag.raw._content) {
+                            // debugger;
                             photosUsingLensData.push(lensRes.data.photo);
                         }
                     });
                 }
             });
+            debugger;
             packageFlickrData(photosUsingLensData, cb)
         })
         .catch((err) => {

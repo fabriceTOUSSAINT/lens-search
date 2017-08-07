@@ -10,9 +10,12 @@ import './style.scss';
 // onSubmit, fetch data from flickr, 500px, amazon, dpReview
 // update store from new data
 
-const mapStateToProps = state => ({
-  lens: state.searchTerm
-});
+const mapStateToProps = state => {
+  
+  return {
+    lens: state.searchTerm,
+  };
+};
 
 const mapDispatchToProps = dispatch => bindActionCreators({
   updateSearchTerm,
