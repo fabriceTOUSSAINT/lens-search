@@ -41,4 +41,4 @@ dist
 
 build
 npm-debug.log
-config
+#config
