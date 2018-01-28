@@ -14,7 +14,8 @@ const babelQuery = {
   "presets": [
     "react",
     ["es2015", { "modules": false }],
-    "stage-0"
+    "stage-0",
+    "flow",
   ],
   "plugins": [
     "transform-decorators-legacy",

@@ -1,18 +1,25 @@
+// @flow
+
 // Libraries
-import React, {Component, PropTypes} from 'react';
+import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 import {StaticRouter} from 'react-router';
 import {renderToString} from 'react-dom/server';
 
 // Redux
 import { Provider } from 'react-redux';
 
+type Props = {
+  url: string;
+  store: any;
+  title: string;
+  assets?: any;
+  context?: any;
+};
+
 class Html extends Component {
-  static propTypes = {
-    url: PropTypes.string.isRequired,
-    store: PropTypes.object.isRequired,
-    title: PropTypes.string.isRequired,
-    assets: PropTypes.object
-  }
+
+  props: Props;
 
   render () {
     const PROD = process.env.NODE_ENV === 'production';
