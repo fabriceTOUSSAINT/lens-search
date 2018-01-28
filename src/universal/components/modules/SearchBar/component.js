@@ -1,27 +1,24 @@
 // @flow
 import React from 'react';
-// import SearchFlickr from '../../utils/flickr';
+// import SearchFlickr from '../../utils/flickr'
 // import Search500px from '../..utils/500px';
 import axios from 'axios';
 
 const lensDB = require('./lens.json');
 let Typeahead = require('react-typeahead').Typeahead;
-let Tokenizer = require('react-typeahead').Tokenizer;
 
 type State = {
-    searchValue: ?string
+    lensNameArr?: any;
 }
 
 type Props = {
     updateSearchTerm: () => any,
     populatePhotosData: () => any,
-    lens: String
+    searchTerm?: string
 }
 
 class SearchBar extends React.Component {
     state: State = {
-        // searchValue: 'XF23mmF1.4 R',
-        searchValue: '',
         lensNameArr: []
     };
 
@@ -32,6 +29,11 @@ class SearchBar extends React.Component {
 
     props: Props;
 
+    /**
+     * buildAutocorrectLensArray
+     * 
+     * Pulls lens.json (lensDB) and creates new array of just the lens names, stores result in state
+     */
     buildAutocorrectLensArray = () => {
         const lensNameArr = [];
         lensDB.forEach(lens => {
@@ -44,52 +46,43 @@ class SearchBar extends React.Component {
 
     }
 
-    handleChange = (e: Object) => {
-        e.preventDefault();
-        this.setState({ searchValue: e.target.value });
-    }
+    /**
+     * setSearch
+     * 
+     * set state with users search, prep for api calls
+     */
+    setSearch = (searchValue: String) => {
+        // this.setState({ searchValue: searchValue});
 
-    setSearch = (e: Object) => {
-        // e.preventDefault();
-        console.warn('selected');
-        console.log('=============');
-        this.props.updateSearchTerm(this.state.searchValue);
-        const searchPhotoMethod = 'flickr.photos.search';
-        const searchString = this.state.searchValue;
+        // updates state with new search term
+        this.props.updateSearchTerm(searchValue);
+        
+        // const searchPhotoMethod = 'flickr.photos.search';
+        // const searchString = this.state.searchValue;
         // SearchFlickr(searchString, searchPhotoMethod, null, this.props.populatePhotosData);
     }
 
     render() {
-        const jawn = {
+        const defaultTypeaheadProps = {
             type:"search",
             name:"query",
             id:"query",
             placeholder:"eg. XF23mmF1.4 R",
-            value:this.state.searchValue,
-            onChange:this.handleChange,//use this for auto complete
         }
-        console.log(this.state.searchValue, '<<<< Search value')
+
         return (
             <div className="main-page">
                 <div className="search-block">
                     <form className="search-form" id="search-form" onSubmit={this.setSearch} >
-                        {/*<input
-                            type="search"
-                            name="query"
-                            id="query"
-                            placeholder="eg. XF23mmF1.4 R"
-                            value={this.state.searchValue}
-                            onChange={this.handleChange}//use this for auto complete
-                            required />
-                        <input type="submit" value="Search" /> */}
-                 <Typeahead
-                        options={this.state.lensNameArr}
-                        maxVisible={5}
-                        placeholder='eg. XF23mmF1.4 R'
-                        value={this.state.searchValue}
-                        inputProps={jawn}
-                        onOptionSelected={this.setSearch}
-                />
+                        <Typeahead
+                            options={this.state.lensNameArr}
+                            maxVisible={5}
+                            placeholder='eg. XF23mmF1.4 R'
+                            inputProps={defaultTypeaheadProps}
+                            onOptionSelected={this.setSearch}
+                        />
+                        
+                        <h1>{this.props.searchTerm}</h1>
 
                     </form>
                 </div>

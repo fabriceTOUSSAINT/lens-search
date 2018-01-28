@@ -1,12 +1,16 @@
+// @flow
+
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
 
 import App from 'universal/components/App/App';
 
+type Props = {
+  children: any;
+};
+
 class AppContainer extends Component {
-  static propTypes = {
-    children: PropTypes.element.isRequired
-  };
+
+  props: Props;
 
   render () {
     return (

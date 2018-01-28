@@ -11,9 +11,8 @@ import './style.scss';
 // update store from new data
 
 const mapStateToProps = state => {
-  
   return {
-    lens: state.searchTerm,
+    searchTerm: state.searchTerm,
   };
 };
 

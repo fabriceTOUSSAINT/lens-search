@@ -1,5 +1,5 @@
 import axios from 'axios';
-import * as flickr_config from '../../config/Flickr';
+import * as flickr_config from '../../../config/Flickr';
 
 const buildUrl = (url, parameters) => {
     let queryString = '';

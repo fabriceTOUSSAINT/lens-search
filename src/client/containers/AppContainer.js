@@ -1,5 +1,6 @@
+// @flow
+
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
 import { ConnectedRouter } from 'react-router-redux';
 import {Route} from 'react-router';
 
@@ -9,10 +10,13 @@ import { Provider } from 'react-redux';
 // Components
 import Routes from 'universal/routes/Routes.js';
 
+type Props = {
+  history: any;
+};
+
 class AppContainer extends Component {
-  static propTypes = {
-    history: PropTypes.object.isRequired
-  }
+  
+  props: Props;
 
   render () {
     const {
