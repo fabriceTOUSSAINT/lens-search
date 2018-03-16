@@ -1,10 +1,9 @@
 // @flow
 import React from 'react';
-// import SearchFlickr from '../../utils/flickr'
-// import Search500px from '../..utils/500px';
+import SearchFlickr from '../../utils/flickr';
 import axios from 'axios';
 
-const lensDB = require('./lens.json');
+const lensDB = require('../../../config/lens_db.json');
 let Typeahead = require('react-typeahead').Typeahead;
 
 type State = {
@@ -24,17 +23,17 @@ class SearchBar extends React.Component {
 
     componentDidMount() {
         // TODO: build this array on server, push to the store to have access there
-        this.buildAutocorrectLensArray();
+        this.buildLensArray();
     }
 
     props: Props;
 
     /**
-     * buildAutocorrectLensArray
+     * buildLensArray
      * 
      * Pulls lens.json (lensDB) and creates new array of just the lens names, stores result in state
      */
-    buildAutocorrectLensArray = () => {
+    buildLensArray = () => {
         const lensNameArr = [];
         lensDB.forEach(lens => {
             if (lens.lens_name) {
@@ -52,14 +51,18 @@ class SearchBar extends React.Component {
      * set state with users search, prep for api calls
      */
     setSearch = (searchValue: String) => {
-        // this.setState({ searchValue: searchValue});
 
         // updates state with new search term
         this.props.updateSearchTerm(searchValue);
         
-        // const searchPhotoMethod = 'flickr.photos.search';
-        // const searchString = this.state.searchValue;
-        // SearchFlickr(searchString, searchPhotoMethod, null, this.props.populatePhotosData);
+        const searchPhotoMethod = 'flickr.photos.search';
+        const searchString = this.props.searchTerm;
+
+        // Calls to search Flickr database and add relevent data to the store
+        console.warn(searchValue);
+        if(searchValue !== '') {
+            SearchFlickr(searchString, searchPhotoMethod, null, this.props.populatePhotosData);
+        }
     }
 
     render() {

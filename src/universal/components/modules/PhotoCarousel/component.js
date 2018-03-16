@@ -13,10 +13,11 @@ const PhotoCarousel = ({imageData}: Props) => {
     //     </div>
     //     )
     // )
-        console.log({imageData})
+        // console.log({imageData})
     return (
         <div className='photo-carousel'>
             <div className='grid-container'>
+                <h1>Photo Carousel</h1>
             </div>
         </div>
     );
