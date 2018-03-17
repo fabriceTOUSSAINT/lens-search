@@ -3,6 +3,13 @@ import * as flickr_config from '../../../config/Flickr';
 /**
  * TODO: ORGANIZE THIS FILE
  * 
+ * *********************
+ * ****** Update logic,  searchString = 'Fujifilm XF 35mm' returns much more 
+ * ****** Than Offical name 'Fujifilm XF 35mm F2 R WR'
+ * ******
+ * ****** And Lens_model on flickr is equal to 'XF35mmF1.4 R', 'XF35mmF1.4 WR', 'XF35mmF2 R', etc...
+ * ****** Thus returning close to no results even on popular lens since they don't ===
+ * *********************
  * - clean file
  * - make call to flickr retrieving photos
  * - check retrieved photos exif if the photo was actually shot with searched lens
@@ -13,17 +20,18 @@ import * as flickr_config from '../../../config/Flickr';
 
 // entry point for searching flickr database, and hard checking each photos EXIF to see if photo
 // was actually shot with the searched lens
-export const searchFlickr = async (searchString, ActionPopulatePhotoDataFunc) => {
+export const searchFlickr = async (searchString) => {
 
     try {
-
         const method = 'flickr.photos.search';
+        // searchString = 'Fujifilm XF 35mm'
         const fullApiUrl = buildUrl(searchString, method);
         const res = await axios(fullApiUrl);
         const photoSearchResults = res.data.photos.photo;
         const photosUsingSearchedLens = await buildFlickrData(searchString, photoSearchResults);
-        packageFlickrData(photosUsingSearchedLens, ActionPopulatePhotoDataFunc)
 
+
+        return packageFlickrData(photosUsingSearchedLens)
     } catch (err) {
         console.log(err);
     }
@@ -55,8 +63,15 @@ const buildFlickrData = async (searchString, searchResults = []) => {
         const exif = (res.data && res.data.photo) ? res.data.photo.exif : [];
         
         const foundTag = exif.some( tag => {
+
+            if (tag.tag === 'LensModel') {
+                console.warn(tag.raw._content, ' ======= ', searchString)
+            }
+
             return ((tag.tag === 'LensModel') && (tag.raw._content == searchString))
         });
+
+
 
         if (foundTag) {
             console.log(res.data.photo);
@@ -110,7 +125,7 @@ const buildUrl = ( searchString, method, photoId = 0 ) => {
 /**
  * Helpers
  */
-const packageFlickrData = (photoData, ActionPopulatePhotoDataFunc) => {
+const packageFlickrData = (photoData) => {
     const flickrData = photoData.map(photo => {
         return (
             {
@@ -124,7 +139,7 @@ const packageFlickrData = (photoData, ActionPopulatePhotoDataFunc) => {
         );
     });
 
-    ActionPopulatePhotoDataFunc(flickrData);
+    return flickrData;
 };
 
 const buildThumbnailUrl = (photo) => {

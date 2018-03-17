@@ -35,6 +35,7 @@ class SearchBar extends React.Component {
      */
     buildLensArray = () => {
         const lensNameArr = [];
+
         lensDB.forEach(lens => {
             if (lens.lens_name) {
                 lensNameArr.push(lens.lens_name);
@@ -50,16 +51,14 @@ class SearchBar extends React.Component {
      * 
      * set state with users search, prep for api calls
      */
-    setSearch = (searchValue: String) => {
+    setSearch = async (searchValue: String) => {
 
         // updates state with new search term
         this.props.updateSearchTerm(searchValue);
-        const searchString = this.props.searchTerm;
 
         // Calls to search Flickr database and add relevent data to the store
-        console.warn(searchValue);
         if(searchValue !== '') {
-            SearchFlickr(searchString, this.props.populatePhotosData);
+            this.props.populatePhotosData(await SearchFlickr(searchValue));
         }
     }
 
