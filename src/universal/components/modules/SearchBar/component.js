@@ -54,14 +54,12 @@ class SearchBar extends React.Component {
 
         // updates state with new search term
         this.props.updateSearchTerm(searchValue);
-        
-        const searchPhotoMethod = 'flickr.photos.search';
         const searchString = this.props.searchTerm;
 
         // Calls to search Flickr database and add relevent data to the store
         console.warn(searchValue);
         if(searchValue !== '') {
-            SearchFlickr(searchString, searchPhotoMethod, null, this.props.populatePhotosData);
+            SearchFlickr(searchString, this.props.populatePhotosData);
         }
     }
 
