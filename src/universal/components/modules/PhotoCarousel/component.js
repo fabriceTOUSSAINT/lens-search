@@ -1,23 +1,33 @@
 // @flow
 import React from 'react';
 
+// Style
+import './index.scss';
+
 // PhotoCarousel only needs to know about photo image urls.
 type Props = {
     imageData: any
 };
 
 const PhotoCarousel = ({imageData}: Props) => {
-    // const imageGrid = imageData.map(data => (
-    //     <div className='image'>
-    //         <h1>{data.lens_name}</h1>
-    //     </div>
-    //     )
-    // )
-        // console.log({imageData})
+
+    const renderImageGrid = (photo) => {
+        if(!!photo) {
+            return (
+                <div key={photo.id} className='image'>
+                    <img src={photo.imageUrl} />
+                </div>  
+            )
+        }
+    }
+
+    const renderImages = !!imageData;
+
     return (
         <div className='photo-carousel'>
+            <h1>Photo Carousel</h1>
             <div className='grid-container'>
-                <h1>Photo Carousel</h1>
+                { renderImages && ( imageData.map((photo) => renderImageGrid(photo)) )}
             </div>
         </div>
     );

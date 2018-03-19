@@ -15,3 +15,18 @@ export const populatePhotosData = PhotosData => {
         payload: PhotosData
     }
 }
+
+// Update store with stored lens data set. used to search against and local data
+export const localLensData = (lensData) => {
+	return {
+		type: sharedActions.LOCAL_LENS_DATA,
+		payload: lensData
+	}
+}
+
+export const activeLensDetail = (lensData) => {
+    return {
+        type: sharedActions.ACTIVE_LENS_DETAIL,
+        payload: lensData
+    }
+}

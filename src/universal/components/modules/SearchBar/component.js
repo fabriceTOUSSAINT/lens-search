@@ -13,6 +13,7 @@ type State = {
 type Props = {
     updateSearchTerm: () => any,
     populatePhotosData: () => any,
+    activeLensDetail: () => any,
     searchTerm?: string
 }
 
@@ -35,12 +36,17 @@ class SearchBar extends React.Component {
      */
     buildLensArray = () => {
         const lensNameArr = [];
+        const otherShitArr = [];
 
         lensDB.forEach(lens => {
             if (lens.lens_name) {
                 lensNameArr.push(lens.lens_name);
+            } else if(lens.lens_name) {
+
             }
         });
+
+
 
         this.setState({lensNameArr});
 
@@ -56,9 +62,16 @@ class SearchBar extends React.Component {
         // updates state with new search term
         this.props.updateSearchTerm(searchValue);
 
+        // TODO: take index of searchValue of array. use that indexx to pull full info from
+        // redux state lensDetail[searchValueIndexx]
+
         // Calls to search Flickr database and add relevent data to the store
         if(searchValue !== '') {
-            this.props.populatePhotosData(await SearchFlickr(searchValue));
+            const lensIndex = this.state.lensNameArr.indexOf(searchValue);
+            const lensDetail = this.props.localLensData[lensIndex];
+            this.props.activeLensDetail(lensDetail);
+
+            this.props.populatePhotosData(await SearchFlickr(lensDetail, searchValue));
         }
     }
 
