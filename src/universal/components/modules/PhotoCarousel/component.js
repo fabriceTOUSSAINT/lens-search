@@ -13,10 +13,12 @@ const PhotoCarousel = ({imageData}: Props) => {
 
     const renderImageGrid = (photo) => {
         if(!!photo) {
+
+            // console.warn(photo, '<<<< RENDER IMAGE GRID');
             return (
                 <div key={photo.id} className='image'>
                     <img src={photo.imageUrl} />
-                </div>  
+                </div>
             )
         }
     }

@@ -2,9 +2,9 @@ import axios from 'axios';
 import * as flickr_config from '../../../config/Flickr';
 /**
  * TODO: ORGANIZE THIS FILE
- * 
+ *
  * *********************
- * ****** Update logic,  searchString = 'Fujifilm XF 35mm' returns much more 
+ * ****** Update logic,  searchString = 'Fujifilm XF 35mm' returns much more
  * ****** Than Offical name 'Fujifilm XF 35mm F2 R WR'
  * ******
  * ****** And Lens_model on flickr is equal to 'XF35mmF1.4 R', 'XF35mmF1.4 WR', 'XF35mmF2 R', etc...
@@ -20,20 +20,24 @@ import * as flickr_config from '../../../config/Flickr';
 
 // entry point for searching flickr database, and hard checking each photos EXIF to see if photo
 // was actually shot with the searched lens
-export const searchFlickr = async (lensDetail, jawn) => {
+export const searchFlickr = async (lensDetail) => {
 
     try {
 
         // remove Brand and any extra white space from lens mount
-        
+
         // Remove 'f' from fstop to better regex against results for fstop. (implied without 'f');
         const lens = {
             fstop: lensDetail.f_stop_max.replace(/(f|\/)/gi, ''),
             focalLength: lensDetail.focal_length.replace(/\s/g, ''),
             mount: lensDetail.lens_mount.replace(lensDetail.lens_brand, '').replace(/\s/g, ''),
             name: lensDetail.lens_name,
-            brand: lensDetail.lens_brand
+            brand: lensDetail.lens_brand,
         }
+
+        const regexMatchEverythingPossible = new RegExp(`(${lens.mount}|${lens.brand}|${lens.focalLength}|${lens.fstop}|(f|\/)|mm)`, 'gi');
+
+        lens.other = lens.name.replace(regexMatchEverythingPossible, '').replace(/\s/g, '');
 
         const search = {
             simple: `${lens.brand} ${lens.mount} ${lens.focalLength}mm ${lens.fstop}`
@@ -41,9 +45,10 @@ export const searchFlickr = async (lensDetail, jawn) => {
 
         const method = 'flickr.photos.search';
         const fullApiUrl = buildUrl(search.simple, method);
+
         const res = await axios(fullApiUrl);
         const photoSearchResults = res.data.photos.photo;
-        const photosUsingSearchedLens = await buildFlickrData(search.simple, photoSearchResults, lens, jawn);
+        const photosUsingSearchedLens = await buildFlickrData(search.simple, photoSearchResults, lens);
 
         return packageFlickrData(photosUsingSearchedLens)
     } catch (err) {
@@ -54,17 +59,18 @@ export const searchFlickr = async (lensDetail, jawn) => {
 
 /**
  * buildFlickrData
- * 
+ *
  * Takes in results from initial flickr.photos.search, grabs individual
  * photo id and research Flickr with flickr.photos.getExif to get camera data of each photo
- * 
+ *
  * @param {string} - searchString
- * 
+ *
  * @return {array} - stack of photos passing critera of being shot with searchString as lens
  */
 
-const buildFlickrData = async (searchString, searchResults = [], lens = {}, jawn) => {
+const buildFlickrData = async (searchString, searchResults = [], lens = {}) => {
 
+console.log(lens);
     const method = 'flickr.photos.getExif';
 
     // Build array of API endpoints for each photo in searchResult
@@ -72,36 +78,42 @@ const buildFlickrData = async (searchString, searchResults = [], lens = {}, jawn
         return `${buildUrl(searchString, method, photo.id)}`;
     });
 
-    const focalCheck = new RegExp( `${lens.focalLength}`, 'gi');
-    const regSearch = new RegExp(`(${lens.mount}|${lens.focalLength}|${lens.fstop})`, 'gi');
+    // TODO:
+    const regexMatchFocalLength = new RegExp( `${lens.focalLength}`, 'gi');
+    const regexMatchGeneralLensName = new RegExp(`(${lens.mount}|${lens.focalLength}|${lens.fstop}|${lens.other})`, 'gi');
+    const regexMatchOtherDetails = new RegExp(`${lens.other}`, 'gi');
+    // const regexMatchEverythingPossible = new RegExp(`(${lens.mount}|${lens.brand}|${lens.focalLength}|${lens.fstop}|(f|\/)|mm)`, 'gi');
 
    const exifDataPromise =  exifApiUrl.map( async (exifUrl, index) => {
         const res = await axios(exifUrl);
         const exif = (res.data && res.data.photo) ? res.data.photo.exif : [];
-        
-        const foundTag = exif.some( tag => {
 
-            if ((tag.tag === 'LensModel') && (focalCheck.test(tag.raw._content))) {
-                if ((regSearch.test(tag.raw._content))) {
-                    console.warn(tag.raw._content, ' :: TAG CONTENT | SEarch String ', jawn);
-                    return true; 
+        const foundTag = exif.some( tag => {
+                // console.log(tag, ' === ', typeof tag);
+
+
+            if ((tag.tag === 'LensModel') && (regexMatchFocalLength.test(tag.raw._content))) {
+                if ((regexMatchGeneralLensName.test(tag.raw._content))) {
+                    if(regexMatchOtherDetails.test(tag.raw._content)) {
+
+                    console.log(tag.raw._content, ' :: TC | SS :: ', lens.name);
+
+                    return true;
+                    }
+
                 } else {
                     return false;
                 }
             }
-            // return ((tag.tag === 'LensModel') && (regSearch.test(tag.raw._content)))
         });
-
-
 
         if (foundTag) {
             return Promise.resolve(res.data.photo);
         }
-        
+
     });
 
    return Promise.all(exifDataPromise).then((exifData) => {
-        console.log(exifData);
         const photosUsingLens = exifData.filter( test => {
             return test !== undefined;
         });
@@ -112,7 +124,7 @@ const buildFlickrData = async (searchString, searchResults = [], lens = {}, jawn
 
 /**
  *  buildUrl - construct proper url from search value to search Flickr API
- * 
+ *
  * @param {*} parameters - options for Flickr api
  * @return string - full url
  */
@@ -155,7 +167,7 @@ const packageFlickrData = (photoData) => {
                 'imageUrl-large': buildPhotoLargeUrl(photo),
                 'camera': photo.camera,
                 'exif': photo.exif,
-                'id': photo.id
+                'id': photo.id,
             }
         );
     });

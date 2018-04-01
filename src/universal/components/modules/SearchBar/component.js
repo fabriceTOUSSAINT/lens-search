@@ -71,7 +71,7 @@ class SearchBar extends React.Component {
             const lensDetail = this.props.localLensData[lensIndex];
             this.props.activeLensDetail(lensDetail);
 
-            this.props.populatePhotosData(await SearchFlickr(lensDetail, searchValue));
+            this.props.populatePhotosData(await SearchFlickr(lensDetail));
         }
     }
 
