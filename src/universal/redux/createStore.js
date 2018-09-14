@@ -10,7 +10,8 @@ import {
   routerMiddleware
 } from 'react-router-redux';
 
-import logger from 'redux-logger';
+// import logger from 'redux-logger';
+import { createLogger } from 'redux-logger';
 
 import * as Reducers from './reducers/index.js';
 import photos_info_reducer from './reducers/photos_info_reducer';
@@ -19,6 +20,12 @@ import lens_data_reducer from './reducers/lens_data_reducer';
 import active_lens_reducer from './reducers/active_lens_reducer';
 
 export default (history) => {
+
+  const logger = createLogger({
+    collapsed: true,
+    diff: true,
+  });
+
   const middleware = [routerMiddleware(history), logger];
 
   const store = createStore(combineReducers({

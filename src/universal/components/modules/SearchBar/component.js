@@ -31,7 +31,7 @@ class SearchBar extends React.Component {
 
     /**
      * buildLensArray
-     * 
+     *
      * Pulls lens.json (lensDB) and creates new array of just the lens names, stores result in state
      */
     buildLensArray = () => {
@@ -54,24 +54,28 @@ class SearchBar extends React.Component {
 
     /**
      * setSearch
-     * 
+     *
      * set state with users search, prep for api calls
      */
     setSearch = async (searchValue: String) => {
 
+        // const searchValue = 'Fujifilm XF 35mm';
         // updates state with new search term
         this.props.updateSearchTerm(searchValue);
 
-        // TODO: take index of searchValue of array. use that indexx to pull full info from
-        // redux state lensDetail[searchValueIndexx]
+        // TODO: take index of searchValue of array. use that index to pull full info from
+        // redux state lensDetail[searchValueIndex]
 
         // Calls to search Flickr database and add relevent data to the store
         if(searchValue !== '') {
             const lensIndex = this.state.lensNameArr.indexOf(searchValue);
             const lensDetail = this.props.localLensData[lensIndex];
+console.log(this.state,'')
             this.props.activeLensDetail(lensDetail);
+            const flickrResults = await SearchFlickr(lensDetail);
+            console.log(flickrResults, '<<<<< Results from SearchFlickr');
 
-            this.props.populatePhotosData(await SearchFlickr(lensDetail));
+            this.props.populatePhotosData(flickrResults);
         }
     }
 
@@ -94,7 +98,7 @@ class SearchBar extends React.Component {
                             inputProps={defaultTypeaheadProps}
                             onOptionSelected={this.setSearch}
                         />
-                        
+
                         <h1>{this.props.searchTerm}</h1>
 
                     </form>

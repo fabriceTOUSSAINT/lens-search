@@ -23,6 +23,7 @@ import * as flickr_config from '../../../config/Flickr';
 export const searchFlickr = async (lensDetail) => {
 
     try {
+        //Canon EF 15mm f/2.8 Fisheye test searchstring
 
         // remove Brand and any extra white space from lens mount
 
@@ -33,6 +34,7 @@ export const searchFlickr = async (lensDetail) => {
             mount: lensDetail.lens_mount.replace(lensDetail.lens_brand, '').replace(/\s/g, ''),
             name: lensDetail.lens_name,
             brand: lensDetail.lens_brand,
+            other: null,
         }
 
         const regexMatchEverythingPossible = new RegExp(`(${lens.mount}|${lens.brand}|${lens.focalLength}|${lens.fstop}|(f|\/)|mm)`, 'gi');
@@ -45,7 +47,7 @@ export const searchFlickr = async (lensDetail) => {
 
         const method = 'flickr.photos.search';
         const fullApiUrl = buildUrl(search.simple, method);
-
+        console.log(fullApiUrl, '<<<< api url')
         const res = await axios(fullApiUrl);
         const photoSearchResults = res.data.photos.photo;
         const photosUsingSearchedLens = await buildFlickrData(search.simple, photoSearchResults, lens);
@@ -78,7 +80,16 @@ console.log(lens);
         return `${buildUrl(searchString, method, photo.id)}`;
     });
 
-    // TODO:
+
+    /**
+     *  TODO: Below we need to find an accurate way to determine which photos were exactly shot with the lens
+     *
+     * - problem
+     * -- Not getting enough accurate results to go through?
+     * -- initial search too specefic? start broad and dig through more later?
+     * -- maybe some limit for Flickr Api when searching for results? I'm expecting much more from some of these
+     *      lens and on avg receiving 0 - 5 most of the time being 0
+     */
     const regexMatchFocalLength = new RegExp( `${lens.focalLength}`, 'gi');
     const regexMatchGeneralLensName = new RegExp(`(${lens.mount}|${lens.focalLength}|${lens.fstop}|${lens.other})`, 'gi');
     const regexMatchOtherDetails = new RegExp(`${lens.other}`, 'gi');
