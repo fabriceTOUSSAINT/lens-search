@@ -47,10 +47,9 @@ export const searchFlickr = async (lensDetail) => {
 
         const method = 'flickr.photos.search';
         const fullApiUrl = buildUrl(search.simple, method);
-        console.log(fullApiUrl, '<<<< api url')
         const res = await axios(fullApiUrl);
         const photoSearchResults = res.data.photos.photo;
-        const photosUsingSearchedLens = await buildFlickrData(search.simple, photoSearchResults, lens);
+        const photosUsingSearchedLens = await filterPhotosShotWithLens(search.simple, photoSearchResults, lens);
 
         return packageFlickrData(photosUsingSearchedLens)
     } catch (err) {
@@ -60,7 +59,7 @@ export const searchFlickr = async (lensDetail) => {
 };
 
 /**
- * buildFlickrData
+ * filterPhotosShotWithLens
  *
  * Takes in results from initial flickr.photos.search, grabs individual
  * photo id and research Flickr with flickr.photos.getExif to get camera data of each photo
@@ -70,16 +69,14 @@ export const searchFlickr = async (lensDetail) => {
  * @return {array} - stack of photos passing critera of being shot with searchString as lens
  */
 
-const buildFlickrData = async (searchString, searchResults = [], lens = {}) => {
+const filterPhotosShotWithLens = async (searchString, searchResults = [], lens = {}) => {
 
-console.log(lens);
     const method = 'flickr.photos.getExif';
 
     // Build array of API endpoints for each photo in searchResult
     const exifApiUrl = searchResults.map((photo) => {
         return `${buildUrl(searchString, method, photo.id)}`;
     });
-
 
     /**
      *  TODO: Below we need to find an accurate way to determine which photos were exactly shot with the lens
@@ -104,6 +101,7 @@ console.log(lens);
 
 
             if ((tag.tag === 'LensModel') && (regexMatchFocalLength.test(tag.raw._content))) {
+                console.warn(tag.raw._content, 'tag content');
                 if ((regexMatchGeneralLensName.test(tag.raw._content))) {
                     if(regexMatchOtherDetails.test(tag.raw._content)) {
 
@@ -140,7 +138,6 @@ console.log(lens);
  * @return string - full url
  */
 const buildUrl = ( searchString, method, photoId = 0 ) => {
-
     const parameters = {
         method: method,
         api_key: flickr_config.apiKey,
@@ -159,9 +156,6 @@ const buildUrl = ( searchString, method, photoId = 0 ) => {
     }
 
     queryString += 'nojsoncallback=1';
-
-    // Clean query string for flickr api call. doesn't like encoded spaces but '-'
-    queryString = queryString.replace(/%20/g, '-');
 
     return `${flickr_config.apiURL}?${queryString}`;
 }
