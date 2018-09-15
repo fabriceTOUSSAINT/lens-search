@@ -11,7 +11,8 @@ class Home extends Component {
   render () {
     return (
       <div className='home'>
-        <h1 className='title'>⚡ Lens search ⚡</h1>
+        <h1 className='title'>Lens Search</h1>
+        <h3 className='title__sub'>See what other photographers create with different lenses</h3>
         <SearchBar />
         <PhotoCarousel />
       </div>

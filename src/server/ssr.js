@@ -19,7 +19,7 @@ function renderApp(url, res, store, assets) {
 
   const html = renderToString(
     <Html
-      title='💥'
+      title='Lens Search'
       store={store}
       url={url}
       context={context}

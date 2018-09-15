@@ -95,29 +95,43 @@ const filterPhotosShotWithLens = async (searchString, searchResults = [], lens =
    const exifDataPromise =  exifApiUrl.map( async (exifUrl, index) => {
         const res = await axios(exifUrl);
         const exif = (res.data && res.data.photo) ? res.data.photo.exif : [];
+        let photoDataObj = (res.data && res.data.photo) ?
+                            Object.assign( {
+                                    lensName: '',
+                                    byLine: ''
+                                },
+                                res.data.photo)
+                            : {};
+
+        let temp = '';
 
         const foundTag = exif.some( tag => {
                 // console.log(tag, ' === ', typeof tag);
 
+            if((tag.tag === 'By-line')) {
+                temp = tag.raw._content;
+            };
 
             if ((tag.tag === 'LensModel') && (regexMatchFocalLength.test(tag.raw._content))) {
-                console.warn(tag.raw._content, 'tag content');
                 if ((regexMatchGeneralLensName.test(tag.raw._content))) {
                     if(regexMatchOtherDetails.test(tag.raw._content)) {
 
-                    console.log(tag.raw._content, ' :: TC | SS :: ', lens.name);
-
-                    return true;
+                        // console.log(tag.raw._content, ' :: TC | SS :: ', lens.name);
+                        photoDataObj.lensName = tag.raw._content;
+                        photoDataObj.byLine = temp;
+                        return true;
                     }
 
                 } else {
+                    temp = '';
                     return false;
                 }
             }
+
         });
 
         if (foundTag) {
-            return Promise.resolve(res.data.photo);
+            return Promise.resolve(photoDataObj);
         }
 
     });
@@ -164,12 +178,16 @@ const buildUrl = ( searchString, method, photoId = 0 ) => {
  * Helpers
  */
 const packageFlickrData = (photoData) => {
+    // console.log(photoData, '<<<< photodata jawn', photoData[0].exif.tag)
     const flickrData = photoData.map(photo => {
+        // console.warn(photo.exif, '<<<jawn')
         return (
             {
                 'thumbnail': buildThumbnailUrl(photo),
                 'imageUrl': buildPhotoUrl(photo),
                 'imageUrl-large': buildPhotoLargeUrl(photo),
+                'lensName': photo.lensName,
+                'byLine': photo.byLine,
                 'camera': photo.camera,
                 'exif': photo.exif,
                 'id': photo.id,

@@ -1,7 +1,5 @@
 html {
   height: 100%;
-  background: linear-gradient(90deg, #80A2CC, #F99F86);
-  background: -webkit-linear-gradient(90deg, #80A2CC, #F99F86);
 }
 
 body {
@@ -11,15 +9,14 @@ body {
    display: flex;
    position: relative;
    justify-content: center;
-   align-items: center;
+   padding-top: 150px;
    font-family: 'Arvo', Arial, Helvetica, Sans-serif;
-   background: linear-gradient(90deg, #80A2CC, #F99F86);
-   background: -webkit-linear-gradient(90deg, #80A2CC, #F99F86);
+   background-color: #fff;
+   width: 100vw;
 
 }
 
 h1,h2,h3,h4,h5,h6 {
-  color: white;
 }
 
 h2 {
@@ -29,7 +26,6 @@ h2 {
 
 p, li, ul, ol {
   font-family: 'Raleway';
-  color: white;
   font-size: 20px;
   line-height: 1.25em;
 }
@@ -41,7 +37,6 @@ p, li, ul, ol {
   .app {
     margin: 0 auto;
     max-width: 1100px;
-
   }
 }
 

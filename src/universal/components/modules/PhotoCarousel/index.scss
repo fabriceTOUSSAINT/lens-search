@@ -3,3 +3,12 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+.image {
+    display: inline-flex;
+    flex-direction: column;
+
+    & img {
+        max-height: 400px;
+    }
+}
