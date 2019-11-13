@@ -1,0 +1,21 @@
+input[type="search"] {
+  height: 75px;
+  background-color: snow;
+  box-shadow: none;
+  padding-left: 20px;
+  border: none;
+  padding-top: 10px;
+  font-size: 40px;
+}
+
+input[type="submit"] {
+  height: 75px;
+  position: absolute;
+  background-color: #141414;
+  box-shadow: none;
+  padding: 23px;
+  border: none;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+}
