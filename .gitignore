@@ -1,0 +1,5 @@
+*/**/node_modules.js
+src/node_modules
+db/node_modules
+client/node_modules
+LEGACY_LENS_SEARCH/node_modules

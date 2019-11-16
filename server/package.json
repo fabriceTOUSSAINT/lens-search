@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js"
+    "start": "npx tsc && nodemon dist/"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,10 @@
   "dependencies": {
     "apollo-datasource-rest": "^0.6.6",
     "apollo-server": "^2.9.8",
-    "graphql": "^14.5.8"
+    "graphql": "^14.5.8",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.2"
   }
 }
