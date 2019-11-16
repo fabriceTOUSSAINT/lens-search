@@ -11,11 +11,21 @@ const typeDefs = gql`
     }
 
     type Lens {
-        name: String
+        fStopMax: String
+        fStopMin: String
+        lensType: String
+        lensMount: String
+        dpReviewLink: String
+        focalLength: String
+        yearReleased: [String]
+        lensBrand: String
+        msrp: [String]
+        lensName: String
     }
 
     type Query {
-        photosShotWith(lens: String): String
+        photosShotWith(lensName: String): [Photo]
+        allLens: [Lens]
     }
 `;
 

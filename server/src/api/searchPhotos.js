@@ -12,16 +12,13 @@
  const { RESTDataSource } = require('apollo-datasource-rest');
 
 
- class SearchPhotos extends RESTDataSource {
-     constructor(lensDetail) {
+ class SearchPhotosAPI extends RESTDataSource {
+     constructor() {
          super();
 
-         this.baseURL = 'https://api.flickr.com/services/rest/'
+        this.baseURL = 'https://api.flickr.com/services/rest/'
         this.method = 'flickr.photos.search';
         this.apiKey = 'd0c9d161fb97ea74829b27d4a29f1296';
-
-        // const searchOptions = makeSearchOptionsFromLens(lensDetail);
-        // findPhotosShotWithLens(searchOptions)
      }
 
      makeSearchOptionsFromLens(lensObj) {
@@ -37,7 +34,7 @@
 
         // Umbrella search option
         const regex = {
-            MatchAllPossible = new RegExp(`(${lens.mount}|${lens.brand}|${lens.focalLength}|${lens.fstop}|(f|\/)|mm)`, 'gi'),
+            MatchAllPossible: new RegExp(`(${lens.mount}|${lens.brand}|${lens.focalLength}|${lens.fstop}|(f|\/)|mm)`, 'gi'),
         }
 
         lens.other = lens.name.replace(regex.MatchAllPossible, '').replace(/\s/g, '');
@@ -46,6 +43,7 @@
             simple: `${lens.brand} ${lens.mount} ${lens.focalLength}mm ${lens.fstop}`,
             moderate: '',
             complex: '',
+            lens
         };
 
         return searchOptions;
@@ -57,9 +55,9 @@
      * @param {*} parameters - options for Flickr api
      * @return string - full url
      */
-    flickrAPIEndpoint( searchString, method, photoId = 0 ) {
+    flickrAPIEndpoint( searchString, photoId = 0 ) {
         const parameters = {
-            method: method,
+            method: this.method,
             api_key: this.apiKey,
             text: searchString,
             format: 'json',
@@ -97,7 +95,7 @@ async filterPhotosShotWithLens(searchString, searchResults = [], lens = {}){
 
     // Build array of API endpoints for each photo in searchResult
     const exifApiUrl = searchResults.map((photo) => {
-        return `${buildUrl(searchString, method, photo.id)}`;
+        return `${this.buildUrl(searchString, method, photo.id)}`;
     });
 
     /**
@@ -115,8 +113,11 @@ async filterPhotosShotWithLens(searchString, searchResults = [], lens = {}){
     // const regexMatchEverythingPossible = new RegExp(`(${lens.mount}|${lens.brand}|${lens.focalLength}|${lens.fstop}|(f|\/)|mm)`, 'gi');
 
    const exifDataPromise =  exifApiUrl.map( async (exifUrl, index) => {
-        const res = await axios(exifUrl);
-        const exif = (res.data && res.data.photo) ? res.data.photo.exif : [];
+       if (index  >= 20 ) return;
+
+        // const res = await axios(exifUrl);
+        const res = await this.get(exifUrl);
+        const exif = (res && res.photo) ? res.photo.exif : [];
 
         const foundTag = exif.some( tag => {
                 // console.log(tag, ' === ', typeof tag);
@@ -139,7 +140,7 @@ async filterPhotosShotWithLens(searchString, searchResults = [], lens = {}){
         });
 
         if (foundTag) {
-            return Promise.resolve(res.data.photo);
+            return Promise.resolve(res.photo);
         }
 
     });
@@ -153,18 +154,108 @@ async filterPhotosShotWithLens(searchString, searchResults = [], lens = {}){
         });
     };
 
+    /**
+     *  buildUrl - construct proper url from search value to search Flickr API
+     *
+     * @param {*} parameters - options for Flickr api
+     * @return string - full url
+     */
+    buildUrl = ( searchString, method, photoId = 0 ) => {
+        const parameters = {
+            method: method,
+            api_key: this.apiKey,
+            text: searchString,
+            format: 'json',
+            photo_id: photoId,
+            per_page: 500
+        };
+
+        let queryString = '';
+
+        for (const key in parameters) {
+            if (parameters.hasOwnProperty(key)) {
+                queryString += `${encodeURIComponent(key)}=${encodeURIComponent(parameters[key])}&`;
+            }
+        }
+
+        queryString += 'nojsoncallback=1';
+
+        // return `${this.baseURL}?${queryString}`;
+        return `?${queryString}`;
+
+    }
+
+
+    /**
+     * Helpers
+    */
+    packageFlickrData = (photoData) => {
+        const flickrData = photoData.map(photo => {
+            return (
+                {
+                    'thumbnail': this.buildThumbnailUrl(photo),
+                    'imageUrl': this.buildPhotoUrl(photo),
+                    'imageUrlLarge': this.buildPhotoLargeUrl(photo),
+                    'camera': photo.camera,
+                    'exif': photo.exif,
+                    'id': photo.id,
+                }
+            );
+        });
+        console.log(':::::: ========::: FlickrData', flickrData[5].exif)
+        return flickrData;
+    };
+
+    buildThumbnailUrl = (photo) => {
+        return `https://farm${photo.farm}.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}_q.jpg`;
+    };
+
+    buildPhotoUrl = (photo) => {
+        return `https://farm${photo.farm}.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}.jpg`;
+    };
+
+    buildPhotoLargeUrl = (photo) => {
+        return `https://farm${photo.farm}.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}_b.jpg`;
+    };
+
 
     // TODO: This could be my entry point for the api
-    async findPhotosShotWithLens(lens) {
-        const searchOptions = makeSearchOptionsFromLens(lens);
-        const apiEndpoint = flickrAPIEndpoint(searchOptions.simple, this.method)
+    async findPhotosShotWithLens(lensName) {
+        // return `${lens}: this hits the api endpoint`;
+
+        // TODO: Build actual function to fetch from database storing all of the lens.
+        // const fullLensDetail = await fetchFullLensDetail(lensName);
+        const fullLensDetail = {
+            "f_stop_max": "F1.4",
+            "lens_type": "Prime lens",
+            "f_stop_min": "F16",
+            "lens_mount": "Fujifilm X",
+            "dp_review_link": null,
+            "focal_length": "23 ",
+            "dp_lens_detail_link": "https://www.dpreview.com/products/fujifilm/lenses/fujifilm_xf_23mm",
+            "year_released": [],
+            "lens_brand": "Fujifilm",
+            "msrp": [ "799.00" ],
+            "lens_name": "Fujifilm XF 23mm F1.4 R"
+        };
+
+        const searchOptions = this.makeSearchOptionsFromLens(fullLensDetail);
+        console.log('========::searchOptions::: ', searchOptions);
+
+        const apiEndpoint = this.flickrAPIEndpoint(searchOptions.simple)
+        console.log('========::apiEndpoint::: ', apiEndpoint);
+
         const response = await this.get(apiEndpoint);
-        const photoResults = response.data.photos.photo;
+        // console.log('========::response::: ', response);
 
-        console.log(photoResults);
+        const photoResults = response.photos.photo;
+        // console.log('========::photoResults::: ', photoResults);
 
-
-        const photosUsingLens = await filterPhotosShotWithLens(searchOptions.simple, photoResults, lens);
-        return packageFlickrData(photosUsingLens)
+        // return this.packageFlickrData(photoResults);
+        const photosUsingLens = await this.filterPhotosShotWithLens(searchOptions.simple, photoResults, searchOptions.lens);
+        return this.packageFlickrData(photosUsingLens)
     }
  }
+
+
+ module.exports = SearchPhotosAPI;
