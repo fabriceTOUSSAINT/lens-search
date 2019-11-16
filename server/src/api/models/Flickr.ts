@@ -1,5 +1,11 @@
 import { RESTDataSource, HTTPCache } from 'apollo-datasource-rest';
 
+/**
+ *
+ *
+ * @class FlickrModel
+ * @extends {RESTDataSource}
+ */
 class FlickrModel extends RESTDataSource {
     baseURL: string;
     apiKey: string;
@@ -20,11 +26,12 @@ class FlickrModel extends RESTDataSource {
     /**
      *  flickrAPIEndpoint - construct proper url from search value to search Flickr API
      *
-     * @param {*} parameters - options for Flickr api
+     * @param {string} searchString - search string value
+     * @param {string} method - search method for Flickr
+     * @param {number} photoId - (optional) individual photo ID
+     * 
      * @return string - full url
      */
-    // flickrAPIEndpoint( searchString: string, photoId = 0 )
-    // setAPIEndpoint(searchString: string, photoId: number = 0) {
     makeApiPath(searchString: string, method: string = this.method.search, photoId: number = 0) {
 
         const parameters: any = {
@@ -49,17 +56,67 @@ class FlickrModel extends RESTDataSource {
         return `?${queryString}`;
     }
 
-    buildThumbnailUrl = (photo: any) => `https://farm${photo.farm}.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}_q.jpg`;
-    buildPhotoUrl = (photo: any) => `https://farm${photo.farm}.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}.jpg`;
-    buildPhotoLargeUrl = (photo: any) => `https://farm${photo.farm}.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}_b.jpg`;
+        /**
+     * 
+     * @param response 
+     */
+    pullOutPhotoRes(response: any): Array<any> {
+        if (!response && !response.photos) {
+            return []
+        }
 
+        return response.photos.photo
+    }
+
+    /**
+     * 
+     * @param query - search string
+     * @returns fuzzyResponse - Array of objects 
+     */
+    async fuzzySearchWithQuery(query: string): Promise<Array<any>> {
+        const fuzzyApiPath: string = this.makeApiPath(query);
+        const fuzzyNestedResponse: any = await this.get(fuzzyApiPath);
+        const fuzzyResponse = this.pullOutPhotoRes(fuzzyNestedResponse);
+
+        return fuzzyResponse;
+    }
+
+    /**
+     *
+     *
+     * @memberof FlickrModel
+     */
+    buildImageUrl = (photo: any, type: string = 'regular') => {
+        let imgVariant = '';
+
+        switch(type) {
+            case 'thumbnail':
+                imgVariant = '_q';
+                break;
+            case 'large':
+                imgVariant = '_b';
+                break;
+            case 'regular':
+            default: 
+                imgVariant = '';
+                break;
+        }
+
+        return`https://farm${photo.farm}.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}${imgVariant}.jpg`
+    }
+
+    /**
+     *
+     *
+     * @param photoData - Array of objects representing photos
+     */
     packageResponseData = (photoData: any) => {
         const flickrData = photoData.map((photo: any) => {
             return (
                 {
-                    'thumbnail': this.buildThumbnailUrl(photo),
-                    'imageUrl': this.buildPhotoUrl(photo),
-                    'imageUrlLarge': this.buildPhotoLargeUrl(photo),
+                    'thumbnail': this.buildImageUrl(photo, 'thumbnail'),
+                    'imageUrl': this.buildImageUrl(photo),
+                    'imageUrlLarge': this.buildImageUrl(photo, 'large'),
                     'camera': photo.camera,
                     'exif': photo.exif,
                     'id': photo.id,
@@ -70,12 +127,14 @@ class FlickrModel extends RESTDataSource {
         return flickrData;
     }
 
+    /**
+     * 
+     * @param photos 
+     * @param lensInfo 
+     */
     async filterPhotosShotWithLens(photos: Array<any>, lensInfo: any) {
-    // async filterPhotosShotWithLens(searchString: string, searchResults = [], lens: any = {}) {
         const searchString = lensInfo.simple;
         const lensDetail = lensInfo.lens;
-
-        // const method = 'flickr.photos.getExif';
     
         // Build array of API endpoints for each photo in searchResult
         const exifApiUrl = photos.map((photo: any) => {
@@ -99,7 +158,6 @@ class FlickrModel extends RESTDataSource {
         const exifDataPromise =  exifApiUrl.map( async (exifUrl, index) => {
             if (index  >= 20 ) return; //TODO: set cap for quick testing purposes only, delete for production
     
-            // const res = await axios(exifUrl);
             const res = await this.get(exifUrl);
             const exif = (res && res.photo) ? res.photo.exif : [];
     
@@ -138,36 +196,22 @@ class FlickrModel extends RESTDataSource {
         });
     };
 
-    pullOutPhotoRes(response: any): Array<any> {
-        if (!response && !response.photos) {
-            return []
-        }
 
-        return response.photos.photo
-    }
-
-    async fuzzySearchWithQuery(query: string): Promise<any> {
-        const fuzzyApiPath: string = this.makeApiPath(query);
-        const fuzzyNestedResponse: any = await this.get(fuzzyApiPath);
-        const fuzzyResponse = this.pullOutPhotoRes(fuzzyNestedResponse);
-
-        return fuzzyResponse;
-    }
-
+    /**
+     * 
+     * @param lensInfo { simple, lens }
+     */
     async getPhotosShotWithLens(lensInfo: any): Promise<any> {
-        // if (!this.lensInfo) throw  Error(`this.lensInfo is Null, FlickrModel Class was not constructed with Lens object.`)
 
         try {
         // Weak general search flickr with simple query
         const fuzzySearchRes = await this.fuzzySearchWithQuery(lensInfo.simple);
 
-
-
         // filter results by checking each photos EXIF and save any shot with lens
         const photosShotWithLens = await this.filterPhotosShotWithLens(fuzzySearchRes, lensInfo)
         
+        // return results in format of our type Photo
         return this.packageResponseData(photosShotWithLens);
-        // format data to adhere to type Photo
         } catch (err) {
             console.error(`Error in photoShotWithLensSearch(): ${err}`);
         }
