@@ -219,7 +219,20 @@ async filterPhotosShotWithLens(searchString, searchResults = [], lens = {}){
     };
 
 
-    // TODO: This could be my entry point for the api
+    /**
+     * Function passed an argument lensName: String and returns an Array of 
+     * photos shot with lensName via Flickr Api.  
+     *
+     * @param {*} lensName
+     * @returns     type Photo {
+     *                      thumbnail: String
+     *                      imageUrl: String
+     *                      imageUrlLarge: String
+     *                      exif: String
+     *                      id: Int
+     *                  }
+     * @memberof SearchPhotosAPI
+     */
     async findPhotosShotWithLens(lensName) {
         // return `${lens}: this hits the api endpoint`;
 
@@ -239,21 +252,25 @@ async filterPhotosShotWithLens(searchString, searchResults = [], lens = {}){
             "lens_name": "Fujifilm XF 23mm F1.4 R"
         };
 
+        // return object of different search option strings
         const searchOptions = this.makeSearchOptionsFromLens(fullLensDetail);
-        console.log('========::searchOptions::: ', searchOptions);
 
+        // generate our api endpoints, TODO: add more like 500px
         const apiEndpoint = this.flickrAPIEndpoint(searchOptions.simple)
-        console.log('========::apiEndpoint::: ', apiEndpoint);
 
+        // search 3rd party API for photo response.
         const response = await this.get(apiEndpoint);
-        // console.log('========::response::: ', response);
 
+        // Pull out Flickr api response
         const photoResults = response.photos.photo;
-        // console.log('========::photoResults::: ', photoResults);
 
-        // return this.packageFlickrData(photoResults);
+        // Filter photoResults to do deep nested checks agains EXIF for photos shot with lensName
         const photosUsingLens = await this.filterPhotosShotWithLens(searchOptions.simple, photoResults, searchOptions.lens);
-        return this.packageFlickrData(photosUsingLens)
+
+        // Format a new object based on results, matching schema: type Photo
+        const photosShotWithLens = this.packageFlickrData(photosUsingLens);
+
+        return photosShotWithLens;
     }
  }
 
