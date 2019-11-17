@@ -10,19 +10,20 @@ const typeDefs = apollo_server_1.gql `
         id: Int
     }
 
-    type Lens {
-        fStopMax: String
-        fStopMin: String
-        lensType: String
-        lensMount: String
-        dpReviewLink: String
-        focalLength: String
-        yearReleased: [String]
-        lensBrand: String
-        msrp: [String]
-        lensName: String
-    }
+    # type Lens {
+    #     fStopMax: String
+    #     fStopMin: String
+    #     lensType: String
+    #     lensMount: String
+    #     dpReviewLink: String
+    #     focalLength: String
+    #     yearReleased: [String]
+    #     lensBrand: String
+    #     msrp: [String]
+    #     lensName: String
+    # }
 
+    # This is how Lens looks in json file, idk which one I like more.
     type LensDB {
         f_stop_max: String
         f_stop_min: String
