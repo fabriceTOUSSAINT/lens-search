@@ -11,7 +11,8 @@ const jawn = [{
         "year_released": ["Aug 26, 2010"],
         "lens_brand": "Canon",
         "msrp": ["1,385.89"],
-        "lens_name": "Canon EF 8-15mm f/4L Fisheye USM"
+        "lens_name": "Canon EF 8-15mm f/4L Fisheye USM",
+        "uuid": "38ebbd50-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -23,7 +24,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["899.00 ", "2,300.00"],
-        "lens_name": "Canon EF 24-70mm f/4L IS USM"
+        "lens_name": "Canon EF 24-70mm f/4L IS USM",
+        "uuid": "38ebbd51-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -35,7 +37,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 15mm f/2.8 Fisheye"
+        "lens_name": "Canon EF 15mm f/2.8 Fisheye",
+        "uuid": "38ebbd52-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -47,7 +50,8 @@ const jawn = [{
         "year_released": ["Sep 29, 2002"],
         "lens_brand": "Canon",
         "msrp": ["899.00 ", "2,300.00"],
-        "lens_name": "Canon EF 24-70mm f/2.8L USM"
+        "lens_name": "Canon EF 24-70mm f/2.8L USM",
+        "uuid": "38ebbd53-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -59,7 +63,8 @@ const jawn = [{
         "year_released": ["Feb 22, 2007"],
         "lens_brand": "Canon",
         "msrp": ["1,899.00"],
-        "lens_name": "Canon EF 16-35mm F2.8L II USM"
+        "lens_name": "Canon EF 16-35mm F2.8L II USM",
+        "uuid": "38ebbd54-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -71,7 +76,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["2,699.00"],
-        "lens_name": "Canon EF 11-24mm F4L USM"
+        "lens_name": "Canon EF 11-24mm F4L USM",
+        "uuid": "38ebbd55-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -83,7 +89,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["539.00"],
-        "lens_name": "Canon EF 20mm f/2.8 USM"
+        "lens_name": "Canon EF 20mm f/2.8 USM",
+        "uuid": "38ebbd56-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -95,7 +102,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 14mm f/2.8L USM"
+        "lens_name": "Canon EF 14mm f/2.8L USM",
+        "uuid": "38ebbd57-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -107,7 +115,8 @@ const jawn = [{
         "year_released": ["Aug 20, 2007"],
         "lens_brand": "Canon",
         "msrp": ["2,099.00"],
-        "lens_name": "Canon EF 14mm f/2.8L II USM"
+        "lens_name": "Canon EF 14mm f/2.8L II USM",
+        "uuid": "38ebbd58-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -119,7 +128,8 @@ const jawn = [{
         "year_released": ["Sep 26, 2001"],
         "lens_brand": "Canon",
         "msrp": ["1,749.99"],
-        "lens_name": "Canon EF 16-35mm F2.8L USM"
+        "lens_name": "Canon EF 16-35mm F2.8L USM",
+        "uuid": "38ebbd59-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -131,7 +141,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["1,699.00"],
-        "lens_name": "Canon EF 24-70mm f/2.8L II USM"
+        "lens_name": "Canon EF 24-70mm f/2.8L II USM",
+        "uuid": "38ebbd5a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–4.5",
         "lens_type": "Zoom lens",
@@ -143,7 +154,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 20-35mm F3.5-4.5 USM"
+        "lens_name": "Canon EF 20-35mm F3.5-4.5 USM",
+        "uuid": "38ebbd5b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -155,7 +167,8 @@ const jawn = [{
         "year_released": ["Aug 25, 2016"],
         "lens_brand": "Canon",
         "msrp": ["1,999.00"],
-        "lens_name": "Canon EF 16-35mm F2.8L III USM"
+        "lens_name": "Canon EF 16-35mm F2.8L III USM",
+        "uuid": "38ebbd5c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -167,7 +180,8 @@ const jawn = [{
         "year_released": ["Feb 27, 2003"],
         "lens_brand": "Canon",
         "msrp": ["749.00 ", "849.00"],
-        "lens_name": "Canon EF 17-40mm f/4.0L USM"
+        "lens_name": "Canon EF 17-40mm f/4.0L USM",
+        "uuid": "38ebbd5d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -179,7 +193,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["549.00"],
-        "lens_name": "Canon EF 24mm f/2.8 IS USM"
+        "lens_name": "Canon EF 24mm f/2.8 IS USM",
+        "uuid": "38ebbd5e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -191,7 +206,8 @@ const jawn = [{
         "year_released": ["Jul 27, 2010"],
         "lens_brand": "Sony",
         "msrp": ["1,398.00"],
-        "lens_name": "Sony 24mm F2 SSM Carl Zeiss Distagon T*"
+        "lens_name": "Sony 24mm F2 SSM Carl Zeiss Distagon T*",
+        "uuid": "38ebbd5f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -203,7 +219,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": [],
-        "lens_name": "Sony FE 85mm F1.8"
+        "lens_name": "Sony FE 85mm F1.8",
+        "uuid": "38ebbd60-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -215,7 +232,8 @@ const jawn = [{
         "year_released": ["Apr 23, 2015"],
         "lens_brand": "Sony",
         "msrp": ["2,248.00"],
-        "lens_name": "Sony Vario-Sonnar T* 16-35mm F2.8 ZA SSM II"
+        "lens_name": "Sony Vario-Sonnar T* 16-35mm F2.8 ZA SSM II",
+        "uuid": "38ebbd61-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -227,7 +245,8 @@ const jawn = [{
         "year_released": ["May 13, 2014"],
         "lens_brand": "Canon",
         "msrp": ["999.00 ", "1,043.95"],
-        "lens_name": "Canon EF 16-35mm F4L IS USM"
+        "lens_name": "Canon EF 16-35mm F4L IS USM",
+        "uuid": "38ebbd62-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -239,7 +258,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": ["138.00 ", "169.00"],
-        "lens_name": "Sigma 70-300mm F4-5.6 DG Macro"
+        "lens_name": "Sigma 70-300mm F4-5.6 DG Macro",
+        "uuid": "38ebbd63-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -251,7 +271,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tokina",
         "msrp": ["375.59 ", "1,032.65"],
-        "lens_name": "Tokina AT-X Pro 35mm f/2.8 Macro DX"
+        "lens_name": "Tokina AT-X Pro 35mm f/2.8 Macro DX",
+        "uuid": "38ebbd64-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F6.3",
         "lens_type": "Prime lens",
@@ -263,7 +284,8 @@ const jawn = [{
         "year_released": ["Jul 17, 2012"],
         "lens_brand": "Tokina",
         "msrp": ["97.90"],
-        "lens_name": "Tokina Reflex 300mm F6.3 MF Macro"
+        "lens_name": "Tokina Reflex 300mm F6.3 MF Macro",
+        "uuid": "38ebbd65-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -275,7 +297,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tokina",
         "msrp": [],
-        "lens_name": "Tokina Firin 20mm F2 FE MF"
+        "lens_name": "Tokina Firin 20mm F2 FE MF",
+        "uuid": "38ebbd66-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -287,7 +310,8 @@ const jawn = [{
         "year_released": ["Apr 23, 2015"],
         "lens_brand": "Sony",
         "msrp": ["2,098.00"],
-        "lens_name": "Sony Vario-Sonnar T* 24-70mm F2.8 ZA SSM II"
+        "lens_name": "Sony Vario-Sonnar T* 24-70mm F2.8 ZA SSM II",
+        "uuid": "38ebbd67-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F5.6",
         "lens_type": "Prime lens",
@@ -299,7 +323,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Voigtlander",
         "msrp": ["699.00"],
-        "lens_name": "Voigtlander 12mm F5.6 Ultra Wide Heliar"
+        "lens_name": "Voigtlander 12mm F5.6 Ultra Wide Heliar",
+        "uuid": "38ebbd68-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -311,7 +336,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Voigtlander",
         "msrp": ["599.99 ", "629.00"],
-        "lens_name": "Voigtlander 35mm F1.4 Nokton"
+        "lens_name": "Voigtlander 35mm F1.4 Nokton",
+        "uuid": "38ebbd69-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -323,7 +349,8 @@ const jawn = [{
         "year_released": ["Sep 13, 2016"],
         "lens_brand": "Venus Optics",
         "msrp": [],
-        "lens_name": "Venus Laowa 7.5mm F2"
+        "lens_name": "Venus Laowa 7.5mm F2",
+        "uuid": "38ebbd6a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -335,7 +362,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": [],
-        "lens_name": "Zeiss Loxia 50mm F2"
+        "lens_name": "Zeiss Loxia 50mm F2",
+        "uuid": "38ebbd6b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5",
         "lens_type": "Prime lens",
@@ -347,7 +375,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Voigtlander",
         "msrp": ["489.00 ", "699.00"],
-        "lens_name": "Voigtlander 15mm F4.5 Super Wide Heliar"
+        "lens_name": "Voigtlander 15mm F4.5 Super Wide Heliar",
+        "uuid": "38ebbd6c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -359,7 +388,8 @@ const jawn = [{
         "year_released": ["Jan 30, 2014"],
         "lens_brand": "Zeiss",
         "msrp": ["886.19"],
-        "lens_name": "Zeiss Touit 50mm F2.8"
+        "lens_name": "Zeiss Touit 50mm F2.8",
+        "uuid": "38ebbd6d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -371,7 +401,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": ["4,393.39"],
-        "lens_name": "Zeiss Otus 85mm F1.4"
+        "lens_name": "Zeiss Otus 85mm F1.4",
+        "uuid": "38ebbd6e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -383,7 +414,8 @@ const jawn = [{
         "year_released": ["Sep 10, 2015"],
         "lens_brand": "Zeiss",
         "msrp": ["1,488.09 ", "1,803.29"],
-        "lens_name": "Zeiss Milvus 100mm F2"
+        "lens_name": "Zeiss Milvus 100mm F2",
+        "uuid": "38ebbd6f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -395,7 +427,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Voigtlander",
         "msrp": ["699.00 ", "729.00"],
-        "lens_name": "Voigtlander 20mm F3.5 Color Skopar SL II"
+        "lens_name": "Voigtlander 20mm F3.5 Color Skopar SL II",
+        "uuid": "38ebbd70-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -407,7 +440,8 @@ const jawn = [{
         "year_released": ["Sep 10, 2015"],
         "lens_brand": "Zeiss",
         "msrp": ["1,255.39 ", "1,283.00"],
-        "lens_name": "Zeiss Milvus 50mm F2 Macro"
+        "lens_name": "Zeiss Milvus 50mm F2 Macro",
+        "uuid": "38ebbd71-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -419,7 +453,8 @@ const jawn = [{
         "year_released": ["Sep 10, 2015"],
         "lens_brand": "Zeiss",
         "msrp": ["1,199.00"],
-        "lens_name": "Zeiss Milvus 50mm F1.4"
+        "lens_name": "Zeiss Milvus 50mm F1.4",
+        "uuid": "38ebbd72-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -431,7 +466,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": ["1,999.00"],
-        "lens_name": "Zeiss Milvus 35mm F1.4"
+        "lens_name": "Zeiss Milvus 35mm F1.4",
+        "uuid": "38ebbd73-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -443,7 +479,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": [],
-        "lens_name": "Zeiss Milvus 25mm F1.4"
+        "lens_name": "Zeiss Milvus 25mm F1.4",
+        "uuid": "38ebbd74-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -455,7 +492,8 @@ const jawn = [{
         "year_released": ["Sep 10, 2015"],
         "lens_brand": "Zeiss",
         "msrp": ["1,803.29"],
-        "lens_name": "Zeiss Milvus 21mm F2.8"
+        "lens_name": "Zeiss Milvus 21mm F2.8",
+        "uuid": "38ebbd75-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -467,7 +505,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": [],
-        "lens_name": "Zeiss Milvus 18mm F2.8"
+        "lens_name": "Zeiss Milvus 18mm F2.8",
+        "uuid": "38ebbd76-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -479,7 +518,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": [],
-        "lens_name": "Zeiss Milvus 15mm F2.8"
+        "lens_name": "Zeiss Milvus 15mm F2.8",
+        "uuid": "38ebbd77-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.4",
         "lens_type": "Prime lens",
@@ -491,7 +531,8 @@ const jawn = [{
         "year_released": ["Sep 15, 2016"],
         "lens_brand": "Zeiss",
         "msrp": [],
-        "lens_name": "Zeiss Loxia 85mm F2.4"
+        "lens_name": "Zeiss Loxia 85mm F2.4",
+        "uuid": "38ebbd78-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -503,7 +544,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": ["3,229.00 ", "3,990.00"],
-        "lens_name": "Zeiss Otus 1.4/55"
+        "lens_name": "Zeiss Otus 1.4/55",
+        "uuid": "38ebbd79-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -515,7 +557,8 @@ const jawn = [{
         "year_released": ["Oct 12, 2015"],
         "lens_brand": "Zeiss",
         "msrp": ["1,424.00"],
-        "lens_name": "Zeiss Loxia 21mm F2.8"
+        "lens_name": "Zeiss Loxia 21mm F2.8",
+        "uuid": "38ebbd7a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -527,7 +570,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": [],
-        "lens_name": "Zeiss Loxia 35mm F2"
+        "lens_name": "Zeiss Loxia 35mm F2",
+        "uuid": "38ebbd7b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -538,7 +582,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": ["1,899.00"],
-        "lens_name": "Zeiss Batis 135mm F2.8"
+        "lens_name": "Zeiss Batis 135mm F2.8",
+        "uuid": "38ebbd7c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -550,7 +595,8 @@ const jawn = [{
         "year_released": ["Apr 22, 2015"],
         "lens_brand": "Zeiss",
         "msrp": ["1,199.00"],
-        "lens_name": "Zeiss Batis 25mm F2"
+        "lens_name": "Zeiss Batis 25mm F2",
+        "uuid": "38ebbd7d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1",
         "lens_type": "Prime lens",
@@ -562,7 +608,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Voigtlander",
         "msrp": ["769.99 ", "825.52"],
-        "lens_name": "Voigtlander Nokton 42.5mm F0.95"
+        "lens_name": "Voigtlander Nokton 42.5mm F0.95",
+        "uuid": "38ebbd7e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -574,7 +621,8 @@ const jawn = [{
         "year_released": ["Apr 14, 2016"],
         "lens_brand": "Zeiss",
         "msrp": [],
-        "lens_name": "Zeiss Batis 18mm F2.8"
+        "lens_name": "Zeiss Batis 18mm F2.8",
+        "uuid": "38ebbd7f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -586,7 +634,8 @@ const jawn = [{
         "year_released": ["Apr 22, 2015"],
         "lens_brand": "Zeiss",
         "msrp": ["1,079.00"],
-        "lens_name": "Zeiss Batis 85mm F1.8"
+        "lens_name": "Zeiss Batis 85mm F1.8",
+        "uuid": "38ebbd80-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -598,7 +647,8 @@ const jawn = [{
         "year_released": ["Sep 24, 2014"],
         "lens_brand": "Voigtlander",
         "msrp": ["399.00"],
-        "lens_name": "Voigtlander VM 40mm F2.8 Heliar"
+        "lens_name": "Voigtlander VM 40mm F2.8 Heliar",
+        "uuid": "38ebbd81-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1",
         "lens_type": "Prime lens",
@@ -610,7 +660,8 @@ const jawn = [{
         "year_released": ["Aug 26, 2010"],
         "lens_brand": "Voigtlander",
         "msrp": ["764.71"],
-        "lens_name": "Voigtlander Nokton 25mm F0.95"
+        "lens_name": "Voigtlander Nokton 25mm F0.95",
+        "uuid": "38ebbd82-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -622,7 +673,8 @@ const jawn = [{
         "year_released": ["Feb 17, 2010"],
         "lens_brand": "Voigtlander",
         "msrp": ["589.00"],
-        "lens_name": "Voigtlander 90mm F3.5 APO-Lanthar SL II"
+        "lens_name": "Voigtlander 90mm F3.5 APO-Lanthar SL II",
+        "uuid": "38ebbd83-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1",
         "lens_type": "Prime lens",
@@ -634,7 +686,8 @@ const jawn = [{
         "year_released": ["Feb 12, 2014"],
         "lens_brand": "Voigtlander",
         "msrp": ["689.00 ", "799.00"],
-        "lens_name": "Voigtlander Nokton 25mm F0.95 Type II"
+        "lens_name": "Voigtlander Nokton 25mm F0.95 Type II",
+        "uuid": "38ebbd84-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -646,7 +699,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Voigtlander",
         "msrp": [],
-        "lens_name": "Voigtlander 65mm F2 Macro APO-Lanthar"
+        "lens_name": "Voigtlander 65mm F2 Macro APO-Lanthar",
+        "uuid": "38ebbd85-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1",
         "lens_type": "Prime lens",
@@ -658,7 +712,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Voigtlander",
         "msrp": ["890.00"],
-        "lens_name": "Voigtlander Nokton 17.5mm F0.95 Aspherical"
+        "lens_name": "Voigtlander Nokton 17.5mm F0.95 Aspherical",
+        "uuid": "38ebbd86-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -670,7 +725,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Voigtlander",
         "msrp": ["964.10"],
-        "lens_name": "Voigtlander 75mm F1.8 Heliar Classic"
+        "lens_name": "Voigtlander 75mm F1.8 Heliar Classic",
+        "uuid": "38ebbd87-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.5",
         "lens_type": "Prime lens",
@@ -682,7 +738,8 @@ const jawn = [{
         "year_released": ["Jan 28, 2013"],
         "lens_brand": "Voigtlander",
         "msrp": ["779.00"],
-        "lens_name": "Voigtlander 50mm F1.5 Nokton"
+        "lens_name": "Voigtlander 50mm F1.5 Nokton",
+        "uuid": "38ebbd88-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -694,7 +751,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Voigtlander",
         "msrp": ["489.00"],
-        "lens_name": "Voigtlander 58mm F1.4 Nokton SL II"
+        "lens_name": "Voigtlander 58mm F1.4 Nokton SL II",
+        "uuid": "38ebbd89-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.1",
         "lens_type": "Prime lens",
@@ -706,7 +764,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Voigtlander",
         "msrp": ["899.00"],
-        "lens_name": "Voigtlander 50mm F1.1 Nokton"
+        "lens_name": "Voigtlander 50mm F1.1 Nokton",
+        "uuid": "38ebbd8a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -718,7 +777,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Voigtlander",
         "msrp": ["449.00 ", "530.00"],
-        "lens_name": "Voigtlander 40mm F2 Ultron SL II"
+        "lens_name": "Voigtlander 40mm F2 Ultron SL II",
+        "uuid": "38ebbd8b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -730,7 +790,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Voigtlander",
         "msrp": ["408.93 ", "417.00"],
-        "lens_name": "Voigtlander 40mm F1.4 Nokton Classic"
+        "lens_name": "Voigtlander 40mm F1.4 Nokton Classic",
+        "uuid": "38ebbd8c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.5",
         "lens_type": "Prime lens",
@@ -742,7 +803,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Voigtlander",
         "msrp": ["409.00"],
-        "lens_name": "Voigtlander 35mm F2.5 Color Skopar"
+        "lens_name": "Voigtlander 35mm F2.5 Color Skopar",
+        "uuid": "38ebbd8d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.2",
         "lens_type": "Prime lens",
@@ -754,7 +816,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Voigtlander",
         "msrp": ["999.00"],
-        "lens_name": "Voigtlander 35mm F1.2 Nokton"
+        "lens_name": "Voigtlander 35mm F1.2 Nokton",
+        "uuid": "38ebbd8e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -766,7 +829,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Voigtlander",
         "msrp": ["565.46 ", "599.00"],
-        "lens_name": "Voigtlander 28mm F2 Ultron"
+        "lens_name": "Voigtlander 28mm F2 Ultron",
+        "uuid": "38ebbd8f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -778,7 +842,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Voigtlander",
         "msrp": ["419.00"],
-        "lens_name": "Voigtlander 21mm F4 Color Skopar Pancake II"
+        "lens_name": "Voigtlander 21mm F4 Color Skopar Pancake II",
+        "uuid": "38ebbd90-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1",
         "lens_type": "Prime lens",
@@ -790,7 +855,8 @@ const jawn = [{
         "year_released": ["Sep 14, 2014"],
         "lens_brand": "Voigtlander",
         "msrp": ["999.99"],
-        "lens_name": "Voigtlander 10.5mm F0.95 Nokton"
+        "lens_name": "Voigtlander 10.5mm F0.95 Nokton",
+        "uuid": "38ebbd91-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -802,7 +868,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Voigtlander",
         "msrp": ["419.00"],
-        "lens_name": "Voigtlander 25mm F4 Color Skopar Pancake"
+        "lens_name": "Voigtlander 25mm F4 Color Skopar Pancake",
+        "uuid": "38ebbd92-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -814,7 +881,8 @@ const jawn = [{
         "year_released": ["Sep 13, 2016"],
         "lens_brand": "Venus Optics",
         "msrp": [],
-        "lens_name": "Venus Optics Laowa 15mm F2 FE Zero-D"
+        "lens_name": "Venus Optics Laowa 15mm F2 FE Zero-D",
+        "uuid": "38ebbd93-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -826,7 +894,8 @@ const jawn = [{
         "year_released": ["Jul 16, 2012"],
         "lens_brand": "Voigtlander",
         "msrp": [],
-        "lens_name": "Voigtlander 28mm F2.8 Color Skopar SL II"
+        "lens_name": "Voigtlander 28mm F2.8 Color Skopar SL II",
+        "uuid": "38ebbd94-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -838,7 +907,8 @@ const jawn = [{
         "year_released": ["Sep 17, 2012"],
         "lens_brand": "Voigtlander",
         "msrp": ["1,049.00"],
-        "lens_name": "Voigtlander 21mm F1.8 Ultron"
+        "lens_name": "Voigtlander 21mm F1.8 Ultron",
+        "uuid": "38ebbd95-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -850,7 +920,8 @@ const jawn = [{
         "year_released": ["Jul 26, 2016"],
         "lens_brand": "Venus Optics",
         "msrp": [],
-        "lens_name": "Venus Laowa 12mm F2.8"
+        "lens_name": "Venus Laowa 12mm F2.8",
+        "uuid": "38ebbd96-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -862,7 +933,8 @@ const jawn = [{
         "year_released": ["Jun 23, 2015"],
         "lens_brand": "Venus Optics",
         "msrp": ["484.98 ", "495.00"],
-        "lens_name": "Venus Laowa 15mm F4 1:1 Macro"
+        "lens_name": "Venus Laowa 15mm F4 1:1 Macro",
+        "uuid": "38ebbd97-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -874,7 +946,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tokina",
         "msrp": [],
-        "lens_name": "Tokina ATR-X Pro 11-20mm F2.8 DX"
+        "lens_name": "Tokina ATR-X Pro 11-20mm F2.8 DX",
+        "uuid": "38ebbd98-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -886,7 +959,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tokina",
         "msrp": ["390.00"],
-        "lens_name": "Tokina AT-X Pro 100mm f/2.8 Macro"
+        "lens_name": "Tokina AT-X Pro 100mm f/2.8 Macro",
+        "uuid": "38ebbd99-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -898,7 +972,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tokina",
         "msrp": ["529.95"],
-        "lens_name": "Tokina AT-X Pro 12-24mm f/4 DX II"
+        "lens_name": "Tokina AT-X Pro 12-24mm f/4 DX II",
+        "uuid": "38ebbd9a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -910,7 +985,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tokina",
         "msrp": [],
-        "lens_name": "Tokina AT-X Pro 12-24mm f/4 (IF) DX"
+        "lens_name": "Tokina AT-X Pro 12-24mm f/4 (IF) DX",
+        "uuid": "38ebbd9b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -922,7 +998,8 @@ const jawn = [{
         "year_released": ["Jun 25, 2012"],
         "lens_brand": "Tokina",
         "msrp": ["468.29"],
-        "lens_name": "Tokina AT-X Pro 11-16mm f/2.8 DX II"
+        "lens_name": "Tokina AT-X Pro 11-16mm f/2.8 DX II",
+        "uuid": "38ebbd9c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -934,7 +1011,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tokina",
         "msrp": [],
-        "lens_name": "Tokina AT-X Pro 50-135mm f/2.8 DX"
+        "lens_name": "Tokina AT-X Pro 50-135mm f/2.8 DX",
+        "uuid": "38ebbd9d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -946,7 +1024,8 @@ const jawn = [{
         "year_released": ["May 16, 2014"],
         "lens_brand": "Tokina",
         "msrp": ["836.89 ", "933.24"],
-        "lens_name": "Tokina AT-X 70-200mm F4 PRO FX VCM-S"
+        "lens_name": "Tokina AT-X 70-200mm F4 PRO FX VCM-S",
+        "uuid": "38ebbd9e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -958,7 +1037,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tokina",
         "msrp": ["486.03 ", "886.25"],
-        "lens_name": "Tokina AT-X 80-400mm f/4.5-5.6"
+        "lens_name": "Tokina AT-X 80-400mm f/4.5-5.6",
+        "uuid": "38ebbd9f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -970,7 +1050,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tokina",
         "msrp": ["500.00 ", "1,084.03"],
-        "lens_name": "Tokina AT-X Pro 11-16mm f/2.8 DX"
+        "lens_name": "Tokina AT-X Pro 11-16mm f/2.8 DX",
+        "uuid": "38ebbda0-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -982,7 +1063,8 @@ const jawn = [{
         "year_released": ["Mar 23, 2009"],
         "lens_brand": "Tokina",
         "msrp": ["439.08 ", "533.97"],
-        "lens_name": "Tokina AT-X 16.5-135mm f/3.5-5.6 DX"
+        "lens_name": "Tokina AT-X 16.5-135mm f/3.5-5.6 DX",
+        "uuid": "38ebbda1-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -994,7 +1076,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tokina",
         "msrp": ["568.99"],
-        "lens_name": "Tokina AT-X 16-28mm f/2.8 Pro FX"
+        "lens_name": "Tokina AT-X 16-28mm f/2.8 Pro FX",
+        "uuid": "38ebbda2-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Zoom lens",
@@ -1006,7 +1089,8 @@ const jawn = [{
         "year_released": ["Dec 28, 2015"],
         "lens_brand": "Tokina",
         "msrp": ["589.00"],
-        "lens_name": "Tokina AT-X 14-20mm F2 Pro DX"
+        "lens_name": "Tokina AT-X 14-20mm F2 Pro DX",
+        "uuid": "38ebbda3-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -1018,7 +1102,8 @@ const jawn = [{
         "year_released": ["Mar 27, 2013"],
         "lens_brand": "Tokina",
         "msrp": ["342.49 ", "399.00"],
-        "lens_name": "Tokina AT-X 12-28mm f/4 Pro DX"
+        "lens_name": "Tokina AT-X 12-28mm f/4 Pro DX",
+        "uuid": "38ebbda4-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -1030,7 +1115,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tokina",
         "msrp": ["569.99 ", "938.98"],
-        "lens_name": "Tokina AF-X Pro 16-50mm f/2.8 DX"
+        "lens_name": "Tokina AF-X Pro 16-50mm f/2.8 DX",
+        "uuid": "38ebbda5-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -1042,7 +1128,8 @@ const jawn = [{
         "year_released": ["Sep 12, 2011"],
         "lens_brand": "Tokina",
         "msrp": ["409.00"],
-        "lens_name": "Tokina AT-X 17-35mm f/4 Pro FX"
+        "lens_name": "Tokina AT-X 17-35mm f/4 Pro FX",
+        "uuid": "38ebbda6-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -1054,7 +1141,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["739.00"],
-        "lens_name": "Tamron SP AF 180mm F/3.5 Di LD (IF) Macro"
+        "lens_name": "Tamron SP AF 180mm F/3.5 Di LD (IF) Macro",
+        "uuid": "38ebbda7-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F5–6.3",
         "lens_type": "Zoom lens",
@@ -1066,7 +1154,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["1,399.00"],
-        "lens_name": "Tamron SP AF 200-500mm F/5-6.3 Di LD (IF)"
+        "lens_name": "Tamron SP AF 200-500mm F/5-6.3 Di LD (IF)",
+        "uuid": "38ebbda8-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–4.5",
         "lens_type": "Zoom lens",
@@ -1078,7 +1167,8 @@ const jawn = [{
         "year_released": ["Jun 12, 2011"],
         "lens_brand": "Tokina",
         "msrp": ["528.29 ", "805.31"],
-        "lens_name": "Tokina AT-X 10-17mm f/3.5-4.5 DX Fish-eye"
+        "lens_name": "Tokina AT-X 10-17mm f/3.5-4.5 DX Fish-eye",
+        "uuid": "38ebbda9-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -1090,7 +1180,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["578.00 ", "847.00"],
-        "lens_name": "Tamron SP AF 70-200mm F/2.8 Di LD (IF) MACRO"
+        "lens_name": "Tamron SP AF 70-200mm F/2.8 Di LD (IF) MACRO",
+        "uuid": "38ebbdaa-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -1102,7 +1193,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["299.00"],
-        "lens_name": "Tamron SP AF 17-50mm F/2.8 XR Di II LD Aspherical (IF)"
+        "lens_name": "Tamron SP AF 17-50mm F/2.8 XR Di II LD Aspherical (IF)",
+        "uuid": "38ebbdab-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8–4",
         "lens_type": "Zoom lens",
@@ -1114,7 +1206,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": [],
-        "lens_name": "Tamron SP AF 17-35mm F/2.8-4 Di LD Aspherical (IF)"
+        "lens_name": "Tamron SP AF 17-35mm F/2.8-4 Di LD Aspherical (IF)",
+        "uuid": "38ebbdac-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -1126,7 +1219,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["326.80"],
-        "lens_name": "Tamron SP AF 17-50mm F/2.8 XR Di II VC LD Aspherical (IF)"
+        "lens_name": "Tamron SP AF 17-50mm F/2.8 XR Di II VC LD Aspherical (IF)",
+        "uuid": "38ebbdad-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -1138,7 +1232,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["275.06 ", "499.00"],
-        "lens_name": "Tamron SP AF 90mm F/2.8 Di Macro"
+        "lens_name": "Tamron SP AF 90mm F/2.8 Di Macro",
+        "uuid": "38ebbdae-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -1150,7 +1245,8 @@ const jawn = [{
         "year_released": ["Mar 24, 2009"],
         "lens_brand": "Tamron",
         "msrp": ["499.00 ", "524.00"],
-        "lens_name": "Tamron SP AF 60mm F/2 Di II LD IF Macro"
+        "lens_name": "Tamron SP AF 60mm F/2 Di II LD IF Macro",
+        "uuid": "38ebbdaf-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–4.5",
         "lens_type": "Zoom lens",
@@ -1162,7 +1258,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["429.00 ", "499.00"],
-        "lens_name": "Tamron SP AF 10-24mm F/3.5-4.5 Di II LD Aspherical (IF)"
+        "lens_name": "Tamron SP AF 10-24mm F/3.5-4.5 Di II LD Aspherical (IF)",
+        "uuid": "38ebbdb0-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F5–6.3",
         "lens_type": "Zoom lens",
@@ -1174,7 +1271,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": [],
-        "lens_name": "Tamron SP 150-600mm F5-6.3 Di VC USD G2"
+        "lens_name": "Tamron SP 150-600mm F5-6.3 Di VC USD G2",
+        "uuid": "38ebbdb1-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -1186,7 +1284,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": [],
-        "lens_name": "Tamron SP AF 11-18mm F/4.5-5.6 Di II LD Aspherical (IF)"
+        "lens_name": "Tamron SP AF 11-18mm F/4.5-5.6 Di II LD Aspherical (IF)",
+        "uuid": "38ebbdb2-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F5–6.3",
         "lens_type": "Zoom lens",
@@ -1198,7 +1297,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["656.15 ", "905.91"],
-        "lens_name": "Tamron SP 150-600mm F/5-6.3 Di VC USD"
+        "lens_name": "Tamron SP 150-600mm F/5-6.3 Di VC USD",
+        "uuid": "38ebbdb3-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -1210,7 +1310,8 @@ const jawn = [{
         "year_released": ["Sep 13, 2012"],
         "lens_brand": "Tamron",
         "msrp": ["275.39 ", "718.49"],
-        "lens_name": "Tamron SP 90mm F2.8 Di VC USD 1:1 Macro (F004)"
+        "lens_name": "Tamron SP 90mm F2.8 Di VC USD 1:1 Macro (F004)",
+        "uuid": "38ebbdb4-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -1222,7 +1323,8 @@ const jawn = [{
         "year_released": ["Aug 10, 2010"],
         "lens_brand": "Tamron",
         "msrp": ["307.49 ", "449.00"],
-        "lens_name": "Tamron SP 70-300mm F/4-5.6 Di VC USD"
+        "lens_name": "Tamron SP 70-300mm F/4-5.6 Di VC USD",
+        "uuid": "38ebbdb5-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -1234,7 +1336,8 @@ const jawn = [{
         "year_released": ["Feb 22, 2016"],
         "lens_brand": "Tamron",
         "msrp": ["649.00 ", "706.03"],
-        "lens_name": "Tamron SP 90mm F2.8 Di VC USD 1:1 Macro"
+        "lens_name": "Tamron SP 90mm F2.8 Di VC USD 1:1 Macro",
+        "uuid": "38ebbdb6-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -1246,7 +1349,8 @@ const jawn = [{
         "year_released": ["Aug 10, 2010"],
         "lens_brand": "Tamron",
         "msrp": ["449.00"],
-        "lens_name": "Tamron SP 70-300mm F/4-5.6 Di USD"
+        "lens_name": "Tamron SP 70-300mm F/4-5.6 Di USD",
+        "uuid": "38ebbdb7-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -1258,7 +1362,8 @@ const jawn = [{
         "year_released": ["Feb 22, 2016"],
         "lens_brand": "Tamron",
         "msrp": ["749.00"],
-        "lens_name": "Tamron SP 85mm F1.8 Di VC USD"
+        "lens_name": "Tamron SP 85mm F1.8 Di VC USD",
+        "uuid": "38ebbdb8-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -1270,7 +1375,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["399.00 ", "549.74"],
-        "lens_name": "Tamron SP 45mm F1.8 Di VC USD"
+        "lens_name": "Tamron SP 45mm F1.8 Di VC USD",
+        "uuid": "38ebbdb9-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -1282,7 +1388,8 @@ const jawn = [{
         "year_released": ["Sep 13, 2012"],
         "lens_brand": "Tamron",
         "msrp": ["1,399.00"],
-        "lens_name": "Tamron SP 70-200mm F/2.8 Di VC USD"
+        "lens_name": "Tamron SP 70-200mm F/2.8 Di VC USD",
+        "uuid": "38ebbdba-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -1294,7 +1401,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["599.00"],
-        "lens_name": "Tamron SP 35mm F1.8 Di VC USD"
+        "lens_name": "Tamron SP 35mm F1.8 Di VC USD",
+        "uuid": "38ebbdbb-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8–22",
         "lens_type": "Zoom lens",
@@ -1306,7 +1414,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": [],
-        "lens_name": "Tamron SP 70-200mm F2.8 Di VC USD G2"
+        "lens_name": "Tamron SP 70-200mm F2.8 Di VC USD G2",
+        "uuid": "38ebbdbc-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -1318,7 +1427,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": [],
-        "lens_name": "Tamron SP 24-70mm F2.8 Di VC USD G2"
+        "lens_name": "Tamron SP 24-70mm F2.8 Di VC USD G2",
+        "uuid": "38ebbdbd-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Canon EF, Nikon F (FX)",
@@ -1327,7 +1437,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["169.99 ", "199.95"],
-        "lens_name": "Tamron SP 1.4X Pro Teleconverter"
+        "lens_name": "Tamron SP 1.4X Pro Teleconverter",
+        "uuid": "38ebbdbe-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Canon EF, Nikon F (FX)",
@@ -1336,7 +1447,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["236.00 ", "332.82"],
-        "lens_name": "Tamron SP 2X Pro Teleconverter"
+        "lens_name": "Tamron SP 2X Pro Teleconverter",
+        "uuid": "38ebbdbf-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -1348,7 +1460,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["142.66 ", "206.95"],
-        "lens_name": "Tamron AF 70-300mm F/4-5.6 Di LD Macro"
+        "lens_name": "Tamron AF 70-300mm F/4-5.6 Di LD Macro",
+        "uuid": "38ebbdc0-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -1360,7 +1473,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["99.95 ", "158.04"],
-        "lens_name": "Tamron AF 55-200mm F/4-5.6 Di II LD Macro"
+        "lens_name": "Tamron AF 55-200mm F/4-5.6 Di II LD Macro",
+        "uuid": "38ebbdc1-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -1372,7 +1486,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["675.99 ", "1,250.91"],
-        "lens_name": "Tamron SP 24-70mm F2.8 Di VC USD"
+        "lens_name": "Tamron SP 24-70mm F2.8 Di VC USD",
+        "uuid": "38ebbdc2-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -1384,7 +1499,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": [],
-        "lens_name": "Tamron AF 28-300mm F/3.5-6.3 XR Di VC LD Aspherical (IF) Macro"
+        "lens_name": "Tamron AF 28-300mm F/3.5-6.3 XR Di VC LD Aspherical (IF) Macro",
+        "uuid": "38ebbdc3-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -1396,7 +1512,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["499.99"],
-        "lens_name": "Tamron AF 28-300mm F/3.5-6.3 XR Di LD Aspherical (IF) Macro"
+        "lens_name": "Tamron AF 28-300mm F/3.5-6.3 XR Di LD Aspherical (IF) Macro",
+        "uuid": "38ebbdc4-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -1408,7 +1525,8 @@ const jawn = [{
         "year_released": ["Sep 12, 2014"],
         "lens_brand": "Tamron",
         "msrp": ["864.86 ", "889.99"],
-        "lens_name": "Tamron SP 15-30mm F/2.8 Di VC USD"
+        "lens_name": "Tamron SP 15-30mm F/2.8 Di VC USD",
+        "uuid": "38ebbdc5-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.8–5.6",
         "lens_type": "Zoom lens",
@@ -1420,7 +1538,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": [],
-        "lens_name": "Tamron AF 28-200mm F/3.8-5.6 XR Di Aspherical (IF) Macro"
+        "lens_name": "Tamron AF 28-200mm F/3.8-5.6 XR Di Aspherical (IF) Macro",
+        "uuid": "38ebbdc6-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -1432,7 +1551,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["79.99"],
-        "lens_name": "Tamron AF 28-80mm F/3.5-5.6 Aspherical"
+        "lens_name": "Tamron AF 28-80mm F/3.5-5.6 Aspherical",
+        "uuid": "38ebbdc7-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -1444,7 +1564,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["287.10 ", "499.00"],
-        "lens_name": "Tamron AF 28-75mm F/2.8 XR Di LD Aspherical (IF)"
+        "lens_name": "Tamron AF 28-75mm F/2.8 XR Di LD Aspherical (IF)",
+        "uuid": "38ebbdc8-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -1456,7 +1577,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["169.99 ", "350.99"],
-        "lens_name": "Tamron AF 18-200mm F/3.5-6.3 XR Di II LD Aspherical (IF) Macro"
+        "lens_name": "Tamron AF 18-200mm F/3.5-6.3 XR Di II LD Aspherical (IF) Macro",
+        "uuid": "38ebbdc9-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.6–6.3",
         "lens_type": "Zoom lens",
@@ -1468,7 +1590,8 @@ const jawn = [{
         "year_released": ["Jul 30, 2008"],
         "lens_brand": "Tamron",
         "msrp": ["389.00"],
-        "lens_name": "Tamron AF 18-270mm F/3.5-6.3 Di II VC LD Aspherical (IF) MACRO"
+        "lens_name": "Tamron AF 18-270mm F/3.5-6.3 Di II VC LD Aspherical (IF) MACRO",
+        "uuid": "38ebbdca-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -1480,7 +1603,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["515.00 ", "849.00"],
-        "lens_name": "Tamron 18-270mm F3.5-6.3 Di II PZD"
+        "lens_name": "Tamron 18-270mm F3.5-6.3 Di II PZD",
+        "uuid": "38ebbdcb-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–6.3",
         "lens_type": "Zoom lens",
@@ -1492,7 +1616,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": [],
-        "lens_name": "Tamron 100-400mm F4.5-6.3 Di VC USD"
+        "lens_name": "Tamron 100-400mm F4.5-6.3 Di VC USD",
+        "uuid": "38ebbdcc-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -1504,7 +1629,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": [],
-        "lens_name": "Tamron 18-400mm F3.5-6.3 Di II VC HLD"
+        "lens_name": "Tamron 18-400mm F3.5-6.3 Di II VC HLD",
+        "uuid": "38ebbdcd-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -1516,7 +1642,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["555.00 ", "590.84"],
-        "lens_name": "Tamron 28-300mm F/3.5-6.3 Di VC PZD"
+        "lens_name": "Tamron 28-300mm F/3.5-6.3 Di VC PZD",
+        "uuid": "38ebbdce-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -1528,7 +1655,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["399.99"],
-        "lens_name": "Tamron AF 18-250mm F/3.5-6.3 Di II LD Aspherical (IF) Macro"
+        "lens_name": "Tamron AF 18-250mm F/3.5-6.3 Di II LD Aspherical (IF) Macro",
+        "uuid": "38ebbdcf-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -1540,7 +1668,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["199.00"],
-        "lens_name": "Tamron 18-200mm F3.5-6.3 Di II VC"
+        "lens_name": "Tamron 18-200mm F3.5-6.3 Di II VC",
+        "uuid": "38ebbdd0-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -1552,7 +1681,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["499.00 ", "580.11"],
-        "lens_name": "Tamron 18-200mm F/3.5-6.3 Di III VC"
+        "lens_name": "Tamron 18-200mm F/3.5-6.3 Di III VC",
+        "uuid": "38ebbdd1-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -1564,7 +1694,8 @@ const jawn = [{
         "year_released": ["Sep 15, 2014"],
         "lens_brand": "Sony",
         "msrp": ["1,050.00"],
-        "lens_name": "Sony Vario-Tessar T* FE 16-35mm F4 ZA OSS"
+        "lens_name": "Sony Vario-Tessar T* FE 16-35mm F4 ZA OSS",
+        "uuid": "38ebbdd2-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.8",
         "lens_type": "Zoom lens",
@@ -1576,7 +1707,8 @@ const jawn = [{
         "year_released": ["Jun 19, 2014"],
         "lens_brand": "Tamron",
         "msrp": ["399.00 ", "479.57"],
-        "lens_name": "Tamron 14-150mm F/3.5-5.8 Di III"
+        "lens_name": "Tamron 14-150mm F/3.5-5.8 Di III",
+        "uuid": "38ebbdd3-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–22",
         "lens_type": "Zoom lens",
@@ -1588,7 +1720,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": [],
-        "lens_name": "Tamron 10-24mm F3.5-4.5 Di II VC HLD"
+        "lens_name": "Tamron 10-24mm F3.5-4.5 Di II VC HLD",
+        "uuid": "38ebbdd4-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -1600,7 +1733,8 @@ const jawn = [{
         "year_released": ["Aug 27, 2013"],
         "lens_brand": "Sony",
         "msrp": ["998.00"],
-        "lens_name": "Sony Vario-Tessar T* E 16-70mm F4 ZA OSS"
+        "lens_name": "Sony Vario-Tessar T* E 16-70mm F4 ZA OSS",
+        "uuid": "38ebbdd5-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -1612,7 +1746,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["434.62 ", "499.00"],
-        "lens_name": "Tamron 16-300mm F/3.5-6.3 Di II VC PZD Macro"
+        "lens_name": "Tamron 16-300mm F/3.5-6.3 Di II VC PZD Macro",
+        "uuid": "38ebbdd6-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -1624,7 +1759,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Tamron",
         "msrp": ["295.09 ", "405.88"],
-        "lens_name": "Tamron 18-270mm F/3.5-6.3 Di II VC PZD"
+        "lens_name": "Tamron 18-270mm F/3.5-6.3 Di II VC PZD",
+        "uuid": "38ebbdd7-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -1636,7 +1772,8 @@ const jawn = [{
         "year_released": ["Jul 11, 2016"],
         "lens_brand": "Sony",
         "msrp": ["1,498.00"],
-        "lens_name": "Sony Planar T* FE 50mm F1.4 ZA"
+        "lens_name": "Sony Planar T* FE 50mm F1.4 ZA",
+        "uuid": "38ebbdd8-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -1648,7 +1785,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["2,498.00"],
-        "lens_name": "Sony FE 100-400mm F4.5-5.6 GM OSS"
+        "lens_name": "Sony FE 100-400mm F4.5-5.6 GM OSS",
+        "uuid": "38ebbdd9-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -1660,7 +1798,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["1,042.39 ", "1,148.00"],
-        "lens_name": "Sony FE 90mm F2.8 Macro G OSS"
+        "lens_name": "Sony FE 90mm F2.8 Macro G OSS",
+        "uuid": "38ebbdda-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -1672,7 +1811,8 @@ const jawn = [{
         "year_released": ["Oct 16, 2013"],
         "lens_brand": "Sony",
         "msrp": ["1,216.99 ", "1,548.00"],
-        "lens_name": "Sony FE 70-200mm F4 G OSS"
+        "lens_name": "Sony FE 70-200mm F4 G OSS",
+        "uuid": "38ebbddb-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -1684,7 +1824,8 @@ const jawn = [{
         "year_released": ["Sep 12, 2014"],
         "lens_brand": "Sony",
         "msrp": ["2,498.00 ", "2,698.00"],
-        "lens_name": "Sony FE PZ 28-135mm F4 G OSS"
+        "lens_name": "Sony FE PZ 28-135mm F4 G OSS",
+        "uuid": "38ebbddc-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -1696,7 +1837,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["1,498.00"],
-        "lens_name": "Sony FE 100mm F2.8 STF GM OSS"
+        "lens_name": "Sony FE 100mm F2.8 STF GM OSS",
+        "uuid": "38ebbddd-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -1708,7 +1850,8 @@ const jawn = [{
         "year_released": ["Mar 29, 2016"],
         "lens_brand": "Sony",
         "msrp": ["1,196.00 ", "1,198.00"],
-        "lens_name": "Sony FE 70-300mm F4.5-5.6 G OSS"
+        "lens_name": "Sony FE 70-300mm F4.5-5.6 G OSS",
+        "uuid": "38ebbdde-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -1720,7 +1863,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["1,798.00"],
-        "lens_name": "Sony FE 85mm F1.4 GM"
+        "lens_name": "Sony FE 85mm F1.4 GM",
+        "uuid": "38ebbddf-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -1732,7 +1876,8 @@ const jawn = [{
         "year_released": ["Aug 30, 2016"],
         "lens_brand": "Sony",
         "msrp": ["498.00"],
-        "lens_name": "Sony FE 50mm F2.8 Macro"
+        "lens_name": "Sony FE 50mm F2.8 Macro",
+        "uuid": "38ebbde0-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -1744,7 +1889,8 @@ const jawn = [{
         "year_released": ["Mar 29, 2016"],
         "lens_brand": "Sony",
         "msrp": ["248.00"],
-        "lens_name": "Sony FE 50mm F1.8"
+        "lens_name": "Sony FE 50mm F1.8",
+        "uuid": "38ebbde1-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -1756,7 +1902,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": [],
-        "lens_name": "Sony FE 28mm F2"
+        "lens_name": "Sony FE 28mm F2",
+        "uuid": "38ebbde2-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -1768,7 +1915,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["2,598.00 ", "3,496.00"],
-        "lens_name": "Sony FE 70-200mm F2.8 GM OSS"
+        "lens_name": "Sony FE 70-200mm F2.8 GM OSS",
+        "uuid": "38ebbde3-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -1780,7 +1928,8 @@ const jawn = [{
         "year_released": ["Oct 16, 2013"],
         "lens_brand": "Sony",
         "msrp": [],
-        "lens_name": "Sony FE 35mm F2.8 ZA Carl Zeiss Sonnar T*"
+        "lens_name": "Sony FE 35mm F2.8 ZA Carl Zeiss Sonnar T*",
+        "uuid": "38ebbde4-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -1792,7 +1941,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["998.00"],
-        "lens_name": "Sony FE 24-240mm F3.5-6.3 OSS"
+        "lens_name": "Sony FE 24-240mm F3.5-6.3 OSS",
+        "uuid": "38ebbde5-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -1804,7 +1954,8 @@ const jawn = [{
         "year_released": ["Oct 16, 2013"],
         "lens_brand": "Sony",
         "msrp": ["259.99"],
-        "lens_name": "Sony FE 28-70mm F3.5-5.6 OSS"
+        "lens_name": "Sony FE 28-70mm F3.5-5.6 OSS",
+        "uuid": "38ebbde6-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -1816,7 +1967,8 @@ const jawn = [{
         "year_released": ["Oct 16, 2013"],
         "lens_brand": "Sony",
         "msrp": ["768.00"],
-        "lens_name": "Sony FE 55mm F1.8 ZA Carl Zeiss Sonnar T*"
+        "lens_name": "Sony FE 55mm F1.8 ZA Carl Zeiss Sonnar T*",
+        "uuid": "38ebbde7-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -1828,7 +1980,8 @@ const jawn = [{
         "year_released": ["Sep 12, 2012"],
         "lens_brand": "Sony",
         "msrp": ["898.00"],
-        "lens_name": "Sony E PZ 18-200mm F3.5-6.3 OSS"
+        "lens_name": "Sony E PZ 18-200mm F3.5-6.3 OSS",
+        "uuid": "38ebbde8-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -1840,7 +1993,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": [],
-        "lens_name": "Sony FE 24-105mm F4 G OSS"
+        "lens_name": "Sony FE 24-105mm F4 G OSS",
+        "uuid": "38ebbde9-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -1852,7 +2006,8 @@ const jawn = [{
         "year_released": ["Aug 27, 2013"],
         "lens_brand": "Sony",
         "msrp": ["559.00"],
-        "lens_name": "Sony E PZ 18-105mm F4 G OSS"
+        "lens_name": "Sony E PZ 18-105mm F4 G OSS",
+        "uuid": "38ebbdea-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8–22",
         "lens_type": "Zoom lens",
@@ -1864,7 +2019,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["2,198.00"],
-        "lens_name": "Sony FE 16-35mm F2.8 GM"
+        "lens_name": "Sony FE 16-35mm F2.8 GM",
+        "uuid": "38ebbdeb-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -1876,7 +2032,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["2,198.00"],
-        "lens_name": "Sony FE 24-70mm F2.8 GM"
+        "lens_name": "Sony FE 24-70mm F2.8 GM",
+        "uuid": "38ebbdec-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–22",
         "lens_type": "Zoom lens",
@@ -1888,7 +2045,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["1,698.00"],
-        "lens_name": "Sony FE 12-24mm F4 G"
+        "lens_name": "Sony FE 12-24mm F4 G",
+        "uuid": "38ebbded-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -1900,7 +2058,8 @@ const jawn = [{
         "year_released": ["Oct 16, 2013"],
         "lens_brand": "Sony",
         "msrp": ["869.99 ", "1,196.00"],
-        "lens_name": "Sony FE 24-70mm F4 ZA OSS Carl Zeiss Vario Tessar T*"
+        "lens_name": "Sony FE 24-70mm F4 ZA OSS Carl Zeiss Vario Tessar T*",
+        "uuid": "38ebbdee-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -1912,7 +2071,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["218.01 ", "278.00"],
-        "lens_name": "Sony E 30mm F3.5 Macro"
+        "lens_name": "Sony E 30mm F3.5 Macro",
+        "uuid": "38ebbdef-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -1924,7 +2084,8 @@ const jawn = [{
         "year_released": ["Jan 23, 2013"],
         "lens_brand": "Sony",
         "msrp": ["348.00"],
-        "lens_name": "Sony E 20mm F2.8"
+        "lens_name": "Sony E 20mm F2.8",
+        "uuid": "38ebbdf0-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -1936,7 +2097,8 @@ const jawn = [{
         "year_released": ["Sep 12, 2012"],
         "lens_brand": "Sony",
         "msrp": ["409.00"],
-        "lens_name": "Sony E 35mm F1.8 OSS"
+        "lens_name": "Sony E 35mm F1.8 OSS",
+        "uuid": "38ebbdf1-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -1948,7 +2110,8 @@ const jawn = [{
         "year_released": ["May 17, 2012"],
         "lens_brand": "Sony",
         "msrp": ["650.41 ", "1,086.88"],
-        "lens_name": "Sony E 18-200mm F3.5-6.3 OSS LE"
+        "lens_name": "Sony E 18-200mm F3.5-6.3 OSS LE",
+        "uuid": "38ebbdf2-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -1960,7 +2123,8 @@ const jawn = [{
         "year_released": ["Aug 24, 2011"],
         "lens_brand": "Sony",
         "msrp": ["264.64"],
-        "lens_name": "Sony E 50mm F1.8 OSS"
+        "lens_name": "Sony E 50mm F1.8 OSS",
+        "uuid": "38ebbdf3-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -1972,7 +2136,8 @@ const jawn = [{
         "year_released": ["May 11, 2010"],
         "lens_brand": "Sony",
         "msrp": ["740.00"],
-        "lens_name": "Sony E 18-200mm F3.5-6.3 OSS"
+        "lens_name": "Sony E 18-200mm F3.5-6.3 OSS",
+        "uuid": "38ebbdf4-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -1984,7 +2149,8 @@ const jawn = [{
         "year_released": ["May 11, 2010"],
         "lens_brand": "Sony",
         "msrp": ["149.99 ", "274.37"],
-        "lens_name": "Sony E 18-55mm F3.5-5.6 OSS"
+        "lens_name": "Sony E 18-55mm F3.5-5.6 OSS",
+        "uuid": "38ebbdf5-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–6.3",
         "lens_type": "Zoom lens",
@@ -1996,7 +2162,8 @@ const jawn = [{
         "year_released": ["Aug 24, 2011"],
         "lens_brand": "Sony",
         "msrp": ["206.95 ", "348.00"],
-        "lens_name": "Sony E 55-210mm F4.5-6.3 OSS"
+        "lens_name": "Sony E 55-210mm F4.5-6.3 OSS",
+        "uuid": "38ebbdf6-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -2008,7 +2175,8 @@ const jawn = [{
         "year_released": ["Jul 25, 2012"],
         "lens_brand": "Sony",
         "msrp": ["298.00 ", "561.28"],
-        "lens_name": "Sony DT 55-300mm F4.5-5.6 SAM"
+        "lens_name": "Sony DT 55-300mm F4.5-5.6 SAM",
+        "uuid": "38ebbdf7-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -2020,7 +2188,8 @@ const jawn = [{
         "year_released": ["Sep 12, 2012"],
         "lens_brand": "Sony",
         "msrp": ["174.95 ", "948.00"],
-        "lens_name": "Sony E 16-50mm F3.5-5.6 PZ OSS"
+        "lens_name": "Sony E 16-50mm F3.5-5.6 PZ OSS",
+        "uuid": "38ebbdf8-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -2032,7 +2201,8 @@ const jawn = [{
         "year_released": ["May 18, 2009"],
         "lens_brand": "Sony",
         "msrp": ["168.00"],
-        "lens_name": "Sony DT 50mm F1.8 SAM"
+        "lens_name": "Sony DT 50mm F1.8 SAM",
+        "uuid": "38ebbdf9-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -2044,7 +2214,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["1,399.99 ", "1,698.00"],
-        "lens_name": "Sony Distagon T* FE 35mm F1.4 ZA"
+        "lens_name": "Sony Distagon T* FE 35mm F1.4 ZA",
+        "uuid": "38ebbdfa-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -2056,7 +2227,8 @@ const jawn = [{
         "year_released": ["May 11, 2010"],
         "lens_brand": "Sony",
         "msrp": ["231.37 ", "248.00"],
-        "lens_name": "Sony E 16mm F2.8 Pancake"
+        "lens_name": "Sony E 16mm F2.8 Pancake",
+        "uuid": "38ebbdfb-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -2068,7 +2240,8 @@ const jawn = [{
         "year_released": ["Jul 27, 2010"],
         "lens_brand": "Sony",
         "msrp": ["172.20 ", "305.20"],
-        "lens_name": "Sony DT 35mm F1.8 SAM"
+        "lens_name": "Sony DT 35mm F1.8 SAM",
+        "uuid": "38ebbdfc-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -2080,7 +2253,8 @@ const jawn = [{
         "year_released": ["May 18, 2009"],
         "lens_brand": "Sony",
         "msrp": ["172.02 ", "273.92"],
-        "lens_name": "Sony DT 30mm F2.8 Macro SAM"
+        "lens_name": "Sony DT 30mm F2.8 Macro SAM",
+        "uuid": "38ebbdfd-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -2092,7 +2266,8 @@ const jawn = [{
         "year_released": ["Sep 12, 2012"],
         "lens_brand": "Sony",
         "msrp": ["848.00"],
-        "lens_name": "Sony E 10-18mm F4 OSS"
+        "lens_name": "Sony E 10-18mm F4 OSS",
+        "uuid": "38ebbdfe-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -2104,7 +2279,8 @@ const jawn = [{
         "year_released": ["May 18, 2009"],
         "lens_brand": "Sony",
         "msrp": ["169.29 ", "198.00"],
-        "lens_name": "Sony DT 55-200mm F4-5.6 SAM"
+        "lens_name": "Sony DT 55-200mm F4-5.6 SAM",
+        "uuid": "38ebbdff-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -2116,7 +2292,8 @@ const jawn = [{
         "year_released": ["Jun 15, 2006"],
         "lens_brand": "Sony",
         "msrp": ["297.00 ", "449.99"],
-        "lens_name": "Sony DT 18-200mm F3.5-6.3"
+        "lens_name": "Sony DT 18-200mm F3.5-6.3",
+        "uuid": "38ebbe00-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -2128,7 +2305,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["434.00"],
-        "lens_name": "Sony DT 18-250mm F3.5-6.3"
+        "lens_name": "Sony DT 18-250mm F3.5-6.3",
+        "uuid": "38ebbe01-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -2140,7 +2318,8 @@ const jawn = [{
         "year_released": ["Jun 15, 2006"],
         "lens_brand": "Sony",
         "msrp": ["196.83"],
-        "lens_name": "Sony DT 18-70mm F3.5-5.6"
+        "lens_name": "Sony DT 18-70mm F3.5-5.6",
+        "uuid": "38ebbe02-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -2152,7 +2331,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["695.59 ", "698.00"],
-        "lens_name": "Sony DT 16-105mm F3.5-5.6"
+        "lens_name": "Sony DT 16-105mm F3.5-5.6",
+        "uuid": "38ebbe03-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -2164,7 +2344,8 @@ const jawn = [{
         "year_released": ["Jun 17, 2012"],
         "lens_brand": "Sony",
         "msrp": ["368.58 ", "498.00"],
-        "lens_name": "Sony DT 18-135mm F3.5-5.6 SAM"
+        "lens_name": "Sony DT 18-135mm F3.5-5.6 SAM",
+        "uuid": "38ebbe04-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -2176,7 +2357,8 @@ const jawn = [{
         "year_released": ["Jun 15, 2006"],
         "lens_brand": "Sony",
         "msrp": ["798.00"],
-        "lens_name": "Sony DT 11-18mm F4.5-5.6"
+        "lens_name": "Sony DT 11-18mm F4.5-5.6",
+        "uuid": "38ebbe05-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -2188,7 +2370,8 @@ const jawn = [{
         "year_released": ["Feb 20, 2013"],
         "lens_brand": "Sony",
         "msrp": ["218.00 ", "227.07"],
-        "lens_name": "Sony DT 18-55mm F3.5-5.6 SAM II"
+        "lens_name": "Sony DT 18-55mm F3.5-5.6 SAM II",
+        "uuid": "38ebbe06-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–4.5",
         "lens_type": "Zoom lens",
@@ -2200,7 +2383,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["929.49 ", "998.00"],
-        "lens_name": "Sony DT 16-80mm F3.5-4.5 ZA Carl Zeiss Vario-Sonnar T*"
+        "lens_name": "Sony DT 16-80mm F3.5-4.5 ZA Carl Zeiss Vario-Sonnar T*",
+        "uuid": "38ebbe07-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -2212,7 +2396,8 @@ const jawn = [{
         "year_released": ["May 18, 2009"],
         "lens_brand": "Sony",
         "msrp": ["173.39 ", "225.99"],
-        "lens_name": "Sony DT 18-55mm F3.5-5.6 SAM"
+        "lens_name": "Sony DT 18-55mm F3.5-5.6 SAM",
+        "uuid": "38ebbe08-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -2224,7 +2409,8 @@ const jawn = [{
         "year_released": ["Aug 24, 2011"],
         "lens_brand": "Sony",
         "msrp": ["819.98 ", "1,098.00"],
-        "lens_name": "Sony Carl Zeiss Sonnar T* E 24mm F1.8 ZA"
+        "lens_name": "Sony Carl Zeiss Sonnar T* E 24mm F1.8 ZA",
+        "uuid": "38ebbe09-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -2236,7 +2422,8 @@ const jawn = [{
         "year_released": ["Sep 12, 2012"],
         "lens_brand": "Sony",
         "msrp": ["7,498.00"],
-        "lens_name": "Sony 300mm F2.8 G SSM II"
+        "lens_name": "Sony 300mm F2.8 G SSM II",
+        "uuid": "38ebbe0a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -2248,7 +2435,8 @@ const jawn = [{
         "year_released": ["Feb 20, 2013"],
         "lens_brand": "Sony",
         "msrp": ["1,200.00 ", "2,055.50"],
-        "lens_name": "Sony Carl Zeiss Planar T* 50mm F1.4 ZA SSM"
+        "lens_name": "Sony Carl Zeiss Planar T* 50mm F1.4 ZA SSM",
+        "uuid": "38ebbe0b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -2260,7 +2448,8 @@ const jawn = [{
         "year_released": ["Aug 24, 2011"],
         "lens_brand": "Sony",
         "msrp": ["597.99 ", "798.00"],
-        "lens_name": "Sony DT 16-50mm F2.8 SSM"
+        "lens_name": "Sony DT 16-50mm F2.8 SSM",
+        "uuid": "38ebbe0c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -2272,7 +2461,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["6,998.00"],
-        "lens_name": "Sony 300mm F2.8 G"
+        "lens_name": "Sony 300mm F2.8 G",
+        "uuid": "38ebbe0d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -2284,7 +2474,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["799.00 ", "1,398.00"],
-        "lens_name": "Sony 135mm F2.8 (T4.5) STF"
+        "lens_name": "Sony 135mm F2.8 (T4.5) STF",
+        "uuid": "38ebbe0e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -2296,7 +2487,8 @@ const jawn = [{
         "year_released": ["Jul 27, 2010"],
         "lens_brand": "Sony",
         "msrp": ["218.80 ", "298.00"],
-        "lens_name": "Sony 85mm F2.8 SAM"
+        "lens_name": "Sony 85mm F2.8 SAM",
+        "uuid": "38ebbe0f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -2308,7 +2500,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["12,835.98 ", "12,998.00"],
-        "lens_name": "Sony 500mm F4 G SSM"
+        "lens_name": "Sony 500mm F4 G SSM",
+        "uuid": "38ebbe10-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F8",
         "lens_type": "Prime lens",
@@ -2320,7 +2513,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": [],
-        "lens_name": "Sony 500mm F8 Reflex"
+        "lens_name": "Sony 500mm F8 Reflex",
+        "uuid": "38ebbe11-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -2332,7 +2526,8 @@ const jawn = [{
         "year_released": ["Jun 15, 2006"],
         "lens_brand": "Sony",
         "msrp": ["251.40 ", "269.99"],
-        "lens_name": "Sony 75-300mm F4.5-5.6"
+        "lens_name": "Sony 75-300mm F4.5-5.6",
+        "uuid": "38ebbe12-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -2344,7 +2539,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["599.06 ", "798.00"],
-        "lens_name": "Sony 100mm F2.8 Macro"
+        "lens_name": "Sony 100mm F2.8 Macro",
+        "uuid": "38ebbe13-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -2356,7 +2552,8 @@ const jawn = [{
         "year_released": ["Feb 20, 2013"],
         "lens_brand": "Sony",
         "msrp": ["2,198.00"],
-        "lens_name": "Sony 70-400mm F4-5.6 G SSM II"
+        "lens_name": "Sony 70-400mm F4-5.6 G SSM II",
+        "uuid": "38ebbe14-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -2368,7 +2565,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["1,798.00"],
-        "lens_name": "Sony 135mm F1.8 ZA Carl Zeiss Sonnar T*"
+        "lens_name": "Sony 135mm F1.8 ZA Carl Zeiss Sonnar T*",
+        "uuid": "38ebbe15-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -2380,7 +2578,8 @@ const jawn = [{
         "year_released": ["Jan 30, 2008"],
         "lens_brand": "Sony",
         "msrp": [],
-        "lens_name": "Sony 70-300mm F4.5-5.6 G SSM"
+        "lens_name": "Sony 70-300mm F4.5-5.6 G SSM",
+        "uuid": "38ebbe16-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -2392,7 +2591,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["1,431.00 ", "1,698.00"],
-        "lens_name": "Sony 85mm F1.4 ZA Carl Zeiss Planar T*"
+        "lens_name": "Sony 85mm F1.4 ZA Carl Zeiss Planar T*",
+        "uuid": "38ebbe17-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -2404,7 +2604,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["1,899.00"],
-        "lens_name": "Sony 70-400mm F4-5.6 G SSM"
+        "lens_name": "Sony 70-400mm F4-5.6 G SSM",
+        "uuid": "38ebbe18-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -2416,7 +2617,8 @@ const jawn = [{
         "year_released": ["Oct 16, 2013"],
         "lens_brand": "Sony",
         "msrp": ["2,663.02"],
-        "lens_name": "Sony 70-200mm F2.8 G SSM II"
+        "lens_name": "Sony 70-200mm F2.8 G SSM II",
+        "uuid": "38ebbe19-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -2428,7 +2630,8 @@ const jawn = [{
         "year_released": ["Jun 15, 2006"],
         "lens_brand": "Sony",
         "msrp": ["369.40"],
-        "lens_name": "Sony 50mm F1.4"
+        "lens_name": "Sony 50mm F1.4",
+        "uuid": "38ebbe1a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -2440,7 +2643,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["2,500.00"],
-        "lens_name": "Sony 70-200mm F2.8 G"
+        "lens_name": "Sony 70-200mm F2.8 G",
+        "uuid": "38ebbe1b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -2452,7 +2656,8 @@ const jawn = [{
         "year_released": ["Nov 20, 2014"],
         "lens_brand": "Sony",
         "msrp": ["1,062.13 ", "1,148.00"],
-        "lens_name": "Sony 70-300mm F4.5-5.6 G SSM II"
+        "lens_name": "Sony 70-300mm F4.5-5.6 G SSM II",
+        "uuid": "38ebbe1c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -2464,7 +2669,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["1,498.00"],
-        "lens_name": "Sony 35mm F1.4 G"
+        "lens_name": "Sony 35mm F1.4 G",
+        "uuid": "38ebbe1d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -2476,7 +2682,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["497.79"],
-        "lens_name": "Sony 50mm F2.8 Macro"
+        "lens_name": "Sony 50mm F2.8 Macro",
+        "uuid": "38ebbe1e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -2488,7 +2695,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": [],
-        "lens_name": "Sony 28mm F2.8"
+        "lens_name": "Sony 28mm F2.8",
+        "uuid": "38ebbe1f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -2500,7 +2708,8 @@ const jawn = [{
         "year_released": ["Aug 27, 2009"],
         "lens_brand": "Sony",
         "msrp": ["898.00"],
-        "lens_name": "Sony 28-75mm F2.8 SAM"
+        "lens_name": "Sony 28-75mm F2.8 SAM",
+        "uuid": "38ebbe20-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -2512,7 +2721,8 @@ const jawn = [{
         "year_released": ["Jun 15, 2006"],
         "lens_brand": "Sony",
         "msrp": ["998.00"],
-        "lens_name": "Sony 16mm F2.8 Fisheye"
+        "lens_name": "Sony 16mm F2.8 Fisheye",
+        "uuid": "38ebbe21-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -2524,7 +2734,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": [],
-        "lens_name": "Sony 16-35mm F2.8 ZA SSM Carl Zeiss Vario-Sonnar T*"
+        "lens_name": "Sony 16-35mm F2.8 ZA SSM Carl Zeiss Vario-Sonnar T*",
+        "uuid": "38ebbe22-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -2536,7 +2747,8 @@ const jawn = [{
         "year_released": ["Jan 30, 2008"],
         "lens_brand": "Sony",
         "msrp": ["1,956.00 ", "1,999.99"],
-        "lens_name": "Sony 24-70mm F2.8 ZA SSM Carl Zeiss Vario-Sonnar T*"
+        "lens_name": "Sony 24-70mm F2.8 ZA SSM Carl Zeiss Vario-Sonnar T*",
+        "uuid": "38ebbe23-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -2548,7 +2760,8 @@ const jawn = [{
         "year_released": ["Jun 15, 2006"],
         "lens_brand": "Sony",
         "msrp": ["389.00 ", "748.00"],
-        "lens_name": "Sony 20mm F2.8"
+        "lens_name": "Sony 20mm F2.8",
+        "uuid": "38ebbe24-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Sony/Minolta Alpha",
@@ -2557,7 +2770,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["488.23 ", "548.00"],
-        "lens_name": "Sony 2.0x Teleconverter"
+        "lens_name": "Sony 2.0x Teleconverter",
+        "uuid": "38ebbe25-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Sony/Minolta Alpha",
@@ -2566,7 +2780,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": ["548.00 ", "761.67"],
-        "lens_name": "Sony 1.4x Teleconverter"
+        "lens_name": "Sony 1.4x Teleconverter",
+        "uuid": "38ebbe26-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -2578,7 +2793,8 @@ const jawn = [{
         "year_released": ["Jan 10, 2012"],
         "lens_brand": "Sigma",
         "msrp": ["1,699.00"],
-        "lens_name": "Sigma APO Macro 180mm F2.8 EX DG OS HSM"
+        "lens_name": "Sigma APO Macro 180mm F2.8 EX DG OS HSM",
+        "uuid": "38ebbe27-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Sony E",
@@ -2587,7 +2803,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": [],
-        "lens_name": "Sony 2x Teleconverter (2016)"
+        "lens_name": "Sony 2x Teleconverter (2016)",
+        "uuid": "38ebbe28-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Sony E",
@@ -2596,7 +2813,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sony",
         "msrp": [],
-        "lens_name": "Sony 1.4x Teleconverter (2016)"
+        "lens_name": "Sony 1.4x Teleconverter (2016)",
+        "uuid": "38ebbe29-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5",
         "lens_type": "Prime lens",
@@ -2608,7 +2826,8 @@ const jawn = [{
         "year_released": ["Feb 14, 2005"],
         "lens_brand": "Sigma",
         "msrp": ["4,999.00"],
-        "lens_name": "Sigma 500mm F4.5 EX DG HSM"
+        "lens_name": "Sigma 500mm F4.5 EX DG HSM",
+        "uuid": "38ebbe2a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.9–2.8",
         "lens_type": "Prime lens",
@@ -2620,7 +2839,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": [],
-        "lens_name": "Sigma 150mm F2.8 EX DG Macro HSM"
+        "lens_name": "Sigma 150mm F2.8 EX DG Macro HSM",
+        "uuid": "38ebbe2b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -2632,7 +2852,8 @@ const jawn = [{
         "year_released": ["Jan 31, 2008"],
         "lens_brand": "Sigma",
         "msrp": ["25,999.00"],
-        "lens_name": "Sigma 200-500mm F2.8 EX DG"
+        "lens_name": "Sigma 200-500mm F2.8 EX DG",
+        "uuid": "38ebbe2c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F5.6",
         "lens_type": "Prime lens",
@@ -2644,7 +2865,8 @@ const jawn = [{
         "year_released": ["Feb 14, 2005"],
         "lens_brand": "Sigma",
         "msrp": ["6,059.97 ", "6,599.00"],
-        "lens_name": "Sigma 800mm F5.6 EX DG HSM"
+        "lens_name": "Sigma 800mm F5.6 EX DG HSM",
+        "uuid": "38ebbe2d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F5–6.3",
         "lens_type": "Zoom lens",
@@ -2656,7 +2878,8 @@ const jawn = [{
         "year_released": ["Sep 12, 2014"],
         "lens_brand": "Sigma",
         "msrp": ["1,081.99 ", "1,999.00"],
-        "lens_name": "Sigma 150-600mm F5-6.3 DG OS HSM | S"
+        "lens_name": "Sigma 150-600mm F5-6.3 DG OS HSM | S",
+        "uuid": "38ebbe2e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -2668,7 +2891,8 @@ const jawn = [{
         "year_released": ["Feb 14, 2005"],
         "lens_brand": "Sigma",
         "msrp": ["3,399.00"],
-        "lens_name": "Sigma 300mm F2.8 APO EX DG HSM"
+        "lens_name": "Sigma 300mm F2.8 APO EX DG HSM",
+        "uuid": "38ebbe2f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -2679,7 +2903,8 @@ const jawn = [{
         "year_released": ["Sep 19, 2016"],
         "lens_brand": "Sigma",
         "msrp": [],
-        "lens_name": "Sigma 500mm F4 DG OS HSM Sport"
+        "lens_name": "Sigma 500mm F4 DG OS HSM Sport",
+        "uuid": "38ebbe30-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F5–6.3",
         "lens_type": "Zoom lens",
@@ -2691,7 +2916,8 @@ const jawn = [{
         "year_released": ["Sep 12, 2014"],
         "lens_brand": "Sigma",
         "msrp": ["847.79 ", "989.00"],
-        "lens_name": "Sigma 150-600mm F5-6.3 DG OS HSM | C"
+        "lens_name": "Sigma 150-600mm F5-6.3 DG OS HSM | C",
+        "uuid": "38ebbe31-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -2703,7 +2929,8 @@ const jawn = [{
         "year_released": ["Sep 21, 2010"],
         "lens_brand": "Sigma",
         "msrp": [],
-        "lens_name": "Sigma 150mm F2.8 EX DG OS Macro HSM"
+        "lens_name": "Sigma 150mm F2.8 EX DG OS Macro HSM",
+        "uuid": "38ebbe32-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F5.6",
         "lens_type": "Zoom lens",
@@ -2715,7 +2942,8 @@ const jawn = [{
         "year_released": ["Feb 14, 2005"],
         "lens_brand": "Sigma",
         "msrp": ["7,999.00"],
-        "lens_name": "Sigma 300-800mm F5.6 EX DG HSM"
+        "lens_name": "Sigma 300-800mm F5.6 EX DG HSM",
+        "uuid": "38ebbe33-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F5–6.3",
         "lens_type": "Zoom lens",
@@ -2727,7 +2955,8 @@ const jawn = [{
         "year_released": ["Jan 31, 2008"],
         "lens_brand": "Sigma",
         "msrp": ["825.99 ", "1,069.00"],
-        "lens_name": "Sigma 150-500mm F5-6.3 DG OS HSM"
+        "lens_name": "Sigma 150-500mm F5-6.3 DG OS HSM",
+        "uuid": "38ebbe34-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -2739,7 +2968,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": [],
-        "lens_name": "Sigma 135mm F1.8 DG HSM Art"
+        "lens_name": "Sigma 135mm F1.8 DG HSM Art",
+        "uuid": "38ebbe35-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -2751,7 +2981,8 @@ const jawn = [{
         "year_released": ["Jan 31, 2008"],
         "lens_brand": "Sigma",
         "msrp": [],
-        "lens_name": "Sigma 120-400mm F4.5-5.6 DG HSM"
+        "lens_name": "Sigma 120-400mm F4.5-5.6 DG HSM",
+        "uuid": "38ebbe36-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -2763,7 +2994,8 @@ const jawn = [{
         "year_released": ["Sep 21, 2010"],
         "lens_brand": "Sigma",
         "msrp": ["3,100.00 ", "3,199.00"],
-        "lens_name": "Sigma 120-300mm F2.8 EX DG OS HSM"
+        "lens_name": "Sigma 120-300mm F2.8 EX DG OS HSM",
+        "uuid": "38ebbe37-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -2775,7 +3007,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": ["482.59 ", "969.00"],
-        "lens_name": "Sigma 105mm F2.8 EX DG OS HSM"
+        "lens_name": "Sigma 105mm F2.8 EX DG OS HSM",
+        "uuid": "38ebbe38-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -2787,7 +3020,8 @@ const jawn = [{
         "year_released": ["Sep 17, 2012"],
         "lens_brand": "Sigma",
         "msrp": ["2,899.89 ", "3,599.00"],
-        "lens_name": "Sigma 120-300mm F2.8 DG OS HSM"
+        "lens_name": "Sigma 120-300mm F2.8 DG OS HSM",
+        "uuid": "38ebbe39-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -2799,7 +3033,8 @@ const jawn = [{
         "year_released": ["Jan 31, 2008"],
         "lens_brand": "Sigma",
         "msrp": ["669.99 ", "899.00"],
-        "lens_name": "Sigma 120-400mm F4.5-5.6 DG OS HSM"
+        "lens_name": "Sigma 120-400mm F4.5-5.6 DG OS HSM",
+        "uuid": "38ebbe3a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -2811,7 +3046,8 @@ const jawn = [{
         "year_released": ["Feb 14, 2005"],
         "lens_brand": "Sigma",
         "msrp": ["2,781.49"],
-        "lens_name": "Sigma 120-300mm F2.8 EX DG HSM"
+        "lens_name": "Sigma 120-300mm F2.8 EX DG HSM",
+        "uuid": "38ebbe3b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F5–6.3",
         "lens_type": "Zoom lens",
@@ -2823,7 +3059,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": [],
-        "lens_name": "Sigma 100-400mm F5-6.3 DG OS HSM"
+        "lens_name": "Sigma 100-400mm F5-6.3 DG OS HSM",
+        "uuid": "38ebbe3c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -2835,7 +3072,8 @@ const jawn = [{
         "year_released": ["Jun 20, 2004"],
         "lens_brand": "Sigma",
         "msrp": ["482.59 ", "569.00"],
-        "lens_name": "Sigma 105mm F2.8 EX DG Macro"
+        "lens_name": "Sigma 105mm F2.8 EX DG Macro",
+        "uuid": "38ebbe3d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -2847,7 +3085,8 @@ const jawn = [{
         "year_released": ["Feb 20, 2010"],
         "lens_brand": "Sigma",
         "msrp": ["629.99 ", "1,125.19"],
-        "lens_name": "Sigma 85mm F1.4 EX DG HSM"
+        "lens_name": "Sigma 85mm F1.4 EX DG HSM",
+        "uuid": "38ebbe3e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -2859,7 +3098,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": ["195.00 ", "199.00"],
-        "lens_name": "Sigma 70-300mm F4-5.6 APO DG Macro"
+        "lens_name": "Sigma 70-300mm F4-5.6 APO DG Macro",
+        "uuid": "38ebbe3f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -2871,7 +3111,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": ["978.55"],
-        "lens_name": "Sigma 70mm F2.8 EX DG Macro"
+        "lens_name": "Sigma 70mm F2.8 EX DG Macro",
+        "uuid": "38ebbe40-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -2883,7 +3124,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": ["359.00"],
-        "lens_name": "Sigma 70-300mm F4-5.6 DG OS"
+        "lens_name": "Sigma 70-300mm F4-5.6 DG OS",
+        "uuid": "38ebbe41-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -2895,7 +3137,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": ["1,199.00"],
-        "lens_name": "Sigma 70-200mm F2.8 EX DG Macro HSM II"
+        "lens_name": "Sigma 70-200mm F2.8 EX DG Macro HSM II",
+        "uuid": "38ebbe42-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -2907,7 +3150,8 @@ const jawn = [{
         "year_released": ["Jan 29, 2013"],
         "lens_brand": "Sigma",
         "msrp": ["239.00"],
-        "lens_name": "Sigma 60mm F2.8 DN Art"
+        "lens_name": "Sigma 60mm F2.8 DN Art",
+        "uuid": "38ebbe43-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -2919,7 +3163,8 @@ const jawn = [{
         "year_released": ["Jun 20, 2004"],
         "lens_brand": "Sigma",
         "msrp": ["359.95 ", "525.86"],
-        "lens_name": "Sigma 50mm F2.8 EX DG Macro"
+        "lens_name": "Sigma 50mm F2.8 EX DG Macro",
+        "uuid": "38ebbe44-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -2931,7 +3176,8 @@ const jawn = [{
         "year_released": ["Sep 19, 2016"],
         "lens_brand": "Sigma",
         "msrp": [],
-        "lens_name": "Sigma 85mm F1.4 DG HSM Art"
+        "lens_name": "Sigma 85mm F1.4 DG HSM Art",
+        "uuid": "38ebbe45-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -2943,7 +3189,8 @@ const jawn = [{
         "year_released": ["Feb 20, 2010"],
         "lens_brand": "Sigma",
         "msrp": ["1,149.00 ", "1,299.00"],
-        "lens_name": "Sigma 70-200mm F2.8 EX DG OS HSM"
+        "lens_name": "Sigma 70-200mm F2.8 EX DG OS HSM",
+        "uuid": "38ebbe46-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–6.3",
         "lens_type": "Zoom lens",
@@ -2955,7 +3202,8 @@ const jawn = [{
         "year_released": ["Feb 20, 2010"],
         "lens_brand": "Sigma",
         "msrp": ["1,659.00"],
-        "lens_name": "Sigma 50-500mm F4.5-6.3 DG OS HSM"
+        "lens_name": "Sigma 50-500mm F4.5-6.3 DG OS HSM",
+        "uuid": "38ebbe47-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -2967,7 +3215,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": [],
-        "lens_name": "Sigma 50-150mm F2.8 EX DC APO OS HSM"
+        "lens_name": "Sigma 50-150mm F2.8 EX DC APO OS HSM",
+        "uuid": "38ebbe48-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -2979,7 +3228,8 @@ const jawn = [{
         "year_released": ["Mar 18, 2008"],
         "lens_brand": "Sigma",
         "msrp": ["499.00 ", "799.95"],
-        "lens_name": "Sigma 50mm F1.4 EX DG HSM"
+        "lens_name": "Sigma 50mm F1.4 EX DG HSM",
+        "uuid": "38ebbe49-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -2991,7 +3241,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": ["159.99 ", "239.99"],
-        "lens_name": "Sigma 50-200mm F4-5.6 DC OS HSM"
+        "lens_name": "Sigma 50-200mm F4-5.6 DC OS HSM",
+        "uuid": "38ebbe4a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -3003,7 +3254,8 @@ const jawn = [{
         "year_released": ["Jan 29, 2013"],
         "lens_brand": "Sigma",
         "msrp": ["188.00 ", "199.00"],
-        "lens_name": "Sigma 30mm F2.8 DN Art"
+        "lens_name": "Sigma 30mm F2.8 DN Art",
+        "uuid": "38ebbe4b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -3015,7 +3267,8 @@ const jawn = [{
         "year_released": ["Jan 10, 2012"],
         "lens_brand": "Sigma",
         "msrp": [],
-        "lens_name": "Sigma 30mm F2.8 EX DN"
+        "lens_name": "Sigma 30mm F2.8 EX DN",
+        "uuid": "38ebbe4c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -3027,7 +3280,8 @@ const jawn = [{
         "year_released": ["Feb 14, 2005"],
         "lens_brand": "Sigma",
         "msrp": ["465.00 ", "579.30"],
-        "lens_name": "Sigma 30mm F1.4 EX DC HSM"
+        "lens_name": "Sigma 30mm F1.4 EX DC HSM",
+        "uuid": "38ebbe4d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Zoom lens",
@@ -3039,7 +3293,8 @@ const jawn = [{
         "year_released": ["Feb 23, 2016"],
         "lens_brand": "Sigma",
         "msrp": ["1,099.00"],
-        "lens_name": "Sigma 50-100mm F1.8 DC HSM Art"
+        "lens_name": "Sigma 50-100mm F1.8 DC HSM Art",
+        "uuid": "38ebbe4e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -3051,7 +3306,8 @@ const jawn = [{
         "year_released": ["Sep 17, 2012"],
         "lens_brand": "Sigma",
         "msrp": ["781.89 ", "999.00"],
-        "lens_name": "Sigma 35mm F1.4 DG HSM Art"
+        "lens_name": "Sigma 35mm F1.4 DG HSM Art",
+        "uuid": "38ebbe4f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -3063,7 +3319,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": ["739.09 ", "1,027.00"],
-        "lens_name": "Sigma 50mm F1.4 DG HSM Art"
+        "lens_name": "Sigma 50mm F1.4 DG HSM Art",
+        "uuid": "38ebbe50-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -3075,7 +3332,8 @@ const jawn = [{
         "year_released": ["Jan 29, 2013"],
         "lens_brand": "Sigma",
         "msrp": ["499.00"],
-        "lens_name": "Sigma 30mm F1.4 DC HSM Art"
+        "lens_name": "Sigma 30mm F1.4 DC HSM Art",
+        "uuid": "38ebbe51-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -3087,7 +3345,8 @@ const jawn = [{
         "year_released": ["Feb 23, 2016"],
         "lens_brand": "Sigma",
         "msrp": ["335.00"],
-        "lens_name": "Sigma 30mm F1.4 DC DN | C for Micro Four Thirds"
+        "lens_name": "Sigma 30mm F1.4 DC DN | C for Micro Four Thirds",
+        "uuid": "38ebbe52-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -3099,7 +3358,8 @@ const jawn = [{
         "year_released": ["Sep 22, 2004"],
         "lens_brand": "Sigma",
         "msrp": [],
-        "lens_name": "Sigma 24-70mm F2.8 EX DG Macro"
+        "lens_name": "Sigma 24-70mm F2.8 EX DG Macro",
+        "uuid": "38ebbe53-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -3111,7 +3371,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": ["449.00 ", "599.99"],
-        "lens_name": "Sigma 28mm F1.8 EX DG Aspherical Macro"
+        "lens_name": "Sigma 28mm F1.8 EX DG Aspherical Macro",
+        "uuid": "38ebbe54-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -3123,7 +3384,8 @@ const jawn = [{
         "year_released": ["Feb 23, 2016"],
         "lens_brand": "Sigma",
         "msrp": ["321.70"],
-        "lens_name": "Sigma 30mm F1.4 DC DN | C for Sony E-mount"
+        "lens_name": "Sigma 30mm F1.4 DC DN | C for Sony E-mount",
+        "uuid": "38ebbe55-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -3135,7 +3397,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": ["549.00"],
-        "lens_name": "Sigma 24mm F1.8 EX DG Aspherical Macro"
+        "lens_name": "Sigma 24mm F1.8 EX DG Aspherical Macro",
+        "uuid": "38ebbe56-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -3147,7 +3410,8 @@ const jawn = [{
         "year_released": ["Feb 10, 2015"],
         "lens_brand": "Sigma",
         "msrp": ["755.39 ", "849.00"],
-        "lens_name": "Sigma 24mm F1.4 DG HSM Art"
+        "lens_name": "Sigma 24mm F1.4 DG HSM Art",
+        "uuid": "38ebbe57-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -3159,7 +3423,8 @@ const jawn = [{
         "year_released": ["Sep 23, 2008"],
         "lens_brand": "Sigma",
         "msrp": ["740.71 ", "899.00"],
-        "lens_name": "Sigma 24-70mm F2.8 EX DG HSM"
+        "lens_name": "Sigma 24-70mm F2.8 EX DG HSM",
+        "uuid": "38ebbe58-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -3171,7 +3436,8 @@ const jawn = [{
         "year_released": ["Oct 16, 2013"],
         "lens_brand": "Sigma",
         "msrp": ["749.99 ", "899.00"],
-        "lens_name": "Sigma 24-105mm F4 DG OS HSM"
+        "lens_name": "Sigma 24-105mm F4 DG OS HSM",
+        "uuid": "38ebbe59-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Zoom lens",
@@ -3183,7 +3449,8 @@ const jawn = [{
         "year_released": ["Jun 19, 2015"],
         "lens_brand": "Sigma",
         "msrp": ["759.69 ", "999.00"],
-        "lens_name": "Sigma 24-35mm F2 DG HSM Art"
+        "lens_name": "Sigma 24-35mm F2 DG HSM Art",
+        "uuid": "38ebbe5a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -3195,7 +3462,8 @@ const jawn = [{
         "year_released": ["Jan 10, 2012"],
         "lens_brand": "Sigma",
         "msrp": ["199.00"],
-        "lens_name": "Sigma 19mm F2.8 EX DN"
+        "lens_name": "Sigma 19mm F2.8 EX DN",
+        "uuid": "38ebbe5b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -3207,7 +3475,8 @@ const jawn = [{
         "year_released": ["Sep 12, 2014"],
         "lens_brand": "Sigma",
         "msrp": ["399.00 ", "579.00"],
-        "lens_name": "Sigma 18-300 F3.5-6.3 DC Macro OS HSM | C"
+        "lens_name": "Sigma 18-300 F3.5-6.3 DC Macro OS HSM | C",
+        "uuid": "38ebbe5c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -3219,7 +3488,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": [],
-        "lens_name": "Sigma 24-70mm F2.8 DG OS HSM Art"
+        "lens_name": "Sigma 24-70mm F2.8 DG OS HSM Art",
+        "uuid": "38ebbe5d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -3231,7 +3501,8 @@ const jawn = [{
         "year_released": ["Jan 15, 2009"],
         "lens_brand": "Sigma",
         "msrp": ["279.00 ", "317.00"],
-        "lens_name": "Sigma 18-250mm F3.5-6.3 DC OS HSM"
+        "lens_name": "Sigma 18-250mm F3.5-6.3 DC OS HSM",
+        "uuid": "38ebbe5e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -3243,7 +3514,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": ["629.00"],
-        "lens_name": "Sigma 20mm F1.8 EX DG Aspherical RF"
+        "lens_name": "Sigma 20mm F1.8 EX DG Aspherical RF",
+        "uuid": "38ebbe5f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -3255,7 +3527,8 @@ const jawn = [{
         "year_released": ["Oct 10, 2011"],
         "lens_brand": "Sigma",
         "msrp": ["284.00 ", "493.51"],
-        "lens_name": "Sigma 18-200mm f/3.5-6.3 II DC OS HSM"
+        "lens_name": "Sigma 18-200mm f/3.5-6.3 II DC OS HSM",
+        "uuid": "38ebbe60-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -3267,7 +3540,8 @@ const jawn = [{
         "year_released": ["Jun 15, 2012"],
         "lens_brand": "Sigma",
         "msrp": ["279.00 ", "318.39"],
-        "lens_name": "Sigma 18-250mm F3.5-6.3 DC Macro OS HSM"
+        "lens_name": "Sigma 18-250mm F3.5-6.3 DC Macro OS HSM",
+        "uuid": "38ebbe61-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -3279,7 +3553,8 @@ const jawn = [{
         "year_released": ["Sep 30, 2006"],
         "lens_brand": "Sigma",
         "msrp": ["254.95 ", "610.53"],
-        "lens_name": "Sigma 18-200mm F3.5-6.3 DC OS HSM"
+        "lens_name": "Sigma 18-200mm F3.5-6.3 DC OS HSM",
+        "uuid": "38ebbe62-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.8–5.6",
         "lens_type": "Zoom lens",
@@ -3291,7 +3566,8 @@ const jawn = [{
         "year_released": ["Jan 31, 2008"],
         "lens_brand": "Sigma",
         "msrp": [],
-        "lens_name": "Sigma 18-125mm F3.8-5.6 DC OS HSM"
+        "lens_name": "Sigma 18-125mm F3.8-5.6 DC OS HSM",
+        "uuid": "38ebbe63-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -3303,7 +3579,8 @@ const jawn = [{
         "year_released": ["Oct 16, 2015"],
         "lens_brand": "Sigma",
         "msrp": ["899.00 ", "1,422.29"],
-        "lens_name": "Sigma 20mm F1.4 DG HSM Art"
+        "lens_name": "Sigma 20mm F1.4 DG HSM Art",
+        "uuid": "38ebbe64-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -3315,7 +3592,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": ["378.19 ", "399.00"],
-        "lens_name": "Sigma 18-200mm F3.5-6.3 DC Macro OS HSM | C"
+        "lens_name": "Sigma 18-200mm F3.5-6.3 DC Macro OS HSM | C",
+        "uuid": "38ebbe65-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.8–5.6",
         "lens_type": "Zoom lens",
@@ -3327,7 +3605,8 @@ const jawn = [{
         "year_released": ["Jan 31, 2008"],
         "lens_brand": "Sigma",
         "msrp": ["326.59"],
-        "lens_name": "Sigma 18-125mm F3.8-5.6 DC HSM"
+        "lens_name": "Sigma 18-125mm F3.8-5.6 DC HSM",
+        "uuid": "38ebbe66-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -3339,7 +3618,8 @@ const jawn = [{
         "year_released": ["Jan 29, 2013"],
         "lens_brand": "Sigma",
         "msrp": ["199.00"],
-        "lens_name": "Sigma 19mm F2.8 DN Art"
+        "lens_name": "Sigma 19mm F2.8 DN Art",
+        "uuid": "38ebbe67-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8–4.5",
         "lens_type": "Zoom lens",
@@ -3351,7 +3631,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": ["199.00 ", "498.89"],
-        "lens_name": "Sigma 18-50mm F2.8-4.5 DC OS HSM"
+        "lens_name": "Sigma 18-50mm F2.8-4.5 DC OS HSM",
+        "uuid": "38ebbe68-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -3363,7 +3644,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": ["524.99 ", "609.00"],
-        "lens_name": "Sigma 15mm F2.8 EX DG Diagonal Fisheye"
+        "lens_name": "Sigma 15mm F2.8 EX DG Diagonal Fisheye",
+        "uuid": "38ebbe69-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8–4",
         "lens_type": "Zoom lens",
@@ -3375,7 +3657,8 @@ const jawn = [{
         "year_released": ["Sep 17, 2012"],
         "lens_brand": "Sigma",
         "msrp": ["385.00 ", "499.00"],
-        "lens_name": "Sigma 17-70mm F2.8-4 DC Macro OS HSM | C"
+        "lens_name": "Sigma 17-70mm F2.8-4 DC Macro OS HSM | C",
+        "uuid": "38ebbe6a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -3387,7 +3670,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": [],
-        "lens_name": "Sigma 16mm F1.4 DC DN (Micro Four Thirds)"
+        "lens_name": "Sigma 16mm F1.4 DC DN (Micro Four Thirds)",
+        "uuid": "38ebbe6b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -3399,7 +3683,8 @@ const jawn = [{
         "year_released": ["Feb 14, 2005"],
         "lens_brand": "Sigma",
         "msrp": ["249.00 ", "610.53"],
-        "lens_name": "Sigma 18-200mm F3.5-6.3 DC"
+        "lens_name": "Sigma 18-200mm F3.5-6.3 DC",
+        "uuid": "38ebbe6c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8–4",
         "lens_type": "Zoom lens",
@@ -3411,7 +3696,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": ["495.65"],
-        "lens_name": "Sigma 17-70mm F2.8-4 DC Macro OS HSM"
+        "lens_name": "Sigma 17-70mm F2.8-4 DC Macro OS HSM",
+        "uuid": "38ebbe6d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -3423,7 +3709,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": [],
-        "lens_name": "Sigma 16mm F1.4 DC DN (Sony E-mount)"
+        "lens_name": "Sigma 16mm F1.4 DC DN (Sony E-mount)",
+        "uuid": "38ebbe6e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -3435,7 +3722,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": [],
-        "lens_name": "Sigma 14mm F1.8 DG HSM Art"
+        "lens_name": "Sigma 14mm F1.8 DG HSM Art",
+        "uuid": "38ebbe6f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -3447,7 +3735,8 @@ const jawn = [{
         "year_released": ["Feb 14, 2005"],
         "lens_brand": "Sigma",
         "msrp": ["320.00 ", "1,803.14"],
-        "lens_name": "Sigma 10-20mm F4-5.6 EX DC HSM"
+        "lens_name": "Sigma 10-20mm F4-5.6 EX DC HSM",
+        "uuid": "38ebbe70-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -3459,7 +3748,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": ["949.00"],
-        "lens_name": "Sigma 12-24mm F4.5-5.6 II DG HSM"
+        "lens_name": "Sigma 12-24mm F4.5-5.6 II DG HSM",
+        "uuid": "38ebbe71-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -3471,7 +3761,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": ["729.95"],
-        "lens_name": "Sigma 12-24mm F4.5-5.6 EX DG Aspherical HSM"
+        "lens_name": "Sigma 12-24mm F4.5-5.6 EX DG Aspherical HSM",
+        "uuid": "38ebbe72-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Zoom lens",
@@ -3483,7 +3774,8 @@ const jawn = [{
         "year_released": ["Apr 18, 2013"],
         "lens_brand": "Sigma",
         "msrp": ["669.89 ", "799.00"],
-        "lens_name": "Sigma 18-35mm F1.8 DC HSM Art"
+        "lens_name": "Sigma 18-35mm F1.8 DC HSM Art",
+        "uuid": "38ebbe73-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -3495,7 +3787,8 @@ const jawn = [{
         "year_released": ["Nov 14, 2007"],
         "lens_brand": "Sigma",
         "msrp": ["579.00 ", "837.54"],
-        "lens_name": "Sigma 10mm F2.8 EX DC HSM Diagonal Fisheye"
+        "lens_name": "Sigma 10mm F2.8 EX DC HSM Diagonal Fisheye",
+        "uuid": "38ebe460-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -3506,7 +3799,8 @@ const jawn = [{
         "year_released": ["Sep 19, 2016"],
         "lens_brand": "Sigma",
         "msrp": [],
-        "lens_name": "Sigma 12-24mm F4 DG HSM Art"
+        "lens_name": "Sigma 12-24mm F4 DG HSM Art",
+        "uuid": "38ebe461-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -3518,7 +3812,8 @@ const jawn = [{
         "year_released": ["Feb 20, 2010"],
         "lens_brand": "Sigma",
         "msrp": ["302.99 ", "549.00"],
-        "lens_name": "Sigma 17-50mm F2.8 EX DC OS HSM"
+        "lens_name": "Sigma 17-50mm F2.8 EX DC OS HSM",
+        "uuid": "38ebe462-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -3530,7 +3825,8 @@ const jawn = [{
         "year_released": ["Feb 20, 2010"],
         "lens_brand": "Sigma",
         "msrp": ["575.99 ", "699.00"],
-        "lens_name": "Sigma 8-16mm F4.5-5.6 DC HSM"
+        "lens_name": "Sigma 8-16mm F4.5-5.6 DC HSM",
+        "uuid": "38ebe463-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -3542,7 +3838,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": ["684.69 ", "899.00"],
-        "lens_name": "Sigma 8mm F3.5 EX DG Circular Fisheye"
+        "lens_name": "Sigma 8mm F3.5 EX DG Circular Fisheye",
+        "uuid": "38ebe464-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Canon EF, Nikon F (FX), Pentax KAF, Sigma SA Bayonet, Sony/Minolta Alpha",
@@ -3551,7 +3848,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": ["249.00 ", "320.59"],
-        "lens_name": "Sigma 1.4x EX DG Tele Converter"
+        "lens_name": "Sigma 1.4x EX DG Tele Converter",
+        "uuid": "38ebe465-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Zoom lens",
@@ -3563,7 +3861,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": ["399.00 ", "649.00"],
-        "lens_name": "Sigma 10-20mm F3.5 EX DC HSM"
+        "lens_name": "Sigma 10-20mm F3.5 EX DC HSM",
+        "uuid": "38ebe466-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5",
         "lens_type": "Prime lens",
@@ -3575,7 +3874,8 @@ const jawn = [{
         "year_released": ["Sep 17, 2010"],
         "lens_brand": "Schneider",
         "msrp": [],
-        "lens_name": "Schneider PC-TS Macro-Symmar 4.5/90 HM"
+        "lens_name": "Schneider PC-TS Macro-Symmar 4.5/90 HM",
+        "uuid": "38ebe467-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -3587,7 +3887,8 @@ const jawn = [{
         "year_released": ["Nov 14, 2007"],
         "lens_brand": "Sigma",
         "msrp": ["799.00"],
-        "lens_name": "Sigma 4.5mm F2.8 EX DC HSM Circular Fisheye"
+        "lens_name": "Sigma 4.5mm F2.8 EX DC HSM Circular Fisheye",
+        "uuid": "38ebe468-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -3599,7 +3900,8 @@ const jawn = [{
         "year_released": ["Sep 17, 2010"],
         "lens_brand": "Schneider",
         "msrp": [],
-        "lens_name": "Schneider PC-TS Super-Angulon 2.8/50 HM"
+        "lens_name": "Schneider PC-TS Super-Angulon 2.8/50 HM",
+        "uuid": "38ebe469-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -3611,7 +3913,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Schneider",
         "msrp": [],
-        "lens_name": "Schneider PC-Super-Angulon 28mm f/2.8"
+        "lens_name": "Schneider PC-Super-Angulon 28mm f/2.8",
+        "uuid": "38ebe46a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Canon EF, Nikon F (FX), Pentax KAF, Sigma SA Bayonet, Sony/Minolta Alpha",
@@ -3620,7 +3923,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Sigma",
         "msrp": ["292.49 ", "299.00"],
-        "lens_name": "Sigma 2x EX DG Tele Converter"
+        "lens_name": "Sigma 2x EX DG Tele Converter",
+        "uuid": "38ebe46b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -3632,7 +3936,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samyang",
         "msrp": [],
-        "lens_name": "Samyang AF 50mm F1.4 FE"
+        "lens_name": "Samyang AF 50mm F1.4 FE",
+        "uuid": "38ebe46c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F6.3",
         "lens_type": "Prime lens",
@@ -3644,7 +3949,8 @@ const jawn = [{
         "year_released": ["Apr 28, 2014"],
         "lens_brand": "Samyang",
         "msrp": ["279.00 ", "299.95"],
-        "lens_name": "Samyang Reflex 300mm f/6.3 UMC CS"
+        "lens_name": "Samyang Reflex 300mm f/6.3 UMC CS",
+        "uuid": "38ebe46d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -3656,7 +3962,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samyang",
         "msrp": ["699.00 ", "899.50"],
-        "lens_name": "Samyang T-S 24mm F3.5 ED AS UMC"
+        "lens_name": "Samyang T-S 24mm F3.5 ED AS UMC",
+        "uuid": "38ebe46e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F6.3",
         "lens_type": "Prime lens",
@@ -3668,7 +3975,8 @@ const jawn = [{
         "year_released": ["Jun 13, 2013"],
         "lens_brand": "Samyang",
         "msrp": ["249.99 ", "279.00"],
-        "lens_name": "Samyang Reflex 300mm  f/6.3 ED UMC CS"
+        "lens_name": "Samyang Reflex 300mm  f/6.3 ED UMC CS",
+        "uuid": "38ebe46f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.4",
         "lens_type": "Prime lens",
@@ -3680,7 +3988,8 @@ const jawn = [{
         "year_released": ["Sep 12, 2016"],
         "lens_brand": "Samyang",
         "msrp": [],
-        "lens_name": "Samyang Premium MF 14mm F2.4"
+        "lens_name": "Samyang Premium MF 14mm F2.4",
+        "uuid": "38ebe470-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -3692,7 +4001,8 @@ const jawn = [{
         "year_released": ["Aug 27, 2014"],
         "lens_brand": "Samyang",
         "msrp": ["298.00 ", "399.00"],
-        "lens_name": "Samyang 50mm F1.4 AS UMC"
+        "lens_name": "Samyang 50mm F1.4 AS UMC",
+        "uuid": "38ebe471-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -3704,7 +4014,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samyang",
         "msrp": [],
-        "lens_name": "Samyang AF 35mm F2.8 FE"
+        "lens_name": "Samyang AF 35mm F2.8 FE",
+        "uuid": "38ebe472-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.2",
         "lens_type": "Prime lens",
@@ -3716,7 +4027,8 @@ const jawn = [{
         "year_released": ["Sep 12, 2016"],
         "lens_brand": "Samyang",
         "msrp": [],
-        "lens_name": "Samyang Premium MF 85mm F1.2"
+        "lens_name": "Samyang Premium MF 85mm F1.2",
+        "uuid": "38ebe473-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -3728,7 +4040,8 @@ const jawn = [{
         "year_released": ["Aug 17, 2016"],
         "lens_brand": "Samyang",
         "msrp": [],
-        "lens_name": "Samyang AF 14mm F2.8 FE"
+        "lens_name": "Samyang AF 14mm F2.8 FE",
+        "uuid": "38ebe474-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -3740,7 +4053,8 @@ const jawn = [{
         "year_released": ["Jan 12, 2015"],
         "lens_brand": "Samyang",
         "msrp": ["479.00 ", "599.00"],
-        "lens_name": "Samyang 135mm F2.0 ED UMC"
+        "lens_name": "Samyang 135mm F2.0 ED UMC",
+        "uuid": "38ebe475-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -3752,7 +4066,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samyang",
         "msrp": ["402.42 ", "549.00"],
-        "lens_name": "Samyang 100mm F2.8 Macro"
+        "lens_name": "Samyang 100mm F2.8 Macro",
+        "uuid": "38ebe476-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -3764,7 +4079,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samyang",
         "msrp": ["249.00 ", "289.00"],
-        "lens_name": "Samyang 85mm F1.4 Aspherical IF"
+        "lens_name": "Samyang 85mm F1.4 Aspherical IF",
+        "uuid": "38ebe477-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.2",
         "lens_type": "Prime lens",
@@ -3776,7 +4092,8 @@ const jawn = [{
         "year_released": ["Sep 21, 2015"],
         "lens_brand": "Samyang",
         "msrp": [],
-        "lens_name": "Samyang 50mm F1.2 AS UMC CS"
+        "lens_name": "Samyang 50mm F1.2 AS UMC CS",
+        "uuid": "38ebe478-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -3788,7 +4105,8 @@ const jawn = [{
         "year_released": ["Aug 12, 2011"],
         "lens_brand": "Samyang",
         "msrp": ["253.77 ", "549.00"],
-        "lens_name": "Samyang 24mm f/1.4 ED AS UMC"
+        "lens_name": "Samyang 24mm f/1.4 ED AS UMC",
+        "uuid": "38ebe479-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -3800,7 +4118,8 @@ const jawn = [{
         "year_released": ["Sep 16, 2010"],
         "lens_brand": "Samyang",
         "msrp": ["367.35 ", "599.99"],
-        "lens_name": "Samyang 35mm F1.4 AS UMC"
+        "lens_name": "Samyang 35mm F1.4 AS UMC",
+        "uuid": "38ebe47a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.2",
         "lens_type": "Prime lens",
@@ -3812,7 +4131,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samyang",
         "msrp": [],
-        "lens_name": "Samyang 35mm F1.2 ED AS UMC CS"
+        "lens_name": "Samyang 35mm F1.2 ED AS UMC CS",
+        "uuid": "38ebe47b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -3824,7 +4144,8 @@ const jawn = [{
         "year_released": ["Sep 21, 2015"],
         "lens_brand": "Samyang",
         "msrp": [],
-        "lens_name": "Samyang 21mm F1.4 ED AS UMC CS"
+        "lens_name": "Samyang 21mm F1.4 ED AS UMC CS",
+        "uuid": "38ebe47c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -3836,7 +4157,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samyang",
         "msrp": ["279.95 ", "449.99"],
-        "lens_name": "Samyang 14mm F2.8 IF ED MC Aspherical"
+        "lens_name": "Samyang 14mm F2.8 IF ED MC Aspherical",
+        "uuid": "38ebe47d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -3848,7 +4170,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samyang",
         "msrp": [],
-        "lens_name": "Samyang 20mm F1.8 ED AS UMC"
+        "lens_name": "Samyang 20mm F1.8 ED AS UMC",
+        "uuid": "38ebe47e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -3860,7 +4183,8 @@ const jawn = [{
         "year_released": ["Jun 13, 2013"],
         "lens_brand": "Samyang",
         "msrp": ["339.95 ", "479.00"],
-        "lens_name": "Samyang 16mm f/2.0 ED AS UMC CS"
+        "lens_name": "Samyang 16mm f/2.0 ED AS UMC CS",
+        "uuid": "38ebe47f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -3872,7 +4196,8 @@ const jawn = [{
         "year_released": ["Mar 21, 2014"],
         "lens_brand": "Samyang",
         "msrp": ["299.00 ", "499.00"],
-        "lens_name": "Samyang 12mm F2 NCS CS"
+        "lens_name": "Samyang 12mm F2 NCS CS",
+        "uuid": "38ebe480-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -3884,7 +4209,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samyang",
         "msrp": ["429.00 ", "599.00"],
-        "lens_name": "Samyang 12mm F2.8 ED AS NCS Fish-eye"
+        "lens_name": "Samyang 12mm F2.8 ED AS NCS Fish-eye",
+        "uuid": "38ebe481-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -3896,7 +4222,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samyang",
         "msrp": ["379.00 ", "529.00"],
-        "lens_name": "Samyang 10mm F2.8 ED AS NCS CS"
+        "lens_name": "Samyang 10mm F2.8 ED AS NCS CS",
+        "uuid": "38ebe482-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -3908,7 +4235,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samyang",
         "msrp": ["228.43 ", "326.00"],
-        "lens_name": "Samyang 7.5mm F3.5 UMC Fisheye MFT"
+        "lens_name": "Samyang 7.5mm F3.5 UMC Fisheye MFT",
+        "uuid": "38ebe483-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -3920,7 +4248,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samyang",
         "msrp": ["249.00 ", "329.99"],
-        "lens_name": "Samyang 8mm F3.5 Aspherical IF MC Fisheye"
+        "lens_name": "Samyang 8mm F3.5 Aspherical IF MC Fisheye",
+        "uuid": "38ebe484-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -3932,7 +4261,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samyang",
         "msrp": ["315.00"],
-        "lens_name": "Samyang 8mm F2.8 UMC Fisheye"
+        "lens_name": "Samyang 8mm F2.8 UMC Fisheye",
+        "uuid": "38ebe485-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -3944,7 +4274,8 @@ const jawn = [{
         "year_released": ["Mar 19, 2014"],
         "lens_brand": "Samsung",
         "msrp": [],
-        "lens_name": "Samsung NX-M 17mm F1.8 OIS"
+        "lens_name": "Samsung NX-M 17mm F1.8 OIS",
+        "uuid": "38ebe486-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -3956,7 +4287,8 @@ const jawn = [{
         "year_released": ["Mar 19, 2014"],
         "lens_brand": "Samsung",
         "msrp": ["279.95"],
-        "lens_name": "Samsung NX-M 9mm F3.5 ED"
+        "lens_name": "Samsung NX-M 9mm F3.5 ED",
+        "uuid": "38ebe487-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -3968,7 +4300,8 @@ const jawn = [{
         "year_released": ["Feb 21, 2011"],
         "lens_brand": "Samsung",
         "msrp": ["849.95"],
-        "lens_name": "Samsung NX 60mm F2.8 Macro ED OIS SSA"
+        "lens_name": "Samsung NX 60mm F2.8 Macro ED OIS SSA",
+        "uuid": "38ebe488-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -3980,7 +4313,8 @@ const jawn = [{
         "year_released": ["Mar 19, 2014"],
         "lens_brand": "Samsung",
         "msrp": ["349.95"],
-        "lens_name": "Samsung NX-M 9-27mm F3.5-5.6 ED OIS"
+        "lens_name": "Samsung NX-M 9-27mm F3.5-5.6 ED OIS",
+        "uuid": "38ebe489-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -3992,7 +4326,8 @@ const jawn = [{
         "year_released": ["Feb 21, 2011"],
         "lens_brand": "Samsung",
         "msrp": ["989.09"],
-        "lens_name": "Samsung NX 85mm F1.4 ED SSA"
+        "lens_name": "Samsung NX 85mm F1.4 ED SSA",
+        "uuid": "38ebe48a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -4004,7 +4339,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samsung",
         "msrp": ["419.89 ", "449.00"],
-        "lens_name": "Samsung NX 30mm F2 Pancake"
+        "lens_name": "Samsung NX 30mm F2 Pancake",
+        "uuid": "38ebe48b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -4016,7 +4352,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samsung",
         "msrp": ["349.99 ", "459.95"],
-        "lens_name": "Samsung NX 50-200mm F4-5.6 OIS"
+        "lens_name": "Samsung NX 50-200mm F4-5.6 OIS",
+        "uuid": "38ebe48c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -4028,7 +4365,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samsung",
         "msrp": ["479.95 ", "499.99"],
-        "lens_name": "Samsung NX 45mm F1.8 2D/3D"
+        "lens_name": "Samsung NX 45mm F1.8 2D/3D",
+        "uuid": "38ebe48d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -4040,7 +4378,8 @@ const jawn = [{
         "year_released": ["Sep 17, 2012"],
         "lens_brand": "Samsung",
         "msrp": ["445.00"],
-        "lens_name": "Samsung NX 45mm F1.8"
+        "lens_name": "Samsung NX 45mm F1.8",
+        "uuid": "38ebe48e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -4052,7 +4391,8 @@ const jawn = [{
         "year_released": ["Sep 14, 2010"],
         "lens_brand": "Samsung",
         "msrp": ["321.79"],
-        "lens_name": "Samsung NX 20mm F2.8 Pancake"
+        "lens_name": "Samsung NX 20mm F2.8 Pancake",
+        "uuid": "38ebe48f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -4064,7 +4404,8 @@ const jawn = [{
         "year_released": ["Feb 21, 2011"],
         "lens_brand": "Samsung",
         "msrp": ["945.00"],
-        "lens_name": "Samsung NX 18-200mm F3.5-6.3 ED OIS"
+        "lens_name": "Samsung NX 18-200mm F3.5-6.3 ED OIS",
+        "uuid": "38ebe490-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -4076,7 +4417,8 @@ const jawn = [{
         "year_released": ["Sep 14, 2010"],
         "lens_brand": "Samsung",
         "msrp": [],
-        "lens_name": "Samsung NX 20-50mm F3.5-5.6 ED"
+        "lens_name": "Samsung NX 20-50mm F3.5-5.6 ED",
+        "uuid": "38ebe491-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -4088,7 +4430,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samsung",
         "msrp": [],
-        "lens_name": "Samsung NX 16-50mm F3.5-5.6 Power Zoom ED OIS"
+        "lens_name": "Samsung NX 16-50mm F3.5-5.6 Power Zoom ED OIS",
+        "uuid": "38ebe492-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -4100,7 +4443,8 @@ const jawn = [{
         "year_released": ["Sep 17, 2012"],
         "lens_brand": "Samsung",
         "msrp": ["995.00 ", "1,206.49"],
-        "lens_name": "Samsung NX 12-24mm F4-5.6 ED"
+        "lens_name": "Samsung NX 12-24mm F4-5.6 ED",
+        "uuid": "38ebe493-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2–2.8",
         "lens_type": "Zoom lens",
@@ -4112,7 +4456,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samsung",
         "msrp": [],
-        "lens_name": "Samsung NX 16-50mm F2.0-2.8 S ED OIS"
+        "lens_name": "Samsung NX 16-50mm F2.0-2.8 S ED OIS",
+        "uuid": "38ebe494-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -4124,7 +4469,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samsung",
         "msrp": ["349.00 ", "349.95"],
-        "lens_name": "Samsung NX 18-55mm F3.5-5.6 OIS"
+        "lens_name": "Samsung NX 18-55mm F3.5-5.6 OIS",
+        "uuid": "38ebe495-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.4",
         "lens_type": "Prime lens",
@@ -4136,7 +4482,8 @@ const jawn = [{
         "year_released": ["Feb 21, 2011"],
         "lens_brand": "Samsung",
         "msrp": ["499.00"],
-        "lens_name": "Samsung NX 16mm F2.4 Pancake"
+        "lens_name": "Samsung NX 16mm F2.4 Pancake",
+        "uuid": "38ebe496-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -4148,7 +4495,8 @@ const jawn = [{
         "year_released": ["Jun 11, 2013"],
         "lens_brand": "Samsung",
         "msrp": ["586.99 ", "611.49"],
-        "lens_name": "Samsung NX 10mm F3.5 Fisheye"
+        "lens_name": "Samsung NX 10mm F3.5 Fisheye",
+        "uuid": "38ebe497-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -4160,7 +4508,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samsung",
         "msrp": [],
-        "lens_name": "Samsung D-Xenon 50-200 F4-5.6 ED"
+        "lens_name": "Samsung D-Xenon 50-200 F4-5.6 ED",
+        "uuid": "38ebe498-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -4172,7 +4521,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samsung",
         "msrp": ["271.95"],
-        "lens_name": "Samsung D-Xenon 35mm F2 AL"
+        "lens_name": "Samsung D-Xenon 35mm F2 AL",
+        "uuid": "38ebe499-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -4184,7 +4534,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samsung",
         "msrp": [],
-        "lens_name": "Samsung D-Xenon 18-55mm F3.5-5.6"
+        "lens_name": "Samsung D-Xenon 18-55mm F3.5-5.6",
+        "uuid": "38ebe49a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -4196,7 +4547,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samsung",
         "msrp": [],
-        "lens_name": "Samsung D-Xenon 18-250mm F3.5-6.3"
+        "lens_name": "Samsung D-Xenon 18-250mm F3.5-6.3",
+        "uuid": "38ebe49b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -4208,7 +4560,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samsung",
         "msrp": [],
-        "lens_name": "Samsung D-Xenon 16-45mm F4"
+        "lens_name": "Samsung D-Xenon 16-45mm F4",
+        "uuid": "38ebe49c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–4.5",
         "lens_type": "Zoom lens",
@@ -4220,7 +4573,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samsung",
         "msrp": [],
-        "lens_name": "Samsung D-Xenon 10-17mm F3.5-4.5 Fisheye"
+        "lens_name": "Samsung D-Xenon 10-17mm F3.5-4.5 Fisheye",
+        "uuid": "38ebe49d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -4232,7 +4586,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samsung",
         "msrp": [],
-        "lens_name": "Samsung D-Xenon 100mm F2.8 macro"
+        "lens_name": "Samsung D-Xenon 100mm F2.8 macro",
+        "uuid": "38ebe49e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -4244,7 +4599,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Samsung",
         "msrp": ["459.99"],
-        "lens_name": "Samsung D-Xenon 12-24mm F4 ED"
+        "lens_name": "Samsung D-Xenon 12-24mm F4 ED",
+        "uuid": "38ebe49f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F6.3",
         "lens_type": "Prime lens",
@@ -4256,7 +4612,8 @@ const jawn = [{
         "year_released": ["May 29, 2013"],
         "lens_brand": "Rokinon",
         "msrp": ["137.88 ", "269.00"],
-        "lens_name": "Rokinon Reflex 300mm F6.3 ED UMC CS (Mirrorless)"
+        "lens_name": "Rokinon Reflex 300mm F6.3 ED UMC CS (Mirrorless)",
+        "uuid": "38ebe4a0-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -4268,7 +4625,8 @@ const jawn = [{
         "year_released": ["Mar 13, 2013"],
         "lens_brand": "Rokinon",
         "msrp": ["699.00 ", "729.00"],
-        "lens_name": "Rokinon T-S 24mm F3.5 ED AS UMC"
+        "lens_name": "Rokinon T-S 24mm F3.5 ED AS UMC",
+        "uuid": "38ebe4a1-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -4280,7 +4638,8 @@ const jawn = [{
         "year_released": ["Sep 15, 2014"],
         "lens_brand": "Samsung",
         "msrp": [],
-        "lens_name": "Samsung 50-150mm F2.8 S"
+        "lens_name": "Samsung 50-150mm F2.8 S",
+        "uuid": "38ebe4a2-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F6.3",
         "lens_type": "Prime lens",
@@ -4292,7 +4651,8 @@ const jawn = [{
         "year_released": ["May 29, 2013"],
         "lens_brand": "Rokinon",
         "msrp": ["224.86 ", "235.30"],
-        "lens_name": "Rokinon Reflex 300mm F6.3 ED UMC CS (DSLR)"
+        "lens_name": "Rokinon Reflex 300mm F6.3 ED UMC CS (DSLR)",
+        "uuid": "38ebe4a3-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -4304,7 +4664,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Rokinon",
         "msrp": ["419.00 ", "549.00"],
-        "lens_name": "Rokinon 100mm F2.8 Macro"
+        "lens_name": "Rokinon 100mm F2.8 Macro",
+        "uuid": "38ebe4a4-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -4316,7 +4677,8 @@ const jawn = [{
         "year_released": ["Jan 12, 2015"],
         "lens_brand": "Rokinon",
         "msrp": ["449.00 ", "598.90"],
-        "lens_name": "Rokinon 135mm F2.0 ED UMC"
+        "lens_name": "Rokinon 135mm F2.0 ED UMC",
+        "uuid": "38ebe4a5-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -4328,7 +4690,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Rokinon",
         "msrp": ["259.00 ", "329.00"],
-        "lens_name": "Rokinon 85mm F1.4"
+        "lens_name": "Rokinon 85mm F1.4",
+        "uuid": "38ebe4a6-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -4340,7 +4703,8 @@ const jawn = [{
         "year_released": ["Sep 21, 2015"],
         "lens_brand": "Rokinon",
         "msrp": ["379.00 ", "499.00"],
-        "lens_name": "Rokinon 50mm F1.4 AS IF UMC"
+        "lens_name": "Rokinon 50mm F1.4 AS IF UMC",
+        "uuid": "38ebe4a7-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.2",
         "lens_type": "Prime lens",
@@ -4352,7 +4716,8 @@ const jawn = [{
         "year_released": ["Sep 21, 2015"],
         "lens_brand": "Rokinon",
         "msrp": ["388.00 ", "415.75"],
-        "lens_name": "Rokinon 50mm F1.2 AS UMC"
+        "lens_name": "Rokinon 50mm F1.2 AS UMC",
+        "uuid": "38ebe4a8-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -4364,7 +4729,8 @@ const jawn = [{
         "year_released": ["Sep 21, 2015"],
         "lens_brand": "Rokinon",
         "msrp": ["349.00 ", "399.00"],
-        "lens_name": "Rokinon 21mm F1.4 ED AS UMC"
+        "lens_name": "Rokinon 21mm F1.4 ED AS UMC",
+        "uuid": "38ebe4a9-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -4376,7 +4742,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Rokinon",
         "msrp": ["198.66 ", "499.00"],
-        "lens_name": "Rokinon 35mm F1.4"
+        "lens_name": "Rokinon 35mm F1.4",
+        "uuid": "38ebe4aa-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -4388,7 +4755,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Rokinon",
         "msrp": ["449.00 ", "559.95"],
-        "lens_name": "Rokinon 24mm F1.4 Aspherical"
+        "lens_name": "Rokinon 24mm F1.4 Aspherical",
+        "uuid": "38ebe4ab-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -4400,7 +4768,8 @@ const jawn = [{
         "year_released": ["Mar 21, 2014"],
         "lens_brand": "Rokinon",
         "msrp": ["349.00 ", "599.99"],
-        "lens_name": "Rokinon 10mm F2.8"
+        "lens_name": "Rokinon 10mm F2.8",
+        "uuid": "38ebe4ac-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -4412,7 +4781,8 @@ const jawn = [{
         "year_released": ["Sep 10, 2014"],
         "lens_brand": "Rokinon",
         "msrp": ["399.00 ", "599.00"],
-        "lens_name": "Rokinon 12mm F2.8 ED AS IF NCS UMC Fisheye"
+        "lens_name": "Rokinon 12mm F2.8 ED AS IF NCS UMC Fisheye",
+        "uuid": "38ebe4ad-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -4424,7 +4794,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Rokinon",
         "msrp": ["289.00 ", "399.00"],
-        "lens_name": "Rokinon 14mm F2.8 IF ED MC"
+        "lens_name": "Rokinon 14mm F2.8 IF ED MC",
+        "uuid": "38ebe4ae-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -4436,7 +4807,8 @@ const jawn = [{
         "year_released": ["Mar 21, 2014"],
         "lens_brand": "Rokinon",
         "msrp": ["314.00 ", "469.82"],
-        "lens_name": "Rokinon 12mm F2.0 NCS CS"
+        "lens_name": "Rokinon 12mm F2.0 NCS CS",
+        "uuid": "38ebe4af-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -4448,7 +4820,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Rokinon",
         "msrp": ["199.95 ", "279.00"],
-        "lens_name": "Rokinon 8mm F3.5 Aspherical Fisheye (HD)"
+        "lens_name": "Rokinon 8mm F3.5 Aspherical Fisheye (HD)",
+        "uuid": "38ebe4b0-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -4460,7 +4833,8 @@ const jawn = [{
         "year_released": ["Jun 13, 2013"],
         "lens_brand": "Rokinon",
         "msrp": ["131.41 ", "375.00"],
-        "lens_name": "Rokinon 16mm F2.0 ED AS UMC CS"
+        "lens_name": "Rokinon 16mm F2.0 ED AS UMC CS",
+        "uuid": "38ebe4b1-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -4472,7 +4846,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Rokinon",
         "msrp": ["199.00 ", "299.00"],
-        "lens_name": "Rokinon 8mm F3.5 Aspherical Fisheye"
+        "lens_name": "Rokinon 8mm F3.5 Aspherical Fisheye",
+        "uuid": "38ebe4b2-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -4484,7 +4859,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Rokinon",
         "msrp": ["299.99 ", "329.00"],
-        "lens_name": "Rokinon 8mm F2.8 UMC Aspherical Fisheye"
+        "lens_name": "Rokinon 8mm F2.8 UMC Aspherical Fisheye",
+        "uuid": "38ebe4b3-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -4496,7 +4872,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Rokinon",
         "msrp": ["249.00"],
-        "lens_name": "Rokinon 7.5mm F3.5 UMC Fisheye CS"
+        "lens_name": "Rokinon 7.5mm F3.5 UMC Fisheye CS",
+        "uuid": "38ebe4b4-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -4508,7 +4885,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": ["996.95"],
-        "lens_name": "Pentax smc FA 31mm F1.8 AL Limited"
+        "lens_name": "Pentax smc FA 31mm F1.8 AL Limited",
+        "uuid": "38ebe4b5-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -4520,7 +4898,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": ["700.00"],
-        "lens_name": "Pentax smc FA 77mm 1.8 Limited"
+        "lens_name": "Pentax smc FA 77mm 1.8 Limited",
+        "uuid": "38ebe4b6-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -4532,7 +4911,8 @@ const jawn = [{
         "year_released": ["Jan 23, 2008"],
         "lens_brand": "Pentax",
         "msrp": ["1,085.66"],
-        "lens_name": "Pentax smc DA* 300mm F4.0 ED (IF) SDM"
+        "lens_name": "Pentax smc DA* 300mm F4.0 ED (IF) SDM",
+        "uuid": "38ebe4b7-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -4544,7 +4924,8 @@ const jawn = [{
         "year_released": ["Jan 23, 2008"],
         "lens_brand": "Pentax",
         "msrp": ["842.79 ", "924.09"],
-        "lens_name": "Pentax smc DA* 200mm F2.8 ED (IF) SDM"
+        "lens_name": "Pentax smc DA* 200mm F2.8 ED (IF) SDM",
+        "uuid": "38ebe4b8-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -4556,7 +4937,8 @@ const jawn = [{
         "year_released": ["Sep 22, 2008"],
         "lens_brand": "Pentax",
         "msrp": ["1,152.79 ", "1,205.99"],
-        "lens_name": "Pentax smc DA* 60-250mm F4.0 ED (IF) SDM"
+        "lens_name": "Pentax smc DA* 60-250mm F4.0 ED (IF) SDM",
+        "uuid": "38ebe4b9-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.9",
         "lens_type": "Prime lens",
@@ -4568,7 +4950,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": ["484.99"],
-        "lens_name": "Pentax smc FA 43mm F1.9 Limited"
+        "lens_name": "Pentax smc FA 43mm F1.9 Limited",
+        "uuid": "38ebe4ba-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -4580,7 +4963,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": ["271.95"],
-        "lens_name": "Pentax smc FA 50mm F1.4"
+        "lens_name": "Pentax smc FA 50mm F1.4",
+        "uuid": "38ebe4bb-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -4592,7 +4976,8 @@ const jawn = [{
         "year_released": ["Feb 21, 2007"],
         "lens_brand": "Pentax",
         "msrp": ["867.00"],
-        "lens_name": "Pentax smc DA* 50-135mm F2.8 ED (IF) SDM"
+        "lens_name": "Pentax smc DA* 50-135mm F2.8 ED (IF) SDM",
+        "uuid": "38ebe4bc-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.4",
         "lens_type": "Prime lens",
@@ -4604,7 +4989,8 @@ const jawn = [{
         "year_released": ["Sep 13, 2006"],
         "lens_brand": "Pentax",
         "msrp": ["433.92"],
-        "lens_name": "Pentax smc DA 70mm F2.4 AL Limited"
+        "lens_name": "Pentax smc DA 70mm F2.4 AL Limited",
+        "uuid": "38ebe4bd-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -4616,7 +5002,8 @@ const jawn = [{
         "year_released": ["May 21, 2012"],
         "lens_brand": "Pentax",
         "msrp": ["180.90"],
-        "lens_name": "Pentax smc DA 50mm F1.8"
+        "lens_name": "Pentax smc DA 50mm F1.8",
+        "uuid": "38ebe4be-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -4628,7 +5015,8 @@ const jawn = [{
         "year_released": ["Sep 22, 2008"],
         "lens_brand": "Pentax",
         "msrp": ["633.00"],
-        "lens_name": "Pentax smc DA* 55mm F1.4 SDM"
+        "lens_name": "Pentax smc DA* 55mm F1.4 SDM",
+        "uuid": "38ebe4bf-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -4640,7 +5028,8 @@ const jawn = [{
         "year_released": ["Feb 21, 2007"],
         "lens_brand": "Pentax",
         "msrp": ["781.79"],
-        "lens_name": "Pentax smc DA* 16-50mm F2.8 ED AL (IF) SDM"
+        "lens_name": "Pentax smc DA* 16-50mm F2.8 ED AL (IF) SDM",
+        "uuid": "38ebe4c0-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.8",
         "lens_type": "Zoom lens",
@@ -4652,7 +5041,8 @@ const jawn = [{
         "year_released": ["Jan 23, 2008"],
         "lens_brand": "Pentax",
         "msrp": ["437.28"],
-        "lens_name": "Pentax smc DA 55-300mm F4.0-5.8 ED"
+        "lens_name": "Pentax smc DA 55-300mm F4.0-5.8 ED",
+        "uuid": "38ebe4c1-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -4664,7 +5054,8 @@ const jawn = [{
         "year_released": ["May 20, 2009"],
         "lens_brand": "Pentax",
         "msrp": ["165.00 ", "196.95"],
-        "lens_name": "Pentax smc DA 50-200mm F4-5.6 ED WR"
+        "lens_name": "Pentax smc DA 50-200mm F4-5.6 ED WR",
+        "uuid": "38ebe4c2-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -4676,7 +5067,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": ["172.99 ", "205.50"],
-        "lens_name": "Pentax smc DA 40mm F2.8 XS Lens"
+        "lens_name": "Pentax smc DA 40mm F2.8 XS Lens",
+        "uuid": "38ebe4c3-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -4688,7 +5080,8 @@ const jawn = [{
         "year_released": ["Dec 15, 2004"],
         "lens_brand": "Pentax",
         "msrp": ["359.90 ", "439.53"],
-        "lens_name": "Pentax smc DA 40mm F2.8 Limited"
+        "lens_name": "Pentax smc DA 40mm F2.8 Limited",
+        "uuid": "38ebe4c4-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -4700,7 +5093,8 @@ const jawn = [{
         "year_released": ["Feb 18, 2005"],
         "lens_brand": "Pentax",
         "msrp": ["200.20"],
-        "lens_name": "Pentax smc DA 50-200mm F4-5.6 ED"
+        "lens_name": "Pentax smc DA 50-200mm F4-5.6 ED",
+        "uuid": "38ebe4c5-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.4",
         "lens_type": "Prime lens",
@@ -4712,7 +5106,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": ["144.90"],
-        "lens_name": "Pentax smc DA 35mm F2.4 AL"
+        "lens_name": "Pentax smc DA 35mm F2.4 AL",
+        "uuid": "38ebe4c6-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.2",
         "lens_type": "Prime lens",
@@ -4724,7 +5119,8 @@ const jawn = [{
         "year_released": ["Feb 13, 2006"],
         "lens_brand": "Pentax",
         "msrp": ["1,145.04"],
-        "lens_name": "Pentax smc DA 21mm F3.2 AL Limited"
+        "lens_name": "Pentax smc DA 21mm F3.2 AL Limited",
+        "uuid": "38ebe4c7-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -4736,7 +5132,8 @@ const jawn = [{
         "year_released": ["Sep 10, 2012"],
         "lens_brand": "Pentax",
         "msrp": ["454.23"],
-        "lens_name": "Pentax smc DA 18-270mm F3.5-6.3 ED SDM"
+        "lens_name": "Pentax smc DA 18-270mm F3.5-6.3 ED SDM",
+        "uuid": "38ebe4c8-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -4748,7 +5145,8 @@ const jawn = [{
         "year_released": ["Jan 23, 2008"],
         "lens_brand": "Pentax",
         "msrp": ["594.40"],
-        "lens_name": "Pentax smc DA 35mm F2.8 Macro Limited"
+        "lens_name": "Pentax smc DA 35mm F2.8 Macro Limited",
+        "uuid": "38ebe4c9-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -4760,7 +5158,8 @@ const jawn = [{
         "year_released": ["Sep 20, 2010"],
         "lens_brand": "Pentax",
         "msrp": ["297.99 ", "613.31"],
-        "lens_name": "Pentax smc DA 18-135mm F3.5-5.6ED AL [IF] DC WR"
+        "lens_name": "Pentax smc DA 18-135mm F3.5-5.6ED AL [IF] DC WR",
+        "uuid": "38ebe4ca-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -4772,7 +5171,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": [],
-        "lens_name": "Pentax smc DA 18-250mm F3.5-6.3"
+        "lens_name": "Pentax smc DA 18-250mm F3.5-6.3",
+        "uuid": "38ebe4cb-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -4784,7 +5184,8 @@ const jawn = [{
         "year_released": ["Jan 23, 2008"],
         "lens_brand": "Pentax",
         "msrp": [],
-        "lens_name": "Pentax smc DA 18-55mm F3.5-5.6 ED AL II (IF)"
+        "lens_name": "Pentax smc DA 18-55mm F3.5-5.6 ED AL II (IF)",
+        "uuid": "38ebe4cc-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -4796,7 +5197,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": ["362.27"],
-        "lens_name": "Pentax smc DA 17-70mm F4.0 AL (IF) SDM"
+        "lens_name": "Pentax smc DA 17-70mm F4.0 AL (IF) SDM",
+        "uuid": "38ebe4cd-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -4808,7 +5210,8 @@ const jawn = [{
         "year_released": ["Sep 13, 2004"],
         "lens_brand": "Pentax",
         "msrp": [],
-        "lens_name": "Pentax smc DA 18-55mm F3.5-5.6 AL"
+        "lens_name": "Pentax smc DA 18-55mm F3.5-5.6 AL",
+        "uuid": "38ebe4ce-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -4820,7 +5223,8 @@ const jawn = [{
         "year_released": ["May 20, 2009"],
         "lens_brand": "Pentax",
         "msrp": ["210.10 ", "235.10"],
-        "lens_name": "Pentax smc DA 18-55mm F3.5-5.6 AL WR"
+        "lens_name": "Pentax smc DA 18-55mm F3.5-5.6 AL WR",
+        "uuid": "38ebe4cf-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–4.5",
         "lens_type": "Zoom lens",
@@ -4832,7 +5236,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": [],
-        "lens_name": "Pentax smc DA 10-17mm F3.5-4.5 ED (IF) Fisheye"
+        "lens_name": "Pentax smc DA 10-17mm F3.5-4.5 ED (IF) Fisheye",
+        "uuid": "38ebe4d0-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -4844,7 +5249,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": ["459.95"],
-        "lens_name": "Pentax smc DA 16-45mm F4 ED AL"
+        "lens_name": "Pentax smc DA 16-45mm F4 ED AL",
+        "uuid": "38ebe4d1-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -4856,7 +5262,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": ["490.19"],
-        "lens_name": "Pentax smc DA 15mm F4 ED AL Limited"
+        "lens_name": "Pentax smc DA 15mm F4 ED AL Limited",
+        "uuid": "38ebe4d2-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -4868,7 +5275,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": ["523.73"],
-        "lens_name": "Pentax smc D-FA 100mm F2.8 Macro WR"
+        "lens_name": "Pentax smc D-FA 100mm F2.8 Macro WR",
+        "uuid": "38ebe4d3-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -4880,7 +5288,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": ["553.29"],
-        "lens_name": "Pentax smc D-FA 100mm F2.8 macro"
+        "lens_name": "Pentax smc D-FA 100mm F2.8 macro",
+        "uuid": "38ebe4d4-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -4892,7 +5301,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": ["1,602.00"],
-        "lens_name": "Pentax smc D-FA 50mm F2.8 Macro"
+        "lens_name": "Pentax smc D-FA 50mm F2.8 Macro",
+        "uuid": "38ebe4d5-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -4904,7 +5314,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": ["962.69"],
-        "lens_name": "Pentax smc D FA 645 55mm F2.8 AL (IF) SDM AW"
+        "lens_name": "Pentax smc D FA 645 55mm F2.8 AL (IF) SDM AW",
+        "uuid": "38ebe4d6-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -4916,7 +5327,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": ["646.00"],
-        "lens_name": "Pentax smc DA 14mm F2.8 ED (IF)"
+        "lens_name": "Pentax smc DA 14mm F2.8 ED (IF)",
+        "uuid": "38ebe4d7-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -4928,7 +5340,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": [],
-        "lens_name": "Pentax smc D FA 645 25mm F4 AL (IF) SDM AW"
+        "lens_name": "Pentax smc D FA 645 25mm F4 AL (IF) SDM AW",
+        "uuid": "38ebe4d8-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -4940,7 +5353,8 @@ const jawn = [{
         "year_released": ["Mar 15, 2005"],
         "lens_brand": "Pentax",
         "msrp": ["675.00"],
-        "lens_name": "Pentax smc DA 12-24mm F4.0 ED AL (IF)"
+        "lens_name": "Pentax smc DA 12-24mm F4.0 ED AL (IF)",
+        "uuid": "38ebe4d9-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F9",
         "lens_type": "Prime lens",
@@ -4952,7 +5366,8 @@ const jawn = [{
         "year_released": ["Jun 12, 2013"],
         "lens_brand": "Pentax",
         "msrp": ["26.16"],
-        "lens_name": "Pentax 07 Mount Shield Lens"
+        "lens_name": "Pentax 07 Mount Shield Lens",
+        "uuid": "38ebe4da-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.7–4",
         "lens_type": "Zoom lens",
@@ -4963,7 +5378,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": ["320.62"],
-        "lens_name": "Pentax 08 Wide Zoom"
+        "lens_name": "Pentax 08 Wide Zoom",
+        "uuid": "38ebe4db-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F5.6",
         "lens_type": "Prime lens",
@@ -4975,7 +5391,8 @@ const jawn = [{
         "year_released": ["Sep 10, 2012"],
         "lens_brand": "Pentax",
         "msrp": ["4,327.67"],
-        "lens_name": "Pentax HD DA 560mm F5.6 ED AW"
+        "lens_name": "Pentax HD DA 560mm F5.6 ED AW",
+        "uuid": "38ebe4dc-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -4987,7 +5404,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": ["1,596.95 ", "2,000.00"],
-        "lens_name": "Pentax D FA* 70-200mm F2.8ED DC AW"
+        "lens_name": "Pentax D FA* 70-200mm F2.8ED DC AW",
+        "uuid": "38ebe4dd-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -4998,7 +5416,8 @@ const jawn = [{
         "year_released": ["Sep 10, 2012"],
         "lens_brand": "Pentax",
         "msrp": ["98.64 ", "9,998.99"],
-        "lens_name": "Pentax 06 Telephoto 15-45mm"
+        "lens_name": "Pentax 06 Telephoto 15-45mm",
+        "uuid": "38ebe4de-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -5010,7 +5429,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": ["260.84"],
-        "lens_name": "Pentax DA 18-50mm F4.5-5.6 DC WR RE"
+        "lens_name": "Pentax DA 18-50mm F4.5-5.6 DC WR RE",
+        "uuid": "38ebe4df-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -5022,7 +5442,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": ["1,996.95"],
-        "lens_name": "Pentax D FA 150-450mm F4.5-5.6 ED DC AW"
+        "lens_name": "Pentax D FA 150-450mm F4.5-5.6 ED DC AW",
+        "uuid": "38ebe4e0-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F7.1",
         "lens_type": "Prime lens",
@@ -5034,7 +5455,8 @@ const jawn = [{
         "year_released": ["Jun 23, 2011"],
         "lens_brand": "Pentax",
         "msrp": ["67.99"],
-        "lens_name": "Pentax 04 Toy Lens Wide"
+        "lens_name": "Pentax 04 Toy Lens Wide",
+        "uuid": "38ebe4e1-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.9",
         "lens_type": "Prime lens",
@@ -5046,7 +5468,8 @@ const jawn = [{
         "year_released": ["Jun 23, 2011"],
         "lens_brand": "Pentax",
         "msrp": ["162.40"],
-        "lens_name": "Pentax 01 Standard Prime"
+        "lens_name": "Pentax 01 Standard Prime",
+        "uuid": "38ebe4e2-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -5058,7 +5481,8 @@ const jawn = [{
         "year_released": ["Aug 26, 2011"],
         "lens_brand": "Panasonic",
         "msrp": ["358.66"],
-        "lens_name": "Panasonic Lumix G X Vario PZ 45-175mm F4.0-5.6 ASPH OIS"
+        "lens_name": "Panasonic Lumix G X Vario PZ 45-175mm F4.0-5.6 ASPH OIS",
+        "uuid": "38ebe4e3-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8–4.5",
         "lens_type": "Zoom lens",
@@ -5070,7 +5494,8 @@ const jawn = [{
         "year_released": ["Jun 23, 2011"],
         "lens_brand": "Pentax",
         "msrp": ["132.00"],
-        "lens_name": "Pentax 02 Standard Zoom"
+        "lens_name": "Pentax 02 Standard Zoom",
+        "uuid": "38ebe4e4-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F5.6",
         "lens_type": "Prime lens",
@@ -5082,7 +5507,8 @@ const jawn = [{
         "year_released": ["Jun 23, 2011"],
         "lens_brand": "Pentax",
         "msrp": ["96.50"],
-        "lens_name": "Pentax 03 Fish-Eye"
+        "lens_name": "Pentax 03 Fish-Eye",
+        "uuid": "38ebe4e5-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F8",
         "lens_type": "Prime lens",
@@ -5094,7 +5520,8 @@ const jawn = [{
         "year_released": ["Jun 23, 2011"],
         "lens_brand": "Pentax",
         "msrp": ["76.95"],
-        "lens_name": "Pentax 05 Toy Lens Telephoto"
+        "lens_name": "Pentax 05 Toy Lens Telephoto",
+        "uuid": "38ebe4e6-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -5106,7 +5533,8 @@ const jawn = [{
         "year_released": ["Aug 26, 2011"],
         "lens_brand": "Panasonic",
         "msrp": ["340.18 ", "359.00"],
-        "lens_name": "Panasonic Lumix G X Vario PZ 14-42mm F3.5-5.6 ASPH OIS"
+        "lens_name": "Panasonic Lumix G X Vario PZ 14-42mm F3.5-5.6 ASPH OIS",
+        "uuid": "38ebe4e7-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -5118,7 +5546,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Panasonic",
         "msrp": ["897.99 ", "999.99"],
-        "lens_name": "Panasonic Lumix G X Vario 35-100mm F2.8 II Power OIS"
+        "lens_name": "Panasonic Lumix G X Vario 35-100mm F2.8 II Power OIS",
+        "uuid": "38ebe4e8-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -5130,7 +5559,8 @@ const jawn = [{
         "year_released": ["Sep 17, 2012"],
         "lens_brand": "Panasonic",
         "msrp": ["1,297.99"],
-        "lens_name": "Panasonic Lumix G X Vario 35-100mm F2.8 OIS"
+        "lens_name": "Panasonic Lumix G X Vario 35-100mm F2.8 OIS",
+        "uuid": "38ebe4e9-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -5142,7 +5572,8 @@ const jawn = [{
         "year_released": ["May 21, 2012"],
         "lens_brand": "Panasonic",
         "msrp": ["666.56"],
-        "lens_name": "Panasonic Lumix G X Vario 12-35mm F2.8 ASPH Power OIS"
+        "lens_name": "Panasonic Lumix G X Vario 12-35mm F2.8 ASPH Power OIS",
+        "uuid": "38ec0b70-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.8",
         "lens_type": "Zoom lens",
@@ -5154,7 +5585,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Panasonic",
         "msrp": ["499.31"],
-        "lens_name": "Panasonic Lumix G Vario HD 14-140mm F4-5.8 OIS"
+        "lens_name": "Panasonic Lumix G Vario HD 14-140mm F4-5.8 OIS",
+        "uuid": "38ec0b71-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -5166,7 +5598,8 @@ const jawn = [{
         "year_released": ["Oct 17, 2013"],
         "lens_brand": "Panasonic",
         "msrp": ["199.95"],
-        "lens_name": "Panasonic Lumix G Vario HD 12-32mm F3.5-5.6 Mega OIS"
+        "lens_name": "Panasonic Lumix G Vario HD 12-32mm F3.5-5.6 Mega OIS",
+        "uuid": "38ec0b72-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -5178,7 +5611,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Panasonic",
         "msrp": ["647.99"],
-        "lens_name": "Panasonic Lumix G Vario 100-300mm F4-5.6 II Power OIS"
+        "lens_name": "Panasonic Lumix G Vario 100-300mm F4-5.6 II Power OIS",
+        "uuid": "38ec0b73-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -5190,7 +5624,8 @@ const jawn = [{
         "year_released": ["Sep 12, 2008"],
         "lens_brand": "Panasonic",
         "msrp": ["197.99 ", "697.95"],
-        "lens_name": "Panasonic Lumix G Vario 45-200mm F4-5.6 OIS"
+        "lens_name": "Panasonic Lumix G Vario 45-200mm F4-5.6 OIS",
+        "uuid": "38ec0b74-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -5202,7 +5637,8 @@ const jawn = [{
         "year_released": ["Jul 18, 2012"],
         "lens_brand": "Panasonic",
         "msrp": ["169.99"],
-        "lens_name": "Panasonic Lumix G Vario 45-150mm F4-5.6 ASPH Mega OIS"
+        "lens_name": "Panasonic Lumix G Vario 45-150mm F4-5.6 ASPH Mega OIS",
+        "uuid": "38ec0b75-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -5214,7 +5650,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Panasonic",
         "msrp": ["447.99"],
-        "lens_name": "Panasonic Lumix G Vario 45-200mm F4-5.6 II Power OIS"
+        "lens_name": "Panasonic Lumix G Vario 45-200mm F4-5.6 II Power OIS",
+        "uuid": "38ec0b76-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -5226,7 +5663,8 @@ const jawn = [{
         "year_released": ["Sep 21, 2010"],
         "lens_brand": "Panasonic",
         "msrp": ["439.99 ", "597.99"],
-        "lens_name": "Panasonic Lumix G Vario 100-300mm F4-5.6 OIS"
+        "lens_name": "Panasonic Lumix G Vario 100-300mm F4-5.6 OIS",
+        "uuid": "38ec0b77-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -5238,7 +5676,8 @@ const jawn = [{
         "year_released": ["Sep 15, 2014"],
         "lens_brand": "Panasonic",
         "msrp": ["197.99 ", "697.95"],
-        "lens_name": "Panasonic Lumix G Vario 35-100mm F4.0-5.6 ASPH Mega OIS"
+        "lens_name": "Panasonic Lumix G Vario 35-100mm F4.0-5.6 ASPH Mega OIS",
+        "uuid": "38ec0b78-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -5250,7 +5689,8 @@ const jawn = [{
         "year_released": ["Apr 24, 2013"],
         "lens_brand": "Panasonic",
         "msrp": ["501.81"],
-        "lens_name": "Panasonic Lumix G Vario 14-140mm F3.5-5.6 ASPH. / Power O.I.S"
+        "lens_name": "Panasonic Lumix G Vario 14-140mm F3.5-5.6 ASPH. / Power O.I.S",
+        "uuid": "38ec0b79-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -5262,7 +5702,8 @@ const jawn = [{
         "year_released": ["Sep 12, 2008"],
         "lens_brand": "Panasonic",
         "msrp": ["209.31 ", "299.95"],
-        "lens_name": "Panasonic Lumix G Vario 14-45mm F3.5-5.6 ASPH OIS"
+        "lens_name": "Panasonic Lumix G Vario 14-45mm F3.5-5.6 ASPH OIS",
+        "uuid": "38ec0b7a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -5274,7 +5715,8 @@ const jawn = [{
         "year_released": ["Jan 29, 2013"],
         "lens_brand": "Panasonic",
         "msrp": ["194.69 ", "247.99"],
-        "lens_name": "Panasonic Lumix G Vario 14-42mm F3.5-5.6 II ASPH Mega OIS"
+        "lens_name": "Panasonic Lumix G Vario 14-42mm F3.5-5.6 II ASPH Mega OIS",
+        "uuid": "38ec0b7b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -5286,7 +5728,8 @@ const jawn = [{
         "year_released": ["Feb 24, 2016"],
         "lens_brand": "Panasonic",
         "msrp": ["197.99 ", "697.95"],
-        "lens_name": "Panasonic Lumix G Vario 12-60mm F3.5-5.6 ASPH Power OIS"
+        "lens_name": "Panasonic Lumix G Vario 12-60mm F3.5-5.6 ASPH Power OIS",
+        "uuid": "38ec0b7c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -5298,7 +5741,8 @@ const jawn = [{
         "year_released": ["Feb 23, 2015"],
         "lens_brand": "Panasonic",
         "msrp": ["340.67"],
-        "lens_name": "Panasonic Lumix G Macro 30mm F2.8 ASPH Mega OIS"
+        "lens_name": "Panasonic Lumix G Macro 30mm F2.8 ASPH Mega OIS",
+        "uuid": "38ec0b7d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -5310,7 +5754,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Panasonic",
         "msrp": ["199.97"],
-        "lens_name": "Panasonic Lumix G Vario 14-42mm F3.5-5.6 ASPH OIS"
+        "lens_name": "Panasonic Lumix G Vario 14-42mm F3.5-5.6 ASPH OIS",
+        "uuid": "38ec0b7e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -5322,7 +5767,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Panasonic",
         "msrp": ["749.89 ", "897.99"],
-        "lens_name": "Panasonic Lumix G Vario 7-14mm F4 ASPH"
+        "lens_name": "Panasonic Lumix G Vario 7-14mm F4 ASPH",
+        "uuid": "38ec0b7f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.7",
         "lens_type": "Prime lens",
@@ -5334,7 +5780,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Panasonic",
         "msrp": ["197.99 ", "697.95"],
-        "lens_name": "Panasonic Lumix G 25mm F1.7 ASPH"
+        "lens_name": "Panasonic Lumix G 25mm F1.7 ASPH",
+        "uuid": "38ec0b80-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.5",
         "lens_type": "Prime lens",
@@ -5346,7 +5793,8 @@ const jawn = [{
         "year_released": ["Sep 15, 2014"],
         "lens_brand": "Panasonic",
         "msrp": [],
-        "lens_name": "Panasonic Lumix G 14mm F2.5 II ASPH"
+        "lens_name": "Panasonic Lumix G 14mm F2.5 II ASPH",
+        "uuid": "38ec0b81-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.7",
         "lens_type": "Prime lens",
@@ -5358,7 +5806,8 @@ const jawn = [{
         "year_released": ["Jun 27, 2013"],
         "lens_brand": "Panasonic",
         "msrp": ["267.99 ", "297.99"],
-        "lens_name": "Panasonic Lumix G 20mm F1.7 II ASPH"
+        "lens_name": "Panasonic Lumix G 20mm F1.7 II ASPH",
+        "uuid": "38ec0b82-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.7",
         "lens_type": "Prime lens",
@@ -5370,7 +5819,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Panasonic",
         "msrp": ["391.86"],
-        "lens_name": "Panasonic Lumix G 20mm F1.7 ASPH"
+        "lens_name": "Panasonic Lumix G 20mm F1.7 ASPH",
+        "uuid": "38ec0b83-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -5382,7 +5832,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Panasonic",
         "msrp": ["614.95"],
-        "lens_name": "Panasonic Lumix G Fisheye 8mm F3.5"
+        "lens_name": "Panasonic Lumix G Fisheye 8mm F3.5",
+        "uuid": "38ec0b84-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -5394,7 +5845,8 @@ const jawn = [{
         "year_released": ["Jun 15, 2016"],
         "lens_brand": "Panasonic",
         "msrp": ["1,297.99"],
-        "lens_name": "Panasonic Lumix G Leica DG Summilux 12mm F1.4 ASPH"
+        "lens_name": "Panasonic Lumix G Leica DG Summilux 12mm F1.4 ASPH",
+        "uuid": "38ec0b85-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.7",
         "lens_type": "Prime lens",
@@ -5406,7 +5858,8 @@ const jawn = [{
         "year_released": ["Feb 23, 2015"],
         "lens_brand": "Panasonic",
         "msrp": ["397.99"],
-        "lens_name": "Panasonic Lumix G 42.5mm F1.7 ASPH Power OIS"
+        "lens_name": "Panasonic Lumix G 42.5mm F1.7 ASPH Power OIS",
+        "uuid": "38ec0b86-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F12",
         "lens_type": "Prime lens",
@@ -5418,7 +5871,8 @@ const jawn = [{
         "year_released": ["Sep 21, 2010"],
         "lens_brand": "Panasonic",
         "msrp": ["137.58"],
-        "lens_name": "Panasonic Lumix G 12.5mm / F12"
+        "lens_name": "Panasonic Lumix G 12.5mm / F12",
+        "uuid": "38ec0b87-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.5",
         "lens_type": "Prime lens",
@@ -5430,7 +5884,8 @@ const jawn = [{
         "year_released": ["Sep 21, 2010"],
         "lens_brand": "Panasonic",
         "msrp": ["198.80"],
-        "lens_name": "Panasonic Lumix G 14mm F2.5 ASPH"
+        "lens_name": "Panasonic Lumix G 14mm F2.5 ASPH",
+        "uuid": "38ec0b88-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8–22",
         "lens_type": "Zoom lens",
@@ -5442,7 +5897,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Panasonic",
         "msrp": ["1,097.99"],
-        "lens_name": "Panasonic Leica DG Vario-Elmarit 8-18mm F2.8-4.0 ASPH"
+        "lens_name": "Panasonic Leica DG Vario-Elmarit 8-18mm F2.8-4.0 ASPH",
+        "uuid": "38ec0b89-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.7",
         "lens_type": "Prime lens",
@@ -5454,7 +5910,8 @@ const jawn = [{
         "year_released": ["Mar 24, 2014"],
         "lens_brand": "Panasonic",
         "msrp": ["597.99"],
-        "lens_name": "Panasonic Leica DG Summilux 15mm F1.7 ASPH"
+        "lens_name": "Panasonic Leica DG Summilux 15mm F1.7 ASPH",
+        "uuid": "38ec0b8a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8–4",
         "lens_type": "Zoom lens",
@@ -5466,7 +5923,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Panasonic",
         "msrp": ["997.99"],
-        "lens_name": "Panasonic Leica DG Vario-Elmarit 12-60mm F2.8-4.0 ASPH Power OIS"
+        "lens_name": "Panasonic Leica DG Vario-Elmarit 12-60mm F2.8-4.0 ASPH Power OIS",
+        "uuid": "38ec0b8b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–6.3",
         "lens_type": "Zoom lens",
@@ -5478,7 +5936,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Panasonic",
         "msrp": ["1,797.99"],
-        "lens_name": "Panasonic Leica DG Vario-Elmar 100-400mm F4.0-6.3 ASPH Power OIS"
+        "lens_name": "Panasonic Leica DG Vario-Elmar 100-400mm F4.0-6.3 ASPH Power OIS",
+        "uuid": "38ec0b8c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8–3.5",
         "lens_type": "Zoom lens",
@@ -5490,7 +5949,8 @@ const jawn = [{
         "year_released": ["Feb 26, 2006"],
         "lens_brand": "Panasonic",
         "msrp": ["625.37"],
-        "lens_name": "Panasonic Leica D Vario-Elmarit 14-50mm F2.8-3.5 ASPH Mega OIS"
+        "lens_name": "Panasonic Leica D Vario-Elmarit 14-50mm F2.8-3.5 ASPH Mega OIS",
+        "uuid": "38ec0b8d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -5502,7 +5962,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Panasonic",
         "msrp": ["559.14 ", "797.99"],
-        "lens_name": "Panasonic Leica DG Macro-Elmarit 45mm F2.8 ASPH OIS"
+        "lens_name": "Panasonic Leica DG Macro-Elmarit 45mm F2.8 ASPH OIS",
+        "uuid": "38ec0b8e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -5514,7 +5975,8 @@ const jawn = [{
         "year_released": ["Sep 27, 2004"],
         "lens_brand": "Olympus",
         "msrp": ["2,999.00"],
-        "lens_name": "Olympus Zuiko Digital ED 150mm 1:2.0"
+        "lens_name": "Olympus Zuiko Digital ED 150mm 1:2.0",
+        "uuid": "38ec0b8f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -5526,7 +5988,8 @@ const jawn = [{
         "year_released": ["Jun 13, 2011"],
         "lens_brand": "Panasonic",
         "msrp": ["597.99"],
-        "lens_name": "Panasonic Leica Summilux DG 25mm F1.4"
+        "lens_name": "Panasonic Leica Summilux DG 25mm F1.4",
+        "uuid": "38ec0b90-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -5538,7 +6001,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Panasonic",
         "msrp": ["1,007.24"],
-        "lens_name": "Panasonic Leica D Vario-Elmar 14-150mm F3.5-5.6 Asph Mega OIS"
+        "lens_name": "Panasonic Leica D Vario-Elmar 14-150mm F3.5-5.6 Asph Mega OIS",
+        "uuid": "38ec0b91-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -5550,7 +6014,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Panasonic",
         "msrp": ["782.69"],
-        "lens_name": "Panasonic Leica D Summilux Asph 25mm F1.4"
+        "lens_name": "Panasonic Leica D Summilux Asph 25mm F1.4",
+        "uuid": "38ec0b92-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -5562,7 +6027,8 @@ const jawn = [{
         "year_released": ["Jun 26, 2007"],
         "lens_brand": "Olympus",
         "msrp": [],
-        "lens_name": "Olympus Zuiko Digital ED 70-300mm 1:4.0-5.6"
+        "lens_name": "Olympus Zuiko Digital ED 70-300mm 1:4.0-5.6",
+        "uuid": "38ec0b93-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -5574,7 +6040,8 @@ const jawn = [{
         "year_released": ["Feb 17, 2005"],
         "lens_brand": "Olympus",
         "msrp": [],
-        "lens_name": "Olympus Zuiko Digital ED 90-250mm 1:2.8"
+        "lens_name": "Olympus Zuiko Digital ED 90-250mm 1:2.8",
+        "uuid": "38ec0b94-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.2",
         "lens_type": "Prime lens",
@@ -5586,7 +6053,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Panasonic",
         "msrp": ["1,224.00 ", "1,597.99"],
-        "lens_name": "Panasonic Leica DG Nocticron 42.5mm F1.2 ASPH OIS"
+        "lens_name": "Panasonic Leica DG Nocticron 42.5mm F1.2 ASPH OIS",
+        "uuid": "38ec0b95-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.8–5.6",
         "lens_type": "Zoom lens",
@@ -5598,7 +6066,8 @@ const jawn = [{
         "year_released": ["Aug 30, 2007"],
         "lens_brand": "Panasonic",
         "msrp": ["316.09"],
-        "lens_name": "Panasonic Leica D Vario-Elmar 14-50mm F3.8-5.6 Mega OIS"
+        "lens_name": "Panasonic Leica D Vario-Elmar 14-50mm F3.8-5.6 Mega OIS",
+        "uuid": "38ec0b96-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8–3.5",
         "lens_type": "Zoom lens",
@@ -5610,7 +6079,8 @@ const jawn = [{
         "year_released": ["Oct 17, 2007"],
         "lens_brand": "Olympus",
         "msrp": ["1,100.00 ", "1,199.00"],
-        "lens_name": "Olympus Zuiko Digital ED 50-200mm 1:2.8-3.5 SWD"
+        "lens_name": "Olympus Zuiko Digital ED 50-200mm 1:2.8-3.5 SWD",
+        "uuid": "38ec0b97-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -5622,7 +6092,8 @@ const jawn = [{
         "year_released": ["Sep 27, 2004"],
         "lens_brand": "Olympus",
         "msrp": ["279.00"],
-        "lens_name": "Olympus Zuiko Digital ED 40-150mm 1:4.0-5.6"
+        "lens_name": "Olympus Zuiko Digital ED 40-150mm 1:4.0-5.6",
+        "uuid": "38ec0b98-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -5634,7 +6105,8 @@ const jawn = [{
         "year_released": ["Jun 24, 2003"],
         "lens_brand": "Olympus",
         "msrp": [],
-        "lens_name": "Olympus Zuiko Digital ED 50mm 1:2.0 Macro"
+        "lens_name": "Olympus Zuiko Digital ED 50mm 1:2.0 Macro",
+        "uuid": "38ec0b99-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -5646,7 +6118,8 @@ const jawn = [{
         "year_released": ["Sep 26, 2005"],
         "lens_brand": "Olympus",
         "msrp": [],
-        "lens_name": "Olympus Zuiko Digital ED 18-180mm 1:3.5-6.3"
+        "lens_name": "Olympus Zuiko Digital ED 18-180mm 1:3.5-6.3",
+        "uuid": "38ec0b9a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -5658,7 +6131,8 @@ const jawn = [{
         "year_released": ["Sep 14, 2006"],
         "lens_brand": "Olympus",
         "msrp": [],
-        "lens_name": "Olympus Zuiko Digital ED 14-42mm 1:3.5-5.6"
+        "lens_name": "Olympus Zuiko Digital ED 14-42mm 1:3.5-5.6",
+        "uuid": "38ec0b9b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Zoom lens",
@@ -5670,7 +6144,8 @@ const jawn = [{
         "year_released": ["Feb 17, 2005"],
         "lens_brand": "Olympus",
         "msrp": ["2,299.00"],
-        "lens_name": "Olympus Zuiko Digital ED 14-35mm 1:2.0 SWD"
+        "lens_name": "Olympus Zuiko Digital ED 14-35mm 1:2.0 SWD",
+        "uuid": "38ec0b9c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Zoom lens",
@@ -5682,7 +6157,8 @@ const jawn = [{
         "year_released": ["Feb 17, 2005"],
         "lens_brand": "Olympus",
         "msrp": ["2,499.00"],
-        "lens_name": "Olympus Zuiko Digital ED 35-100mm 1:2.0"
+        "lens_name": "Olympus Zuiko Digital ED 35-100mm 1:2.0",
+        "uuid": "38ec0b9d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8–4",
         "lens_type": "Zoom lens",
@@ -5694,7 +6170,8 @@ const jawn = [{
         "year_released": ["Oct 16, 2007"],
         "lens_brand": "Olympus",
         "msrp": ["999.00"],
-        "lens_name": "Olympus Zuiko Digital ED 12-60mm 1:2.8-4.0 SWD"
+        "lens_name": "Olympus Zuiko Digital ED 12-60mm 1:2.8-4.0 SWD",
+        "uuid": "38ec0b9e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -5706,7 +6183,8 @@ const jawn = [{
         "year_released": ["May 13, 2008"],
         "lens_brand": "Olympus",
         "msrp": [],
-        "lens_name": "Olympus Zuiko Digital ED 9-18mm 1:4.0-5.6"
+        "lens_name": "Olympus Zuiko Digital ED 9-18mm 1:4.0-5.6",
+        "uuid": "38ec0b9f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -5718,7 +6196,8 @@ const jawn = [{
         "year_released": ["Sep 26, 2005"],
         "lens_brand": "Olympus",
         "msrp": ["217.16"],
-        "lens_name": "Olympus Zuiko Digital 35mm 1:3.5 Macro"
+        "lens_name": "Olympus Zuiko Digital 35mm 1:3.5 Macro",
+        "uuid": "38ec0ba0-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -5730,7 +6209,8 @@ const jawn = [{
         "year_released": ["Sep 27, 2004"],
         "lens_brand": "Olympus",
         "msrp": ["1,799.00"],
-        "lens_name": "Olympus Zuiko Digital ED 7-14mm 1:4.0"
+        "lens_name": "Olympus Zuiko Digital ED 7-14mm 1:4.0",
+        "uuid": "38ec0ba1-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8–3.5",
         "lens_type": "Zoom lens",
@@ -5742,7 +6222,8 @@ const jawn = [{
         "year_released": ["Jun 24, 2003"],
         "lens_brand": "Olympus",
         "msrp": ["489.00"],
-        "lens_name": "Olympus Zuiko Digital 14-54mm 1:2.8-3.5"
+        "lens_name": "Olympus Zuiko Digital 14-54mm 1:2.8-3.5",
+        "uuid": "38ec0ba2-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -5754,7 +6235,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Olympus",
         "msrp": ["299.00"],
-        "lens_name": "Olympus Zuiko Digital 25mm 1:2.8 Pancake"
+        "lens_name": "Olympus Zuiko Digital 25mm 1:2.8 Pancake",
+        "uuid": "38ec0ba3-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -5766,7 +6248,8 @@ const jawn = [{
         "year_released": ["Jun 30, 2005"],
         "lens_brand": "Olympus",
         "msrp": ["649.00"],
-        "lens_name": "Olympus Zuiko Digital ED 8mm 1:3.5 Fisheye"
+        "lens_name": "Olympus Zuiko Digital ED 8mm 1:3.5 Fisheye",
+        "uuid": "38ec0ba4-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Four Thirds",
@@ -5775,7 +6258,8 @@ const jawn = [{
         "year_released": ["Jun 24, 2003"],
         "lens_brand": "Olympus",
         "msrp": [],
-        "lens_name": "Olympus Zuiko Digital 1.4x Teleconverter EC-14"
+        "lens_name": "Olympus Zuiko Digital 1.4x Teleconverter EC-14",
+        "uuid": "38ec0ba5-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -5787,7 +6271,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Olympus",
         "msrp": ["899.00"],
-        "lens_name": "Olympus M.Zuiko Digital ED 75mm F1.8"
+        "lens_name": "Olympus M.Zuiko Digital ED 75mm F1.8",
+        "uuid": "38ec0ba6-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8–3.5",
         "lens_type": "Zoom lens",
@@ -5799,7 +6284,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Olympus",
         "msrp": ["489.95"],
-        "lens_name": "Olympus Zuiko Digital 14-54mm 1:2.8-3.5 II"
+        "lens_name": "Olympus Zuiko Digital 14-54mm 1:2.8-3.5 II",
+        "uuid": "38ec0ba7-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8–3.5",
         "lens_type": "Zoom lens",
@@ -5811,7 +6297,8 @@ const jawn = [{
         "year_released": ["Jun 24, 2003"],
         "lens_brand": "Olympus",
         "msrp": ["705.00"],
-        "lens_name": "Olympus Zuiko Digital 11-22mm 1:2.8-3.5"
+        "lens_name": "Olympus Zuiko Digital 11-22mm 1:2.8-3.5",
+        "uuid": "38ec0ba8-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -5823,7 +6310,8 @@ const jawn = [{
         "year_released": ["Jun 24, 2003"],
         "lens_brand": "Olympus",
         "msrp": ["6,999.00"],
-        "lens_name": "Olympus Zuiko Digital 300mm 1:2.8"
+        "lens_name": "Olympus Zuiko Digital 300mm 1:2.8",
+        "uuid": "38ec0ba9-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.8–6.7",
         "lens_type": "Zoom lens",
@@ -5835,7 +6323,8 @@ const jawn = [{
         "year_released": ["Aug 31, 2010"],
         "lens_brand": "Olympus",
         "msrp": [],
-        "lens_name": "Olympus M.Zuiko Digital ED 75-300mm 1:4.8-6.7"
+        "lens_name": "Olympus M.Zuiko Digital ED 75-300mm 1:4.8-6.7",
+        "uuid": "38ec0baa-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -5847,7 +6336,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Olympus",
         "msrp": ["499.00 ", "507.99"],
-        "lens_name": "Olympus M.Zuiko Digital ED 60mm 1:2.8 Macro"
+        "lens_name": "Olympus M.Zuiko Digital ED 60mm 1:2.8 Macro",
+        "uuid": "38ec0bab-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -5859,7 +6349,8 @@ const jawn = [{
         "year_released": ["Sep 26, 2005"],
         "lens_brand": "Olympus",
         "msrp": [],
-        "lens_name": "Olympus Zuiko Digital 17.5-45mm 1:3.5-5.6"
+        "lens_name": "Olympus Zuiko Digital 17.5-45mm 1:3.5-5.6",
+        "uuid": "38ec0bac-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Four Thirds",
@@ -5868,7 +6359,8 @@ const jawn = [{
         "year_released": ["Jun 24, 2003"],
         "lens_brand": "Olympus",
         "msrp": ["240.72"],
-        "lens_name": "Olympus Zuiko Digital 2.0x Teleconverter EC-20"
+        "lens_name": "Olympus Zuiko Digital 2.0x Teleconverter EC-20",
+        "uuid": "38ec0bad-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -5880,7 +6372,8 @@ const jawn = [{
         "year_released": ["Sep 15, 2014"],
         "lens_brand": "Olympus",
         "msrp": ["1,399.00"],
-        "lens_name": "Olympus M.Zuiko Digital ED 40-150mm F2.8 Pro"
+        "lens_name": "Olympus M.Zuiko Digital ED 40-150mm F2.8 Pro",
+        "uuid": "38ec0bae-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.2",
         "lens_type": "Prime lens",
@@ -5892,7 +6385,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Olympus",
         "msrp": ["1,199.00"],
-        "lens_name": "Olympus M.Zuiko Digital ED 45mm F1.2 Pro"
+        "lens_name": "Olympus M.Zuiko Digital ED 45mm F1.2 Pro",
+        "uuid": "38ec0baf-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.8–6.7",
         "lens_type": "Zoom lens",
@@ -5904,7 +6398,8 @@ const jawn = [{
         "year_released": ["Jan 30, 2013"],
         "lens_brand": "Olympus",
         "msrp": ["449.00 ", "457.99"],
-        "lens_name": "Olympus M.Zuiko ED 75-300mm 1:4.8-6.7 II"
+        "lens_name": "Olympus M.Zuiko ED 75-300mm 1:4.8-6.7 II",
+        "uuid": "38ec0bb0-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -5916,7 +6411,8 @@ const jawn = [{
         "year_released": ["Jun 30, 2011"],
         "lens_brand": "Olympus",
         "msrp": ["124.00 ", "133.98"],
-        "lens_name": "Olympus M.Zuiko Digital ED 40-150mm 1:4-5.6 R"
+        "lens_name": "Olympus M.Zuiko Digital ED 40-150mm 1:4-5.6 R",
+        "uuid": "38ec0bb1-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -5928,7 +6424,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Olympus",
         "msrp": ["524.00 ", "607.99"],
-        "lens_name": "Olympus M.Zuiko Digital ED 14-150mm F4-5.6 II"
+        "lens_name": "Olympus M.Zuiko Digital ED 14-150mm F4-5.6 II",
+        "uuid": "38ec0bb2-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -5940,7 +6437,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Olympus",
         "msrp": ["449.00"],
-        "lens_name": "Olympus M.Zuiko Digital ED 14-150mm 1:4-5.6"
+        "lens_name": "Olympus M.Zuiko Digital ED 14-150mm 1:4-5.6",
+        "uuid": "38ec0bb3-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.2",
         "lens_type": "Prime lens",
@@ -5952,7 +6450,8 @@ const jawn = [{
         "year_released": ["Sep 19, 2016"],
         "lens_brand": "Olympus",
         "msrp": ["1,199.00 ", "1,207.99"],
-        "lens_name": "Olympus M.Zuiko Digital ED 25mm F1.2 Pro"
+        "lens_name": "Olympus M.Zuiko Digital ED 25mm F1.2 Pro",
+        "uuid": "38ec0bb4-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -5964,7 +6463,8 @@ const jawn = [{
         "year_released": ["Sep 19, 2016"],
         "lens_brand": "Olympus",
         "msrp": ["199.00 ", "207.99"],
-        "lens_name": "Olympus M.Zuiko Digital ED 30mm F3.5 Macro"
+        "lens_name": "Olympus M.Zuiko Digital ED 30mm F3.5 Macro",
+        "uuid": "38ec0bb5-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -5976,7 +6476,8 @@ const jawn = [{
         "year_released": ["Jun 16, 2009"],
         "lens_brand": "Olympus",
         "msrp": [],
-        "lens_name": "Olympus M.Zuiko Digital ED 14-42mm 1:3.5-5.6"
+        "lens_name": "Olympus M.Zuiko Digital ED 14-42mm 1:3.5-5.6",
+        "uuid": "38ec0bb6-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -5988,7 +6489,8 @@ const jawn = [{
         "year_released": ["Aug 31, 2010"],
         "lens_brand": "Olympus",
         "msrp": ["279.00"],
-        "lens_name": "Olympus M.Zuiko Digital ED 40-150mm 1:4-5.6"
+        "lens_name": "Olympus M.Zuiko Digital ED 40-150mm 1:4-5.6",
+        "uuid": "38ec0bb7-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.2",
         "lens_type": "Prime lens",
@@ -6000,7 +6502,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Olympus",
         "msrp": ["1,199.00"],
-        "lens_name": "Olympus M.Zuiko Digital ED 17mm F1.2 Pro"
+        "lens_name": "Olympus M.Zuiko Digital ED 17mm F1.2 Pro",
+        "uuid": "38ec0bb8-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -6012,7 +6515,8 @@ const jawn = [{
         "year_released": ["Dec 14, 2011"],
         "lens_brand": "Olympus",
         "msrp": ["499.00"],
-        "lens_name": "Olympus M.Zuiko Digital ED 12-50mm 1:3.5-6.3 EZ"
+        "lens_name": "Olympus M.Zuiko Digital ED 12-50mm 1:3.5-6.3 EZ",
+        "uuid": "38ec0bb9-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -6024,7 +6528,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Olympus",
         "msrp": ["649.00"],
-        "lens_name": "Olympus M.Zuiko Digital ED 9-18mm F4.0-5.6"
+        "lens_name": "Olympus M.Zuiko Digital ED 9-18mm F4.0-5.6",
+        "uuid": "38ec0bba-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -6036,7 +6541,8 @@ const jawn = [{
         "year_released": ["Jan 29, 2014"],
         "lens_brand": "Olympus",
         "msrp": ["249.00 ", "307.99"],
-        "lens_name": "Olympus M.Zuiko Digital ED 14-42mm F3.5-5.6 EZ"
+        "lens_name": "Olympus M.Zuiko Digital ED 14-42mm F3.5-5.6 EZ",
+        "uuid": "38ec0bbb-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -6048,7 +6554,8 @@ const jawn = [{
         "year_released": ["Sep 19, 2016"],
         "lens_brand": "Olympus",
         "msrp": ["1,299.00"],
-        "lens_name": "Olympus M.Zuiko Digital ED 12-100mm F4.0 IS Pro"
+        "lens_name": "Olympus M.Zuiko Digital ED 12-100mm F4.0 IS Pro",
+        "uuid": "38ec0bbc-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -6060,7 +6567,8 @@ const jawn = [{
         "year_released": ["May 12, 2015"],
         "lens_brand": "Olympus",
         "msrp": ["899.00 ", "907.99"],
-        "lens_name": "Olympus M.Zuiko Digital ED 8mm F1.8 Fisheye PRO"
+        "lens_name": "Olympus M.Zuiko Digital ED 8mm F1.8 Fisheye PRO",
+        "uuid": "38ec0bbd-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -6072,7 +6580,8 @@ const jawn = [{
         "year_released": ["Jun 30, 2011"],
         "lens_brand": "Olympus",
         "msrp": ["799.00 ", "807.99"],
-        "lens_name": "Olympus M.Zuiko Digital ED 12mm 1:2"
+        "lens_name": "Olympus M.Zuiko Digital ED 12mm 1:2",
+        "uuid": "38ec0bbe-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -6084,7 +6593,8 @@ const jawn = [{
         "year_released": ["Sep 10, 2013"],
         "lens_brand": "Olympus",
         "msrp": ["899.00 ", "907.99"],
-        "lens_name": "Olympus M.Zuiko Digital ED 12-40mm 1:2.8 PRO"
+        "lens_name": "Olympus M.Zuiko Digital ED 12-40mm 1:2.8 PRO",
+        "uuid": "38ec0bbf-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -6096,7 +6606,8 @@ const jawn = [{
         "year_released": ["Jun 16, 2009"],
         "lens_brand": "Olympus",
         "msrp": ["299.00"],
-        "lens_name": "Olympus M.Zuiko Digital 17mm 1:2.8 Pancake"
+        "lens_name": "Olympus M.Zuiko Digital 17mm 1:2.8 Pancake",
+        "uuid": "38ec0bc0-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -6108,7 +6619,8 @@ const jawn = [{
         "year_released": ["Jun 30, 2011"],
         "lens_brand": "Olympus",
         "msrp": ["299.00 ", "407.99"],
-        "lens_name": "Olympus M.Zuiko Digital 45mm F1.8"
+        "lens_name": "Olympus M.Zuiko Digital 45mm F1.8",
+        "uuid": "38ec0bc1-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -6120,7 +6632,8 @@ const jawn = [{
         "year_released": ["May 12, 2015"],
         "lens_brand": "Olympus",
         "msrp": ["1,239.00 ", "1,307.99"],
-        "lens_name": "Olympus M.Zuiko Digital ED 7-14mm F2.8 PRO"
+        "lens_name": "Olympus M.Zuiko Digital ED 7-14mm F2.8 PRO",
+        "uuid": "38ec0bc2-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F8",
         "lens_type": "Prime lens",
@@ -6132,7 +6645,8 @@ const jawn = [{
         "year_released": ["Sep 17, 2012"],
         "lens_brand": "Olympus",
         "msrp": ["45.20"],
-        "lens_name": "Olympus Body Cap Lens 15mm F8.0"
+        "lens_name": "Olympus Body Cap Lens 15mm F8.0",
+        "uuid": "38ec0bc3-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -6144,7 +6658,8 @@ const jawn = [{
         "year_released": ["Jun 30, 2011"],
         "lens_brand": "Olympus",
         "msrp": ["299.00"],
-        "lens_name": "Olympus M.Zuiko Digital 14-42mm 1:3.5-5.6 II R"
+        "lens_name": "Olympus M.Zuiko Digital 14-42mm 1:3.5-5.6 II R",
+        "uuid": "38ec0bc4-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -6156,7 +6671,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["2,046.95"],
-        "lens_name": "Nikon PC-E Nikkor 45mm f/2.8D ED"
+        "lens_name": "Nikon PC-E Nikkor 45mm f/2.8D ED",
+        "uuid": "38ec0bc5-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F8",
         "lens_type": "Prime lens",
@@ -6168,7 +6684,8 @@ const jawn = [{
         "year_released": ["Jan 29, 2014"],
         "lens_brand": "Olympus",
         "msrp": ["98.72"],
-        "lens_name": "Olympus 9mm F8 Fish-Eye Body Cap Lens"
+        "lens_name": "Olympus 9mm F8 Fish-Eye Body Cap Lens",
+        "uuid": "38ec0bc6-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -6180,7 +6697,8 @@ const jawn = [{
         "year_released": ["Jan 29, 2008"],
         "lens_brand": "Nikon",
         "msrp": ["2,196.95"],
-        "lens_name": "Nikon PC-E Nikkor 24mm f/3.5D ED"
+        "lens_name": "Nikon PC-E Nikkor 24mm f/3.5D ED",
+        "uuid": "38ec0bc7-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -6192,7 +6710,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["1,976.95"],
-        "lens_name": "Nikon PC-E Micro-Nikkor 85mm f/2.8D"
+        "lens_name": "Nikon PC-E Micro-Nikkor 85mm f/2.8D",
+        "uuid": "38ec0bc8-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -6204,7 +6723,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Olympus",
         "msrp": ["2,499.00 ", "2,507.99"],
-        "lens_name": "Olympus M.Zuiko Digital 300mm F4 IS Pro"
+        "lens_name": "Olympus M.Zuiko Digital 300mm F4 IS Pro",
+        "uuid": "38ec0bc9-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Nikon F (FX)",
@@ -6213,7 +6733,8 @@ const jawn = [{
         "year_released": ["Dec 10, 2009"],
         "lens_brand": "Nikon",
         "msrp": ["496.95"],
-        "lens_name": "Nikon AF-S Teleconverter TC-20E III"
+        "lens_name": "Nikon AF-S Teleconverter TC-20E III",
+        "uuid": "38ec0bca-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -6225,7 +6746,8 @@ const jawn = [{
         "year_released": ["Oct 19, 2016"],
         "lens_brand": "Nikon",
         "msrp": ["3,396.95"],
-        "lens_name": "Nikon PC Nikkor 19mm F4E ED"
+        "lens_name": "Nikon PC Nikkor 19mm F4E ED",
+        "uuid": "38ec0bcb-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Nikon F (FX)",
@@ -6234,7 +6756,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["350.00"],
-        "lens_name": "Nikon AF-S Teleconverter TC-20E II"
+        "lens_name": "Nikon AF-S Teleconverter TC-20E II",
+        "uuid": "38ec0bcc-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Nikon F (DX)",
@@ -6243,7 +6766,8 @@ const jawn = [{
         "year_released": ["May 14, 2014"],
         "lens_brand": "Nikon",
         "msrp": ["496.95"],
-        "lens_name": "Nikon AF-S Teleconverter TC-14E III"
+        "lens_name": "Nikon AF-S Teleconverter TC-14E III",
+        "uuid": "38ec0bcd-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Nikon F (FX)",
@@ -6252,7 +6776,8 @@ const jawn = [{
         "year_released": ["May 28, 2004"],
         "lens_brand": "Nikon",
         "msrp": ["396.95"],
-        "lens_name": "Nikon AF-S Teleconverter TC-17E II"
+        "lens_name": "Nikon AF-S Teleconverter TC-17E II",
+        "uuid": "38ec0bce-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -6264,7 +6789,8 @@ const jawn = [{
         "year_released": ["Jan 29, 2014"],
         "lens_brand": "Olympus",
         "msrp": ["299.00 ", "307.99"],
-        "lens_name": "Olympus M.Zuiko Digital 25mm F1.8"
+        "lens_name": "Olympus M.Zuiko Digital 25mm F1.8",
+        "uuid": "38ec0bcf-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -6276,7 +6802,8 @@ const jawn = [{
         "year_released": ["Nov 16, 2010"],
         "lens_brand": "Olympus",
         "msrp": [],
-        "lens_name": "Olympus M.Zuiko Digital 14-42mm 1:3.5-5.6 II"
+        "lens_name": "Olympus M.Zuiko Digital 14-42mm 1:3.5-5.6 II",
+        "uuid": "38ec0bd0-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -6288,7 +6815,8 @@ const jawn = [{
         "year_released": ["Jun 15, 2012"],
         "lens_brand": "Olympus",
         "msrp": ["499.00 ", "507.99"],
-        "lens_name": "Olympus M.Zuiko Digital 17mm 1:1.8"
+        "lens_name": "Olympus M.Zuiko Digital 17mm 1:1.8",
+        "uuid": "38ec0bd1-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -6300,7 +6828,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": [],
-        "lens_name": "Nikon AF-S Nikkor 600mm f/4D ED-IF II"
+        "lens_name": "Nikon AF-S Nikkor 600mm f/4D ED-IF II",
+        "uuid": "38ec0bd2-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–29",
         "lens_type": "Zoom lens",
@@ -6312,7 +6841,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["1,246.95"],
-        "lens_name": "Nikon AF-S Nikkor Fisheye 8-15mm F3.5-4.5E ED"
+        "lens_name": "Nikon AF-S Nikkor Fisheye 8-15mm F3.5-4.5E ED",
+        "uuid": "38ec0bd3-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F5.6",
         "lens_type": "Prime lens",
@@ -6324,7 +6854,8 @@ const jawn = [{
         "year_released": ["Jan 29, 2013"],
         "lens_brand": "Nikon",
         "msrp": ["15,556.25 ", "16,296.95"],
-        "lens_name": "Nikon AF-S Nikkor 800mm f/5.6E FL ED VR"
+        "lens_name": "Nikon AF-S Nikkor 800mm f/5.6E FL ED VR",
+        "uuid": "38ec0bd4-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Nikon F (FX)",
@@ -6333,7 +6864,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": [],
-        "lens_name": "Nikon AF-S Teleconverter TC-14E II"
+        "lens_name": "Nikon AF-S Teleconverter TC-14E II",
+        "uuid": "38ec0bd5-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -6345,7 +6877,8 @@ const jawn = [{
         "year_released": ["Aug 23, 2007"],
         "lens_brand": "Nikon",
         "msrp": ["9,575.00"],
-        "lens_name": "Nikon AF-S Nikkor 600mm f/4G ED VR"
+        "lens_name": "Nikon AF-S Nikkor 600mm f/4G ED VR",
+        "uuid": "38ec0bd6-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -6357,7 +6890,8 @@ const jawn = [{
         "year_released": ["Aug 23, 2007"],
         "lens_brand": "Nikon",
         "msrp": ["8,399.00"],
-        "lens_name": "Nikon AF-S Nikkor 500mm f/4G ED VR"
+        "lens_name": "Nikon AF-S Nikkor 500mm f/4G ED VR",
+        "uuid": "38ec0bd7-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -6369,7 +6903,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": [],
-        "lens_name": "Nikon AF-S Nikkor 500mm f/4D ED-IF II"
+        "lens_name": "Nikon AF-S Nikkor 500mm f/4D ED-IF II",
+        "uuid": "38ec0bd8-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -6381,7 +6916,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["12,296.95"],
-        "lens_name": "Nikon AF-S Nikkor 600mm F4E FL ED VR"
+        "lens_name": "Nikon AF-S Nikkor 600mm F4E FL ED VR",
+        "uuid": "38ec0bd9-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -6393,7 +6929,8 @@ const jawn = [{
         "year_released": ["Aug 23, 2007"],
         "lens_brand": "Nikon",
         "msrp": [],
-        "lens_name": "Nikon AF-S Nikkor 400mm f/2.8G ED VR II"
+        "lens_name": "Nikon AF-S Nikkor 400mm f/2.8G ED VR II",
+        "uuid": "38ec0bda-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -6405,7 +6942,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": [],
-        "lens_name": "Nikon AF-S Nikkor 400mm f/2.8D ED-IF II"
+        "lens_name": "Nikon AF-S Nikkor 400mm f/2.8D ED-IF II",
+        "uuid": "38ec0bdb-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -6417,7 +6955,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["10,296.95"],
-        "lens_name": "Nikon AF-S Nikkor 500mm F4E FL ED VR"
+        "lens_name": "Nikon AF-S Nikkor 500mm F4E FL ED VR",
+        "uuid": "38ec0bdc-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -6429,7 +6968,8 @@ const jawn = [{
         "year_released": ["May 14, 2014"],
         "lens_brand": "Nikon",
         "msrp": ["11,196.95"],
-        "lens_name": "Nikon AF-S Nikkor 400mm f/2.8E FL ED VR"
+        "lens_name": "Nikon AF-S Nikkor 400mm f/2.8E FL ED VR",
+        "uuid": "38ec0bdd-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -6441,7 +6981,8 @@ const jawn = [{
         "year_released": ["Aug 29, 2000"],
         "lens_brand": "Nikon",
         "msrp": ["1,200.00"],
-        "lens_name": "Nikon AF-S Nikkor 300mm f/4D ED-IF"
+        "lens_name": "Nikon AF-S Nikkor 300mm f/4D ED-IF",
+        "uuid": "38ec0bde-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -6453,7 +6994,8 @@ const jawn = [{
         "year_released": ["Sep 16, 2004"],
         "lens_brand": "Nikon",
         "msrp": ["5,854.73"],
-        "lens_name": "Nikon AF-S Nikkor 300mm f/2.8G ED-IF VR"
+        "lens_name": "Nikon AF-S Nikkor 300mm f/2.8G ED-IF VR",
+        "uuid": "38ec0bdf-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -6465,7 +7007,8 @@ const jawn = [{
         "year_released": ["May 28, 2004"],
         "lens_brand": "Nikon",
         "msrp": ["5,450.00"],
-        "lens_name": "Nikon AF-S Nikkor 200mm f/2G ED-IF VR"
+        "lens_name": "Nikon AF-S Nikkor 200mm f/2G ED-IF VR",
+        "uuid": "38ec0be0-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -6477,7 +7020,8 @@ const jawn = [{
         "year_released": ["Sep 15, 2010"],
         "lens_brand": "Nikon",
         "msrp": ["5,696.95"],
-        "lens_name": "Nikon AF-S Nikkor 200mm f/2G ED VR II"
+        "lens_name": "Nikon AF-S Nikkor 200mm f/2G ED VR II",
+        "uuid": "38ec0be1-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -6489,7 +7033,8 @@ const jawn = [{
         "year_released": ["Dec 10, 2009"],
         "lens_brand": "Nikon",
         "msrp": [],
-        "lens_name": "Nikon AF-S Nikkor 300mm f/2.8G ED VR II"
+        "lens_name": "Nikon AF-S Nikkor 300mm f/2.8G ED VR II",
+        "uuid": "38ec0be2-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F5.6",
         "lens_type": "Zoom lens",
@@ -6501,7 +7046,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["1,396.95"],
-        "lens_name": "Nikon AF-S Nikkor 200-500mm F5.6E ED VR"
+        "lens_name": "Nikon AF-S Nikkor 200-500mm F5.6E ED VR",
+        "uuid": "38ec0be3-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -6513,7 +7059,8 @@ const jawn = [{
         "year_released": ["Aug 19, 2010"],
         "lens_brand": "Nikon",
         "msrp": ["1,596.95"],
-        "lens_name": "Nikon AF-S Nikkor 85mm f/1.4G"
+        "lens_name": "Nikon AF-S Nikkor 85mm f/1.4G",
+        "uuid": "38ec0be4-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -6525,7 +7072,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["6,996.95"],
-        "lens_name": "Nikon AF-S Nikkor 200-400mm f/4G ED VR II"
+        "lens_name": "Nikon AF-S Nikkor 200-400mm f/4G ED VR II",
+        "uuid": "38ec0be5-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -6537,7 +7085,8 @@ const jawn = [{
         "year_released": ["Jul 27, 2016"],
         "lens_brand": "Nikon",
         "msrp": ["2,196.95"],
-        "lens_name": "Nikon AF-S Nikkor 105mm F1.4E ED"
+        "lens_name": "Nikon AF-S Nikkor 105mm F1.4E ED",
+        "uuid": "38ec0be6-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -6549,7 +7098,8 @@ const jawn = [{
         "year_released": ["Jul 22, 2003"],
         "lens_brand": "Nikon",
         "msrp": [],
-        "lens_name": "Nikon AF-S Nikkor 200-400mm f/4G ED-IF VR"
+        "lens_name": "Nikon AF-S Nikkor 200-400mm f/4G ED-IF VR",
+        "uuid": "38ec0be7-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -6561,7 +7111,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["476.95 ", "576.90"],
-        "lens_name": "Nikon AF-S Nikkor 85mm f/1.8G"
+        "lens_name": "Nikon AF-S Nikkor 85mm f/1.8G",
+        "uuid": "38ec0be8-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -6573,7 +7124,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["169.95 ", "529.00"],
-        "lens_name": "Nikon AF-S Nikkor 70-300mm f/4.5-5.6G VR"
+        "lens_name": "Nikon AF-S Nikkor 70-300mm f/4.5-5.6G VR",
+        "uuid": "38ec0be9-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -6585,7 +7137,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["2,296.95"],
-        "lens_name": "Nikon AF-S Nikkor 80-400mm f/4.5-5.6G ED VR"
+        "lens_name": "Nikon AF-S Nikkor 80-400mm f/4.5-5.6G ED VR",
+        "uuid": "38ec0bea-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -6597,7 +7150,8 @@ const jawn = [{
         "year_released": ["Oct 24, 2012"],
         "lens_brand": "Nikon",
         "msrp": ["1,396.95"],
-        "lens_name": "Nikon AF-S Nikkor 70-200mm f/4G ED VR"
+        "lens_name": "Nikon AF-S Nikkor 70-200mm f/4G ED VR",
+        "uuid": "38ec0beb-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -6609,7 +7163,8 @@ const jawn = [{
         "year_released": ["Jul 30, 2009"],
         "lens_brand": "Nikon",
         "msrp": ["1,883.73 ", "2,249.99"],
-        "lens_name": "Nikon AF-S Nikkor 70-200mm f/2.8G ED VR II"
+        "lens_name": "Nikon AF-S Nikkor 70-200mm f/2.8G ED VR II",
+        "uuid": "38ec0bec-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -6621,7 +7176,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["276.95"],
-        "lens_name": "Nikon AF-S Nikkor 50mm f/1.8G Special Edition"
+        "lens_name": "Nikon AF-S Nikkor 50mm f/1.8G Special Edition",
+        "uuid": "38ec0bed-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -6633,7 +7189,8 @@ const jawn = [{
         "year_released": ["Apr 27, 2011"],
         "lens_brand": "Nikon",
         "msrp": ["183.99 ", "194.00"],
-        "lens_name": "Nikon AF-S Nikkor 50mm f/1.8G"
+        "lens_name": "Nikon AF-S Nikkor 50mm f/1.8G",
+        "uuid": "38ec0bee-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -6645,7 +7202,8 @@ const jawn = [{
         "year_released": ["Oct 17, 2013"],
         "lens_brand": "Nikon",
         "msrp": ["1,596.95"],
-        "lens_name": "Nikon AF-S Nikkor 58mm f/1.4G"
+        "lens_name": "Nikon AF-S Nikkor 58mm f/1.4G",
+        "uuid": "38ec0bef-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -6657,7 +7215,8 @@ const jawn = [{
         "year_released": ["Feb 21, 2002"],
         "lens_brand": "Nikon",
         "msrp": ["1,199.00"],
-        "lens_name": "Nikon AF-S Nikkor 70-200mm f/2.8G ED VR"
+        "lens_name": "Nikon AF-S Nikkor 70-200mm f/2.8G ED VR",
+        "uuid": "38ec0bf0-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -6669,7 +7228,8 @@ const jawn = [{
         "year_released": ["Oct 19, 2016"],
         "lens_brand": "Nikon",
         "msrp": ["2,796.95"],
-        "lens_name": "Nikon AF-S Nikkor 70-200mm F2.8E FL ED VR"
+        "lens_name": "Nikon AF-S Nikkor 70-200mm F2.8E FL ED VR",
+        "uuid": "38ec0bf1-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -6681,7 +7241,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["526.95"],
-        "lens_name": "Nikon AF-S Nikkor 35mm f/1.8G"
+        "lens_name": "Nikon AF-S Nikkor 35mm f/1.8G",
+        "uuid": "38ec0bf2-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -6693,7 +7254,8 @@ const jawn = [{
         "year_released": ["Sep 15, 2010"],
         "lens_brand": "Nikon",
         "msrp": ["1,687.24 ", "1,696.95"],
-        "lens_name": "Nikon AF-S Nikkor 35mm f/1.4G"
+        "lens_name": "Nikon AF-S Nikkor 35mm f/1.4G",
+        "uuid": "38ec0bf3-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -6705,7 +7267,8 @@ const jawn = [{
         "year_released": ["Apr 19, 2012"],
         "lens_brand": "Nikon",
         "msrp": ["596.95"],
-        "lens_name": "Nikon AF-S Nikkor 28mm f/1.8G"
+        "lens_name": "Nikon AF-S Nikkor 28mm f/1.8G",
+        "uuid": "38ec0bf4-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -6717,7 +7280,8 @@ const jawn = [{
         "year_released": ["Sep 22, 2008"],
         "lens_brand": "Nikon",
         "msrp": ["446.95 ", "478.78"],
-        "lens_name": "Nikon AF-S Nikkor 50mm f/1.4G"
+        "lens_name": "Nikon AF-S Nikkor 50mm f/1.4G",
+        "uuid": "38ec0bf5-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -6729,7 +7293,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": [],
-        "lens_name": "Nikon AF-S Nikkor 24mm f/1.4G ED"
+        "lens_name": "Nikon AF-S Nikkor 24mm f/1.4G ED",
+        "uuid": "38ec0bf6-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4–16",
         "lens_type": "Prime lens",
@@ -6741,7 +7306,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["1,996.95"],
-        "lens_name": "Nikon AF-S Nikkor 28mm F1.4E ED"
+        "lens_name": "Nikon AF-S Nikkor 28mm F1.4E ED",
+        "uuid": "38ec0bf7-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -6753,7 +7319,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": [],
-        "lens_name": "Nikon AF-S Nikkor 28-70mm f/2.8 ED-IF"
+        "lens_name": "Nikon AF-S Nikkor 28-70mm f/2.8 ED-IF",
+        "uuid": "38ec0bf8-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -6765,7 +7332,8 @@ const jawn = [{
         "year_released": ["Aug 19, 2010"],
         "lens_brand": "Nikon",
         "msrp": ["581.28 ", "1,096.95"],
-        "lens_name": "Nikon AF-S Nikkor 24-120mm f/4G ED VR"
+        "lens_name": "Nikon AF-S Nikkor 24-120mm f/4G ED VR",
+        "uuid": "38ec0bf9-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -6777,7 +7345,8 @@ const jawn = [{
         "year_released": ["Aug 19, 2010"],
         "lens_brand": "Nikon",
         "msrp": ["946.95 ", "1,074.39"],
-        "lens_name": "Nikon AF-S Nikkor 28-300mm f/3.5-5.6G ED VR"
+        "lens_name": "Nikon AF-S Nikkor 28-300mm f/3.5-5.6G ED VR",
+        "uuid": "38ec0bfa-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -6789,7 +7358,8 @@ const jawn = [{
         "year_released": ["Feb 18, 2003"],
         "lens_brand": "Nikon",
         "msrp": ["848.00"],
-        "lens_name": "Nikon AF-S Nikkor 24-120mm f/3.5-5.6G ED-IF VR"
+        "lens_name": "Nikon AF-S Nikkor 24-120mm f/3.5-5.6G ED-IF VR",
+        "uuid": "38ec0bfb-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–4.5",
         "lens_type": "Zoom lens",
@@ -6801,7 +7371,8 @@ const jawn = [{
         "year_released": ["Jun 14, 2012"],
         "lens_brand": "Nikon",
         "msrp": ["496.95"],
-        "lens_name": "Nikon AF-S Nikkor 24-85mm F3.5-4.5G ED VR"
+        "lens_name": "Nikon AF-S Nikkor 24-85mm F3.5-4.5G ED VR",
+        "uuid": "38ec0bfc-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -6813,7 +7384,8 @@ const jawn = [{
         "year_released": ["Aug 23, 2007"],
         "lens_brand": "Nikon",
         "msrp": ["1,839.95"],
-        "lens_name": "Nikon AF-S Nikkor 24-70mm f/2.8G ED"
+        "lens_name": "Nikon AF-S Nikkor 24-70mm f/2.8G ED",
+        "uuid": "38ec0bfd-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -6825,7 +7397,8 @@ const jawn = [{
         "year_released": ["Sep 12, 2014"],
         "lens_brand": "Nikon",
         "msrp": ["796.95 ", "924.39"],
-        "lens_name": "Nikon AF-S Nikkor 20mm f/1.8G ED"
+        "lens_name": "Nikon AF-S Nikkor 20mm f/1.8G ED",
+        "uuid": "38ec0bfe-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–4.5",
         "lens_type": "Zoom lens",
@@ -6837,7 +7410,8 @@ const jawn = [{
         "year_released": ["Jan 29, 2013"],
         "lens_brand": "Nikon",
         "msrp": ["746.95"],
-        "lens_name": "Nikon AF-S Nikkor 18-35mm f/3.5-4.5G ED"
+        "lens_name": "Nikon AF-S Nikkor 18-35mm f/3.5-4.5G ED",
+        "uuid": "38ec0bff-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -6849,7 +7423,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["2,396.93 ", "2,446.99"],
-        "lens_name": "Nikon AF-S Nikkor 24-70mm F2.8E ED VR"
+        "lens_name": "Nikon AF-S Nikkor 24-70mm F2.8E ED VR",
+        "uuid": "38ec0c00-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -6861,7 +7436,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["722.74 ", "746.95"],
-        "lens_name": "Nikon AF-S Nikkor 24mm F1.8G ED"
+        "lens_name": "Nikon AF-S Nikkor 24mm F1.8G ED",
+        "uuid": "38ec0c01-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -6873,7 +7449,8 @@ const jawn = [{
         "year_released": ["Aug 21, 2007"],
         "lens_brand": "Nikon",
         "msrp": ["1,896.95"],
-        "lens_name": "Nikon AF-S Nikkor 14-24mm f/2.8G ED"
+        "lens_name": "Nikon AF-S Nikkor 14-24mm f/2.8G ED",
+        "uuid": "38ec0c02-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -6885,7 +7462,8 @@ const jawn = [{
         "year_released": ["Feb 21, 2006"],
         "lens_brand": "Nikon",
         "msrp": ["896.95 ", "936.90"],
-        "lens_name": "Nikon AF-S Micro-Nikkor 105mm f/2.8G IF-ED VR"
+        "lens_name": "Nikon AF-S Micro-Nikkor 105mm f/2.8G IF-ED VR",
+        "uuid": "38ec0c03-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -6897,7 +7475,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["1,846.31 ", "1,951.95"],
-        "lens_name": "Nikon AF-S Nikkor 17-35mm f/2.8D ED-IF"
+        "lens_name": "Nikon AF-S Nikkor 17-35mm f/2.8D ED-IF",
+        "uuid": "38ec0c04-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -6909,7 +7488,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["996.95"],
-        "lens_name": "Nikon AF-S Nikkor 16-35mm F4G ED VR"
+        "lens_name": "Nikon AF-S Nikkor 16-35mm F4G ED VR",
+        "uuid": "38ec0c05-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -6921,7 +7501,8 @@ const jawn = [{
         "year_released": ["Apr 20, 2005"],
         "lens_brand": "Nikon",
         "msrp": ["114.99 ", "159.00"],
-        "lens_name": "Nikon AF-S DX Nikkor 55-200mm f/4-5.6G ED"
+        "lens_name": "Nikon AF-S DX Nikkor 55-200mm f/4-5.6G ED",
+        "uuid": "38ec0c06-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -6933,7 +7514,8 @@ const jawn = [{
         "year_released": ["Aug 19, 2010"],
         "lens_brand": "Nikon",
         "msrp": ["229.00"],
-        "lens_name": "Nikon AF-S DX Nikkor 55-300mm f/4.5-5.6G ED VR"
+        "lens_name": "Nikon AF-S DX Nikkor 55-300mm f/4.5-5.6G ED VR",
+        "uuid": "38ec0c07-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -6945,7 +7527,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["146.95 ", "226.00"],
-        "lens_name": "Nikon AF-S DX Nikkor 55-200mm f/4-5.6G VR II"
+        "lens_name": "Nikon AF-S DX Nikkor 55-200mm f/4-5.6G VR II",
+        "uuid": "38ec0c08-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -6957,7 +7540,8 @@ const jawn = [{
         "year_released": ["Jan 29, 2008"],
         "lens_brand": "Nikon",
         "msrp": ["596.95 ", "662.45"],
-        "lens_name": "Nikon AF-S Micro-Nikkor 60mm f/2.8G ED"
+        "lens_name": "Nikon AF-S Micro-Nikkor 60mm f/2.8G ED",
+        "uuid": "38ec0c09-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -6969,7 +7553,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["196.95 ", "251.54"],
-        "lens_name": "Nikon AF-S DX Nikkor 35mm F1.8G"
+        "lens_name": "Nikon AF-S DX Nikkor 35mm F1.8G",
+        "uuid": "38ec0c0a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -6981,7 +7566,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["181.08"],
-        "lens_name": "Nikon AF-S DX Nikkor 55-200mm f/4-5.6G VR"
+        "lens_name": "Nikon AF-S DX Nikkor 55-200mm f/4-5.6G VR",
+        "uuid": "38ec0c0b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -6993,7 +7579,8 @@ const jawn = [{
         "year_released": ["Apr 10, 2014"],
         "lens_brand": "Nikon",
         "msrp": ["696.95 ", "773.34"],
-        "lens_name": "Nikon AF-S DX Nikkor 18-300mm F3.5-6.3G ED VR"
+        "lens_name": "Nikon AF-S DX Nikkor 18-300mm F3.5-6.3G ED VR",
+        "uuid": "38ec0c0c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -7005,7 +7592,8 @@ const jawn = [{
         "year_released": ["Jun 14, 2012"],
         "lens_brand": "Nikon",
         "msrp": ["996.95"],
-        "lens_name": "Nikon AF-S DX Nikkor 18-300mm F3.5-5.6G ED VR"
+        "lens_name": "Nikon AF-S DX Nikkor 18-300mm F3.5-5.6G ED VR",
+        "uuid": "38ec0c0d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -7017,7 +7605,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["349.00"],
-        "lens_name": "Nikon AF-S DX Nikkor 18-200mm f/3.5-5.6G IF-ED VR"
+        "lens_name": "Nikon AF-S DX Nikkor 18-200mm f/3.5-5.6G IF-ED VR",
+        "uuid": "38ec0c0e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -7029,7 +7618,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["330.00"],
-        "lens_name": "Nikon AF-S DX Nikkor 18-135mm f/3.5-5.6G ED-IF"
+        "lens_name": "Nikon AF-S DX Nikkor 18-135mm f/3.5-5.6G ED-IF",
+        "uuid": "38ec0c0f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -7041,7 +7631,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["526.71"],
-        "lens_name": "Nikon AF-S DX Nikkor 18-140mm f/3.5-5.6G ED VR"
+        "lens_name": "Nikon AF-S DX Nikkor 18-140mm f/3.5-5.6G ED VR",
+        "uuid": "38ec0c10-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -7053,7 +7644,8 @@ const jawn = [{
         "year_released": ["Nov 20, 2007"],
         "lens_brand": "Nikon",
         "msrp": ["189.00"],
-        "lens_name": "Nikon AF-S DX Nikkor 18-55mm f/3.5-5.6G VR"
+        "lens_name": "Nikon AF-S DX Nikkor 18-55mm f/3.5-5.6G VR",
+        "uuid": "38ec0c11-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -7065,7 +7657,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["151.09 ", "246.95"],
-        "lens_name": "Nikon AF-S DX Nikkor 18-55mm f/3.5-5.6G VR II"
+        "lens_name": "Nikon AF-S DX Nikkor 18-55mm f/3.5-5.6G VR II",
+        "uuid": "38ec0c12-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–4.5",
         "lens_type": "Zoom lens",
@@ -7077,7 +7670,8 @@ const jawn = [{
         "year_released": ["Jan 28, 2004"],
         "lens_brand": "Nikon",
         "msrp": [],
-        "lens_name": "Nikon AF-S DX Nikkor 18-70mm f/3.5-4.5G ED-IF"
+        "lens_name": "Nikon AF-S DX Nikkor 18-70mm f/3.5-4.5G ED-IF",
+        "uuid": "38ec0c13-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -7089,7 +7683,8 @@ const jawn = [{
         "year_released": ["Aug 27, 2008"],
         "lens_brand": "Nikon",
         "msrp": ["396.95"],
-        "lens_name": "Nikon AF-S DX Nikkor 18-105mm f/3.5-5.6G ED VR"
+        "lens_name": "Nikon AF-S DX Nikkor 18-105mm f/3.5-5.6G ED VR",
+        "uuid": "38ec0c14-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -7101,7 +7696,8 @@ const jawn = [{
         "year_released": ["Jul 30, 2009"],
         "lens_brand": "Nikon",
         "msrp": ["646.95 ", "786.90"],
-        "lens_name": "Nikon AF-S DX Nikkor 18-200mm f/3.5-5.6G ED VR II"
+        "lens_name": "Nikon AF-S DX Nikkor 18-200mm f/3.5-5.6G ED VR II",
+        "uuid": "38ec0c15-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -7113,7 +7709,8 @@ const jawn = [{
         "year_released": ["Nov 16, 2006"],
         "lens_brand": "Nikon",
         "msrp": ["199.00"],
-        "lens_name": "Nikon AF-S DX Nikkor 18-55mm f/3.5-5.6G II"
+        "lens_name": "Nikon AF-S DX Nikkor 18-55mm f/3.5-5.6G II",
+        "uuid": "38ec0c16-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -7125,7 +7722,8 @@ const jawn = [{
         "year_released": ["Jul 22, 2003"],
         "lens_brand": "Nikon",
         "msrp": ["1,496.95"],
-        "lens_name": "Nikon AF-S DX Nikkor 17-55mm f/2.8G ED-IF"
+        "lens_name": "Nikon AF-S DX Nikkor 17-55mm f/2.8G ED-IF",
+        "uuid": "38ec0c17-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -7137,7 +7735,8 @@ const jawn = [{
         "year_released": ["Jul 12, 2011"],
         "lens_brand": "Nikon",
         "msrp": ["276.95 ", "331.54"],
-        "lens_name": "Nikon AF-S DX Micro Nikkor 40mm F2.8"
+        "lens_name": "Nikon AF-S DX Micro Nikkor 40mm F2.8",
+        "uuid": "38ec0c18-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -7149,7 +7748,8 @@ const jawn = [{
         "year_released": ["Jan 29, 2008"],
         "lens_brand": "Nikon",
         "msrp": ["696.95"],
-        "lens_name": "Nikon AF-S DX Nikkor 16-85mm f/3.5-5.6G ED VR"
+        "lens_name": "Nikon AF-S DX Nikkor 16-85mm f/3.5-5.6G ED VR",
+        "uuid": "38ec0c19-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -7161,7 +7761,8 @@ const jawn = [{
         "year_released": ["Feb 18, 2003"],
         "lens_brand": "Nikon",
         "msrp": ["1,146.95"],
-        "lens_name": "Nikon AF-S DX Nikkor 12-24mm f/4G ED-IF"
+        "lens_name": "Nikon AF-S DX Nikkor 12-24mm f/4G ED-IF",
+        "uuid": "38ec0c1a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -7173,7 +7774,8 @@ const jawn = [{
         "year_released": ["Oct 14, 2009"],
         "lens_brand": "Nikon",
         "msrp": ["526.95"],
-        "lens_name": "Nikon AF-S DX Micro-Nikkor 85mm f/3.5G ED VR"
+        "lens_name": "Nikon AF-S DX Micro-Nikkor 85mm f/3.5G ED VR",
+        "uuid": "38ec0c1b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–4.5",
         "lens_type": "Zoom lens",
@@ -7185,7 +7787,8 @@ const jawn = [{
         "year_released": ["Apr 14, 2009"],
         "lens_brand": "Nikon",
         "msrp": ["796.95 ", "924.39"],
-        "lens_name": "Nikon AF-S DX Nikkor 10-24mm f/3-5-4.5G ED"
+        "lens_name": "Nikon AF-S DX Nikkor 10-24mm f/3-5-4.5G ED",
+        "uuid": "38ec0c1c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8–4",
         "lens_type": "Zoom lens",
@@ -7197,7 +7800,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["1,066.95"],
-        "lens_name": "Nikon AF-S DX Nikkor 16-80mm F2.8-4E ED VR"
+        "lens_name": "Nikon AF-S DX Nikkor 16-80mm F2.8-4E ED VR",
+        "uuid": "38ec0c1d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–6.3",
         "lens_type": "Zoom lens",
@@ -7209,7 +7813,8 @@ const jawn = [{
         "year_released": ["Aug 17, 2016"],
         "lens_brand": "Nikon",
         "msrp": ["396.95"],
-        "lens_name": "Nikon AF-P DX Nikkor 70-300mm F4.5-6.3G VR"
+        "lens_name": "Nikon AF-P DX Nikkor 70-300mm F4.5-6.3G VR",
+        "uuid": "38ec0c1e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–32",
         "lens_type": "Zoom lens",
@@ -7221,7 +7826,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["746.95"],
-        "lens_name": "Nikon AF-P Nikkor 70-300mm F4.5-5.6E ED VR"
+        "lens_name": "Nikon AF-P Nikkor 70-300mm F4.5-5.6E ED VR",
+        "uuid": "38ec0c1f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–6.3",
         "lens_type": "Zoom lens",
@@ -7233,7 +7839,8 @@ const jawn = [{
         "year_released": ["Aug 17, 2016"],
         "lens_brand": "Nikon",
         "msrp": ["346.95"],
-        "lens_name": "Nikon AF-P DX Nikkor 70-300mm F4.5-6.3G"
+        "lens_name": "Nikon AF-P DX Nikkor 70-300mm F4.5-6.3G",
+        "uuid": "38ec0c20-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -7245,7 +7852,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": [],
-        "lens_name": "Nikon AF-Nikkor 80-200mm f/2.8D ED"
+        "lens_name": "Nikon AF-Nikkor 80-200mm f/2.8D ED",
+        "uuid": "38ec0c21-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -7257,7 +7865,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["1,001.95"],
-        "lens_name": "Nikon AF Nikkor 180mm f/2.8D ED-IF"
+        "lens_name": "Nikon AF Nikkor 180mm f/2.8D ED-IF",
+        "uuid": "38ec0c22-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -7269,7 +7878,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["306.95"],
-        "lens_name": "Nikon AF-P DX Nikkor 10-20mm F4.5-5.6G VR"
+        "lens_name": "Nikon AF-P DX Nikkor 10-20mm F4.5-5.6G VR",
+        "uuid": "38ec0c23-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -7281,7 +7891,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["1,185.00"],
-        "lens_name": "Nikon AF Nikkor 105mm f/2D DC"
+        "lens_name": "Nikon AF Nikkor 105mm f/2D DC",
+        "uuid": "38ec0c24-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -7293,7 +7904,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["1,391.95"],
-        "lens_name": "Nikon AF Nikkor 135mm f/2D DC"
+        "lens_name": "Nikon AF Nikkor 135mm f/2D DC",
+        "uuid": "38ec0c25-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -7305,7 +7917,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["246.95"],
-        "lens_name": "Nikon AF-P DX Nikkor 18-55mm F3.5-5.6G VR"
+        "lens_name": "Nikon AF-P DX Nikkor 18-55mm F3.5-5.6G VR",
+        "uuid": "38ec0c26-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -7317,7 +7930,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": [],
-        "lens_name": "Nikon AF-P DX Nikkor 18-55mm F3.5-5.6G"
+        "lens_name": "Nikon AF-P DX Nikkor 18-55mm F3.5-5.6G",
+        "uuid": "38ec0c27-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -7329,7 +7943,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": [],
-        "lens_name": "Nikon AF Nikkor 85mm f/1.8D"
+        "lens_name": "Nikon AF Nikkor 85mm f/1.8D",
+        "uuid": "38ec0c28-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -7341,7 +7956,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["1,546.95"],
-        "lens_name": "Nikon AF Nikkor 85mm f/1.4D"
+        "lens_name": "Nikon AF Nikkor 85mm f/1.4D",
+        "uuid": "38ec0c29-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -7353,7 +7969,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["1,619.99"],
-        "lens_name": "Nikon AF Nikkor 80-400mm f/4.5-5.6D ED VR"
+        "lens_name": "Nikon AF Nikkor 80-400mm f/4.5-5.6D ED VR",
+        "uuid": "38ec0c2a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -7365,7 +7982,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["370.53 ", "386.95"],
-        "lens_name": "Nikon AF Nikkor 35mm f/2D"
+        "lens_name": "Nikon AF Nikkor 35mm f/2D",
+        "uuid": "38ec0c2b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -7377,7 +7995,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["286.95"],
-        "lens_name": "Nikon AF Nikkor 28mm f/2.8D"
+        "lens_name": "Nikon AF Nikkor 28mm f/2.8D",
+        "uuid": "38ec0c2c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -7389,7 +8008,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["131.95"],
-        "lens_name": "Nikon AF Nikkor 50mm f/1.8D"
+        "lens_name": "Nikon AF Nikkor 50mm f/1.8D",
+        "uuid": "38ec0c2d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -7401,7 +8021,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["391.95"],
-        "lens_name": "Nikon AF Nikkor 24mm f/2.8D"
+        "lens_name": "Nikon AF Nikkor 24mm f/2.8D",
+        "uuid": "38ec0c2e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8–4",
         "lens_type": "Zoom lens",
@@ -7413,7 +8034,8 @@ const jawn = [{
         "year_released": ["Aug 29, 2000"],
         "lens_brand": "Nikon",
         "msrp": ["741.95"],
-        "lens_name": "Nikon AF Nikkor 24-85mm f/2.8-4D IF"
+        "lens_name": "Nikon AF Nikkor 24-85mm f/2.8-4D IF",
+        "uuid": "38ec0c2f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -7425,7 +8047,8 @@ const jawn = [{
         "year_released": ["Aug 29, 2000"],
         "lens_brand": "Nikon",
         "msrp": ["169.95 ", "529.00"],
-        "lens_name": "Nikon AF Nikkor 70-300mm f/4-5.6G"
+        "lens_name": "Nikon AF Nikkor 70-300mm f/4-5.6G",
+        "uuid": "38ec0c30-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -7437,7 +8060,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["334.00"],
-        "lens_name": "Nikon AF Nikkor 50mm f/1.4D"
+        "lens_name": "Nikon AF Nikkor 50mm f/1.4D",
+        "uuid": "38ec0c31-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -7449,7 +8073,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["1,891.95 ", "2,242.16"],
-        "lens_name": "Nikon AF Nikkor 14mm f/2.8D ED"
+        "lens_name": "Nikon AF Nikkor 14mm f/2.8D ED",
+        "uuid": "38ec0c32-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -7461,7 +8086,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["621.95"],
-        "lens_name": "Nikon AF Nikkor 20mm f/2.8D"
+        "lens_name": "Nikon AF Nikkor 20mm f/2.8D",
+        "uuid": "38ec0c33-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–4.5",
         "lens_type": "Zoom lens",
@@ -7473,7 +8099,8 @@ const jawn = [{
         "year_released": ["Aug 29, 2000"],
         "lens_brand": "Nikon",
         "msrp": ["630.21"],
-        "lens_name": "Nikon AF Nikkor 18-35mm f/3.5-4.5D IF ED"
+        "lens_name": "Nikon AF Nikkor 18-35mm f/3.5-4.5D IF ED",
+        "uuid": "38ec0c34-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -7485,7 +8112,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["1,791.95"],
-        "lens_name": "Nikon AF Micro-Nikkor 200mm f/4D ED-IF"
+        "lens_name": "Nikon AF Micro-Nikkor 200mm f/4D ED-IF",
+        "uuid": "38ec0c35-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -7497,7 +8125,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["516.95"],
-        "lens_name": "Nikon AF Micro-Nikkor 60mm f/2.8D"
+        "lens_name": "Nikon AF Micro-Nikkor 60mm f/2.8D",
+        "uuid": "38ec0c36-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -7509,7 +8138,8 @@ const jawn = [{
         "year_released": ["Mar 13, 2014"],
         "lens_brand": "Nikon",
         "msrp": ["996.95"],
-        "lens_name": "Nikon 1 Nikkor VR 70-300mm f/4.5-5.6"
+        "lens_name": "Nikon 1 Nikkor VR 70-300mm f/4.5-5.6",
+        "uuid": "38ec0c37-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -7521,7 +8151,8 @@ const jawn = [{
         "year_released": ["Sep 21, 2011"],
         "lens_brand": "Nikon",
         "msrp": [],
-        "lens_name": "Nikon 1 Nikkor VR 10-30mm f/3.5-5.6"
+        "lens_name": "Nikon 1 Nikkor VR 10-30mm f/3.5-5.6",
+        "uuid": "38ec0c38-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.8–5.6",
         "lens_type": "Zoom lens",
@@ -7533,7 +8164,8 @@ const jawn = [{
         "year_released": ["Sep 21, 2011"],
         "lens_brand": "Nikon",
         "msrp": [],
-        "lens_name": "Nikon 1 Nikkor VR 30-110mm f/3.8-5.6"
+        "lens_name": "Nikon 1 Nikkor VR 30-110mm f/3.8-5.6",
+        "uuid": "38ec0c39-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -7545,7 +8177,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["546.95"],
-        "lens_name": "Nikon 1 Nikkor VR 10-100mm f/4.5-5.6"
+        "lens_name": "Nikon 1 Nikkor VR 10-100mm f/4.5-5.6",
+        "uuid": "38ec0c3a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -7557,7 +8190,8 @@ const jawn = [{
         "year_released": ["Jul 22, 2003"],
         "lens_brand": "Nikon",
         "msrp": ["691.58 ", "771.93"],
-        "lens_name": "Nikon AF DX Fisheye-Nikkor 10.5mm f/2.8G ED"
+        "lens_name": "Nikon AF DX Fisheye-Nikkor 10.5mm f/2.8G ED",
+        "uuid": "38ec0c3b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -7569,7 +8203,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": [],
-        "lens_name": "Nikon AF Fisheye-Nikkor 16mm f/2.8D"
+        "lens_name": "Nikon AF Fisheye-Nikkor 16mm f/2.8D",
+        "uuid": "38ec0c3c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -7581,7 +8216,8 @@ const jawn = [{
         "year_released": ["Sep 21, 2011"],
         "lens_brand": "Nikon",
         "msrp": ["372.19 ", "650.00"],
-        "lens_name": "Nikon 1 Nikkor VR 10-100mm f/4.5-5.6 PD-Zoom"
+        "lens_name": "Nikon 1 Nikkor VR 10-100mm f/4.5-5.6 PD-Zoom",
+        "uuid": "38ec0c3d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -7593,7 +8229,8 @@ const jawn = [{
         "year_released": ["Mar 13, 2014"],
         "lens_brand": "Nikon",
         "msrp": ["346.95"],
-        "lens_name": "Nikon 1 Nikkor VR 10-30mm f/3.5-5.6 PD-Zoom"
+        "lens_name": "Nikon 1 Nikkor VR 10-30mm f/3.5-5.6 PD-Zoom",
+        "uuid": "38ec0c3e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -7605,7 +8242,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["675.52"],
-        "lens_name": "Nikon 1 Nikkor VR 6.7-13mm f/3.5-5.6"
+        "lens_name": "Nikon 1 Nikkor VR 6.7-13mm f/3.5-5.6",
+        "uuid": "38ec0c3f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -7617,7 +8255,8 @@ const jawn = [{
         "year_released": ["Sep 19, 2013"],
         "lens_brand": "Nikon",
         "msrp": [],
-        "lens_name": "Nikon 1 Nikkor AW 11-27.5mm f/3.5-5.6"
+        "lens_name": "Nikon 1 Nikkor AW 11-27.5mm f/3.5-5.6",
+        "uuid": "38ec0c40-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.2",
         "lens_type": "Prime lens",
@@ -7629,7 +8268,8 @@ const jawn = [{
         "year_released": ["May 14, 2013"],
         "lens_brand": "Nikon",
         "msrp": [],
-        "lens_name": "Nikon 1 Nikkor 32mm f/1.2"
+        "lens_name": "Nikon 1 Nikkor 32mm f/1.2",
+        "uuid": "38ec0c41-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -7641,7 +8281,8 @@ const jawn = [{
         "year_released": ["Sep 19, 2013"],
         "lens_brand": "Nikon",
         "msrp": ["364.95"],
-        "lens_name": "Nikon 1 Nikkor AW 10mm f/2.8"
+        "lens_name": "Nikon 1 Nikkor AW 10mm f/2.8",
+        "uuid": "38ec0c42-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -7653,7 +8294,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": [],
-        "lens_name": "Nikon 1 Nikkor 11-27.5mm f/3.5-5.6"
+        "lens_name": "Nikon 1 Nikkor 11-27.5mm f/3.5-5.6",
+        "uuid": "38ec0c43-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -7665,7 +8307,8 @@ const jawn = [{
         "year_released": ["Sep 13, 2012"],
         "lens_brand": "Nikon",
         "msrp": ["186.95"],
-        "lens_name": "Nikon 1 Nikkor 18.5mm f/1.8"
+        "lens_name": "Nikon 1 Nikkor 18.5mm f/1.8",
+        "uuid": "38ec0c44-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -7677,7 +8320,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Konica Minolta",
         "msrp": [],
-        "lens_name": "Minolta 50mm F1.4 RS"
+        "lens_name": "Minolta 50mm F1.4 RS",
+        "uuid": "38ec0c45-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -7689,7 +8333,8 @@ const jawn = [{
         "year_released": ["Sep 21, 2011"],
         "lens_brand": "Nikon",
         "msrp": [],
-        "lens_name": "Nikon 1 Nikkor 10mm f/2.8"
+        "lens_name": "Nikon 1 Nikkor 10mm f/2.8",
+        "uuid": "38ec0c46-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -7701,7 +8346,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Nikon",
         "msrp": ["1,996.95"],
-        "lens_name": "Nikkor AF-S 300mm f/4E PF ED VR"
+        "lens_name": "Nikkor AF-S 300mm f/4E PF ED VR",
+        "uuid": "38ec0c47-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.6",
         "lens_type": "Prime lens",
@@ -7713,7 +8359,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Lensbaby",
         "msrp": ["448.95 ", "588.61"],
-        "lens_name": "Lensbaby Velvet 56"
+        "lens_name": "Lensbaby Velvet 56",
+        "uuid": "38ec0c48-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": [],
         "dp_review_link": null,
@@ -7721,7 +8368,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Lensbaby",
         "msrp": ["74.99 ", "88.00"],
-        "lens_name": "Lensbaby Spark"
+        "lens_name": "Lensbaby Spark",
+        "uuid": "38ec5990-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.5",
         "lens_type": "Prime lens",
@@ -7732,7 +8380,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Lensbaby",
         "msrp": ["288.14 ", "379.95"],
-        "lens_name": "Lensbaby Composer Pro with Sweet 35 Optic"
+        "lens_name": "Lensbaby Composer Pro with Sweet 35 Optic",
+        "uuid": "38ec5991-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": [],
         "dp_review_link": null,
@@ -7740,7 +8389,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Lensbaby",
         "msrp": [],
-        "lens_name": "Lensbaby Velvet 85"
+        "lens_name": "Lensbaby Velvet 85",
+        "uuid": "38ec5992-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": [],
         "dp_review_link": null,
@@ -7748,7 +8398,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Lensbaby",
         "msrp": ["206.72 ", "269.99"],
-        "lens_name": "Lensbaby Composer Pro with Double Glass Optic"
+        "lens_name": "Lensbaby Composer Pro with Double Glass Optic",
+        "uuid": "38ec5993-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": [],
         "dp_review_link": null,
@@ -7756,7 +8407,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Lensbaby",
         "msrp": ["299.95 ", "359.26"],
-        "lens_name": "Lensbaby Circular Fisheye 5.8mm f/3.5 Lens"
+        "lens_name": "Lensbaby Circular Fisheye 5.8mm f/3.5 Lens",
+        "uuid": "38ec5994-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -7768,7 +8420,8 @@ const jawn = [{
         "year_released": ["Sep 20, 2013"],
         "lens_brand": "Lensbaby",
         "msrp": ["486.59 ", "602.84"],
-        "lens_name": "Lensbaby Composer Pro Lens with Edge 80 Optic"
+        "lens_name": "Lensbaby Composer Pro Lens with Edge 80 Optic",
+        "uuid": "38ec5995-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8–4",
         "lens_type": "Zoom lens",
@@ -7780,7 +8433,8 @@ const jawn = [{
         "year_released": ["Oct 20, 2015"],
         "lens_brand": "Leica",
         "msrp": ["4,199.00"],
-        "lens_name": "Leica Vario-Elmarit-SL 24-90mm F2.8-4 ASPH"
+        "lens_name": "Leica Vario-Elmarit-SL 24-90mm F2.8-4 ASPH",
+        "uuid": "38ec5996-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.2",
         "lens_type": "Prime lens",
@@ -7792,7 +8446,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Leica",
         "msrp": [],
-        "lens_name": "Leica Thambar-M 90mm F2.2"
+        "lens_name": "Leica Thambar-M 90mm F2.2",
+        "uuid": "38ec5997-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -7804,7 +8459,8 @@ const jawn = [{
         "year_released": ["Apr 24, 2014"],
         "lens_brand": "Leica",
         "msrp": ["1,200.00 ", "1,650.00"],
-        "lens_name": "Leica Vario-Elmar-T 18-56mm f/3.5-5.6"
+        "lens_name": "Leica Vario-Elmar-T 18-56mm f/3.5-5.6",
+        "uuid": "38ec5998-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.8",
         "lens_type": "Prime lens",
@@ -7816,7 +8472,8 @@ const jawn = [{
         "year_released": ["Feb 17, 2009"],
         "lens_brand": "Leica",
         "msrp": ["2,995.00"],
-        "lens_name": "Leica Super-Elmar-M 18mm f/3.8 ASPH"
+        "lens_name": "Leica Super-Elmar-M 18mm f/3.8 ASPH",
+        "uuid": "38ec5999-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -7828,7 +8485,8 @@ const jawn = [{
         "year_released": ["Oct 29, 2015"],
         "lens_brand": "Leica",
         "msrp": ["2,395.00"],
-        "lens_name": "Leica Summilux-TL 35mm F1.4 ASPH"
+        "lens_name": "Leica Summilux-TL 35mm F1.4 ASPH",
+        "uuid": "38ec599a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.4",
         "lens_type": "Prime lens",
@@ -7840,7 +8498,8 @@ const jawn = [{
         "year_released": ["Jun 21, 2011"],
         "lens_brand": "Leica",
         "msrp": [],
-        "lens_name": "Leica Super-Elmar-M 21mm f/3.4 ASPH"
+        "lens_name": "Leica Super-Elmar-M 21mm f/3.4 ASPH",
+        "uuid": "38ec599b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -7852,7 +8511,8 @@ const jawn = [{
         "year_released": ["Oct 20, 2015"],
         "lens_brand": "Leica",
         "msrp": [],
-        "lens_name": "Leica Summilux-SL 50mm F1.4 ASPH"
+        "lens_name": "Leica Summilux-SL 50mm F1.4 ASPH",
+        "uuid": "38ec599c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -7864,7 +8524,8 @@ const jawn = [{
         "year_released": ["Sep 14, 2006"],
         "lens_brand": "Leica",
         "msrp": ["5,395.00 ", "5,895.00"],
-        "lens_name": "Leica Tri-Elmar-M 16-18-21mm f/4 ASPH"
+        "lens_name": "Leica Tri-Elmar-M 16-18-21mm f/4 ASPH",
+        "uuid": "38ec599d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -7876,7 +8537,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Leica",
         "msrp": ["3,895.00 ", "4,095.00"],
-        "lens_name": "Leica Summilux-M 50mm f/1.4 ASPH"
+        "lens_name": "Leica Summilux-M 50mm f/1.4 ASPH",
+        "uuid": "38ec599e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -7888,7 +8550,8 @@ const jawn = [{
         "year_released": ["Sep 15, 2008"],
         "lens_brand": "Leica",
         "msrp": ["7,295.00"],
-        "lens_name": "Leica Summilux-M 24mm f/1.4 ASPH"
+        "lens_name": "Leica Summilux-M 24mm f/1.4 ASPH",
+        "uuid": "38ec599f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -7900,7 +8563,8 @@ const jawn = [{
         "year_released": ["May 17, 2010"],
         "lens_brand": "Leica",
         "msrp": ["4,995.00 ", "6,100.00"],
-        "lens_name": "Leica Summilux-M 35mm f/1.4 ASPH"
+        "lens_name": "Leica Summilux-M 35mm f/1.4 ASPH",
+        "uuid": "38ec59a0-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -7912,7 +8576,8 @@ const jawn = [{
         "year_released": ["Sep 15, 2008"],
         "lens_brand": "Leica",
         "msrp": [],
-        "lens_name": "Leica Summilux-M 21mm f/1.4 Asph"
+        "lens_name": "Leica Summilux-M 21mm f/1.4 Asph",
+        "uuid": "38ec59a1-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -7924,7 +8589,8 @@ const jawn = [{
         "year_released": ["Apr 24, 2014"],
         "lens_brand": "Leica",
         "msrp": ["1,459.00"],
-        "lens_name": "Leica Summicron-T 23mm f/2 ASPH"
+        "lens_name": "Leica Summicron-T 23mm f/2 ASPH",
+        "uuid": "38ec59a2-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -7936,7 +8602,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Leica",
         "msrp": ["2,295.00"],
-        "lens_name": "Leica Summicron-M 50mm f/2"
+        "lens_name": "Leica Summicron-M 50mm f/2",
+        "uuid": "38ec59a3-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -7948,7 +8615,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Leica",
         "msrp": ["3,450.00 ", "4,295.00"],
-        "lens_name": "Leica Summicron-M 28mm f/2 ASPH"
+        "lens_name": "Leica Summicron-M 28mm f/2 ASPH",
+        "uuid": "38ec59a4-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -7960,7 +8628,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Leica",
         "msrp": ["3,095.00 ", "3,350.00"],
-        "lens_name": "Leica Summicron-M 35mm f/2 ASPH"
+        "lens_name": "Leica Summicron-M 35mm f/2 ASPH",
+        "uuid": "38ec59a5-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.5",
         "lens_type": "Prime lens",
@@ -7972,7 +8641,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Leica",
         "msrp": [],
-        "lens_name": "Leica Summarit-M 90mm f/2.5"
+        "lens_name": "Leica Summarit-M 90mm f/2.5",
+        "uuid": "38ec59a6-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F5.6",
         "lens_type": "Prime lens",
@@ -7984,7 +8654,8 @@ const jawn = [{
         "year_released": ["Oct 19, 2016"],
         "lens_brand": "Leica",
         "msrp": [],
-        "lens_name": "Leica Summaron-M 28mm F5.6"
+        "lens_name": "Leica Summaron-M 28mm F5.6",
+        "uuid": "38ec59a7-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.5",
         "lens_type": "Prime lens",
@@ -7996,7 +8667,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Leica",
         "msrp": ["1,549.00 ", "1,907.99"],
-        "lens_name": "Leica Summarit-M 75mm f/2.5"
+        "lens_name": "Leica Summarit-M 75mm f/2.5",
+        "uuid": "38ec59a8-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.4",
         "lens_type": "Prime lens",
@@ -8008,7 +8680,8 @@ const jawn = [{
         "year_released": ["Sep 16, 2014"],
         "lens_brand": "Leica",
         "msrp": ["2,195.00"],
-        "lens_name": "Leica Summarit-M 90mm F2.4 ASPH"
+        "lens_name": "Leica Summarit-M 90mm F2.4 ASPH",
+        "uuid": "38ec59a9-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.4",
         "lens_type": "Prime lens",
@@ -8020,7 +8693,8 @@ const jawn = [{
         "year_released": ["Sep 16, 2014"],
         "lens_brand": "Leica",
         "msrp": ["1,895.00 ", "1,995.00"],
-        "lens_name": "Leica Summarit-M 75mm F2.4 ASPH"
+        "lens_name": "Leica Summarit-M 75mm F2.4 ASPH",
+        "uuid": "38ec59aa-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.5",
         "lens_type": "Prime lens",
@@ -8032,7 +8706,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Leica",
         "msrp": ["1,389.00"],
-        "lens_name": "Leica Summarit-M 50mm f/2.5"
+        "lens_name": "Leica Summarit-M 50mm f/2.5",
+        "uuid": "38ec59ab-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.4",
         "lens_type": "Prime lens",
@@ -8044,7 +8719,8 @@ const jawn = [{
         "year_released": ["Sep 16, 2014"],
         "lens_brand": "Leica",
         "msrp": ["1,795.00"],
-        "lens_name": "Leica Summarit-M 50mm F2.4 ASPH"
+        "lens_name": "Leica Summarit-M 50mm F2.4 ASPH",
+        "uuid": "38ec59ac-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -8056,7 +8732,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Leica",
         "msrp": [],
-        "lens_name": "Leica Macro-Elmar-M 90mm f/4"
+        "lens_name": "Leica Macro-Elmar-M 90mm f/4",
+        "uuid": "38ec59ad-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -8068,7 +8745,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Leica",
         "msrp": [],
-        "lens_name": "Leica Elmarit-M 24mm f/2.8 ASPH"
+        "lens_name": "Leica Elmarit-M 24mm f/2.8 ASPH",
+        "uuid": "38ec59ae-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.5",
         "lens_type": "Prime lens",
@@ -8080,7 +8758,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Leica",
         "msrp": [],
-        "lens_name": "Leica Summarit-M 35mm f/2.5"
+        "lens_name": "Leica Summarit-M 35mm f/2.5",
+        "uuid": "38ec59af-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1",
         "lens_type": "Prime lens",
@@ -8092,7 +8771,8 @@ const jawn = [{
         "year_released": ["Sep 15, 2008"],
         "lens_brand": "Leica",
         "msrp": ["10,795.00 ", "10,995.00"],
-        "lens_name": "Leica Noctilux-M 50mm f/0.95 ASPH"
+        "lens_name": "Leica Noctilux-M 50mm f/0.95 ASPH",
+        "uuid": "38ec59b0-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -8104,7 +8784,8 @@ const jawn = [{
         "year_released": ["Sep 14, 2006"],
         "lens_brand": "Leica",
         "msrp": ["2,249.96"],
-        "lens_name": "Leica Elmarit-M 28mm f/2.8 ASPH"
+        "lens_name": "Leica Elmarit-M 28mm f/2.8 ASPH",
+        "uuid": "38ec59b1-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.4",
         "lens_type": "Prime lens",
@@ -8116,7 +8797,8 @@ const jawn = [{
         "year_released": ["Sep 16, 2014"],
         "lens_brand": "Leica",
         "msrp": ["1,995.00 ", "2,095.00"],
-        "lens_name": "Leica Summarit-M 35mm F2.4 ASPH"
+        "lens_name": "Leica Summarit-M 35mm F2.4 ASPH",
+        "uuid": "38ec59b2-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -8128,7 +8810,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Leica",
         "msrp": [],
-        "lens_name": "Leica Elmarit-M 21mm f/2.8 ASPH"
+        "lens_name": "Leica Elmarit-M 21mm f/2.8 ASPH",
+        "uuid": "38ec59b3-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": [],
         "dp_review_link": null,
@@ -8136,7 +8819,8 @@ const jawn = [{
         "year_released": ["Oct 27, 2011"],
         "lens_brand": "Leica",
         "msrp": ["7,195.00"],
-        "lens_name": "Leica Elmarit S 30MM F/2.8 ASPH"
+        "lens_name": "Leica Elmarit S 30MM F/2.8 ASPH",
+        "uuid": "38ec59b4-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -8148,7 +8832,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Leica",
         "msrp": ["3,795.00"],
-        "lens_name": "Leica APO-Summicron-M 75mm f/2 ASPH"
+        "lens_name": "Leica APO-Summicron-M 75mm f/2 ASPH",
+        "uuid": "38ec59b5-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–4.5",
         "lens_type": "Zoom lens",
@@ -8160,7 +8845,8 @@ const jawn = [{
         "year_released": ["Apr 24, 2014"],
         "lens_brand": "Leica",
         "msrp": ["1,499.89 ", "1,895.00"],
-        "lens_name": "Leica APO-Vario-Elmar-T 55-135mm F3.5-4.5"
+        "lens_name": "Leica APO-Vario-Elmar-T 55-135mm F3.5-4.5",
+        "uuid": "38ec59b6-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.8",
         "lens_type": "Prime lens",
@@ -8172,7 +8858,8 @@ const jawn = [{
         "year_released": ["Sep 15, 2008"],
         "lens_brand": "Leica",
         "msrp": ["2,073.89 ", "2,495.00"],
-        "lens_name": "Leica Elmar-M 24mm f/3.8 ASPH"
+        "lens_name": "Leica Elmar-M 24mm f/3.8 ASPH",
+        "uuid": "38ec59b7-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8–4",
         "lens_type": "Zoom lens",
@@ -8184,7 +8871,8 @@ const jawn = [{
         "year_released": ["Oct 20, 2015"],
         "lens_brand": "Leica",
         "msrp": ["6,122.89"],
-        "lens_name": "Leica APO-Vario-Elmarit-SL 90-280 mm F2.8–4"
+        "lens_name": "Leica APO-Vario-Elmarit-SL 90-280 mm F2.8–4",
+        "uuid": "38ec59b8-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.4",
         "lens_type": "Prime lens",
@@ -8196,7 +8884,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Leica",
         "msrp": ["3,795.00"],
-        "lens_name": "Leica APO-Telyt-M 135mm f/3.4 ASPH"
+        "lens_name": "Leica APO-Telyt-M 135mm f/3.4 ASPH",
+        "uuid": "38ec59b9-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -8208,7 +8897,8 @@ const jawn = [{
         "year_released": ["May 10, 2012"],
         "lens_brand": "Leica",
         "msrp": ["7,795.00"],
-        "lens_name": "Leica APO-Summicron-M 50mm f/2 ASPH"
+        "lens_name": "Leica APO-Summicron-M 50mm f/2 ASPH",
+        "uuid": "38ec59ba-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -8220,7 +8910,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Leica",
         "msrp": [],
-        "lens_name": "Leica APO-Macro-Elmarit-TL 60mm f2.8 ASPH"
+        "lens_name": "Leica APO-Macro-Elmarit-TL 60mm f2.8 ASPH",
+        "uuid": "38ec59bb-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -8232,7 +8923,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Leica",
         "msrp": ["4,195.00"],
-        "lens_name": "Leica APO-Summicron-M 90mm f/2 ASPH"
+        "lens_name": "Leica APO-Summicron-M 90mm f/2 ASPH",
+        "uuid": "38ec59bc-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.4",
         "lens_type": "Prime lens",
@@ -8244,7 +8936,8 @@ const jawn = [{
         "year_released": ["Mar 16, 2016"],
         "lens_brand": "Irix",
         "msrp": [],
-        "lens_name": "Irix 15mm F2.4"
+        "lens_name": "Irix 15mm F2.4",
+        "uuid": "38ec59bd-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Canon EF, Nikon F (FX), Sony/Minolta Alpha",
@@ -8253,7 +8946,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Kenko",
         "msrp": ["96.95"],
-        "lens_name": "Kenko Teleplus MC4 AF 1.4 DGX"
+        "lens_name": "Kenko Teleplus MC4 AF 1.4 DGX",
+        "uuid": "38ec59be-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Canon EF, Nikon F (FX), Sony/Minolta Alpha",
@@ -8262,7 +8956,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Kenko",
         "msrp": ["109.00 ", "119.90"],
-        "lens_name": "Kenko Teleplus MC4 AF 2.0 DGX"
+        "lens_name": "Kenko Teleplus MC4 AF 2.0 DGX",
+        "uuid": "38ec59bf-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Canon EF, Nikon F (FX), Sony/Minolta Alpha",
@@ -8271,7 +8966,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Kenko",
         "msrp": ["117.07 ", "139.90"],
-        "lens_name": "Kenko Teleplus MC7 AF 2.0 DGX"
+        "lens_name": "Kenko Teleplus MC7 AF 2.0 DGX",
+        "uuid": "38ec59c0-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Canon EF, Nikon F (FX)",
@@ -8280,7 +8976,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Kenko",
         "msrp": [],
-        "lens_name": "Kenko Teleplus Pro 300 AF 3.0x"
+        "lens_name": "Kenko Teleplus Pro 300 AF 3.0x",
+        "uuid": "38ec59c1-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": [],
         "dp_review_link": null,
@@ -8288,7 +8985,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Holga",
         "msrp": ["74.95"],
-        "lens_name": "Holga Lens Kit for Nikon"
+        "lens_name": "Holga Lens Kit for Nikon",
+        "uuid": "38ec59c2-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Canon EF, Nikon F (FX)",
@@ -8297,7 +8995,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Kenko",
         "msrp": ["130.00 ", "135.00"],
-        "lens_name": "Kenko Teleplus Pro 300 AF 1.4x"
+        "lens_name": "Kenko Teleplus Pro 300 AF 1.4x",
+        "uuid": "38ec59c3-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Canon EF, Nikon F (FX)",
@@ -8306,7 +9005,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Kenko",
         "msrp": ["147.50"],
-        "lens_name": "Kenko Teleplus Pro 300 AF 2.0x"
+        "lens_name": "Kenko Teleplus Pro 300 AF 2.0x",
+        "uuid": "38ec59c4-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.2",
         "lens_type": "Prime lens",
@@ -8318,7 +9018,8 @@ const jawn = [{
         "year_released": ["Jun 22, 2016"],
         "lens_brand": "Hasselblad",
         "msrp": [],
-        "lens_name": "Hasselblad XCD 90mm F3.2"
+        "lens_name": "Hasselblad XCD 90mm F3.2",
+        "uuid": "38ec59c5-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": [],
         "dp_review_link": null,
@@ -8326,7 +9027,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Holga",
         "msrp": ["79.95"],
-        "lens_name": "Holga Lens Kit for Canon EOS"
+        "lens_name": "Holga Lens Kit for Canon EOS",
+        "uuid": "38ec59c6-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -8338,7 +9040,8 @@ const jawn = [{
         "year_released": ["Jun 22, 2016"],
         "lens_brand": "Hasselblad",
         "msrp": [],
-        "lens_name": "Hasselblad XCD 45mm F3.5"
+        "lens_name": "Hasselblad XCD 45mm F3.5",
+        "uuid": "38ec59c7-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -8350,7 +9053,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Hartblei",
         "msrp": [],
-        "lens_name": "Hartblei Superrotator 80mm F2.8 IF TS"
+        "lens_name": "Hartblei Superrotator 80mm F2.8 IF TS",
+        "uuid": "38ec59c8-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -8362,7 +9066,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Hartblei",
         "msrp": [],
-        "lens_name": "Hartblei Superrotator 40mm F4 IF TS"
+        "lens_name": "Hartblei Superrotator 40mm F4 IF TS",
+        "uuid": "38ec59c9-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -8374,7 +9079,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Hartblei",
         "msrp": [],
-        "lens_name": "Hartblei Superrotator Macro 120mm F4 TS"
+        "lens_name": "Hartblei Superrotator Macro 120mm F4 TS",
+        "uuid": "38ec59ca-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -8385,7 +9091,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": [],
-        "lens_name": "HD Pentax-DA* 11-18mm F2.8"
+        "lens_name": "HD Pentax-DA* 11-18mm F2.8",
+        "uuid": "38ec59cb-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5",
         "lens_type": "Prime lens",
@@ -8397,7 +9104,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": ["4,299.99 ", "5,124.77"],
-        "lens_name": "HD Pentax-DA645 28-45mm F4.5ED AW SR"
+        "lens_name": "HD Pentax-DA645 28-45mm F4.5ED AW SR",
+        "uuid": "38ec59cc-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8–4",
         "lens_type": "Zoom lens",
@@ -8409,7 +9117,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": ["630.00"],
-        "lens_name": "HD Pentax-DA 20-40mm F2.8-4 ED Limited DC WR"
+        "lens_name": "HD Pentax-DA 20-40mm F2.8-4 ED Limited DC WR",
+        "uuid": "38ec59cd-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -8421,7 +9130,8 @@ const jawn = [{
         "year_released": ["Nov 11, 2015"],
         "lens_brand": "Pentax",
         "msrp": ["2,075.48"],
-        "lens_name": "HD Pentax-D FA645 35mm F3.5 AL [IF]"
+        "lens_name": "HD Pentax-D FA645 35mm F3.5 AL [IF]",
+        "uuid": "38ec59ce-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -8432,7 +9142,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": [],
-        "lens_name": "HD Pentax-D FA* 50mm F1.4 SDM AW"
+        "lens_name": "HD Pentax-D FA* 50mm F1.4 SDM AW",
+        "uuid": "38ec59cf-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.4",
         "lens_type": "Prime lens",
@@ -8444,7 +9155,8 @@ const jawn = [{
         "year_released": ["Aug 27, 2013"],
         "lens_brand": "Pentax",
         "msrp": ["421.95"],
-        "lens_name": "HD Pentax DA 70mm F2.4 AL Limited"
+        "lens_name": "HD Pentax DA 70mm F2.4 AL Limited",
+        "uuid": "38ec59d0-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.2",
         "lens_type": "Prime lens",
@@ -8456,7 +9168,8 @@ const jawn = [{
         "year_released": ["Aug 27, 2013"],
         "lens_brand": "Pentax",
         "msrp": ["337.00 ", "421.95"],
-        "lens_name": "HD Pentax DA 21mm F3.2 AL Limited"
+        "lens_name": "HD Pentax DA 21mm F3.2 AL Limited",
+        "uuid": "38ec59d1-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Pentax KAF2",
@@ -8465,7 +9178,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": ["434.35"],
-        "lens_name": "HD Pentax DA AF 1.4X AW Rear Converter"
+        "lens_name": "HD Pentax DA AF 1.4X AW Rear Converter",
+        "uuid": "38ec59d2-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -8477,7 +9191,8 @@ const jawn = [{
         "year_released": ["Aug 27, 2013"],
         "lens_brand": "Pentax",
         "msrp": ["321.95"],
-        "lens_name": "HD Pentax DA 40mm F2.8 Limited"
+        "lens_name": "HD Pentax DA 40mm F2.8 Limited",
+        "uuid": "38ec59d3-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -8489,7 +9204,8 @@ const jawn = [{
         "year_released": ["Oct 29, 2014"],
         "lens_brand": "Pentax",
         "msrp": ["520.40"],
-        "lens_name": "HD Pentax DA 16-85mm F3.5-5.6 ED DC WR"
+        "lens_name": "HD Pentax DA 16-85mm F3.5-5.6 ED DC WR",
+        "uuid": "38ec59d4-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -8501,7 +9217,8 @@ const jawn = [{
         "year_released": ["Aug 27, 2013"],
         "lens_brand": "Pentax",
         "msrp": ["399.95"],
-        "lens_name": "HD Pentax DA 35mm F2.8 Macro Limited"
+        "lens_name": "HD Pentax DA 35mm F2.8 Macro Limited",
+        "uuid": "38ec59d5-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -8513,7 +9230,8 @@ const jawn = [{
         "year_released": ["Aug 27, 2013"],
         "lens_brand": "Pentax",
         "msrp": ["459.79"],
-        "lens_name": "HD Pentax DA 15mm F4 ED AL Limited"
+        "lens_name": "HD Pentax DA 15mm F4 ED AL Limited",
+        "uuid": "38ec59d6-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -8525,7 +9243,8 @@ const jawn = [{
         "year_released": ["Sep 24, 2015"],
         "lens_brand": "Pentax",
         "msrp": ["1,296.95"],
-        "lens_name": "HD Pentax D FA 24-70mm F2.8 ED SDM WR"
+        "lens_name": "HD Pentax D FA 24-70mm F2.8 ED SDM WR",
+        "uuid": "38ec59d7-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -8537,7 +9256,8 @@ const jawn = [{
         "year_released": ["Sep 10, 2012"],
         "lens_brand": "Pentax",
         "msrp": ["3,709.00 ", "3,999.99"],
-        "lens_name": "HD Pentax D FA 645 Macro 90mm F2.8 ED AW SR"
+        "lens_name": "HD Pentax D FA 645 Macro 90mm F2.8 ED AW SR",
+        "uuid": "38ec59d8-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -8549,7 +9269,8 @@ const jawn = [{
         "year_released": ["Feb 17, 2016"],
         "lens_brand": "Pentax",
         "msrp": ["496.95"],
-        "lens_name": "HD PENTAX-D FA 28-105mm F3.5-5.6 ED DC WR"
+        "lens_name": "HD PENTAX-D FA 28-105mm F3.5-5.6 ED DC WR",
+        "uuid": "38ec59d9-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -8561,7 +9282,8 @@ const jawn = [{
         "year_released": ["Feb 17, 2016"],
         "lens_brand": "Pentax",
         "msrp": ["1,299.95"],
-        "lens_name": "HD PENTAX-D FA 15-30mm F2.8 ED SDM WR"
+        "lens_name": "HD PENTAX-D FA 15-30mm F2.8 ED SDM WR",
+        "uuid": "38ec59da-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -8573,7 +9295,8 @@ const jawn = [{
         "year_released": ["May 18, 2015"],
         "lens_brand": "Fujifilm",
         "msrp": ["848.95"],
-        "lens_name": "Fujifilm XF 90mm F2 R LM WR"
+        "lens_name": "Fujifilm XF 90mm F2 R LM WR",
+        "uuid": "38ec59db-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -8585,7 +9308,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Fujifilm",
         "msrp": ["3,799.00"],
-        "lens_name": "Fujinon MK 18-55mm T2.9"
+        "lens_name": "Fujinon MK 18-55mm T2.9",
+        "uuid": "38ec59dc-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.4",
         "lens_type": "Prime lens",
@@ -8597,7 +9321,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Fujifilm",
         "msrp": ["649.00"],
-        "lens_name": "Fujifilm XF 60mm F2.4 R Macro"
+        "lens_name": "Fujifilm XF 60mm F2.4 R Macro",
+        "uuid": "38ec59dd-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.8",
         "lens_type": "Zoom lens",
@@ -8609,7 +9334,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": [],
-        "lens_name": "HD Pentax  DA 55-300mm F4.0-5.8 ED WR"
+        "lens_name": "HD Pentax  DA 55-300mm F4.0-5.8 ED WR",
+        "uuid": "38ec59de-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–6.3",
         "lens_type": "Zoom lens",
@@ -8621,7 +9347,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Pentax",
         "msrp": ["446.95"],
-        "lens_name": "HD PENTAX-DA 55-300mm F4.5-6.3 ED PLM WR RE"
+        "lens_name": "HD PENTAX-DA 55-300mm F4.5-6.3 ED PLM WR RE",
+        "uuid": "38ec59df-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -8633,7 +9360,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Fujifilm",
         "msrp": ["3,799.00"],
-        "lens_name": "Fujinon MK 50-135mm T2.9"
+        "lens_name": "Fujinon MK 50-135mm T2.9",
+        "uuid": "38ec59e0-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -8645,7 +9373,8 @@ const jawn = [{
         "year_released": ["Jan 15, 2016"],
         "lens_brand": "Fujifilm",
         "msrp": ["1,748.89 ", "2,198.00"],
-        "lens_name": "Fujifilm XF 100-400mm F4.5-5.6 R LM OIS WR"
+        "lens_name": "Fujifilm XF 100-400mm F4.5-5.6 R LM OIS WR",
+        "uuid": "38ec59e1-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -8657,7 +9386,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Fujifilm",
         "msrp": ["449.00"],
-        "lens_name": "Fujifilm XF 50mm F2 R WR"
+        "lens_name": "Fujifilm XF 50mm F2 R WR",
+        "uuid": "38ec59e2-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.2",
         "lens_type": "Prime lens",
@@ -8669,7 +9399,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Fujifilm",
         "msrp": ["880.00"],
-        "lens_name": "Fujifilm XF 56mm F1.2 R"
+        "lens_name": "Fujifilm XF 56mm F1.2 R",
+        "uuid": "38ec59e3-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–4.8",
         "lens_type": "Zoom lens",
@@ -8681,7 +9412,8 @@ const jawn = [{
         "year_released": ["Apr 17, 2013"],
         "lens_brand": "Fujifilm",
         "msrp": ["699.00"],
-        "lens_name": "Fujifilm XF 55-200mm F3.5-4.8 R LM OIS"
+        "lens_name": "Fujifilm XF 55-200mm F3.5-4.8 R LM OIS",
+        "uuid": "38ec59e4-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -8693,7 +9425,8 @@ const jawn = [{
         "year_released": ["Oct 21, 2015"],
         "lens_brand": "Fujifilm",
         "msrp": ["399.00"],
-        "lens_name": "Fujifilm XF 35mm F2 R WR"
+        "lens_name": "Fujifilm XF 35mm F2 R WR",
+        "uuid": "38ec59e5-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -8705,7 +9438,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Fujifilm",
         "msrp": ["549.00 ", "599.00"],
-        "lens_name": "Fujifilm XF 35mm F1.4 R"
+        "lens_name": "Fujifilm XF 35mm F1.4 R",
+        "uuid": "38ec59e6-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -8717,7 +9451,8 @@ const jawn = [{
         "year_released": ["Sep 10, 2014"],
         "lens_brand": "Fujifilm",
         "msrp": ["1,449.00 ", "1,898.00"],
-        "lens_name": "Fujifilm XF 50-140mm F2.8 R LM OIS WR"
+        "lens_name": "Fujifilm XF 50-140mm F2.8 R LM OIS WR",
+        "uuid": "38ec59e7-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -8729,7 +9464,8 @@ const jawn = [{
         "year_released": ["Jun 25, 2013"],
         "lens_brand": "Fujifilm",
         "msrp": [],
-        "lens_name": "Fujifilm XF 27mm F2.8"
+        "lens_name": "Fujifilm XF 27mm F2.8",
+        "uuid": "38ec59e8-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -8741,7 +9477,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Fujifilm",
         "msrp": ["799.00"],
-        "lens_name": "Fujifilm XF 23mm F1.4 R"
+        "lens_name": "Fujifilm XF 23mm F1.4 R",
+        "uuid": "38ec59e9-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -8753,7 +9490,8 @@ const jawn = [{
         "year_released": ["Aug 25, 2016"],
         "lens_brand": "Fujifilm",
         "msrp": ["449.00"],
-        "lens_name": "Fujifilm XF 23mm F2 R WR"
+        "lens_name": "Fujifilm XF 23mm F2 R WR",
+        "uuid": "38ec59ea-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -8765,7 +9503,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Fujifilm",
         "msrp": ["478.19 ", "549.00"],
-        "lens_name": "Fujifilm XF 18mm F2 R"
+        "lens_name": "Fujifilm XF 18mm F2 R",
+        "uuid": "38ec59eb-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -8777,7 +9516,8 @@ const jawn = [{
         "year_released": ["Jun 16, 2014"],
         "lens_brand": "Fujifilm",
         "msrp": ["799.00"],
-        "lens_name": "Fujifilm XF 18-135mm F3.5-5.6 R LM OIS WR"
+        "lens_name": "Fujifilm XF 18-135mm F3.5-5.6 R LM OIS WR",
+        "uuid": "38ec59ec-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -8789,7 +9529,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Fujifilm",
         "msrp": ["1,199.00"],
-        "lens_name": "Fujifilm XF 80mm F2.8 R LM OIS WR Macro"
+        "lens_name": "Fujifilm XF 80mm F2.8 R LM OIS WR Macro",
+        "uuid": "38ec59ed-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8–4",
         "lens_type": "Zoom lens",
@@ -8801,7 +9542,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Fujifilm",
         "msrp": ["699.00"],
-        "lens_name": "Fujifilm XF 18-55mm F2.8-4 R LM OIS"
+        "lens_name": "Fujifilm XF 18-55mm F2.8-4 R LM OIS",
+        "uuid": "38ec59ee-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -8813,7 +9555,8 @@ const jawn = [{
         "year_released": ["Apr 16, 2015"],
         "lens_brand": "Fujifilm",
         "msrp": ["899.00"],
-        "lens_name": "Fujifilm XF 16mm F1.4 R WR"
+        "lens_name": "Fujifilm XF 16mm F1.4 R WR",
+        "uuid": "38ec59ef-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.2",
         "lens_type": "Prime lens",
@@ -8825,7 +9568,8 @@ const jawn = [{
         "year_released": ["Sep 10, 2014"],
         "lens_brand": "Fujifilm",
         "msrp": ["1,349.00"],
-        "lens_name": "Fujifilm XF 56mm F1.2 R APD"
+        "lens_name": "Fujifilm XF 56mm F1.2 R APD",
+        "uuid": "38ec59f0-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -8837,7 +9581,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Fujifilm",
         "msrp": ["1,100.00"],
-        "lens_name": "Fujifilm XF 16-55mm F2.8 R LM WR"
+        "lens_name": "Fujifilm XF 16-55mm F2.8 R LM WR",
+        "uuid": "38ec59f1-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -8849,7 +9594,8 @@ const jawn = [{
         "year_released": ["Dec 18, 2013"],
         "lens_brand": "Fujifilm",
         "msrp": ["999.00"],
-        "lens_name": "Fujifilm XF 10-24mm F4 R OIS"
+        "lens_name": "Fujifilm XF 10-24mm F4 R OIS",
+        "uuid": "38ec59f2-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–6.7",
         "lens_type": "Zoom lens",
@@ -8861,7 +9607,8 @@ const jawn = [{
         "year_released": ["Jan 15, 2015"],
         "lens_brand": "Fujifilm",
         "msrp": ["305.99"],
-        "lens_name": "Fujifilm XC 50-230mm F4.5-6.7 OIS II"
+        "lens_name": "Fujifilm XC 50-230mm F4.5-6.7 OIS II",
+        "uuid": "38ec59f3-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -8873,7 +9620,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Fujifilm",
         "msrp": ["799.00"],
-        "lens_name": "Fujifilm XF 14mm F2.8 R"
+        "lens_name": "Fujifilm XF 14mm F2.8 R",
+        "uuid": "38ec59f4-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–6.7",
         "lens_type": "Zoom lens",
@@ -8885,7 +9633,8 @@ const jawn = [{
         "year_released": ["Sep 17, 2013"],
         "lens_brand": "Fujifilm",
         "msrp": ["395.00 ", "399.00"],
-        "lens_name": "Fujifilm XC 50-230mm F4.5-6.7 OIS"
+        "lens_name": "Fujifilm XC 50-230mm F4.5-6.7 OIS",
+        "uuid": "38ec59f5-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -8897,7 +9646,8 @@ const jawn = [{
         "year_released": ["Jan 15, 2015"],
         "lens_brand": "Fujifilm",
         "msrp": ["216.29"],
-        "lens_name": "Fujifilm XC 16-50mm F3.5-5.6 OIS II"
+        "lens_name": "Fujifilm XC 16-50mm F3.5-5.6 OIS II",
+        "uuid": "38ec59f6-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -8908,7 +9658,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Fujifilm",
         "msrp": ["2,149.00"],
-        "lens_name": "Fujifilm GF 120mm F4 R LM OIS WR Macro"
+        "lens_name": "Fujifilm GF 120mm F4 R LM OIS WR Macro",
+        "uuid": "38ec59f7-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -8920,7 +9671,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Fujifilm",
         "msrp": ["2,249.00"],
-        "lens_name": "Fujifilm GF 110mm F2 R LM WR"
+        "lens_name": "Fujifilm GF 110mm F2 R LM WR",
+        "uuid": "38ec59f8-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -8932,7 +9684,8 @@ const jawn = [{
         "year_released": ["Jun 25, 2013"],
         "lens_brand": "Fujifilm",
         "msrp": [],
-        "lens_name": "Fujifilm XC 16-50mm F3.5-5.6 OIS"
+        "lens_name": "Fujifilm XC 16-50mm F3.5-5.6 OIS",
+        "uuid": "38ec59f9-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -8944,7 +9697,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Fujifilm",
         "msrp": ["2,299.00"],
-        "lens_name": "Fujifilm GF 32-64mm F4 R LM WR"
+        "lens_name": "Fujifilm GF 32-64mm F4 R LM WR",
+        "uuid": "38ec59fa-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -8956,7 +9710,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Fujifilm",
         "msrp": ["1,399.00"],
-        "lens_name": "Fujifilm GF 45mm F2.8 R WR"
+        "lens_name": "Fujifilm GF 45mm F2.8 R WR",
+        "uuid": "38ec59fb-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -8968,7 +9723,8 @@ const jawn = [{
         "year_released": ["Sep 18, 2012"],
         "lens_brand": "Zeiss",
         "msrp": ["938.99 ", "949.99"],
-        "lens_name": "Carl Zeiss Touit 2.8/12"
+        "lens_name": "Carl Zeiss Touit 2.8/12",
+        "uuid": "38ec59fc-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -8980,7 +9736,8 @@ const jawn = [{
         "year_released": ["Sep 18, 2012"],
         "lens_brand": "Zeiss",
         "msrp": ["559.99"],
-        "lens_name": "Carl Zeiss Touit 1.8/32"
+        "lens_name": "Carl Zeiss Touit 1.8/32",
+        "uuid": "38ec59fd-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -8992,7 +9749,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Fujifilm",
         "msrp": ["1,199.00"],
-        "lens_name": "Fujifilm GF 63mm F2.8 R WR"
+        "lens_name": "Fujifilm GF 63mm F2.8 R WR",
+        "uuid": "38ec59fe-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -9004,7 +9762,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Fujifilm",
         "msrp": ["2,049.00"],
-        "lens_name": "Fujifilm GF 23mm F4 R LM WR"
+        "lens_name": "Fujifilm GF 23mm F4 R LM WR",
+        "uuid": "38ec59ff-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -9016,7 +9775,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": ["879.55 ", "987.00"],
-        "lens_name": "Carl Zeiss Tele-Tessar T* 4/85 ZM"
+        "lens_name": "Carl Zeiss Tele-Tessar T* 4/85 ZM",
+        "uuid": "38ec5a00-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -9028,7 +9788,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": ["1,177.51"],
-        "lens_name": "Carl Zeiss Planar T* 1,4/85"
+        "lens_name": "Carl Zeiss Planar T* 1,4/85",
+        "uuid": "38ec5a01-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -9040,7 +9801,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": ["725.00"],
-        "lens_name": "Carl Zeiss Planar T* 1,4/50"
+        "lens_name": "Carl Zeiss Planar T* 1,4/50",
+        "uuid": "38ec5a02-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -9052,7 +9814,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": [],
-        "lens_name": "Carl Zeiss Sonnar T* 2/85 ZM"
+        "lens_name": "Carl Zeiss Sonnar T* 2/85 ZM",
+        "uuid": "38ec5a03-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -9064,7 +9827,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": [],
-        "lens_name": "Carl Zeiss Distagon T* 4/18 ZM"
+        "lens_name": "Carl Zeiss Distagon T* 4/18 ZM",
+        "uuid": "38ec5a04-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -9076,7 +9840,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": ["1,143.49 ", "1,283.00"],
-        "lens_name": "Carl Zeiss Makro-Planar T* 50mm F2"
+        "lens_name": "Carl Zeiss Makro-Planar T* 50mm F2",
+        "uuid": "38ec5a05-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -9088,7 +9853,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": [],
-        "lens_name": "Carl Zeiss Makro-Planar T* 2/100"
+        "lens_name": "Carl Zeiss Makro-Planar T* 2/100",
+        "uuid": "38ec5a06-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -9100,7 +9866,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": ["667.90 ", "903.00"],
-        "lens_name": "Carl Zeiss Planar T* 2/50 ZM"
+        "lens_name": "Carl Zeiss Planar T* 2/50 ZM",
+        "uuid": "38ec5a07-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -9112,7 +9879,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": ["1,395.00"],
-        "lens_name": "Carl Zeiss Distagon T* 3,5/18"
+        "lens_name": "Carl Zeiss Distagon T* 3,5/18",
+        "uuid": "38ec5a08-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -9124,7 +9892,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": [],
-        "lens_name": "Carl Zeiss Distagon T* 2,8/25"
+        "lens_name": "Carl Zeiss Distagon T* 2,8/25",
+        "uuid": "38ec5a09-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": [],
         "dp_review_link": null,
@@ -9132,7 +9901,8 @@ const jawn = [{
         "year_released": ["Oct 27, 2011"],
         "lens_brand": "Zeiss",
         "msrp": ["1,461.05 ", "1,490.00"],
-        "lens_name": "Carl Zeiss Distagon T* 2/25"
+        "lens_name": "Carl Zeiss Distagon T* 2/25",
+        "uuid": "38ec5a0a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -9144,7 +9914,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": [],
-        "lens_name": "Carl Zeiss Distagon T* 2,8/15 ZM"
+        "lens_name": "Carl Zeiss Distagon T* 2,8/15 ZM",
+        "uuid": "38ec5a0b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -9156,7 +9927,8 @@ const jawn = [{
         "year_released": ["Sep 16, 2014"],
         "lens_brand": "Zeiss",
         "msrp": ["2,290.00 ", "3,206.00"],
-        "lens_name": "Carl Zeiss Distagon T* 1,4/35 ZM"
+        "lens_name": "Carl Zeiss Distagon T* 1,4/35 ZM",
+        "uuid": "38ec5a0c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -9168,7 +9940,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": [],
-        "lens_name": "Carl Zeiss Distagon T* 2/28"
+        "lens_name": "Carl Zeiss Distagon T* 2/28",
+        "uuid": "38ec5a0d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.5",
         "lens_type": "Prime lens",
@@ -9180,7 +9953,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": ["1,261.00"],
-        "lens_name": "Carl Zeiss C Sonnar T* 1,5/50 ZM"
+        "lens_name": "Carl Zeiss C Sonnar T* 1,5/50 ZM",
+        "uuid": "38ec5a0e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -9192,7 +9966,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": [],
-        "lens_name": "Carl Zeiss Distagon T* 2/35"
+        "lens_name": "Carl Zeiss Distagon T* 2/35",
+        "uuid": "38ec5a0f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -9204,7 +9979,8 @@ const jawn = [{
         "year_released": ["Sep 19, 2008"],
         "lens_brand": "Zeiss",
         "msrp": ["1,150.00 ", "1,350.00"],
-        "lens_name": "Carl Zeiss Distagon T* 2,8/21"
+        "lens_name": "Carl Zeiss Distagon T* 2,8/21",
+        "uuid": "38ec5a10-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -9216,7 +9992,8 @@ const jawn = [{
         "year_released": ["Mar 16, 2012"],
         "lens_brand": "Zeiss",
         "msrp": ["2,235.59 ", "2,886.49"],
-        "lens_name": "Carl Zeiss Distagon T* 2,8/15"
+        "lens_name": "Carl Zeiss Distagon T* 2,8/15",
+        "uuid": "38ec5a11-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -9228,7 +10005,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": ["1,803.29"],
-        "lens_name": "Carl Zeiss Distagon T* 1,4/35"
+        "lens_name": "Carl Zeiss Distagon T* 1,4/35",
+        "uuid": "38ec5a12-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -9240,7 +10018,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": ["1,200.99"],
-        "lens_name": "Carl Zeiss C Biogon T* 2,8/35 ZM"
+        "lens_name": "Carl Zeiss C Biogon T* 2,8/35 ZM",
+        "uuid": "38ec5a13-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5",
         "lens_type": "Prime lens",
@@ -9252,7 +10031,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": ["1,527.69"],
-        "lens_name": "Carl Zeiss C Biogon T* 4,5/21 ZM"
+        "lens_name": "Carl Zeiss C Biogon T* 4,5/21 ZM",
+        "uuid": "38ec5a14-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -9264,7 +10044,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": ["1,141.00"],
-        "lens_name": "Carl Zeiss Biogon T* 2,8/28 ZM"
+        "lens_name": "Carl Zeiss Biogon T* 2,8/28 ZM",
+        "uuid": "38ec5a15-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -9276,7 +10057,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["1,399.00"],
-        "lens_name": "Canon TS-E 90mm f/2.8"
+        "lens_name": "Canon TS-E 90mm f/2.8",
+        "uuid": "38ec5a16-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -9288,7 +10070,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": ["989.00"],
-        "lens_name": "Carl Zeiss Biogon T* 2/35 ZM"
+        "lens_name": "Carl Zeiss Biogon T* 2/35 ZM",
+        "uuid": "38ec5a17-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -9300,7 +10083,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": ["1,199.95"],
-        "lens_name": "Carl Zeiss Biogon T* 2,8/25 ZM"
+        "lens_name": "Carl Zeiss Biogon T* 2,8/25 ZM",
+        "uuid": "38ec5a18-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -9312,7 +10096,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["2,199.00"],
-        "lens_name": "Canon TS-E 135mm F4L Macro"
+        "lens_name": "Canon TS-E 135mm F4L Macro",
+        "uuid": "38ec5a19-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -9324,7 +10109,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": ["1,499.00"],
-        "lens_name": "Carl Zeiss Biogon T* 2,8/21 ZM"
+        "lens_name": "Carl Zeiss Biogon T* 2,8/21 ZM",
+        "uuid": "38ec5a1a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -9336,7 +10122,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["1,399.00"],
-        "lens_name": "Canon TS-E 45mm f/2.8"
+        "lens_name": "Canon TS-E 45mm f/2.8",
+        "uuid": "38ec5a1b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -9348,7 +10135,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Zeiss",
         "msrp": ["1,325.00 ", "2,271.59"],
-        "lens_name": "Carl Zeiss Apo Sonnar T* 2/135"
+        "lens_name": "Carl Zeiss Apo Sonnar T* 2/135",
+        "uuid": "38ec5a1c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -9360,7 +10148,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["2,199.00"],
-        "lens_name": "Canon TS-E 90mm F2.8L Macro"
+        "lens_name": "Canon TS-E 90mm F2.8L Macro",
+        "uuid": "38ec5a1d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -9372,7 +10161,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["2,199.00"],
-        "lens_name": "Canon TS-E 50mm F2.8L Macro"
+        "lens_name": "Canon TS-E 50mm F2.8L Macro",
+        "uuid": "38ec5a1e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Canon EF",
@@ -9381,7 +10171,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon Extender EF 1.4x II"
+        "lens_name": "Canon Extender EF 1.4x II",
+        "uuid": "38ec5a1f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -9393,7 +10184,8 @@ const jawn = [{
         "year_released": ["Feb 18, 2009"],
         "lens_brand": "Canon",
         "msrp": ["2,149.00"],
-        "lens_name": "Canon TS-E 17mm f/4L"
+        "lens_name": "Canon TS-E 17mm f/4L",
+        "uuid": "38ec5a20-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -9405,7 +10197,8 @@ const jawn = [{
         "year_released": ["Feb 17, 2005"],
         "lens_brand": "Canon",
         "msrp": ["399.00"],
-        "lens_name": "Canon EF-S 60mm f/2.8 Macro USM"
+        "lens_name": "Canon EF-S 60mm f/2.8 Macro USM",
+        "uuid": "38ec5a21-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Canon EF",
@@ -9414,7 +10207,8 @@ const jawn = [{
         "year_released": ["Aug 26, 2010"],
         "lens_brand": "Canon",
         "msrp": ["429.00"],
-        "lens_name": "Canon Extender EF 2x III"
+        "lens_name": "Canon Extender EF 2x III",
+        "uuid": "38ec5a22-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Canon EF",
@@ -9423,7 +10217,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["399.00"],
-        "lens_name": "Canon Extender EF 2x II"
+        "lens_name": "Canon Extender EF 2x II",
+        "uuid": "38ec5a23-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.5",
         "lens_type": "Prime lens",
@@ -9435,7 +10230,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["3,189.00"],
-        "lens_name": "Canon MP-E 65mm f/2.5 1-5x Macro"
+        "lens_name": "Canon MP-E 65mm f/2.5 1-5x Macro",
+        "uuid": "38ec5a24-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "lens_type": "Teleconverter",
         "lens_mount": "Canon EF",
@@ -9444,7 +10240,8 @@ const jawn = [{
         "year_released": ["Aug 26, 2010"],
         "lens_brand": "Canon",
         "msrp": ["429.00"],
-        "lens_name": "Canon Extender EF 1.4x III"
+        "lens_name": "Canon Extender EF 1.4x III",
+        "uuid": "38ec5a25-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -9456,7 +10253,8 @@ const jawn = [{
         "year_released": ["Aug 22, 2013"],
         "lens_brand": "Canon",
         "msrp": ["299.00"],
-        "lens_name": "Canon EF-S 55-250mm f/4-5.6 IS STM"
+        "lens_name": "Canon EF-S 55-250mm f/4-5.6 IS STM",
+        "uuid": "38ec5a26-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -9468,7 +10266,8 @@ const jawn = [{
         "year_released": ["Jun 13, 2011"],
         "lens_brand": "Canon",
         "msrp": ["112.99"],
-        "lens_name": "Canon EF-S 55-250mm f/4-5.6 IS II"
+        "lens_name": "Canon EF-S 55-250mm f/4-5.6 IS II",
+        "uuid": "38ec5a27-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -9479,7 +10278,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["349.00"],
-        "lens_name": "Canon EF-S 35mm F2.8 Macro IS STM"
+        "lens_name": "Canon EF-S 35mm F2.8 Macro IS STM",
+        "uuid": "38ec5a28-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -9491,7 +10291,8 @@ const jawn = [{
         "year_released": ["Feb 18, 2009"],
         "lens_brand": "Canon",
         "msrp": ["1,899.00"],
-        "lens_name": "Canon TS-E 24mm f/3.5L II"
+        "lens_name": "Canon TS-E 24mm f/3.5L II",
+        "uuid": "38ec5a29-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -9503,7 +10304,8 @@ const jawn = [{
         "year_released": ["Aug 20, 2007"],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF-S 55-250mm f/4-5.6 IS"
+        "lens_name": "Canon EF-S 55-250mm f/4-5.6 IS",
+        "uuid": "38ec5a2a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -9515,7 +10317,8 @@ const jawn = [{
         "year_released": ["Aug 26, 2008"],
         "lens_brand": "Canon",
         "msrp": ["699.00"],
-        "lens_name": "Canon EF-S 18-200mm f/3.5-5.6 IS"
+        "lens_name": "Canon EF-S 18-200mm f/3.5-5.6 IS",
+        "uuid": "38ec5a2b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -9527,7 +10330,8 @@ const jawn = [{
         "year_released": ["Feb 18, 2016"],
         "lens_brand": "Canon",
         "msrp": ["599.00"],
-        "lens_name": "Canon EF-S 18-135mm F3.5-5.6 IS USM"
+        "lens_name": "Canon EF-S 18-135mm F3.5-5.6 IS USM",
+        "uuid": "38ec5a2c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -9539,7 +10343,8 @@ const jawn = [{
         "year_released": ["Sep 15, 2014"],
         "lens_brand": "Canon",
         "msrp": ["149.00"],
-        "lens_name": "Canon EF-S 24mm F2.8 STM"
+        "lens_name": "Canon EF-S 24mm F2.8 STM",
+        "uuid": "38ec5a2d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -9551,7 +10356,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["199.00"],
-        "lens_name": "Canon EF-S 18-55mm f/3.5-5.6 IS II"
+        "lens_name": "Canon EF-S 18-55mm f/3.5-5.6 IS II",
+        "uuid": "38ec5a2e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -9563,7 +10369,8 @@ const jawn = [{
         "year_released": ["Mar 21, 2013"],
         "lens_brand": "Canon",
         "msrp": ["249.00"],
-        "lens_name": "Canon EF-S 18-55mm f/3.5-5.6 IS STM"
+        "lens_name": "Canon EF-S 18-55mm f/3.5-5.6 IS STM",
+        "uuid": "38ec5a2f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -9575,7 +10382,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["319.47"],
-        "lens_name": "Canon EF-S 18-135mm F3.5-5.6 IS"
+        "lens_name": "Canon EF-S 18-135mm F3.5-5.6 IS",
+        "uuid": "38ec5a30-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -9587,7 +10395,8 @@ const jawn = [{
         "year_released": ["Feb 17, 2005"],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF-S 18-55mm f/3.5-5.6 II"
+        "lens_name": "Canon EF-S 18-55mm f/3.5-5.6 II",
+        "uuid": "38ec5a31-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -9599,7 +10408,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["349.99"],
-        "lens_name": "Canon EF-S 18-135mm F3.5-5.6 IS STM"
+        "lens_name": "Canon EF-S 18-135mm F3.5-5.6 IS STM",
+        "uuid": "38ec5a32-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -9611,7 +10421,8 @@ const jawn = [{
         "year_released": ["Aug 20, 2007"],
         "lens_brand": "Canon",
         "msrp": ["199.00"],
-        "lens_name": "Canon EF-S 18-55mm f/3.5-5.6 IS"
+        "lens_name": "Canon EF-S 18-55mm f/3.5-5.6 IS",
+        "uuid": "38ec5a33-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -9623,7 +10434,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["249.00"],
-        "lens_name": "Canon EF-S 18-55mm F4-5.6 IS STM"
+        "lens_name": "Canon EF-S 18-55mm F4-5.6 IS STM",
+        "uuid": "38ec5a34-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -9635,7 +10447,8 @@ const jawn = [{
         "year_released": ["Aug 20, 2003"],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF-S 18-55mm f/3.5-5.6"
+        "lens_name": "Canon EF-S 18-55mm f/3.5-5.6",
+        "uuid": "38ec5a35-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -9647,7 +10460,8 @@ const jawn = [{
         "year_released": ["Aug 19, 2004"],
         "lens_brand": "Canon",
         "msrp": ["399.00"],
-        "lens_name": "Canon EF-S 17-85mm f/4-5.6 IS USM"
+        "lens_name": "Canon EF-S 17-85mm f/4-5.6 IS USM",
+        "uuid": "38ec5a36-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -9659,7 +10473,8 @@ const jawn = [{
         "year_released": ["Feb 21, 2006"],
         "lens_brand": "Canon",
         "msrp": ["799.00"],
-        "lens_name": "Canon EF-S 17-55mm f/2.8 IS USM"
+        "lens_name": "Canon EF-S 17-55mm f/2.8 IS USM",
+        "uuid": "38ec5a37-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -9671,7 +10486,8 @@ const jawn = [{
         "year_released": ["May 13, 2014"],
         "lens_brand": "Canon",
         "msrp": ["279.00 ", "378.95"],
-        "lens_name": "Canon EF-S 10-18mm f/4.5–5.6 IS STM"
+        "lens_name": "Canon EF-S 10-18mm f/4.5–5.6 IS STM",
+        "uuid": "38ec5a38-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–6.3",
         "lens_type": "Zoom lens",
@@ -9683,7 +10499,8 @@ const jawn = [{
         "year_released": ["Jun 17, 2014"],
         "lens_brand": "Canon",
         "msrp": ["299.00 ", "349.00"],
-        "lens_name": "Canon EF-M 55-200mm f/4.5-6.3 IS STM"
+        "lens_name": "Canon EF-M 55-200mm f/4.5-6.3 IS STM",
+        "uuid": "38ec5a39-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–4.5",
         "lens_type": "Zoom lens",
@@ -9695,7 +10512,8 @@ const jawn = [{
         "year_released": ["Aug 19, 2004"],
         "lens_brand": "Canon",
         "msrp": ["649.00 ", "693.95"],
-        "lens_name": "Canon EF-S 10-22mm f/3.5-4.5 USM"
+        "lens_name": "Canon EF-S 10-22mm f/3.5-4.5 USM",
+        "uuid": "38ec5a3a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -9707,7 +10525,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["799.00"],
-        "lens_name": "Canon EF-S 15-85mm f/3.5-5.6 IS USM"
+        "lens_name": "Canon EF-S 15-85mm f/3.5-5.6 IS USM",
+        "uuid": "38ec5a3b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -9719,7 +10538,8 @@ const jawn = [{
         "year_released": ["Jul 23, 2012"],
         "lens_brand": "Canon",
         "msrp": ["249.00"],
-        "lens_name": "Canon EF-M 22mm f/2 STM"
+        "lens_name": "Canon EF-M 22mm f/2 STM",
+        "uuid": "38ec5a3c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -9731,7 +10551,8 @@ const jawn = [{
         "year_released": ["May 11, 2016"],
         "lens_brand": "Canon",
         "msrp": ["299.00"],
-        "lens_name": "Canon EF-M 28mm F3.5 Macro IS STM"
+        "lens_name": "Canon EF-M 28mm F3.5 Macro IS STM",
+        "uuid": "38ec5a3d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -9743,7 +10564,8 @@ const jawn = [{
         "year_released": ["Sep 15, 2016"],
         "lens_brand": "Canon",
         "msrp": ["499.00"],
-        "lens_name": "Canon EF-M 18-150mm F3.5-6.3 IS STM"
+        "lens_name": "Canon EF-M 18-150mm F3.5-6.3 IS STM",
+        "uuid": "38ec5a3e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–6.3",
         "lens_type": "Zoom lens",
@@ -9755,7 +10577,8 @@ const jawn = [{
         "year_released": ["Oct 13, 2015"],
         "lens_brand": "Canon",
         "msrp": ["299.00"],
-        "lens_name": "Canon EF-M 15-45mm F3.5-6.3 IS STM"
+        "lens_name": "Canon EF-M 15-45mm F3.5-6.3 IS STM",
+        "uuid": "38ec5a3f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -9767,7 +10590,8 @@ const jawn = [{
         "year_released": ["Jul 23, 2012"],
         "lens_brand": "Canon",
         "msrp": ["299.00"],
-        "lens_name": "Canon EF-M 18-55mm f/3.5-5.6 IS STM"
+        "lens_name": "Canon EF-M 18-55mm f/3.5-5.6 IS STM",
+        "uuid": "38ec5a40-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F5.6",
         "lens_type": "Prime lens",
@@ -9779,7 +10603,8 @@ const jawn = [{
         "year_released": ["Jan 24, 2008"],
         "lens_brand": "Canon",
         "msrp": ["12,999.00"],
-        "lens_name": "Canon EF 800mm f/5.6L IS USM"
+        "lens_name": "Canon EF 800mm f/5.6L IS USM",
+        "uuid": "38ec5a41-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -9791,7 +10616,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 600mm f/4.0L IS USM"
+        "lens_name": "Canon EF 600mm f/4.0L IS USM",
+        "uuid": "38ec5a42-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -9803,7 +10629,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF-M 11-22mm f/4-5.6 IS STM"
+        "lens_name": "Canon EF-M 11-22mm f/4-5.6 IS STM",
+        "uuid": "38ec5a43-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -9815,7 +10642,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["11,499.00"],
-        "lens_name": "Canon EF 600mm f/4.0L IS II USM"
+        "lens_name": "Canon EF 600mm f/4.0L IS II USM",
+        "uuid": "38ec5a44-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -9827,7 +10655,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["8,999.00"],
-        "lens_name": "Canon EF 500mm f/4.0L IS II USM"
+        "lens_name": "Canon EF 500mm f/4.0L IS II USM",
+        "uuid": "38ec5a45-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -9839,7 +10668,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 500mm f/4.0L IS USM"
+        "lens_name": "Canon EF 500mm f/4.0L IS USM",
+        "uuid": "38ec5a46-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -9851,7 +10681,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 400mm f/4.0 DO IS USM"
+        "lens_name": "Canon EF 400mm f/4.0 DO IS USM",
+        "uuid": "38ec5a47-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F5.6",
         "lens_type": "Prime lens",
@@ -9863,7 +10694,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["1,149.00 ", "1,193.95"],
-        "lens_name": "Canon EF 400mm f/5.6L USM"
+        "lens_name": "Canon EF 400mm f/5.6L USM",
+        "uuid": "38ec5a48-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -9875,7 +10707,8 @@ const jawn = [{
         "year_released": ["Sep 15, 2014"],
         "lens_brand": "Canon",
         "msrp": ["6,899.00"],
-        "lens_name": "Canon EF 400mm F4 DO IS II USM"
+        "lens_name": "Canon EF 400mm F4 DO IS II USM",
+        "uuid": "38ec5a49-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Prime lens",
@@ -9887,7 +10720,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["1,349.00 ", "1,393.95"],
-        "lens_name": "Canon EF 300mm f/4.0L IS USM"
+        "lens_name": "Canon EF 300mm f/4.0L IS USM",
+        "uuid": "38ec5a4a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -9899,7 +10733,8 @@ const jawn = [{
         "year_released": ["Aug 26, 2010"],
         "lens_brand": "Canon",
         "msrp": ["9,999.00"],
-        "lens_name": "Canon EF 400mm f/2.8L IS II USM"
+        "lens_name": "Canon EF 400mm f/2.8L IS II USM",
+        "uuid": "38ec5a4b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -9911,7 +10746,8 @@ const jawn = [{
         "year_released": ["Aug 26, 2010"],
         "lens_brand": "Canon",
         "msrp": ["6,099.00"],
-        "lens_name": "Canon EF 300mm f/2.8L IS II USM"
+        "lens_name": "Canon EF 300mm f/2.8L IS II USM",
+        "uuid": "38ec5a4c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -9923,7 +10759,8 @@ const jawn = [{
         "year_released": ["Jan 24, 2008"],
         "lens_brand": "Canon",
         "msrp": ["5,699.00"],
-        "lens_name": "Canon EF 200mm f/2L IS USM"
+        "lens_name": "Canon EF 200mm f/2L IS USM",
+        "uuid": "38ec5a4d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -9935,7 +10772,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["749.00 ", "888.33"],
-        "lens_name": "Canon EF 200mm f/2.8L II USM"
+        "lens_name": "Canon EF 200mm f/2.8L II USM",
+        "uuid": "38ec5a4e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -9947,7 +10785,8 @@ const jawn = [{
         "year_released": ["May 14, 2013"],
         "lens_brand": "Canon",
         "msrp": ["10,999.00"],
-        "lens_name": "Canon EF 200-400mm f/4L IS USM Extender 1.4x"
+        "lens_name": "Canon EF 200-400mm f/4L IS USM Extender 1.4x",
+        "uuid": "38ec5a4f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -9959,7 +10798,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 400mm f/2.8L IS USM"
+        "lens_name": "Canon EF 400mm f/2.8L IS USM",
+        "uuid": "38ec5a50-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -9971,7 +10811,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 135mm F2.8 SF"
+        "lens_name": "Canon EF 135mm F2.8 SF",
+        "uuid": "38ec5a51-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5",
         "lens_type": "Prime lens",
@@ -9983,7 +10824,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["1,399.00"],
-        "lens_name": "Canon EF 180mm f/3.5L Macro USM"
+        "lens_name": "Canon EF 180mm f/3.5L Macro USM",
+        "uuid": "38ec5a52-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -9995,7 +10837,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["5,799.95"],
-        "lens_name": "Canon EF 300mm f/2.8L IS USM"
+        "lens_name": "Canon EF 300mm f/2.8L IS USM",
+        "uuid": "38ec5a53-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -10007,7 +10850,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["999.00"],
-        "lens_name": "Canon EF 135mm F2L USM"
+        "lens_name": "Canon EF 135mm F2L USM",
+        "uuid": "38ec5a54-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -10019,7 +10863,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["599.00 ", "655.36"],
-        "lens_name": "Canon EF 100mm f/2.8 Macro USM"
+        "lens_name": "Canon EF 100mm f/2.8 Macro USM",
+        "uuid": "38ec5a55-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -10031,7 +10876,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["749.00 ", "848.95"],
-        "lens_name": "Canon EF 100mm f/2.8L Macro IS USM"
+        "lens_name": "Canon EF 100mm f/2.8L Macro IS USM",
+        "uuid": "38ec5a56-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -10043,7 +10889,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["499.00"],
-        "lens_name": "Canon EF 100mm f/2.0 USM"
+        "lens_name": "Canon EF 100mm f/2.0 USM",
+        "uuid": "38ec5a57-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -10055,7 +10902,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 100-400mm f/4.5-5.6L IS USM"
+        "lens_name": "Canon EF 100-400mm f/4.5-5.6L IS USM",
+        "uuid": "38ec5a58-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -10067,7 +10915,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 100-300mm f/4.5-5.6 USM"
+        "lens_name": "Canon EF 100-300mm f/4.5-5.6 USM",
+        "uuid": "38ec5a59-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -10079,7 +10928,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 90-300mm f/4.5-5.6 USM"
+        "lens_name": "Canon EF 90-300mm f/4.5-5.6 USM",
+        "uuid": "38ec5a5a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -10091,7 +10941,8 @@ const jawn = [{
         "year_released": ["Nov 11, 2014"],
         "lens_brand": "Canon",
         "msrp": ["1,999.00 ", "2,043.95"],
-        "lens_name": "Canon EF 100-400mm F4.5-5.6L IS II USM"
+        "lens_name": "Canon EF 100-400mm F4.5-5.6L IS II USM",
+        "uuid": "38ec5a5b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -10103,7 +10954,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 90-300mm f/4.5-5.6"
+        "lens_name": "Canon EF 90-300mm f/4.5-5.6",
+        "uuid": "38ec5a5c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.2",
         "lens_type": "Prime lens",
@@ -10115,7 +10967,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["1,849.00"],
-        "lens_name": "Canon EF 85mm f/1.2L II USM"
+        "lens_name": "Canon EF 85mm f/1.2L II USM",
+        "uuid": "38ec5a5d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -10127,7 +10980,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["349.00 ", "405.36"],
-        "lens_name": "Canon EF 85mm f/1.8 USM"
+        "lens_name": "Canon EF 85mm f/1.8 USM",
+        "uuid": "38ec5a5e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -10139,7 +10993,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 75-300mm f/4.0-5.6 III USM"
+        "lens_name": "Canon EF 75-300mm f/4.0-5.6 III USM",
+        "uuid": "38ec5a5f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -10151,7 +11006,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 80-200mm f/4.5-5.6 II"
+        "lens_name": "Canon EF 80-200mm f/4.5-5.6 II",
+        "uuid": "38ec5a60-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -10163,7 +11019,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["356.00"],
-        "lens_name": "Canon EF 75-300mm f/4.0-5.6 IS USM"
+        "lens_name": "Canon EF 75-300mm f/4.0-5.6 IS USM",
+        "uuid": "38ec5a61-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -10175,7 +11032,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["199.00"],
-        "lens_name": "Canon EF 75-300mm f/4.0-5.6 III"
+        "lens_name": "Canon EF 75-300mm f/4.0-5.6 III",
+        "uuid": "38ec5a62-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -10187,7 +11045,8 @@ const jawn = [{
         "year_released": ["Jan 29, 2004"],
         "lens_brand": "Canon",
         "msrp": ["1,399.00"],
-        "lens_name": "Canon EF 70-300mm f/4.5-5.6 DO IS USM"
+        "lens_name": "Canon EF 70-300mm f/4.5-5.6 DO IS USM",
+        "uuid": "38ec5a63-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -10199,7 +11058,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["1,599.00"],
-        "lens_name": "Canon EF 85mm F1.4L IS USM"
+        "lens_name": "Canon EF 85mm F1.4L IS USM",
+        "uuid": "38ec5a64-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -10211,7 +11071,8 @@ const jawn = [{
         "year_released": ["Aug 26, 2010"],
         "lens_brand": "Canon",
         "msrp": ["1,349.00 ", "1,448.95"],
-        "lens_name": "Canon EF 70-300mm f/4-5.6L IS USM"
+        "lens_name": "Canon EF 70-300mm f/4-5.6L IS USM",
+        "uuid": "38ec5a65-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -10223,7 +11084,8 @@ const jawn = [{
         "year_released": ["Aug 22, 2005"],
         "lens_brand": "Canon",
         "msrp": ["444.47"],
-        "lens_name": "Canon EF 70-300mm f/4-5.6 IS USM"
+        "lens_name": "Canon EF 70-300mm f/4-5.6 IS USM",
+        "uuid": "38ec5a66-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -10235,7 +11097,8 @@ const jawn = [{
         "year_released": ["Aug 24, 2006"],
         "lens_brand": "Canon",
         "msrp": ["1,099.00 ", "1,198.95"],
-        "lens_name": "Canon EF 70-200mm f/4L IS USM"
+        "lens_name": "Canon EF 70-200mm f/4L IS USM",
+        "uuid": "38ec5a67-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -10247,7 +11110,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["599.00 ", "698.95"],
-        "lens_name": "Canon EF 70-200mm f/4.0L USM"
+        "lens_name": "Canon EF 70-200mm f/4.0L USM",
+        "uuid": "38ec5a68-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -10259,7 +11123,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["1,437.01"],
-        "lens_name": "Canon EF 70-200mm f/2.8L USM"
+        "lens_name": "Canon EF 70-200mm f/2.8L USM",
+        "uuid": "38ec5a69-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -10271,7 +11136,8 @@ const jawn = [{
         "year_released": ["Sep 15, 2016"],
         "lens_brand": "Canon",
         "msrp": ["499.00"],
-        "lens_name": "Canon EF 70-300 F4-5.6 IS II USM"
+        "lens_name": "Canon EF 70-300 F4-5.6 IS II USM",
+        "uuid": "38ec5a6a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -10283,7 +11149,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["1,899.00 ", "2,001.50"],
-        "lens_name": "Canon EF 70-200mm f/2.8L IS II USM"
+        "lens_name": "Canon EF 70-200mm f/2.8L IS II USM",
+        "uuid": "38ec5a6b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.5",
         "lens_type": "Prime lens",
@@ -10295,7 +11162,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 50mm f/2.5 Macro"
+        "lens_name": "Canon EF 50mm f/2.5 Macro",
+        "uuid": "38ec5a6c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Zoom lens",
@@ -10307,7 +11175,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["1,937.29"],
-        "lens_name": "Canon EF 70-200mm f/2.8L IS USM"
+        "lens_name": "Canon EF 70-200mm f/2.8L IS USM",
+        "uuid": "38ec5a6d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -10319,7 +11188,8 @@ const jawn = [{
         "year_released": ["May 11, 2015"],
         "lens_brand": "Canon",
         "msrp": ["125.00 ", "349.00"],
-        "lens_name": "Canon EF 50mm f/1.8 STM"
+        "lens_name": "Canon EF 50mm f/1.8 STM",
+        "uuid": "38ec5a6e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.2",
         "lens_type": "Prime lens",
@@ -10331,7 +11201,8 @@ const jawn = [{
         "year_released": ["Aug 24, 2006"],
         "lens_brand": "Canon",
         "msrp": ["1,299.00 ", "1,438.95"],
-        "lens_name": "Canon EF 50mm f/1.2L USM"
+        "lens_name": "Canon EF 50mm f/1.2L USM",
+        "uuid": "38ec5a6f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -10343,7 +11214,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["179.00"],
-        "lens_name": "Canon EF 40mm f/2.8 STM"
+        "lens_name": "Canon EF 40mm f/2.8 STM",
+        "uuid": "38ec5a70-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -10355,7 +11227,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["375.00"],
-        "lens_name": "Canon EF 35mm F2.0"
+        "lens_name": "Canon EF 35mm F2.0",
+        "uuid": "38ec5a71-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -10367,7 +11240,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["120.99"],
-        "lens_name": "Canon EF 50mm f/1.8 II"
+        "lens_name": "Canon EF 50mm f/1.8 II",
+        "uuid": "38ec5a72-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2",
         "lens_type": "Prime lens",
@@ -10379,7 +11253,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["549.00 ", "648.95"],
-        "lens_name": "Canon EF 35mm F2 IS USM"
+        "lens_name": "Canon EF 35mm F2 IS USM",
+        "uuid": "38ec5a73-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4.5–5.6",
         "lens_type": "Zoom lens",
@@ -10391,7 +11266,8 @@ const jawn = [{
         "year_released": ["Aug 20, 2003"],
         "lens_brand": "Canon",
         "msrp": ["239.99"],
-        "lens_name": "Canon EF 55-200mm f/4.5-5.6 II USM"
+        "lens_name": "Canon EF 55-200mm f/4.5-5.6 II USM",
+        "uuid": "38ec5a74-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -10403,7 +11279,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["1,288.88"],
-        "lens_name": "Canon EF 35mm F1.4L USM"
+        "lens_name": "Canon EF 35mm F1.4L USM",
+        "uuid": "38ec5a75-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -10415,7 +11292,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 35-80mm f/4.0-5.6 III"
+        "lens_name": "Canon EF 35-80mm f/4.0-5.6 III",
+        "uuid": "38ec5a76-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -10427,7 +11305,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 35-350mm f/3.5-5.6L USM"
+        "lens_name": "Canon EF 35-350mm f/3.5-5.6L USM",
+        "uuid": "38ec5a77-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -10439,7 +11318,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["329.00 ", "385.42"],
-        "lens_name": "Canon EF 50mm f/1.4 USM"
+        "lens_name": "Canon EF 50mm f/1.4 USM",
+        "uuid": "38ec5a78-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -10451,7 +11331,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 28mm f/2.8"
+        "lens_name": "Canon EF 28mm f/2.8",
+        "uuid": "38ec5a79-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -10463,7 +11344,8 @@ const jawn = [{
         "year_released": ["Jan 29, 2004"],
         "lens_brand": "Canon",
         "msrp": ["2,449.00 ", "2,493.95"],
-        "lens_name": "Canon EF 28-300mm f/3.5-5.6L IS USM"
+        "lens_name": "Canon EF 28-300mm f/3.5-5.6L IS USM",
+        "uuid": "38ec5a7a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -10475,7 +11357,8 @@ const jawn = [{
         "year_released": ["Aug 27, 2015"],
         "lens_brand": "Canon",
         "msrp": ["1,649.00 ", "1,788.33"],
-        "lens_name": "Canon EF 35mm F1.4L II USM"
+        "lens_name": "Canon EF 35mm F1.4L II USM",
+        "uuid": "38ec5a7b-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -10487,7 +11370,8 @@ const jawn = [{
         "year_released": ["Aug 30, 2000"],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 28-200mm f/3.5-5.6 USM"
+        "lens_name": "Canon EF 28-200mm f/3.5-5.6 USM",
+        "uuid": "38ec5a7c-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -10499,7 +11383,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["499.00"],
-        "lens_name": "Canon EF 28mm f/2.8 IS USM"
+        "lens_name": "Canon EF 28mm f/2.8 IS USM",
+        "uuid": "38ec5a7d-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -10511,7 +11396,8 @@ const jawn = [{
         "year_released": ["Aug 30, 2000"],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 28-200mm f/3.5-5.6"
+        "lens_name": "Canon EF 28-200mm f/3.5-5.6",
+        "uuid": "38ec5a7e-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.8",
         "lens_type": "Prime lens",
@@ -10523,7 +11409,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["509.00 ", "565.36"],
-        "lens_name": "Canon EF 28mm f/1.8 USM"
+        "lens_name": "Canon EF 28mm f/1.8 USM",
+        "uuid": "38ec5a7f-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -10535,7 +11422,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["439.00"],
-        "lens_name": "Canon EF 28-135mm F3.5-5.6 IS USM"
+        "lens_name": "Canon EF 28-135mm F3.5-5.6 IS USM",
+        "uuid": "38ec5a80-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -10547,7 +11435,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["449.00"],
-        "lens_name": "Canon EF 28-105mm f/4.0-5.6 USM"
+        "lens_name": "Canon EF 28-105mm f/4.0-5.6 USM",
+        "uuid": "38ec5a81-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–4.5",
         "lens_type": "Zoom lens",
@@ -10559,7 +11448,8 @@ const jawn = [{
         "year_released": ["Aug 30, 2000"],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 28-105mm f/3.5-4.5 II USM"
+        "lens_name": "Canon EF 28-105mm f/3.5-4.5 II USM",
+        "uuid": "38ec5a82-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4–5.6",
         "lens_type": "Zoom lens",
@@ -10571,7 +11461,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 28-90mm f/4.0-5.6 II"
+        "lens_name": "Canon EF 28-90mm f/4.0-5.6 II",
+        "uuid": "38ec5a83-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -10583,7 +11474,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 28-80mm f/3.5-5.6 II"
+        "lens_name": "Canon EF 28-80mm f/3.5-5.6 II",
+        "uuid": "38ec5a84-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -10595,7 +11487,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 28-80mm f/3.5-5.6 V USM"
+        "lens_name": "Canon EF 28-80mm f/3.5-5.6 V USM",
+        "uuid": "38ec5a85-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F2.8",
         "lens_type": "Prime lens",
@@ -10607,7 +11500,8 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": [],
-        "lens_name": "Canon EF 24mm f/2.8"
+        "lens_name": "Canon EF 24mm f/2.8",
+        "uuid": "38ec5a86-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -10619,7 +11513,8 @@ const jawn = [{
         "year_released": ["Aug 25, 2016"],
         "lens_brand": "Canon",
         "msrp": ["1,099.00"],
-        "lens_name": "Canon EF 24-105mm F4L IS II USM"
+        "lens_name": "Canon EF 24-105mm F4L IS II USM",
+        "uuid": "38ec5a87-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F4",
         "lens_type": "Zoom lens",
@@ -10631,7 +11526,8 @@ const jawn = [{
         "year_released": ["Aug 22, 2005"],
         "lens_brand": "Canon",
         "msrp": ["999.00"],
-        "lens_name": "Canon EF 24-105mm f/4L IS USM"
+        "lens_name": "Canon EF 24-105mm f/4L IS USM",
+        "uuid": "38ec5a88-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–5.6",
         "lens_type": "Zoom lens",
@@ -10643,7 +11539,8 @@ const jawn = [{
         "year_released": ["Sep 15, 2014"],
         "lens_brand": "Canon",
         "msrp": ["599.00 ", "643.95"],
-        "lens_name": "Canon EF 24-105mm F3.5-5.6 IS STM"
+        "lens_name": "Canon EF 24-105mm F3.5-5.6 IS STM",
+        "uuid": "38ec5a89-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F1.4",
         "lens_type": "Prime lens",
@@ -10655,7 +11552,8 @@ const jawn = [{
         "year_released": ["Sep 17, 2008"],
         "lens_brand": "Canon",
         "msrp": ["1,549.00"],
-        "lens_name": "Canon EF 24mm f/1.4L II USM"
+        "lens_name": "Canon EF 24mm f/1.4L II USM",
+        "uuid": "38ec5a8a-1090-11ea-9e57-a5b43f0cb33e"
     }, {
         "f_stop_max": "F3.5–4.5",
         "lens_type": "Zoom lens",
@@ -10667,6 +11565,7 @@ const jawn = [{
         "year_released": [],
         "lens_brand": "Canon",
         "msrp": ["899.00 ", "2,300.00"],
-        "lens_name": "Canon EF 24-85mm f/3.5-4.5 USM"
+        "lens_name": "Canon EF 24-85mm f/3.5-4.5 USM",
+        "uuid": "38ec5a8b-1090-11ea-9e57-a5b43f0cb33e"
     }];
 exports.default = jawn;

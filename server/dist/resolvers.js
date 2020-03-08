@@ -7,6 +7,10 @@ exports.default = {
             return photosShotWithLens;
         },
         allLens: async (_, __, { dataSources }) => {
+            const listOfAllLens = await dataSources.lensAPI.getAllLens();
+            return listOfAllLens;
+        },
+        allLensName: async (_, __, { dataSources }) => {
             const listOfAllLens = await dataSources.lensAPI.getAllLensName();
             return listOfAllLens;
         }

@@ -5,6 +5,10 @@ export default {
            return photosShotWithLens;
         },
         allLens: async (_: any, __: any, { dataSources }: any) => {
+            const listOfAllLens = await dataSources.lensAPI.getAllLens();
+            return listOfAllLens;
+        },
+        allLensName: async (_: any, __: any, { dataSources }: any) => {
             const listOfAllLens = await dataSources.lensAPI.getAllLensName();
             return listOfAllLens;
         }

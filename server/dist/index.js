@@ -8,9 +8,18 @@ const schema_1 = __importDefault(require("./schema"));
 const resolvers_1 = __importDefault(require("./resolvers"));
 const searchPhotos_1 = __importDefault(require("./api/searchPhotos"));
 const lens_1 = __importDefault(require("./api/lens"));
+const knexConfig = {
+    client: "pg",
+    connection: {
+        host: 'localhost',
+        user: 'postgres',
+        password: '',
+        database: 'lens_search'
+    }
+};
 const dataSources = () => ({
     searchPhotosAPI: new searchPhotos_1.default(),
-    lensAPI: new lens_1.default()
+    lensAPI: new lens_1.default(knexConfig),
 });
 const port = process.env.PORT || 6000;
 const server = new apollo_server_1.ApolloServer({

@@ -1,25 +1,25 @@
-import { DataSource } from 'apollo-datasource';
-// import lensDB from '../../../db/lens_db.json';
-import lensDB from '../MOCK_DB';
+// @ts-nocheck
+import { SQLDataSource } from 'datasource-sql';
 
-class LensAPI extends DataSource {
-    store: any;
-    context: any;
-
-    constructor() {
-        super();
-
-        // Get access to some store/database
-        // this.store = store;
-    }
-
-    initialize(config: any) {
-        this.context = config.context;
-    }
-
+class LensAPI extends SQLDataSource {
     async getAllLensName() {
-        // console.log(lensDB)
-        return lensDB;
+        // TODO: revisit when I actually figure out shape and create db.
+        const data = await this.knex
+            .select("lens_name")
+            .from("lens")
+            .cache(60);
+
+        return data;
+    }
+
+    async getAllLens() {
+        // TODO: revisit when I actually figure out shape and create db.
+        const data = await this.knex
+            .select("*")
+            .from("lens")
+            .cache(60);
+
+        return data;
     }
 
 }

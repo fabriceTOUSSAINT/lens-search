@@ -32,16 +32,21 @@ const typeDefs = gql`
         dp_review_link: String
         focal_length: String,
         dp_lens_detail_link: String,
-        year_released: [String]
+        year_released: String
         lens_brand: String
-        msrp: [String]
+        msrp: String
+        lens_name: String
+        msrp__002: String
+    }
+
+    type LensName {
         lens_name: String
     }
 
-
     type Query {
         photosShotWith(lensName: String): [Photo]
-        allLens: [LensDB]
+        allLens: [LensDB],
+        allLensName: [LensName]
     }
 `;
 
