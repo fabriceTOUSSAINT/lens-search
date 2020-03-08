@@ -1,17 +1,28 @@
 import React from 'react';
 import SearchBar from '../../components/SearchBar';
 import PhotoCarousel from '../../components/PhotoCarousel';
-
-import './styles.css';
+import styled from 'styled-components';
 
 const Home: React.FC = (props: any) => {
     return (
-        <div className="home">
-            <h1 className='title'> Lens Jawn</h1>
+        <HomeWrapper>
+            <HomeTitle> Lens Jawn</HomeTitle>
             <SearchBar />
             <PhotoCarousel />
-        </div>
+        </HomeWrapper>
     )
 }
 
 export default Home;
+
+const HomeWrapper = styled.div`
+    max-width: 750px;
+`
+
+const HomeTitle = styled.h1`
+color: white;
+font-size: 3em;
+display: block;
+text-align: center;
+width: 100%;
+`

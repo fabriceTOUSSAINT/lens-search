@@ -1,5 +1,4 @@
 import React from 'react';
-import './styles.css';
 
 const PhotoCarousel: React.FC = (props: any) => {
     return (
