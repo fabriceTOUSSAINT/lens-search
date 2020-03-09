@@ -9,7 +9,21 @@ class LensAPI extends SQLDataSource {
             .from("lens")
             .cache(60);
 
+           
         return data;
+    }
+
+    async getLens(lensName: string) {
+        console.log(lensName)
+        const data = await this.knex
+            .select("*")
+            .from("lens")
+            .where({
+                lens_name: lensName,
+            });
+ // TODO: Why does knex respond in an array?
+            console.log(data, '<<<')
+        return data[0];
     }
 
     async getAllLens() {

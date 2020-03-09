@@ -6,11 +6,15 @@ exports.default = {
             const photosShotWithLens = await dataSources.searchPhotosAPI.findPhotosShotWithLens(lensName);
             return photosShotWithLens;
         },
-        allLens: async (_, __, { dataSources }) => {
+        allLens: async (_, args, { dataSources }) => {
             const listOfAllLens = await dataSources.lensAPI.getAllLens();
             return listOfAllLens;
         },
-        allLensName: async (_, __, { dataSources }) => {
+        getLens: async (_, args, { dataSources }) => {
+            const listOfAllLens = await dataSources.lensAPI.getLens(args.lensName);
+            return listOfAllLens;
+        },
+        allLensName: async (_, args, { dataSources }) => {
             const listOfAllLens = await dataSources.lensAPI.getAllLensName();
             return listOfAllLens;
         }

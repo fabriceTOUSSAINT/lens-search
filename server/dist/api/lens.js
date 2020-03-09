@@ -9,6 +9,17 @@ class LensAPI extends datasource_sql_1.SQLDataSource {
             .cache(60);
         return data;
     }
+    async getLens(lensName) {
+        console.log(lensName);
+        const data = await this.knex
+            .select("*")
+            .from("lens")
+            .where({
+            lens_name: lensName,
+        });
+        console.log(data, '<<<');
+        return data[0];
+    }
     async getAllLens() {
         const data = await this.knex
             .select("*")
