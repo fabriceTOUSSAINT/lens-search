@@ -40,13 +40,13 @@ class SearchPhotosAPI extends RESTDataSource {
   appendSearchOptionsToLens(lensObj: any): any {
     // Clean up strings and create new object.
     const lens = {
-      fstop: lensObj.f_stop_max.replace(/(f|\/)/gi, ''),
-      focalLength: lensObj.focal_length.replace(/\s/g, ''),
-      mount: lensObj.lens_mount
-        .replace(lensObj.lens_brand, '')
+      fstop: lensObj.fStopMax.replace(/(f|\/)/gi, ''),
+      focalLength: lensObj.focalLength.replace(/\s/g, ''),
+      mount: lensObj.lensMount
+        .replace(lensObj.lensBrand, '')
         .replace(/\s/g, ''),
-      name: lensObj.lens_name,
-      brand: lensObj.lens_brand,
+      name: lensObj.lensName,
+      brand: lensObj.lensBrand,
       other: null,
     }
 
@@ -89,27 +89,7 @@ class SearchPhotosAPI extends RESTDataSource {
    * @memberof SearchPhotosAPI
    */
   async photosShotWith(lens: any) {
-    // TODO: Build actual function to fetch from database storing all of the lens.
-    // const fullLensDetail = await fetchFullLensDetail(lens);
-    const lens_db_res_obj = {
-      f_stop_max: 'F1.4',
-      lens_type: 'Prime lens',
-      f_stop_min: 'F16',
-      lens_mount: 'Fujifilm X',
-      dp_review_link: null,
-      focal_length: '23 ',
-      dp_lens_detail_link:
-        'https://www.dpreview.com/products/fujifilm/lenses/fujifilm_xf_23mm',
-      year_released: [],
-      lens_brand: 'Fujifilm',
-      msrp: ['799.00'],
-      lens_name: 'Fujifilm XF 23mm F1.4 R',
-    }
-
-    // console.log(lens, '<<< jawn')
-    // return object of different search option strings
-    const lensInfo = this.appendSearchOptionsToLens(lens_db_res_obj)
-
+    const lensInfo = this.appendSearchOptionsToLens(lens)
     const photosShotWithLens = await this.Flickr.getPhotosShotWithLens(lensInfo)
 
     return photosShotWithLens

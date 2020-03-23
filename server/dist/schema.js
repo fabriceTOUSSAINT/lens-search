@@ -39,7 +39,7 @@ const typeDefs = apollo_server_1.gql `
   }
 
   type Query {
-    photosShotWith(lens: LensInput): [Photo]
+    photosShotWith(lensName: String): [Photo]
     getLens(lensName: String): Lens
     getAllLens: [Lens]
   }

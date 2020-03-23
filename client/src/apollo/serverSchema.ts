@@ -26,14 +26,13 @@ export const GET_LENS = gql`
   }
 `
 
+// TODO: EXIF & id aren't working rn
 export const PHOTOS_SHOT_WITH = gql`
-  query PhotosShotWith($lens: LensInput) {
-    photosShotWith(lens: $lens) {
+  query PhotosShotWith($lensName: String) {
+    photosShotWith(lensName: $lensName) {
       thumbnail
       imageUrl
       imageUrlLarge
-      exif
-      id
     }
   }
 `

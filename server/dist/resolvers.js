@@ -3,8 +3,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = {
     Query: {
         photosShotWith: async (_, args, { dataSources }) => {
-            console.log(args, '<<< ARGS IN RESOLVER');
-            const photosShotWithLens = await dataSources.searchPhotosAPI.photosShotWith(args.lens);
+            const lens = await dataSources.lens.getLens(args.lensName);
+            console.log(lens, '<<<>>>>>', args);
+            const photosShotWithLens = await dataSources.searchPhotosAPI.photosShotWith(lens);
+            console.log(photosShotWithLens, '<<<< in resolver photosShotWithLens');
             return photosShotWithLens;
         },
         getAllLens: async (_, args, { dataSources }) => {

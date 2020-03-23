@@ -38,7 +38,7 @@ const typeDefs = gql`
   }
 
   type Query {
-    photosShotWith(lens: LensInput): [Photo]
+    photosShotWith(lensName: String): [Photo]
     getLens(lensName: String): Lens
     getAllLens: [Lens]
   }

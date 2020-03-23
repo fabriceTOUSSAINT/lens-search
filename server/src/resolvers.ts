@@ -1,10 +1,11 @@
 export default {
   Query: {
     photosShotWith: async (_: any, args: any, { dataSources }: any) => {
-      console.log(args, '<<< ARGS IN RESOLVER')
+      const lens = await dataSources.lens.getLens(args.lensName)
       const photosShotWithLens = await dataSources.searchPhotosAPI.photosShotWith(
-        args.lens,
+        lens,
       )
+
       return photosShotWithLens
     },
     getAllLens: async (_: any, args: any, { dataSources }: any) => {
