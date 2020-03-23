@@ -1,0 +1,7 @@
+schema: http://localhost:4000/graphql
+generates:
+  ./src/apollo/globalTypes.d.ts:
+    plugins:
+      - typescript
+    config:
+      declarationKind: "interface"

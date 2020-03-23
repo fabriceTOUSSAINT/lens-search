@@ -2,21 +2,18 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = {
     Query: {
-        photosShotWith: async (_, { lensName = '' }, { dataSources }) => {
-            const photosShotWithLens = await dataSources.searchPhotosAPI.findPhotosShotWithLens(lensName);
+        photosShotWith: async (_, args, { dataSources }) => {
+            console.log(args, '<<< ARGS IN RESOLVER');
+            const photosShotWithLens = await dataSources.searchPhotosAPI.photosShotWith(args.lens);
             return photosShotWithLens;
         },
-        allLens: async (_, args, { dataSources }) => {
-            const listOfAllLens = await dataSources.lensAPI.getAllLens();
+        getAllLens: async (_, args, { dataSources }) => {
+            const listOfAllLens = await dataSources.lens.getAllLens();
             return listOfAllLens;
         },
         getLens: async (_, args, { dataSources }) => {
-            const listOfAllLens = await dataSources.lensAPI.getLens(args.lensName);
+            const listOfAllLens = await dataSources.lens.getLens(args.lensName);
             return listOfAllLens;
         },
-        allLensName: async (_, args, { dataSources }) => {
-            const listOfAllLens = await dataSources.lensAPI.getAllLensName();
-            return listOfAllLens;
-        }
-    }
+    },
 };

@@ -1,41 +1,39 @@
-import { gql } from '@apollo/client';
+import { gql } from '@apollo/client'
 
-
-export const GET_LIST_OF_ALL_LENS_NAME = gql`
-  query getAllLensName {
-    allLens {
-      lens_name
+export const GET_ALL_LENS_NAMES = gql`
+  query {
+    getAllLens {
+      lensName
     }
   }
-`;
+`
 
 export const GET_LENS = gql`
-    query GetLens($lensName: String) {
-        getLens(lensName: $lensName) {
-            f_stop_max
-            f_stop_min
-            lens_type
-            lens_mount
-            dp_review_link
-            focal_length
-            dp_lens_detail_link
-            year_released
-            lens_brand
-            msrp
-            lens_name
-            msrp__002
-        }
+  query GetLens($lensName: String) {
+    getLens(lensName: $lensName) {
+      fStopMax
+      fStopMin
+      lensType
+      lensMount
+      dpReviewLink
+      focalLength
+      yearReleased
+      lensBrand
+      msrp
+      msrp_002
+      lensName
     }
-`;
+  }
+`
 
 export const PHOTOS_SHOT_WITH = gql`
-    query PhotosShotWith($lensName: String) {
-        photosShotWith(lensName: $lensName) {
-            thumbnail
-            imageUrl
-            imageUrlLarge
-            exif
-            id
-        }
+  query PhotosShotWith($lens: LensInput) {
+    photosShotWith(lens: $lens) {
+      thumbnail
+      imageUrl
+      imageUrlLarge
+      exif
+      id
     }
-`;
+  }
+`

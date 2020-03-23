@@ -1,43 +1,74 @@
-import {gql} from '@apollo/client';
+import { gql } from '@apollo/client'
 
 export const typeDefs = gql`
-    type Lens {
-        f_stop_max: String
-        f_stop_min: String
-        lens_type: String
-        lens_mount: String
-        dp_review_link: String
-        focal_length: String,
-        dp_lens_detail_link: String,
-        year_released: String
-        lens_brand: String
-        msrp: String
-        lens_name: String
-        msrp__002: String
-    }
+  type Lens {
+    fStopMax: String
+    fStopMin: String
+    lensType: String
+    lensMount: String
+    dpReviewLink: String
+    focalLength: String
+    yearReleased: String
+    lensBrand: String
+    msrp: String
+    msrp_002: String
+    lensName: String
+  }
 
-    extend type Query {
-        getSelectedLens: Lens
-    }
-`;
+  extend type Query {
+    getSelectedLens: Lens
+  }
 
-export const resolvers = {};
+  extend type Mutation {
+    updateSelectedLens(lens: Lens): Lens
+  }
+`
+
+export const resolvers = {
+  Mutation: {
+    updateSelectedLens: (parent: any, args: any, context: any) => {
+      context.cache.writeQuery({
+        query: GET_SELECTED_LENS,
+        data: {
+          getSelectedLens: args.lens,
+        },
+      })
+    },
+  },
+}
+
+export const UPDATE_SELECTED_LENS = gql`
+  mutation UpdateSelectedLens($lens: Lens) {
+    updateSelectedLens(lens: $lens) @client {
+      fStopMax
+      fStopMin
+      lensType
+      lensMount
+      dpReviewLink
+      focalLength
+      yearReleased
+      lensBrand
+      msrp
+      msrp_002
+      lensName
+    }
+  }
+`
 
 export const GET_SELECTED_LENS = gql`
-    query GetSelectedLens {
-        getSelectedLens @client {
-            f_stop_max 
-            f_stop_min 
-            lens_type 
-            lens_mount 
-            dp_review_link 
-            focal_length 
-            dp_lens_detail_link 
-            year_released 
-            lens_brand 
-            msrp 
-            lens_name 
-            msrp__002 
-        }
+  query GetSelectedLens {
+    getSelectedLens @client {
+      fStopMax
+      fStopMin
+      lensType
+      lensMount
+      dpReviewLink
+      focalLength
+      yearReleased
+      lensBrand
+      msrp
+      msrp_002
+      lensName
     }
+  }
 `
