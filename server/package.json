@@ -5,16 +5,22 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx tsc && nodemon dist/"
+    "build": "webpack --config webpack.development.js",
+    "start": "npm run build & nodemon --exec 'node -r dotenv/config' dist/server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^12.12.31",
     "apollo-datasource-rest": "^0.6.6",
     "apollo-server": "^2.9.14",
+    "apollo-server-express": "^2.11.0",
+    "body-parser": "^1.19.0",
     "camelize": "^1.0.0",
     "datasource-sql": "^1.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
     "graphql": "^14.5.8",
     "knex": "^0.20.11",
     "knex-tiny-logger": "^1.1.0",
@@ -23,6 +29,14 @@
   },
   "devDependencies": {
     "@types/node-fetch": "^2.5.4",
-    "typescript": "^3.8"
+    "@types/webpack-env": "^1.15.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "nodemon": "^2.0.2",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-merge": "^4.2.2",
+    "webpack-node-externals": "^1.7.2"
   }
 }

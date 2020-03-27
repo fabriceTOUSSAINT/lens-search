@@ -37,7 +37,7 @@ class SearchPhotosAPI extends RESTDataSource {
    *
    * @returns lensInfo - { Object } - Holds meta data related to lens and searching of lens
    */
-  appendSearchOptionsToLens(lensObj: any): any {
+  _appendSearchOptionsToLens(lensObj: any): any {
     // Clean up strings and create new object.
     const lens = {
       fstop: lensObj.fStopMax.replace(/(f|\/)/gi, ''),
@@ -89,7 +89,7 @@ class SearchPhotosAPI extends RESTDataSource {
    * @memberof SearchPhotosAPI
    */
   async photosShotWith(lens: any) {
-    const lensInfo = this.appendSearchOptionsToLens(lens)
+    const lensInfo = this._appendSearchOptionsToLens(lens)
     const photosShotWithLens = await this.Flickr.getPhotosShotWithLens(lensInfo)
 
     return photosShotWithLens
