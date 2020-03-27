@@ -1,5 +1,37 @@
 import { RESTDataSource, HTTPCache } from 'apollo-datasource-rest'
 
+interface LensDetailType {
+  fstop?: string
+  focalLength?: string
+  mount?: string
+  name: string
+  brand?: string
+  other?: string
+}
+interface LensMetaDataType {
+  simple: string
+  moderate: string
+  complex: string
+  lens: LensDetailType
+}
+
+interface PhotoDataInput {
+  id?: string
+  secret?: string
+  server?: string
+  farm?: number
+  camera?: string
+  exif: any[]
+}
+interface PhotoDataResponse {
+  thumbnail?: string
+  imageUrl?: string
+  imageUrlLarge?: string
+  camera?: string
+  exif?: any
+  id?: string
+}
+
 /**
  *
  *
@@ -93,12 +125,8 @@ class FlickrModel extends RESTDataSource {
     return `https://farm${photo.farm}.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}${imgVariant}.jpg`
   }
 
-  /**
-   * @param photoData - Array of objects representing photos
-   * TODO: Find shape of photoData
-   */
-  packageResponseData = (photoData: any): any[] => {
-    const flickrData = photoData.map((photo: any) => {
+  packageResponseData = (photoData: PhotoDataInput[]): PhotoDataResponse[] => {
+    const flickrData = photoData.map((photo: PhotoDataInput) => {
       return {
         thumbnail: this.buildImageUrl(photo, 'thumbnail'),
         imageUrl: this.buildImageUrl(photo),
@@ -117,9 +145,12 @@ class FlickrModel extends RESTDataSource {
    * @param photos
    * @param lensInfo
    */
-  async filterPhotosShotWithLens(photos: Array<any>, lensInfo: any) {
-    const searchString = lensInfo.simple
-    const lensDetail = lensInfo.lens
+  async filterPhotosShotWithLens(
+    photos: Array<any>,
+    lensSearchOptions: LensMetaDataType,
+  ) {
+    const searchString = lensSearchOptions.simple
+    const lensDetail = lensSearchOptions.lens
 
     // Build array of API endpoints for each photo in searchResult
     const exifApiUrl = photos.map((photo: any) => {
@@ -187,15 +218,20 @@ class FlickrModel extends RESTDataSource {
    *
    * @param lensInfo { simple, lens }
    */
-  async getPhotosShotWithLens(lensInfo: any): Promise<any> {
+  async getPhotosShotWithLens(
+    lensSearchOptions: LensMetaDataType,
+  ): Promise<any> {
     try {
       // Weak general search flickr with simple query
-      const fuzzySearchRes = await this.fuzzySearchWithQuery(lensInfo.simple)
+      const fuzzySearchRes = await this.fuzzySearchWithQuery(
+        lensSearchOptions.simple,
+      )
 
+      //   console.log(fuzzySearchRes, '<<<')
       // filter results by checking each photos EXIF and save any shot with lens
       const photosShotWithLens = await this.filterPhotosShotWithLens(
         fuzzySearchRes,
-        lensInfo,
+        lensSearchOptions,
       )
 
       // return results in format of our type Photo

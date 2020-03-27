@@ -12,6 +12,29 @@
 import { RESTDataSource, HTTPCache } from 'apollo-datasource-rest'
 import { FlickrModel } from './models'
 
+interface Photo {
+  thumbnail: string
+  imageUrl: string
+  imageUrlLarge: string
+  exif: string
+  id: number
+}
+
+interface LensDetailType {
+  fstop?: string
+  focalLength?: string
+  mount?: string
+  name: string
+  brand?: string
+  other?: string | null
+}
+interface LensMetaDataType {
+  simple: string
+  moderate: string
+  complex: string
+  lens: LensDetailType
+}
+
 class SearchPhotosAPI extends RESTDataSource {
   Flickr: any
 
@@ -37,9 +60,9 @@ class SearchPhotosAPI extends RESTDataSource {
    *
    * @returns lensInfo - { Object } - Holds meta data related to lens and searching of lens
    */
-  _appendSearchOptionsToLens(lensObj: any): any {
+  _appendSearchOptionsToLens(lensObj: any): LensMetaDataType {
     // Clean up strings and create new object.
-    const lens = {
+    const lens: LensDetailType = {
       fstop: lensObj.fStopMax.replace(/(f|\/)/gi, ''),
       focalLength: lensObj.focalLength.replace(/\s/g, ''),
       mount: lensObj.lensMount
@@ -62,10 +85,11 @@ class SearchPhotosAPI extends RESTDataSource {
       .replace(regex.MatchAllPossible, '')
       .replace(/\s/g, '')
 
-    const lensInfo = {
+    console.log(lens, '<<<< lens jawn', lensObj)
+    const lensInfo: LensMetaDataType = {
       simple: `${lens.brand} ${lens.mount} ${lens.focalLength}mm ${lens.fstop}`,
-      moderate: '',
-      complex: '',
+      moderate: `${lens.brand} ${lens.mount} ${lens.focalLength}mm`,
+      complex: `${lens.brand} ${lens.mount} ${lens.focalLength}mm F${lens.fstop}`,
       lens,
     }
 
@@ -77,20 +101,16 @@ class SearchPhotosAPI extends RESTDataSource {
    * photos shot with lensName via Flickr Api.
    *
    * This is the only MAIN function;
-   *
-   * @param {*} lensName
-   * @returns     type Photo {
-   *                      thumbnail: String
-   *                      imageUrl: String
-   *                      imageUrlLarge: String
-   *                      exif: String
-   *                      id: Int
-   *                  }
    * @memberof SearchPhotosAPI
    */
-  async photosShotWith(lens: any) {
-    const lensInfo = this._appendSearchOptionsToLens(lens)
-    const photosShotWithLens = await this.Flickr.getPhotosShotWithLens(lensInfo)
+  async photosShotWith(lens: Photo) {
+    // Builds an object of searchable "string" options for flickr.
+    const lensSearchOptions: LensMetaDataType = this._appendSearchOptionsToLens(
+      lens,
+    )
+    const photosShotWithLens = await this.Flickr.getPhotosShotWithLens(
+      lensSearchOptions,
+    )
 
     return photosShotWithLens
   }
