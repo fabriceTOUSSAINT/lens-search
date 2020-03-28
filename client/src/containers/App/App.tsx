@@ -1,32 +1,37 @@
-import React, { useEffect } from 'react'
-import SearchBar from '../../components/SearchBar'
-import PhotoCarousel from '../../components/PhotoCarousel'
-import styled from 'styled-components'
-
-import { useQuery, gql } from '@apollo/client'
+import React from 'react';
+import SearchBar from '../../components/SearchBar';
+import PhotoCarousel from '../../components/PhotoCarousel';
+import styled from 'styled-components';
+import defaultBackground from '../../assets/lens_jawn_bg.jpg';
 
 const App: React.FC = () => {
   return (
     <AppWrapper>
-      <HomeWrapper>
+      <HeroWrapper bg={defaultBackground}>
         <HomeTitle> Lens Jawn</HomeTitle>
+        {/* <img src={defaultBackground} /> */}
         <SearchBar />
-        <PhotoCarousel />
-      </HomeWrapper>
+      </HeroWrapper>
+      <PhotoCarousel />
     </AppWrapper>
-  )
-}
+  );
+};
 
-export default App
+export default App;
+
+const HeroWrapper = styled.div<{ bg: any }>`
+  background: blue;
+  width: 100%;
+  height: 80vh;
+  background: url(${({ bg }: any) => bg});
+  background-size: cover;
+  background-position: center;
+`;
 
 const AppWrapper = styled.div`
-  margin: 0 auto;
-  max-width: 1100px;
-`
-const HomeWrapper = styled.div`
-  max-width: 750px;
-  width: 50vw;
-`
+  width: 100vw;
+  height: auto;
+`;
 
 const HomeTitle = styled.h1`
   color: white;
@@ -34,4 +39,5 @@ const HomeTitle = styled.h1`
   display: block;
   text-align: center;
   width: 100%;
-`
+  margin-top: 0;
+`;
