@@ -1,18 +1,14 @@
 import { RESTDataSource, HTTPCache } from 'apollo-datasource-rest'
+import stringSimilarity from 'string-similarity'
 
-interface LensDetailType {
+interface LensSearchOptions {
   fstop?: string
   focalLength?: string
   mount?: string
+  model?: string
   name: string
   brand?: string
-  other?: string
-}
-interface LensMetaDataType {
-  simple: string
-  moderate: string
-  complex: string
-  lens: LensDetailType
+  searchString: string
 }
 
 interface PhotoDataInput {
@@ -30,6 +26,16 @@ interface PhotoDataResponse {
   camera?: string
   exif?: any
   id?: string
+}
+
+interface ParameterType {
+  method: string
+  api_key: string
+  text?: string
+  format: string
+  photo_id?: string | number
+  per_page?: number
+  page?: number
 }
 
 /**
@@ -58,26 +64,45 @@ class FlickrModel extends RESTDataSource {
   /**
    *  flickrAPIEndpoint - construct proper url from search value to search Flickr API
    */
-  makeApiPath(
-    searchString: string,
-    method: string = this.method.search,
-    photoId: number = 0,
-  ) {
-    const parameters: any = {
+  makeApiPath({
+    searchString,
+    method = this.method.search,
+    photoId,
+  }: {
+    searchString?: string
+    method?: string
+    photoId?: number
+  }) {
+    const parameters: ParameterType = {
       method,
       api_key: this.apiKey,
-      text: searchString,
       format: 'json',
-      photo_id: photoId,
-      per_page: 500,
+      per_page: 30,
+      page: this.getRandomInt(100),
+      ...(searchString && {
+        text: searchString,
+      }),
+      ...(photoId && {
+        photo_id: photoId,
+      }),
     }
 
+    const queryString = this.buildQuery(parameters)
+
+    return queryString
+  }
+
+  getRandomInt(max: number) {
+    return Math.floor(Math.random() * Math.floor(max))
+  }
+
+  buildQuery(queryParams: any) {
     let queryString: string = ''
 
-    for (const key in parameters) {
-      if (parameters.hasOwnProperty(key)) {
+    for (const key in queryParams) {
+      if (queryParams.hasOwnProperty(key)) {
         queryString += `${encodeURIComponent(key)}=${encodeURIComponent(
-          parameters[key],
+          queryParams[key],
         )}&`
       }
     }
@@ -87,25 +112,6 @@ class FlickrModel extends RESTDataSource {
     return `?${queryString}`
   }
 
-  pullOutPhotoRes(response: any): Array<any> {
-    if (!response && !response.photos) {
-      return []
-    }
-
-    return response.photos.photo
-  }
-
-  async fuzzySearchWithQuery(query: string): Promise<Array<any>> {
-    const fuzzyApiPath: string = this.makeApiPath(query)
-    const fuzzyNestedResponse: any = await this.get(fuzzyApiPath)
-    const fuzzyResponse = this.pullOutPhotoRes(fuzzyNestedResponse)
-
-    return fuzzyResponse
-  }
-
-  /**
-   * @memberof FlickrModel
-   */
   buildImageUrl = (photo: any, type: string = 'regular') => {
     let imgVariant = ''
 
@@ -125,82 +131,43 @@ class FlickrModel extends RESTDataSource {
     return `https://farm${photo.farm}.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}${imgVariant}.jpg`
   }
 
-  packageResponseData = (photoData: PhotoDataInput[]): PhotoDataResponse[] => {
-    const flickrData = photoData.map((photo: PhotoDataInput) => {
-      return {
-        thumbnail: this.buildImageUrl(photo, 'thumbnail'),
-        imageUrl: this.buildImageUrl(photo),
-        imageUrlLarge: this.buildImageUrl(photo, 'large'),
-        camera: photo.camera,
-        exif: photo.exif,
-        id: photo.id,
-      }
-    })
-
-    return flickrData
-  }
-
-  /**
-   *
-   * @param photos
-   * @param lensInfo
-   */
   async filterPhotosShotWithLens(
     photos: Array<any>,
-    lensSearchOptions: LensMetaDataType,
+    lensSearchOptions: LensSearchOptions,
   ) {
-    const searchString = lensSearchOptions.simple
-    const lensDetail = lensSearchOptions.lens
-
+    // I think this should happen before function. just handle filter in here, not fetch and filter
     // Build array of API endpoints for each photo in searchResult
-    const exifApiUrl = photos.map((photo: any) => {
-      return `${this.makeApiPath(searchString, this.method.getExif, photo.id)}`
+    const exifApiUrlList = photos.map((photo: any) => {
+      return `${this.makeApiPath({
+        method: this.method.getExif,
+        photoId: photo.id,
+      })}`
     })
 
     /**
-     *  TODO: Below we need to find an accurate way to determine which photos were exactly shot with the lens
+     * Compares and validates if the exif data from photo matches
+     * what our searched lens is. if ratio is above "0.8" it is considered correct
      *
-     * - problem
-     * -- Not getting enough accurate results to go through?
-     * -- initial search too specefic? start broad and dig through more later?
-     * -- maybe some limit for Flickr Api when searching for results? I'm expecting much more from some of these
-     *      lens and on avg receiving 0 - 5 most of the time being 0
+     * Promise.All([])
      */
-    const regexMatchFocalLength = new RegExp(`${lensDetail.focalLength}`, 'gi')
-    const regexMatchGeneralLensName = new RegExp(
-      `(${lensDetail.mount}|${lensDetail.focalLength}|${lensDetail.fstop}|${lensDetail.other})`,
-      'gi',
-    )
-    const regexMatchOtherDetails = new RegExp(`${lensDetail.other}`, 'gi')
-    // const regexMatchEverythingPossible = new RegExp(`(${lensDetail.mount}|${lensDetail.brand}|${lensDetail.focalLength}|${lensDetail.fstop}|(f|\/)|mm)`, 'gi');
-
-    const exifDataPromise = exifApiUrl.map(async (exifUrl, index) => {
-      if (index >= 20) return //TODO: set cap for quick testing purposes only, delete for production
-
+    const exifDataPromise = exifApiUrlList.map(async (exifUrl, index) => {
       const res = await this.get(exifUrl)
-      const exif = res && res.photo ? res.photo.exif : []
+      const exif = res?.photo?.exif ?? []
 
-      const foundTag = exif.some((tag: any) => {
-        // console.log(tag, ' === ', typeof tag);
+      const isPhotoShotWithLens = exif.some((tag: any) => {
+        if (tag.tag === 'LensModel') {
+          const similarCheckRatio = stringSimilarity.compareTwoStrings(
+            tag.raw._content,
+            lensSearchOptions?.model ?? '',
+          )
 
-        if (
-          tag.tag === 'LensModel' &&
-          regexMatchFocalLength.test(tag.raw._content)
-        ) {
-          // console.warn(tag.raw._content, 'tag content');
-          if (regexMatchGeneralLensName.test(tag.raw._content)) {
-            if (regexMatchOtherDetails.test(tag.raw._content)) {
-              // console.log(tag.raw._content, ' :: TC | SS :: ', lensDetail.name);
+          const passesCheck = similarCheckRatio >= 0.8
 
-              return true
-            }
-          } else {
-            return false
-          }
+          return passesCheck
         }
       })
 
-      if (foundTag) {
+      if (isPhotoShotWithLens) {
         return Promise.resolve(res.photo)
       }
     })
@@ -214,28 +181,39 @@ class FlickrModel extends RESTDataSource {
     })
   }
 
-  /**
-   *
-   * @param lensInfo { simple, lens }
-   */
   async getPhotosShotWithLens(
-    lensSearchOptions: LensMetaDataType,
+    lensSearchOptions: LensSearchOptions,
   ): Promise<any> {
     try {
-      // Weak general search flickr with simple query
-      const fuzzySearchRes = await this.fuzzySearchWithQuery(
-        lensSearchOptions.simple,
-      )
+      const { searchString } = lensSearchOptions
 
-      //   console.log(fuzzySearchRes, '<<<')
+      const searchFlickrLensQuery: string = this.makeApiPath({
+        searchString,
+      })
+      const flickrSearchResponse: any = await this.get(searchFlickrLensQuery)
+        .then((res) => res?.photos?.photo)
+        .catch((err) => console.error(err))
+
       // filter results by checking each photos EXIF and save any shot with lens
       const photosShotWithLens = await this.filterPhotosShotWithLens(
-        fuzzySearchRes,
+        flickrSearchResponse,
         lensSearchOptions,
       )
 
-      // return results in format of our type Photo
-      return this.packageResponseData(photosShotWithLens)
+      const photosShotWithLensRes = photosShotWithLens.map(
+        (photo: PhotoDataInput) => {
+          return {
+            thumbnail: this.buildImageUrl(photo, 'thumbnail'),
+            imageUrl: this.buildImageUrl(photo),
+            imageUrlLarge: this.buildImageUrl(photo, 'large'),
+            camera: photo.camera,
+            exif: photo.exif,
+            id: photo.id,
+          }
+        },
+      )
+
+      return photosShotWithLensRes
     } catch (err) {
       console.error(`Error in photoShotWithLensSearch(): ${err}`)
     }

@@ -44,8 +44,14 @@ const SearchBar: any = () => {
   }
 
   useEffect(() => {
+    // TODO: TEMP, testing, just auto search on reload
+    setSearch({ value: 'Fujifilm XF 23mm F1.4 R' })
+    // setSearch({ value: 'Canon EF 70-200mm f/2.8L USM' })
+  }, [])
+
+  useEffect(() => {
     if (allLensData?.getAllLens) {
-      const inputLensSelection = allLensData.getAllLens.map(lens => {
+      const inputLensSelection = allLensData.getAllLens.map((lens) => {
         return {
           value: lens.lensName,
           label: lens.lensName,

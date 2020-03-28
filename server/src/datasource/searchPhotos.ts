@@ -12,27 +12,23 @@
 import { RESTDataSource, HTTPCache } from 'apollo-datasource-rest'
 import { FlickrModel } from './models'
 
-interface Photo {
-  thumbnail: string
-  imageUrl: string
-  imageUrlLarge: string
-  exif: string
-  id: number
+interface Lens {
+  fStopMax?: string
+  fStopMin?: string
+  lensType?: string
+  lensMount?: string
+  dpReviewLink?: string
+  focalLength?: string
+  yearReleased?: string
+  lensBrand?: string
+  msrp?: string
+  msrp_002?: string
+  lensName?: string
 }
 
-interface LensDetailType {
-  fstop?: string
-  focalLength?: string
-  mount?: string
-  name: string
-  brand?: string
-  other?: string | null
-}
-interface LensMetaDataType {
-  simple: string
-  moderate: string
-  complex: string
-  lens: LensDetailType
+interface LensSearchOptions extends Lens {
+  lensModel?: string
+  searchString?: string
 }
 
 class SearchPhotosAPI extends RESTDataSource {
@@ -49,65 +45,33 @@ class SearchPhotosAPI extends RESTDataSource {
 
   /**
    *
-   * @param lensObj - lens object, pulled from database
-   *
-   * Takes in a lens object, pulled from database, and constructs
-   * multiple search phrase queries based on the values of the lens
-   *
-   * builds mutiple queries from generic phrases to more specified.
-   *
-   * appends results to lens object
-   *
    * @returns lensInfo - { Object } - Holds meta data related to lens and searching of lens
    */
-  _appendSearchOptionsToLens(lensObj: any): LensMetaDataType {
-    // Clean up strings and create new object.
-    const lens: LensDetailType = {
-      fstop: lensObj.fStopMax.replace(/(f|\/)/gi, ''),
-      focalLength: lensObj.focalLength.replace(/\s/g, ''),
-      mount: lensObj.lensMount
-        .replace(lensObj.lensBrand, '')
-        .replace(/\s/g, ''),
-      name: lensObj.lensName,
-      brand: lensObj.lensBrand,
-      other: null,
+  lensSearchOptionsSerializer(lens: Lens): LensSearchOptions {
+    const { fStopMax, focalLength, lensMount, lensName, lensBrand = '' } = lens
+
+    const serializedLens: LensSearchOptions = {
+      fStopMax: fStopMax?.replace(/(f|\/)/gi, ''),
+      focalLength: focalLength?.replace(/\s/g, ''),
+      lensMount,
+      lensName,
+      lensBrand,
+      lensModel: lensName?.replace(lensBrand, ''),
+      searchString: `${lensMount} ${focalLength?.replace(
+        /\s/g,
+        '',
+      )}mm ${fStopMax}`,
     }
 
-    // Umbrella search option
-    const regex = {
-      MatchAllPossible: new RegExp(
-        `(${lens.mount}|${lens.brand}|${lens.focalLength}|${lens.fstop}|(f|\/)|mm)`,
-        'gi',
-      ),
-    }
-
-    lens.other = lens.name
-      .replace(regex.MatchAllPossible, '')
-      .replace(/\s/g, '')
-
-    console.log(lens, '<<<< lens jawn', lensObj)
-    const lensInfo: LensMetaDataType = {
-      simple: `${lens.brand} ${lens.mount} ${lens.focalLength}mm ${lens.fstop}`,
-      moderate: `${lens.brand} ${lens.mount} ${lens.focalLength}mm`,
-      complex: `${lens.brand} ${lens.mount} ${lens.focalLength}mm F${lens.fstop}`,
-      lens,
-    }
-
-    return lensInfo
+    return serializedLens
   }
 
-  /**
-   * Function passed an argument lensName: String and returns an Array of
-   * photos shot with lensName via Flickr Api.
-   *
-   * This is the only MAIN function;
-   * @memberof SearchPhotosAPI
-   */
-  async photosShotWith(lens: Photo) {
+  async photosShotWith(lens: Lens) {
     // Builds an object of searchable "string" options for flickr.
-    const lensSearchOptions: LensMetaDataType = this._appendSearchOptionsToLens(
+    const lensSearchOptions: LensSearchOptions = this.lensSearchOptionsSerializer(
       lens,
     )
+
     const photosShotWithLens = await this.Flickr.getPhotosShotWithLens(
       lensSearchOptions,
     )
