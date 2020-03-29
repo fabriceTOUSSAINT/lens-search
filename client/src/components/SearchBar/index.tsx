@@ -1,66 +1,68 @@
 //@ts-nocheck
-import React, { useState, useEffect } from 'react'
-import { useQuery, useMutation, useLazyQuery } from '@apollo/client'
-import styled from 'styled-components'
+import React, { useState, useEffect } from 'react';
+import { useQuery, useMutation, useLazyQuery } from '@apollo/client';
+import styled from 'styled-components';
 
-import Select from 'react-select'
+import Select from 'react-select';
 
 // Schemas
-import { GET_ALL_LENS_NAMES, GET_LENS } from '../../apollo/serverSchema'
-import { UPDATE_SELECTED_LENS } from '../../apollo/localSchema'
+import { GET_ALL_LENS_NAMES, GET_LENS } from '../../apollo/serverSchema';
+import { UPDATE_SELECTED_LENS } from '../../apollo/localSchema';
+
+interface SelectOptions {
+  value: string;
+  label: string;
+}
 
 const SearchBar: any = () => {
-  const [inputValue, setInputValue] = useState<string>('')
-  const [lensList, setLensList] = useState<
-    {
-      value: string
-      label: string
-    }[]
-  >([
+  const [inputValue, setInputValue] = useState<string>('');
+  const [lensList, setLensList] = useState<SelectOptions[]>([
     {
       value: '',
       label: '',
     },
-  ])
+  ]);
 
-  const [updateCurrentLens] = useMutation(UPDATE_SELECTED_LENS)
-  const { data: allLensData, loading, error } = useQuery(GET_ALL_LENS_NAMES)
+  const [updateCurrentLens] = useMutation(UPDATE_SELECTED_LENS);
+  const { data: allLensData, loading, error } = useQuery(GET_ALL_LENS_NAMES);
   const [getLens] = useLazyQuery(GET_LENS, {
     onCompleted: ({ getLens }) => {
       updateCurrentLens({
         variables: {
           lens: getLens,
         },
-      })
+      });
     },
-  })
+  });
 
   const setSearch = (optionSelected: any) => {
     getLens({
       variables: {
         lensName: optionSelected.value,
       },
-    })
-  }
+    });
+  };
 
   useEffect(() => {
     // TODO: TEMP, testing, just auto search on reload
-    setSearch({ value: 'Fujifilm XF 23mm F1.4 R' })
+    setSearch({ value: 'Fujifilm XF 23mm F1.4 R' });
     // setSearch({ value: 'Canon EF 70-200mm f/2.8L USM' })
-  }, [])
+  }, []);
 
   useEffect(() => {
     if (allLensData?.getAllLens) {
-      const inputLensSelection = allLensData.getAllLens.map((lens) => {
-        return {
-          value: lens.lensName,
-          label: lens.lensName,
-        }
-      })
+      const inputLensSelection = allLensData.getAllLens.map(
+        (lens): SelectOptions => {
+          return {
+            value: lens.lensName,
+            label: lens.lensName,
+          };
+        },
+      );
 
-      setLensList(inputLensSelection)
+      setLensList(inputLensSelection);
     }
-  }, [allLensData?.getAllLens])
+  }, [allLensData?.getAllLens]);
 
   return (
     <>
@@ -75,7 +77,7 @@ const SearchBar: any = () => {
         menuIsOpen={inputValue.length >= 2}
       />
     </>
-  )
-}
+  );
+};
 
-export default SearchBar
+export default SearchBar;

@@ -9,7 +9,6 @@ const App: React.FC = () => {
     <AppWrapper>
       <HeroWrapper bg={defaultBackground}>
         <HomeTitle> Lens Jawn</HomeTitle>
-        {/* <img src={defaultBackground} /> */}
         <SearchBar />
       </HeroWrapper>
       <PhotoCarousel />
@@ -25,7 +24,7 @@ const HeroWrapper = styled.div<{ bg: any }>`
   height: 80vh;
   background: url(${({ bg }: any) => bg});
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 `;
 
 const AppWrapper = styled.div`

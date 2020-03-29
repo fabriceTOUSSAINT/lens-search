@@ -9,38 +9,38 @@
  * - Format results
  */
 
-import { RESTDataSource, HTTPCache } from 'apollo-datasource-rest'
-import { FlickrModel } from './models'
+import { RESTDataSource, HTTPCache } from 'apollo-datasource-rest';
+import { FlickrModel } from './models';
 
 interface Lens {
-  fStopMax?: string
-  fStopMin?: string
-  lensType?: string
-  lensMount?: string
-  dpReviewLink?: string
-  focalLength?: string
-  yearReleased?: string
-  lensBrand?: string
-  msrp?: string
-  msrp_002?: string
-  lensName?: string
+  fStopMax?: string;
+  fStopMin?: string;
+  lensType?: string;
+  lensMount?: string;
+  dpReviewLink?: string;
+  focalLength?: string;
+  yearReleased?: string;
+  lensBrand?: string;
+  msrp?: string;
+  msrp_002?: string;
+  lensName?: string;
 }
 
-interface LensSearchOptions extends Lens {
-  lensModel?: string
-  searchString?: string
+export interface LensSearchOptions extends Lens {
+  lensModel?: string;
+  searchString?: string;
 }
 
 class SearchPhotosAPI extends RESTDataSource {
-  Flickr: any
+  Flickr: any;
 
   constructor() {
-    super()
+    super();
 
-    this.httpCache = new HTTPCache()
-    this.Flickr = new FlickrModel()
+    this.httpCache = new HTTPCache();
+    this.Flickr = new FlickrModel();
 
-    this.baseURL = 'https://api.flickr.com/services/rest/'
+    this.baseURL = 'https://api.flickr.com/services/rest/';
   }
 
   /**
@@ -48,7 +48,7 @@ class SearchPhotosAPI extends RESTDataSource {
    * @returns lensInfo - { Object } - Holds meta data related to lens and searching of lens
    */
   lensSearchOptionsSerializer(lens: Lens): LensSearchOptions {
-    const { fStopMax, focalLength, lensMount, lensName, lensBrand = '' } = lens
+    const { fStopMax, focalLength, lensMount, lensName, lensBrand = '' } = lens;
 
     const serializedLens: LensSearchOptions = {
       fStopMax: fStopMax?.replace(/(f|\/)/gi, ''),
@@ -61,23 +61,23 @@ class SearchPhotosAPI extends RESTDataSource {
         /\s/g,
         '',
       )}mm ${fStopMax}`,
-    }
+    };
 
-    return serializedLens
+    return serializedLens;
   }
 
   async photosShotWith(lens: Lens) {
     // Builds an object of searchable "string" options for flickr.
     const lensSearchOptions: LensSearchOptions = this.lensSearchOptionsSerializer(
       lens,
-    )
+    );
 
     const photosShotWithLens = await this.Flickr.getPhotosShotWithLens(
       lensSearchOptions,
-    )
+    );
 
-    return photosShotWithLens
+    return photosShotWithLens;
   }
 }
 
-export default SearchPhotosAPI
+export default SearchPhotosAPI;
