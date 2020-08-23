@@ -1,7 +1,7 @@
 //@ts-nocheck
 import React, { useState, useEffect } from 'react';
 import { useQuery, useMutation, useLazyQuery } from '@apollo/client';
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 
 import Select from 'react-select';
 
@@ -65,8 +65,8 @@ const SearchBar: any = () => {
   }, [allLensData?.getAllLens]);
 
   return (
-    <>
-      <Select
+    <SearchBarWrapper>
+      <StyledSelect
         isLoading={loading}
         isSearchable={true}
         options={lensList}
@@ -76,8 +76,17 @@ const SearchBar: any = () => {
         onInputChange={setInputValue}
         menuIsOpen={inputValue.length >= 2}
       />
-    </>
+    </SearchBarWrapper>
   );
 };
 
 export default SearchBar;
+
+const StyledSelect = styled(Select)`
+  width: 500px;
+`;
+
+const SearchBarWrapper = styled.div`
+  background: #fed35d;
+  padding: 25px 80px;
+`;

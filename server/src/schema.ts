@@ -1,11 +1,23 @@
-import { gql } from 'apollo-server'
+import { gql } from 'apollo-server';
 
 const typeDefs = gql`
+  type Raw {
+    _content: String
+  }
+
+  type EXIF {
+    tagspace: String
+    tagspaceid: Int
+    tag: String
+    label: String
+    raw: Raw
+  }
+
   type Photo {
     thumbnail: String
     imageUrl: String
     imageUrlLarge: String
-    exif: String
+    exif: [EXIF]
     id: Int
   }
 
@@ -42,6 +54,6 @@ const typeDefs = gql`
     getLens(lensName: String): Lens
     getAllLens: [Lens]
   }
-`
+`;
 
-export default typeDefs
+export default typeDefs;

@@ -1,4 +1,4 @@
-import { gql } from '@apollo/client'
+import { gql } from '@apollo/client';
 
 export const GET_ALL_LENS_NAMES = gql`
   query {
@@ -6,7 +6,7 @@ export const GET_ALL_LENS_NAMES = gql`
       lensName
     }
   }
-`
+`;
 
 export const GET_LENS = gql`
   query GetLens($lensName: String) {
@@ -24,7 +24,7 @@ export const GET_LENS = gql`
       lensName
     }
   }
-`
+`;
 
 // TODO: EXIF & id aren't working rn
 export const PHOTOS_SHOT_WITH = gql`
@@ -33,6 +33,14 @@ export const PHOTOS_SHOT_WITH = gql`
       thumbnail
       imageUrl
       imageUrlLarge
+      exif {
+        tag
+        tagspace
+        label
+        raw {
+          _content
+        }
+      }
     }
   }
-`
+`;
