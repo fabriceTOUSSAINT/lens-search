@@ -1,7 +1,23 @@
-schema: http://localhost:4000/graphql
+overwrite: true
+schema: 'http://localhost:4000/graphql'
+documents: 'src/**/*.graphql.ts'
 generates:
-  ./src/apollo/globalTypes.d.ts:
+  src/generated/globalTypes.tsx:
+    schema: 'src/**/*.graphql.ts'
     plugins:
-      - typescript
+      - add:
+          content:
+            [
+              '/* eslint-disable */',
+              '// THIS FILE IS GENERATED AUTOMATICALLY DO NOT EDIT DIRECTLY',
+            ]
+      - 'typescript'
+      - 'typescript-operations'
+      - 'typescript-react-apollo'
+      - 'named-operations-object'
     config:
-      declarationKind: "interface"
+      declarationKind:
+        input: 'interface'
+        type: 'interface'
+      enumsAsTypes: false
+      namingConvention: keep

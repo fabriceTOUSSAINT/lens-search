@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 const GlobalStyle = createGlobalStyle`
   body {
     min-height: 100%;
+    font-family: 'Source Serif Pro', serif;
     margin: 0;
     padding: 0;
     display: flex;

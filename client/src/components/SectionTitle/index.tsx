@@ -24,7 +24,8 @@ export default SectionTitle;
 const Wrapper = styled.div`
   margin-bottom: 40px;
   padding-left: 20px;
-
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 800;
   @media (max-width: 768px) {
     padding: 0px;
   }

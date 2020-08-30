@@ -1,13 +1,17 @@
 //@ts-nocheck
 import React, { useState, useEffect } from 'react';
-import { useQuery, useMutation, useLazyQuery } from '@apollo/client';
 import styled from 'styled-components/macro';
 
 import Select from 'react-select';
 
+// Store
+import { AppStoreActions } from '../../store/app.actions';
+
 // Schemas
-import { GET_ALL_LENS_NAMES, GET_LENS } from '../../apollo/serverSchema';
-import { UPDATE_SELECTED_LENS } from '../../apollo/localSchema';
+import {
+  useGetAllLensNamesQuery,
+  useGetLensLazyQuery,
+} from '../../generated/globalTypes';
 
 interface SelectOptions {
   value: string;
@@ -23,15 +27,11 @@ const SearchBar: any = () => {
     },
   ]);
 
-  const [updateCurrentLens] = useMutation(UPDATE_SELECTED_LENS);
-  const { data: allLensData, loading, error } = useQuery(GET_ALL_LENS_NAMES);
-  const [getLens] = useLazyQuery(GET_LENS, {
+  const { data: allLensData, loading, error } = useGetAllLensNamesQuery();
+  const [getLens] = useGetLensLazyQuery({
     onCompleted: ({ getLens }) => {
-      updateCurrentLens({
-        variables: {
-          lens: getLens,
-        },
-      });
+      console.log({ getLens });
+      AppStoreActions.setSelectedLens({ ...getLens });
     },
   });
 

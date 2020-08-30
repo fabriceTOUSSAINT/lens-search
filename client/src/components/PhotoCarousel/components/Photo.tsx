@@ -32,7 +32,6 @@ const Photo = ({ photo }: PhotoProps) => {
   const iso = findTagInfo('ISO');
   const focal = findTagInfo('FocalLength');
 
-  console.log({ cameraShotWith, fStopShotWith, exposure, iso, focal });
   return (
     <PhotoWrapper>
       <PhotoImg key={photo.thumbnail} src={photo.imageUrl} />
@@ -45,8 +44,8 @@ const Photo = ({ photo }: PhotoProps) => {
           <FstopIcon />
           {fStopShotWith}
         </PhotoDetailsText>
-        <PhotoDetailsText>{exposure}</PhotoDetailsText>
-        <PhotoDetailsText>{iso}</PhotoDetailsText>
+        <PhotoDetailsText>{`Exposure: ${exposure}`}</PhotoDetailsText>
+        <PhotoDetailsText>{`ISO: ${iso}`}</PhotoDetailsText>
         <PhotoDetailsText>
           <FocalLengthIcon />
           {focal}
@@ -59,23 +58,32 @@ const Photo = ({ photo }: PhotoProps) => {
 export default Photo;
 
 const PhotoWrapper = styled.div`
-  width: 360px;
+  width: 300px;
   height: fit-content;
   border-radius: 4px;
   margin: 10px;
   background: #fff;
 `;
 const PhotoImg = styled.img`
-  width: 360px;
+  width: 300px;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 `;
 const PhotoDetails = styled.div`
-  max-width: 360px;
+  max-width: 300px;
   padding: 20px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   box-shadow: 0px 0px 15px #00000047;
 `;
 
-const PhotoDetailsText = styled.div``;
+const PhotoDetailsText = styled.div`
+  display: flex;
+  align-items: center;
+  padding: 2px 0px;
+  font-weight: 600;
+
+  svg {
+    margin-right: 15px;
+  }
+`;

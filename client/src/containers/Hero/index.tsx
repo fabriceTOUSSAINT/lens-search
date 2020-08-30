@@ -1,14 +1,17 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 
+// Store
+import { useStoreSelectedLensQuery } from '../../generated/globalTypes';
 import defaultBackground from '../../assets/lens_jawn_bg.jpg';
 
 const Hero = () => {
+  const { data } = useStoreSelectedLensQuery();
   return (
     <HeroWrapper>
       <BackgroundLeft bg={defaultBackground} />
       <BackgroundRight />
-      <LensInfo> Lens Jawn</LensInfo>
+      <LensInfo>{data?.getSelectedLens?.lensName} </LensInfo>
     </HeroWrapper>
   );
 };

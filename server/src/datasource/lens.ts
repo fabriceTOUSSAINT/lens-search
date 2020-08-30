@@ -1,19 +1,19 @@
 // @ts-nocheck
-import { SQLDataSource } from 'datasource-sql'
-import camelize from 'camelize'
+import { SQLDataSource } from 'datasource-sql';
+import camelize from 'camelize';
 
 class Lens extends SQLDataSource {
   async getAllLens() {
-    const data = await this.knex.select('*').from('lens').cache(60)
+    const data = await this.knex('lens');
 
-    return camelize(data)
+    return camelize(data);
   }
 
   async getLens(lensName: string) {
-    const data = await this.knex('lens').where('lens_name', lensName).first()
+    const data = await this.knex('lens').where('lens_name', lensName).first();
 
-    return camelize(data)
+    return camelize(data);
   }
 }
 
-export default Lens
+export default Lens;

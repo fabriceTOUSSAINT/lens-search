@@ -1,44 +1,53 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './containers/App/App'
-import {
-  ApolloClient,
-  HttpLink,
-  InMemoryCache,
-  ApolloProvider,
-} from '@apollo/client'
-import { typeDefs, resolvers, GET_SELECTED_LENS } from './apollo/localSchema'
-import GlobalStyle from './GlobalStyle'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './containers/App/App';
+import { ApolloClient, HttpLink, ApolloProvider } from '@apollo/client';
+import GlobalStyle from './GlobalStyle';
+import { cache } from './store';
 
-const cache: any = new InMemoryCache()
+// Store
+import { AppStoreActions } from './store/app.actions';
+import { typeDefs } from './store/app.graphql';
 
 const client = new ApolloClient({
-  cache,
-  typeDefs,
-  resolvers,
   link: new HttpLink({
     uri: 'http://localhost:4000/',
   }),
-})
+  cache,
+  typeDefs,
+});
 
-cache.writeQuery({
-  query: GET_SELECTED_LENS,
-  data: {
-    getSelectedLens: {
-      fStopMax: '',
-      fStopMin: '',
-      lensType: '',
-      lensMount: '',
-      dpReviewLink: '',
-      focalLength: '',
-      yearReleased: '',
-      lensBrand: '',
-      msrp: '',
-      msrp_002: '',
-      lensName: '',
-    },
-  },
-})
+AppStoreActions.setSelectedLens({
+  fStopMax: '',
+  fStopMin: '',
+  lensType: '',
+  lensMount: '',
+  dpReviewLink: '',
+  focalLength: '',
+  yearReleased: '',
+  lensBrand: '',
+  msrp: '',
+  msrp_002: '',
+  lensName: '',
+});
+// cache.writeQuery({
+//   query: GET_SELECTED_LENS,
+//   data: {
+//     getSelectedLens: {
+//       fStopMax: '',
+//       fStopMin: '',
+//       lensType: '',
+//       lensMount: '',
+//       dpReviewLink: '',
+//       focalLength: '',
+//       yearReleased: '',
+//       lensBrand: '',
+//       msrp: '',
+//       msrp_002: '',
+//       lensName: '',
+//     },
+//   },
+// });
 
 ReactDOM.render(
   <ApolloProvider client={client}>
@@ -46,4 +55,4 @@ ReactDOM.render(
     <App />
   </ApolloProvider>,
   document.getElementById('root'),
-)
+);
