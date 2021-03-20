@@ -33,6 +33,8 @@ export const PHOTOS_SHOT_WITH = gql`
       thumbnail
       imageUrl
       imageUrlLarge
+      linkToPhotographer
+      linkToPhoto
       exif {
         tag
         tagspace

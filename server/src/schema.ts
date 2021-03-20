@@ -19,6 +19,8 @@ const typeDefs = gql`
     imageUrlLarge: String
     exif: [EXIF]
     id: Int
+    linkToPhotographer: String
+    linkToPhoto: String
   }
 
   type Lens {

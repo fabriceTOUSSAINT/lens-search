@@ -11,6 +11,8 @@ import { AppStoreActions } from '../../store/app.actions';
 import {
   useGetAllLensNamesQuery,
   useGetLensLazyQuery,
+  usePhotosShotWithLazyQuery,
+  useStoreSelectedLensQuery,
 } from '../../generated/globalTypes';
 
 interface SelectOptions {
@@ -27,6 +29,11 @@ const SearchBar: any = () => {
     },
   ]);
 
+  const [
+    lazyFetchPhotos,
+    { data, loading: photosLoading },
+  ] = usePhotosShotWithLazyQuery();
+  const { data: currentLensSelected } = useStoreSelectedLensQuery();
   const { data: allLensData, loading, error } = useGetAllLensNamesQuery();
   const [getLens] = useGetLensLazyQuery({
     onCompleted: ({ getLens }) => {
@@ -42,6 +49,16 @@ const SearchBar: any = () => {
       },
     });
   };
+
+  const searchForPhotos = () => {
+    console.log({ currentLensSelected });
+    lazyFetchPhotos({
+      variables: {
+        lensName: currentLensSelected?.getSelectedLens.lensName,
+      },
+    });
+  };
+  console.log({ data });
 
   useEffect(() => {
     // TODO: TEMP, testing, just auto search on reload
@@ -76,12 +93,14 @@ const SearchBar: any = () => {
         onInputChange={setInputValue}
         menuIsOpen={inputValue.length >= 2}
       />
+      <SearchButton onClick={searchForPhotos}>Refetch photos</SearchButton>
     </SearchBarWrapper>
   );
 };
 
 export default SearchBar;
 
+const SearchButton = styled.button``;
 const StyledSelect = styled(Select)`
   width: 500px;
 `;

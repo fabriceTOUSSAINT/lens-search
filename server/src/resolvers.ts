@@ -2,6 +2,7 @@ export default {
   Query: {
     photosShotWith: async (_: any, args: any, { dataSources }: any) => {
       const lens = await dataSources.lens.getLens(args.lensName);
+
       const photosShotWithLens = await dataSources.searchPhotosAPI.photosShotWith(
         lens,
       );

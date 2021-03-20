@@ -11,6 +11,7 @@ interface PhotoDataInput {
   farm?: number;
   camera?: string;
   exif: any[];
+  owner?: string;
 }
 interface ParameterType {
   method: string;
@@ -20,6 +21,10 @@ interface ParameterType {
   photo_id?: string | number;
   per_page?: number;
   page?: number;
+  privacy_filter?: number;
+  content_type?: number;
+  media?: string;
+  license?: string | any;
 }
 
 /**
@@ -52,17 +57,23 @@ class FlickrModel extends RESTDataSource {
     searchString,
     method = this.method.search,
     photoId,
+    page = 1,
   }: {
     searchString?: string;
     method?: string;
     photoId?: number;
+    page?: number;
   }) {
     const parameters: ParameterType = {
       method,
       api_key: this.apiKey,
       format: 'json',
-      per_page: 30,
-      page: this.getRandomInt(100),
+      privacy_filter: 1,
+      content_type: 1,
+      per_page: 70,
+      license: '1,2,3,4,5,7,9,10', // license codes https://www.flickr.com/groups/51035612836@N01/discuss/72157665503298714/
+      media: 'photos',
+      page,
       ...(searchString && {
         text: searchString,
       }),
@@ -77,7 +88,8 @@ class FlickrModel extends RESTDataSource {
   }
 
   getRandomInt(max: number) {
-    return Math.floor(Math.random() * Math.floor(max));
+    const min = 1;
+    return Math.floor(Math.random() * (max - min + 1) + min);
   }
 
   buildQuery(queryParams: any) {
@@ -132,10 +144,16 @@ class FlickrModel extends RESTDataSource {
     // I think this should happen before function. just handle filter in here, not fetch and filter
     // Build array of API endpoints for each photo in searchResult
     const exifApiUrlList = flickrPhotoResponses.map((photo: any) => {
-      return `${this.makeApiPath({
+      const url = `${this.makeApiPath({
         method: this.method.getExif,
         photoId: photo.id,
       })}`;
+
+      return {
+        exifUrl: url,
+        photoOwner: photo.owner,
+        photoTitle: photo.title,
+      };
     });
 
     /**
@@ -144,36 +162,50 @@ class FlickrModel extends RESTDataSource {
      *
      * Promise.All([])
      */
-    const exifDataPromise = exifApiUrlList.map(async (exifUrl, index) => {
-      const res = await this.get(exifUrl);
-      const exif = res?.photo?.exif ?? [];
+    const exifDataPromise = exifApiUrlList.map(
+      async ({ exifUrl, photoOwner, photoTitle }, index) => {
+        const res = await this.get(exifUrl);
+        const exif = res?.photo?.exif ?? [];
 
-      const isPhotoShotWithLens = exif.some((tag: any) => {
-        if (tag.tag === 'LensModel') {
-          const similarCheckRatio = stringSimilarity.compareTwoStrings(
-            tag.raw._content,
-            lensSearchOptions?.lensModel ?? '',
-          );
+        const isPhotoShotWithLens = exif.some((tag: any) => {
+          if (tag.tag === 'LensModel') {
+            const similarCheckRatio = stringSimilarity.compareTwoStrings(
+              tag.raw._content,
+              lensSearchOptions?.lensModel ?? '',
+            );
 
-          const passesCheck = similarCheckRatio >= 0.8;
+            const passesCheck = similarCheckRatio >= 0.8;
 
-          return passesCheck;
+            return passesCheck;
+          }
+        });
+
+        if (isPhotoShotWithLens) {
+          const jawn = {
+            photo: Promise.resolve(res.photo),
+            photoOwner,
+            photoTitle,
+          };
+
+          return Promise.resolve(jawn.photo);
         }
-      });
-
-      if (isPhotoShotWithLens) {
-        return Promise.resolve(res.photo);
-      }
-    });
+      },
+    );
 
     return Promise.all(exifDataPromise).then((exifData) => {
-      const photosUsingLens = exifData.filter((test) => {
-        return test !== undefined;
+      const photosUsingLens = exifData.filter((val) => {
+        return val !== undefined;
       });
 
       return photosUsingLens;
     });
   }
+
+  buildPhotographerLink = (photo: any) =>
+    `https://flickr.com/people/${photo.owner}/`;
+
+  buildPhotoLink = (photo: any) =>
+    `https://flickr.com/photos/${photo.owner}/${photo.id}`;
 
   async getPhotosShotWithLens(
     lensSearchOptions: LensSearchOptions,
@@ -184,22 +216,46 @@ class FlickrModel extends RESTDataSource {
       const searchFlickrLensQuery: string = this.makeApiPath({
         searchString,
       });
+
       const flickrSearchResponse: any = await this.get(searchFlickrLensQuery)
-        .then((res) => res?.photos?.photo)
+        .then((res) => res?.photos)
         .catch((err) => console.error(err));
+
+      let flickrPhotos;
+
+      if (flickrSearchResponse.pages <= 1) {
+        flickrPhotos = flickrSearchResponse.photo;
+      } else {
+        const randomPage = this.getRandomInt(flickrSearchResponse?.pages ?? 1);
+        console.log({ randomPage });
+
+        const searchFlickrLensQueryRandomPage: string = this.makeApiPath({
+          searchString,
+          page: randomPage,
+        });
+
+        flickrPhotos = await this.get(searchFlickrLensQueryRandomPage)
+          .then((res) => res?.photos.photo)
+          .catch((err) => console.error(err));
+      }
+
+      // console.log({ flickrPhotos });
 
       // filter results by checking each photos EXIF and save any shot with lens
       const photosShotWithLens = await this.filterPhotosShotWithLens(
-        flickrSearchResponse,
+        flickrPhotos,
         lensSearchOptions,
       );
 
       const photosShotWithLensRes = photosShotWithLens.map(
         (photo: PhotoDataInput) => {
+          console.log('jawn >>>", ', photo.exif);
           return {
             thumbnail: this.buildImageUrl(photo, 'thumbnail'),
             imageUrl: this.buildImageUrl(photo),
             imageUrlLarge: this.buildImageUrl(photo, 'large'),
+            linkToPhotographer: this.buildPhotographerLink(photo),
+            linkToPhoto: this.buildPhotoLink(photo),
             camera: photo.camera,
             exif: photo.exif,
             id: photo.id,

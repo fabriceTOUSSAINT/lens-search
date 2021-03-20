@@ -20,7 +20,6 @@ const httpServer = createServer(app);
 
 const PORT = process.env.PORT || 4000;
 
-// console.log(process.env);
 const dataSources = () => ({
   searchPhotosAPI: new SearchPhotosAPI(),
   // @ts-ignore

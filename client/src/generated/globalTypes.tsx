@@ -40,6 +40,8 @@ export interface Photo {
   imageUrlLarge?: Maybe<Scalars['String']>;
   exif?: Maybe<Array<Maybe<EXIF>>>;
   id?: Maybe<Scalars['Int']>;
+  linkToPhotographer?: Maybe<Scalars['String']>;
+  linkToPhoto?: Maybe<Scalars['String']>;
 }
 
 export interface EXIF {
@@ -124,7 +126,7 @@ export type PhotosShotWithQuery = (
   { __typename?: 'Query' }
   & { photosShotWith?: Maybe<Array<Maybe<(
     { __typename?: 'Photo' }
-    & Pick<Photo, 'thumbnail' | 'imageUrl' | 'imageUrlLarge'>
+    & Pick<Photo, 'thumbnail' | 'imageUrl' | 'imageUrlLarge' | 'linkToPhotographer' | 'linkToPhoto'>
     & { exif?: Maybe<Array<Maybe<(
       { __typename?: 'EXIF' }
       & Pick<EXIF, 'tag' | 'tagspace' | 'label'>
@@ -229,6 +231,8 @@ export const PhotosShotWithDocument = gql`
     thumbnail
     imageUrl
     imageUrlLarge
+    linkToPhotographer
+    linkToPhoto
     exif {
       tag
       tagspace
