@@ -14,8 +14,6 @@ RUN yarn global add webpack@4.42.1 webpack-cli@3.3.11
 
 RUN yarn install --production=false
 
-RUN yarn build:prod
-
 EXPOSE 4000
 
-CMD [ "yarn", "start:prod" ]
+CMD [ "yarn", "start" ]

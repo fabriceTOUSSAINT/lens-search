@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start:server": ".bin/docker.sh server"
+  },
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.1",
