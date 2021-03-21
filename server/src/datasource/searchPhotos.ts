@@ -38,6 +38,7 @@ class SearchPhotosAPI extends RESTDataSource {
     super();
 
     this.httpCache = new HTTPCache();
+
     this.Flickr = new FlickrModel();
 
     this.baseURL = 'https://api.flickr.com/services/rest/';

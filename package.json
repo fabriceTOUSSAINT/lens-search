@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start:server": "yarn --cwd server dev"
+  },
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.1",

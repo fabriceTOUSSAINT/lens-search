@@ -1,17 +1,16 @@
-FROM node:12-alpine
+FROM node:14-alpine
+
+ENV NODE_ENV=production
+ENV KNEX_HOST=host.docker.internal
 
 WORKDIR /app
 
-RUN npm install -g webpack webpack-cli
+COPY . .
 
-COPY ./package*.json ./
-RUN npm install
+RUN yarn global add webpack@4.42.1 webpack-cli@3.3.11
 
-COPY ./src ./src
-COPY ./webpack.*.js ./
+RUN yarn install --production=false
 
-RUN npm run build
+EXPOSE 4000
 
-EXPOSE 8080
-
-CMD [ "npm", "start" ]
+CMD [ "yarn", "start" ]
