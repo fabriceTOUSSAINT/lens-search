@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start:server": ".bin/docker.sh server"
+    "start:server": "yarn --cwd server dev"
   },
   "devDependencies": {
     "eslint": "^6.8.0",

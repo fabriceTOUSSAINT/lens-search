@@ -8,7 +8,8 @@
     "build": "webpack --config webpack.development.js",
     "build:prod": "webpack --config webpack.prod.js",
     "start:prod": "node dist/server.js",
-    "start": "npm run build & nodemon --exec 'node -r dotenv/config' dist/server"
+    "start": "npm run build & nodemon --exec 'node -r dotenv/config' dist/server",
+    "dev": "docker-compose up"
   },
   "keywords": [],
   "author": "",

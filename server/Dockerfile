@@ -1,14 +1,11 @@
 FROM node:14-alpine
 
 ENV NODE_ENV=production
+ENV KNEX_HOST=host.docker.internal
 
 WORKDIR /app
 
-COPY ./package.json ./
-COPY ./src ./src
-COPY ./webpack.*.js ./
-COPY ./tsconfig.json ./
-COPY ./.env ./
+COPY . .
 
 RUN yarn global add webpack@4.42.1 webpack-cli@3.3.11
 
