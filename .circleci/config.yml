@@ -1,4 +1,10 @@
 version: 2.1
+workflows:
+  version: 2
+  build_and_push:
+    jobs:
+      - build
+      - push_to_registry
 jobs:
   build:
     docker:
@@ -6,3 +12,8 @@ jobs:
     steps:
       - checkout
       - run: echo "hello Jawnsd"
+  push_to_registry:
+    docker:
+      - image: cimg/node:14:16.0
+    steps:
+      - run: echo "jajjjj"
