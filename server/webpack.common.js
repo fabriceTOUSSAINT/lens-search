@@ -15,5 +15,5 @@
       resolve: {
           extensions: ['.ts', '.js']
       },
-      target: 'node'
+      target: 'node',
   };

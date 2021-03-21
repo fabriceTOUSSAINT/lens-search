@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.development.js",
+    "build:prod": "webpack --config webpack.prod.js",
+    "start:prod": "node dist/server.js",
     "start": "npm run build & nodemon --exec 'node -r dotenv/config' dist/server"
   },
   "keywords": [],
@@ -29,13 +31,15 @@
     "string-similarity": "^4.0.1"
   },
   "devDependencies": {
+    "@tsconfig/node14": "^1.0.0",
+    "@tsconfig/recommended": "^1.0.1",
     "@types/node-fetch": "^2.5.4",
     "@types/string-similarity": "^3.0.0",
     "@types/webpack-env": "^1.15.1",
     "clean-webpack-plugin": "^3.0.0",
     "nodemon": "^2.0.2",
-    "ts-loader": "^6.2.2",
-    "typescript": "^3.8.3",
+    "ts-loader": "^8.0.18",
+    "typescript": "^4.2.3",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
     "webpack-merge": "^4.2.2",

@@ -31,6 +31,7 @@ const server = new ApolloServer({
   resolvers,
   // @ts-ignore
   dataSources,
+  playground: true,
 });
 
 server.applyMiddleware({ app, path: '/' });
