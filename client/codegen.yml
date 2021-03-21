@@ -9,6 +9,7 @@ generates:
           content:
             [
               '/* eslint-disable */',
+              '/* @ts-ignore */',
               '// THIS FILE IS GENERATED AUTOMATICALLY DO NOT EDIT DIRECTLY',
             ]
       - 'typescript'

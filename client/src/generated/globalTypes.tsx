@@ -1,4 +1,5 @@
 /* eslint-disable */
+/* @ts-ignore */
 // THIS FILE IS GENERATED AUTOMATICALLY DO NOT EDIT DIRECTLY
 import { gql } from '@apollo/client';
 import * as Apollo from '@apollo/client';

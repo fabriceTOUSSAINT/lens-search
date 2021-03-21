@@ -33,6 +33,8 @@ export interface LensSearchOptions extends Lens {
 
 class SearchPhotosAPI extends RESTDataSource {
   Flickr: any;
+  httpCache: any;
+  baseURL: string;
 
   constructor() {
     super();

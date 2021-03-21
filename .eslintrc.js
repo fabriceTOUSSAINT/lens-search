@@ -1,0 +1,70 @@
+  
+module.exports = {
+  env: {
+    browser: true,
+    es6: true,
+  },
+  extends: [
+    'plugin:react/recommended',
+    'plugin:prettier/recommended',
+    'plugin:cypress/recommended',
+    'plugin:@typescript-eslint/recommended',
+  ],
+  globals: {
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly',
+  },
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 2018,
+    sourceType: 'module',
+    project: ['./tsconfig.json'], // Required to have rules that rely on Types.
+    tsconfigRootDir: './',
+  },
+  plugins: ['react', '@typescript-eslint', 'react-hooks'],
+  settings: {
+    'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
+  },
+  rules: {
+    curly: 1,
+    'prettier/prettier': 0,
+    'max-classes-per-file': 'off',
+    'no-console': 'off',
+    'import/extensions': 'off',
+    'no-explicit-any': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
+    'import/no-unresolved': 'off',
+    'react/jsx-filename-extension': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'react/jsx-one-expression-per-line': 'off',
+    'react/require-default-props': 'off',
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    'no-alert': 'off',
+    'jsx-a11y/click-events-have-key-events': 'off',
+    '@typescript-eslint/ban-ts-ignore': 'off',
+    '@typescript-eslint/camelcase': 'off',
+    'react/require-default-props': [0],
+    'react/prop-types': [0],
+    '@typescript-eslint/ban-types': [0],
+    '@typescript-eslint/ban-ts-comment': [0],
+    camelcase: [0],
+    '@typescript-eslint/explicit-module-boundary-types': [0],
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': [0],
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': [
+      'warn',
+      { argsIgnorePattern: '^_', ignoreRestSiblings: true, args: 'after-used' },
+    ],
+    'no-shadow': 'off',
+    'react/no-array-index-key': 'off',
+    'react/jsx-uses-react': 'off',
+    'react/react-in-jsx-scope': 'off',
+  },
+};

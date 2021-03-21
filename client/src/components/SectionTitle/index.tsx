@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 
-interface SectionTitle {
+interface SectionTitleProps {
   topText: string;
   bottomText: string;
 }
 
-const SectionTitle = ({ topText, bottomText }: SectionTitle) => (
+const SectionTitle = ({ topText, bottomText }: SectionTitleProps) => (
   <Wrapper>
     <Row>
       <TopText>{topText}</TopText>

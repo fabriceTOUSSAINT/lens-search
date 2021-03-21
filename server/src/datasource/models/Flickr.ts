@@ -37,6 +37,8 @@ class FlickrModel extends RESTDataSource {
   baseURL: string;
   apiKey: string;
   method: any;
+  httpCache: any;
+  get: any;
 
   constructor() {
     super();
@@ -218,8 +220,8 @@ class FlickrModel extends RESTDataSource {
       });
 
       const flickrSearchResponse: any = await this.get(searchFlickrLensQuery)
-        .then((res) => res?.photos)
-        .catch((err) => console.error(err));
+        .then((res: any) => res?.photos)
+        .catch((err: any) => console.error(err));
 
       let flickrPhotos;
 
@@ -235,8 +237,8 @@ class FlickrModel extends RESTDataSource {
         });
 
         flickrPhotos = await this.get(searchFlickrLensQueryRandomPage)
-          .then((res) => res?.photos.photo)
-          .catch((err) => console.error(err));
+          .then((res: any) => res?.photos.photo)
+          .catch((err: any) => console.error(err));
       }
 
       // console.log({ flickrPhotos });
